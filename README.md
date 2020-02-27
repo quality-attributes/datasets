@@ -13,11 +13,11 @@ The non-functional requirements' labels in this dataset (involving 15 different 
 | Class               | Quantity | Percentage |
 | ------------------- | -------: | ---------: |
 | Funcional (F)       |      255 |     40.80% |
-| Avalilability (A)   |       21 |      3.36% |
-| Faul Tolerance (FT) |       10 |      1.60% |
+| Availability (A)   |       21 |      3.36% |
+| Fault Tolerance (FT) |       10 |      1.60% |
 | Legal (L)           |       13 |      2.08% |
 | Look & Feel (LF)    |       38 |      6.08% |
-| Mantainabilty (MN)  |       17 |      2.72% |
+| Maintainability (MN)  |       17 |      2.72% |
 | Operational (O)     |       62 |      9.92% |
 | Performance (PE)    |       54 |      8.64% |
 | Portability (PO)    |        1 |      0.16% |
@@ -30,9 +30,9 @@ For the purposes of this study, only a subset of this dataset was considered, as
 
 | Class               | Quantity | Percentage |
 | ------------------- | -------: | ---------: |
-| Avalilability (A)   |       21 |      8.20% |
-| Faul Tolerance (FT) |       10 |      3.91% |
-| Mantainabilty (MN)  |       17 |      6.64% |
+| Availability (A)   |       21 |      8.20% |
+| Fault Tolerance (FT) |       10 |      3.91% |
+| Maintainability (MN)  |       17 |      6.64% |
 | Performance (PE)    |       54 |     21.09% |
 | Scalability (SC)    |       21 |      8.21% |
 | Security (SE)       |       66 |     25.78% |
