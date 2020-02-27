@@ -1,19 +1,13 @@
 package org.qualityattributes.processing;
 
-import edu.stanford.nlp.ling.CoreAnnotations;
-import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
-import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.*;
-
 import edu.stanford.nlp.time.*;
 
 import com.google.common.io.Files;
-import edu.stanford.nlp.util.CoreMap;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
-import java.util.List;
 import java.util.Properties;
 
 /**
@@ -47,9 +41,8 @@ public class TimeTagger {
             rawText = Files.toString(inputFile, Charset.forName("UTF-8"));
             if(outputFile.exists()) {
                 outputFile.delete();
-            } else {
-                outputFile.createNewFile();
             }
+            outputFile.createNewFile();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -59,14 +52,29 @@ public class TimeTagger {
         // build pipeline
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
+        // Write headers
+        try {
+            Files.append("line,tag\n", outputFile, Charset.forName("UTF-8"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         // For each sentence
+        Timex tempTag;
+        String tagParsed;
         for (int i = 0; i < text.length; i++) {
             CoreDocument document = new CoreDocument(text[i]);
             pipeline.annotate(document);
             for (CoreEntityMention cem : document.entityMentions()) {
+                tempTag = cem.coreMap().get(TimeAnnotations.TimexAnnotation.class);
+                tagParsed = null;
+                if (tempTag != null) {
+                    // replace all " to match csv format
+                    tagParsed = tempTag.toString().replaceAll("\"","\"\"");
+                }
+
                 try {
-                    Files.append(i + "," + cem.coreMap().get(TimeAnnotations.TimexAnnotation.class) + "\n",
-                            outputFile, Charset.forName("UTF-8"));
+                    Files.append(i + ",\"" + tagParsed + "\"\n", outputFile, Charset.forName("UTF-8"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
