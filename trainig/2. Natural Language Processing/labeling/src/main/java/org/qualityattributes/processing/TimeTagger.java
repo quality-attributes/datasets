@@ -20,7 +20,8 @@ public class TimeTagger {
             "The concert will be on February 4th at the ampitheater.",
             "The meeting will be held at 4:00pm in the library",
             "The conflict has lasted for over 15 years and shows no signs of abating.",
-            "The system shall be available for use between the hours of 8am and 6pm"
+            "The system shall be available for use between the hours of 8am and 6pm",
+            "The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation."
     };
 
 
@@ -34,8 +35,8 @@ public class TimeTagger {
         props.setProperty("sutime.markTimeRanges", "true");
 
         // read some text from the file..
-        File inputFile = new File("../../1. Text Cleaning/nfr-text.txt");
-        File outputFile = new File("../temporaltags.csv");
+        File inputFile = new File("../pre-tag.txt");
+        File outputFile = new File("../temporal-tags.csv");
         String rawText = null;
         try {
             rawText = Files.toString(inputFile, Charset.forName("UTF-8"));
@@ -71,16 +72,13 @@ public class TimeTagger {
                 if (tempTag != null) {
                     // replace all " to match csv format
                     tagParsed = tempTag.toString().replaceAll("\"","\"\"");
-                }
-
-                try {
-                    Files.append(i + ",\"" + tagParsed + "\"\n", outputFile, Charset.forName("UTF-8"));
-                } catch (IOException e) {
-                    e.printStackTrace();
+                    try {
+                        Files.append(i + ",\"" + tagParsed + "\"\n", outputFile, Charset.forName("UTF-8"));
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         }
     }
-
-
 }
