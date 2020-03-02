@@ -50,7 +50,6 @@ def third_rule(requirement, sutime):
     """
     if sutime['TIMEX3']['@type'] == 'DURATION' and 'within' in requirement:
         content = sutime['TIMEX3']['#text']
-        print(content)
         if 'seconds' in content or 'minutes' in content:
             requirement = requirement.replace(content, 'fast')
     return requirement
@@ -130,6 +129,6 @@ for index, row in temp_tags.iterrows():
     requirements[row['line']] = expression
 
 #%%
-with open('parsed_req.txt', 'w') as f:
+with open('../parsed-req.txt', 'w') as f:
     for line in requirements:
         f.write("%s" % line)

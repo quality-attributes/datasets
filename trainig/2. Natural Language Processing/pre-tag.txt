@@ -81,7 +81,7 @@ The search for the preferred repair facility shall take no longer than 8 seconds
 The recycled parts audit report shall be returned to the user within 10 seconds. The audit report shall be returned within 10 seconds.
 The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.
 The product shall adhere to the corporate online availability schedule. The application is brought down only within 98% of the scheduled outages per the availability schedule.
-The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.
+The product shall achieve a 98% up time. The product shall not fail more than 2% of the available online time.
 The product shall be able to handle up to 1500 simultaneous users. The system shall perform with 1500 users as a time.
 The average number of recycled parts records per day shall be 50 000.
 The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch.
@@ -185,7 +185,7 @@ Total lead cycle time must be completed in 5 minutes for 90% of lead volume betw
 No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.
 For leads that process longer than 25 seconds the system will record the event and duration
 The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.
-Defect reports will be available to technical units on a 24x7 basis.
+Defect reports will be available to technical units on a 24 hours per day 365 days per year basis.
 Washing parameters will be updated during scheduled maintenance hours.
 The product shall be available 24 hours per day seven days per week.
 The product shall able to handle a large number of games simultaneously.
@@ -247,7 +247,7 @@ The application shall be able to complete every user transaction within one four
 The application shall have a downtime of at most 10 minutes per year.
 Application updates shall occur between 3AM and 6 AM CST on Wednesday morning during the middle of the NFL season.
 New System version releases shall be released at the beginning of each NFL season.
-The RFS system should be available 24/7 especially during the budgeting period. The RFS system shall be available 90% of the time all year and 98% during the budgeting period. 2% of the time the system will become available within 1 hour of the time that the situation is reported.
+The RFS system should be available 24 hours per day 365 days per year especially during the budgeting period. The RFS system shall be available 90% of the time all year and 98% during the budgeting period. 2% of the time the system will become available within 1 hour of the time that the situation is reported.
 Changes to revenue and expense formulae must be applied to the RFS system every year prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and PCG Finance.
 New branches/complexes/districts/regions and revenue/expense accounts added to the BDW must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end will be loaded into the RFS system prior to the budget start process.
 Only authorized user shall access the RFS system. ONLY users that exist in the UAS system with the RFS system assigned to their role(s) shall access the RFS system and use it.
