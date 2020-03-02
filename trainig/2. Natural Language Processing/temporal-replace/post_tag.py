@@ -1,3 +1,5 @@
+#%%
+import re
 import pandas as pd
 import xmltodict
 
@@ -21,17 +23,23 @@ def first_rule(requirement, sutime):
 
 def second_rule(requirement, sutime):
     """
-    Second rule
+    Second rule 2.0
     ∀[\DURATION\TIME\DATE]+ ← alltimes
     """
-    if sutime['TIMEX3']['@type'] == 'DURATION' or \
-       sutime['TIMEX3']['@type'] == 'TIME' or \
-       sutime['TIMEX3']['@type'] == 'DATE':
-        content = sutime['TIMEX3']['#text']
-        if 'alltimes' not in requirement:
-            requirement = requirement.replace(content, 'alltimes')
-        else:
-            requirement = requirement.replace(content, '')
+    expressions = ['24 hour', '24 hours per day 365 days per year',
+          '24 hours per day seven days per week']
+
+    for exp in expressions:
+        if exp in requirement:
+            requirement = requirement.replace(exp, 'alltimes')
+    #if sutime['TIMEX3']['@type'] == 'DURATION' or \
+    #   sutime['TIMEX3']['@type'] == 'TIME' or \
+    #   sutime['TIMEX3']['@type'] == 'DATE':
+    #    content = sutime['TIMEX3']['#text']
+    #    if 'alltimes' not in requirement:
+    #        requirement = requirement.replace(content, 'alltimes')
+    #    else:
+    #        requirement = requirement.replace(content, '')
     return requirement
 
 def third_rule(requirement, sutime):
@@ -40,16 +48,16 @@ def third_rule(requirement, sutime):
     within <DURATION> ← fast
     if <DURATION> == [\seconds\minutes]
     """
-    if sutime['TIMEX3']['@type'] == 'DURATION':
+    if sutime['TIMEX3']['@type'] == 'DURATION' and 'within' in requirement:
         content = sutime['TIMEX3']['#text']
-        if 'within' in requirement and ('seconds' in content \
-           or 'minutes' in content):
+        print(content)
+        if 'seconds' in content or 'minutes' in content:
             requirement = requirement.replace(content, 'fast')
     return requirement
 
 def fourth_rule(requirement, sutime):
     """
-    Fourth rule
+    Fourth rule 2.0
     {timely, quick} || [\positive adj \time] ← fast
     """
     if 'timely' in requirement:
@@ -60,18 +68,23 @@ def fourth_rule(requirement, sutime):
 
 def fifth_rule(requirement, sutime):
     """
-    Fifth rule
+    Fifth rule 2.0
     [8-9][0-9][\.?[0-9]?%?][IN | SET]*time ← alltimes
     """
+    requirement = re.sub(r'[8-9][0-9][\.?[0-9]?% of the time?', # > 80% of the time
+                         'alltimes',requirement)
+    requirement = re.sub(r'[8-9][0-9][\.?[0-9]?% up time?', # > 80% uptime
+                         'uninterrupted uptime',requirement)
+    if sutime['TIMEX3']['@type'] == 'IN' or \
+       sutime['TIMEX3']['@type'] == 'SET':
+        requirement = requirement.replace(sutime['TIMEX3']['#text'], 'alltimes')
     return requirement
-
-    
 
 
 requirements = open('../../1. Text Cleaning/nfr-text.txt', "r").readlines()
-temp_tags = pd.read_csv('../temporaltags.csv')
+temp_tags = pd.read_csv('../temporal-tags.csv')
 
-
+#%%
 for index, row in temp_tags.iterrows():
     sutime = xmltodict.parse(row['tag'])
     expression = first_rule(
@@ -80,7 +93,16 @@ for index, row in temp_tags.iterrows():
         )
     requirements[row['line']] = expression
 
+#%%
+for index, row in temp_tags.iterrows():
+    sutime = xmltodict.parse(row['tag'])
+    expression = second_rule(
+        requirements[row['line']],
+        sutime
+        )
+    requirements[row['line']] = expression
 
+#%%
 for index, row in temp_tags.iterrows():
     sutime = xmltodict.parse(row['tag'])
     expression = third_rule(
@@ -89,8 +111,25 @@ for index, row in temp_tags.iterrows():
         )
     requirements[row['line']] = expression
 
+#%%
+for index, row in temp_tags.iterrows():
+    sutime = xmltodict.parse(row['tag'])
+    expression = fourth_rule(
+        requirements[row['line']],
+        sutime
+        )
+    requirements[row['line']] = expression
+
+#%%
+for index, row in temp_tags.iterrows():
+    sutime = xmltodict.parse(row['tag'])
+    expression = fifth_rule(
+        requirements[row['line']],
+        sutime
+        )
+    requirements[row['line']] = expression
+
+#%%
 with open('parsed_req.txt', 'w') as f:
     for line in requirements:
         f.write("%s" % line)
-
-# %%

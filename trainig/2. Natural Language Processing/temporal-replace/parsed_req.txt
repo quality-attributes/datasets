@@ -15,7 +15,7 @@ The product shall generate a CMA report in an acceptable time.
 The CMA report shall be returned within 60 seconds after the user has entered the CMA report criteria.
 The product shall synchronize contacts and appointments in an acceptable time.
 The product shall synchronize with the office system every hour.
-The product shall be available for use 24 hours per day 365 days per year
+The product shall be available for use alltimess per day 365 days per year
 Out of 1000 accesses to the system the system is available 999 times.
 The product shall operate in offline mode whenever internet connection is unavailable.
 The product shall allow the user to view previously downloaded search results CMA reports and appointments.
@@ -151,7 +151,7 @@ When purchasing a streaming movie or pre-paid card via credit card the processin
 When streaming a movie the buffering time should take within fast (plus any latency on the user's connection.)
 While streaming a movie buffering should only occur if there is latency in the user's connection.
 All credit card information will be secured on the server and only accessible by authorized Izogn administrators. Information will be encrypted in the database.
-The website shall be available for use 24 hours per day 365 days per year.
+The website shall be available for use alltimess per day 365 days per year.
 The website shall achieve 99.5% up time.
 All movies shall be streamed on demand at any time of the day.
 The website shall continue to operate if the streaming server goes down.
@@ -164,7 +164,7 @@ The product shall be expected to operate within the maximum maintenance budget f
 Promotional updates to the website should take a day to update.
 Izogn Administrator must be able to update the category listings on the website within fast.
 Izogn Administrator must be able to add new products to the website within fast.
-The system will provide a 24 hour 800 toll free number for support to its customers.
+The system will provide a alltimes 800 toll free number for support to its customers.
 The website will provide a help section with answers and solutions to common problems.
 Velkat staff will be available for phone support between 7am-7pm M-F to provide technical support to the Izogn administrators.
 Only registered customers can purchase streaming movies.
@@ -187,7 +187,7 @@ For leads that process longer than 25 seconds the system will record the event a
 The process must fit within the processing time conditions set forth by the Auto Rep Assignment process within which a lead is assigned within fast of the total life cycle.
 Defect reports will be available to technical units on a 24x7 basis.
 Washing parameters will be updated during scheduled maintenance hours.
-The product shall be available 24 hours per day seven days per week.
+The product shall be available alltimess per day seven days per week.
 The product shall able to handle a large number of games simultaneously.
 The response time shall be fast enough to maintain the flow of the game. The response time shall be within 2 seconds for 95% of responses and within 4% for the remaining responses.
 The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.
