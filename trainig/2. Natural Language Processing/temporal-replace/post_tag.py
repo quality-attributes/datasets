@@ -1,4 +1,3 @@
-#%%
 import re
 import pandas as pd
 import xmltodict
@@ -83,7 +82,6 @@ def fifth_rule(requirement, sutime):
 requirements = open('../../1. Text Cleaning/nfr-text.txt', "r").readlines()
 temp_tags = pd.read_csv('../temporal-tags.csv')
 
-#%%
 for index, row in temp_tags.iterrows():
     sutime = xmltodict.parse(row['tag'])
     expression = first_rule(
@@ -92,7 +90,6 @@ for index, row in temp_tags.iterrows():
         )
     requirements[row['line']] = expression
 
-#%%
 for index, row in temp_tags.iterrows():
     sutime = xmltodict.parse(row['tag'])
     expression = second_rule(
@@ -101,7 +98,6 @@ for index, row in temp_tags.iterrows():
         )
     requirements[row['line']] = expression
 
-#%%
 for index, row in temp_tags.iterrows():
     sutime = xmltodict.parse(row['tag'])
     expression = third_rule(
@@ -110,7 +106,6 @@ for index, row in temp_tags.iterrows():
         )
     requirements[row['line']] = expression
 
-#%%
 for index, row in temp_tags.iterrows():
     sutime = xmltodict.parse(row['tag'])
     expression = fourth_rule(
@@ -119,7 +114,6 @@ for index, row in temp_tags.iterrows():
         )
     requirements[row['line']] = expression
 
-#%%
 for index, row in temp_tags.iterrows():
     sutime = xmltodict.parse(row['tag'])
     expression = fifth_rule(
@@ -128,7 +122,6 @@ for index, row in temp_tags.iterrows():
         )
     requirements[row['line']] = expression
 
-#%%
 with open('../parsed-req.txt', 'w') as f:
     for line in requirements:
         f.write("%s" % line)
