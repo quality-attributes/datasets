@@ -35,7 +35,7 @@ public class TimeTagger {
         props.setProperty("sutime.markTimeRanges", "true");
 
         // read some text from the file..
-        File inputFile = new File("../pre-tag.txt");
+        File inputFile = new File("../temporal-replace/pre-tag.txt");
         File outputFile = new File("../temporal-tags.csv");
         String rawText = null;
         try {

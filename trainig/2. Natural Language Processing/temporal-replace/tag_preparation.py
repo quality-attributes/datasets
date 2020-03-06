@@ -1,4 +1,5 @@
 
+# Normalize Time expressions
 requirements = open('../../1. Text Cleaning/nfr-text.txt', "r").readlines()
 
 for req in range(len(requirements)):
@@ -15,6 +16,6 @@ for req in range(len(requirements)):
     if 'uptime' in requirements[req]:
         requirements[req] = requirements[req].replace('uptime', 'up time')
 
-with open('../pre-tag.txt', 'w') as f:
+with open('pre-tag.txt', 'w') as f:
     for line in requirements:
         f.write(line)
