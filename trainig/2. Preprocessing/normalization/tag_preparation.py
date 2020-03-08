@@ -1,6 +1,6 @@
 
 # Normalize Time expressions
-requirements = open('../../1. Text Cleaning/nfr-text.txt', "r").readlines()
+requirements = open('../../1. Data Selection/nfr-text.txt', "r").readlines()
 
 for req in range(len(requirements)):
     if '24x7' in requirements[req]:

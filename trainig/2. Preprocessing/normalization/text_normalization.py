@@ -56,6 +56,11 @@ def third_rule(requirement, sutime):
             # Replace last two words and "within". i.e. *within 30 seconds*
             requirement = requirement.replace('within ' + words[-2] + ' ' + words[-1],
                 'fast')
+            # Replace only minutes / seconds
+            requirement = requirement.replace(words[-2] + ' ' + words[-1], 'fast')
+            print(content)
+            print(requirement)
+
     return requirement
 
 def fourth_rule(requirement, sutime):

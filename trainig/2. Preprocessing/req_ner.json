@@ -1,0 +1,3505 @@
+[
+    {
+      "id": 844,
+      "text": "The system shall refresh the display alltimes .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+        "id": 845,
+        "text": "If projected the data must be readable . On a 10x10 projection screen most of viewers must be able to read Event / Activity data from a viewing distance of 30",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+          [
+            156,
+            158,
+            "NUMBER"
+          ]
+        ]
+    },
+    {
+      "id": 846,
+      "text": "The product shall be available during normal business hours . As long as the user has access to the client PC the system will be available alltimes during the first six months of operation .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          54,
+          59,
+          "DURATION"
+        ],
+        [
+          155,
+          158,
+          "DURATION"
+        ],
+        [
+          159,
+          164,
+          "DURATION"
+        ],
+        [
+          165,
+          168,
+          "DURATION"
+        ],
+        [
+          169,
+          175,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 847,
+      "text": "If projected the data must be understandable . On a 10x10 projection screen most of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          160,
+          167,
+          "DATE"
+        ],
+        [
+          200,
+          203,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 848,
+      "text": "The product shall ensure that it can only be accessed by authorized users . The product will be able to distinguish between authorized and unauthorized users in all access attempts",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 849,
+      "text": "The product shall be intuitive and self-explanatory . : most of new users shall be able to start the display of Events or Activities fast of using the product .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 850,
+      "text": "The product shall respond fast to keep up-to-date data in the display .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 851,
+      "text": "The system shall be used by realtors with no training .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 852,
+      "text": "The system shall be intuitive and self explanatory .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 853,
+      "text": "The product shall be easy for a realtor to learn .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 854,
+      "text": "The product shall use symbols and words that are naturally understandable by the realtor community .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 855,
+      "text": "The product shall produce search results in an acceptable time",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 856,
+      "text": "The search results shall be returned fast after the user has entered the search criteria",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 857,
+      "text": "The product shall generate a CMA report in an acceptable time .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          29,
+          32,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 858,
+      "text": "The CMA report shall be returned fast after the user has entered the CMA report criteria .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          4,
+          7,
+          "ORGANIZATION"
+        ],
+        [
+          69,
+          72,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 859,
+      "text": "The product shall synchronize contacts and appointments in an acceptable time .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 860,
+      "text": "The product shall synchronize with the office system alltimes .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 861,
+      "text": "The product shall be available for use alltimes",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 862,
+      "text": "Out of 1000 accesses to the system the system is available 999 times .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          7,
+          11,
+          "DATE"
+        ],
+        [
+          59,
+          62,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 863,
+      "text": "The product shall operate in offline mode whenever internet connection is unavailable .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 864,
+      "text": "The product shall allow the user to view previously downloaded search results CMA reports and appointments .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          41,
+          51,
+          "DATE"
+        ],
+        [
+          78,
+          81,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 865,
+      "text": "The product shall retain user preferences in the event of a failure .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 866,
+      "text": "all of saved user preferences shall be restored when system comes back online .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 867,
+      "text": "The product shall be able to support multiple remote users",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 868,
+      "text": "The product shall be able support 1000 simultaneous users .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          34,
+          38,
+          "DATE"
+        ]
+      ]
+    },
+    {
+      "id": 869,
+      "text": "The product shall be capable of handling the existing 1000 users . This number is expected to grow 5 times within the next year .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          54,
+          58,
+          "NUMBER"
+        ],
+        [
+          99,
+          100,
+          "NUMBER"
+        ],
+        [
+          114,
+          117,
+          "DATE"
+        ],
+        [
+          118,
+          122,
+          "DATE"
+        ],
+        [
+          123,
+          127,
+          "DATE"
+        ]
+      ]
+    },
+    {
+      "id": 870,
+      "text": "The product shall be installed by an untrained realtor without recourse to separately-printed instructions .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 871,
+      "text": "most of untrained realtors shall be able to install the product on their device without printed instructions",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 872,
+      "text": "Only registered realtors shall be able to access the system .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 873,
+      "text": "Every user of the system shall be authenticated and authorized .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 874,
+      "text": "The product shall prevent its data from incorrect data being introduced .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 875,
+      "text": "The system shall be easy to use by the Program Administrators/Nursing Staff Members .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 876,
+      "text": "All of the users shall be able to use the system after one day of training .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          55,
+          58,
+          "DURATION"
+        ],
+        [
+          59,
+          62,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 877,
+      "text": "The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 878,
+      "text": "The number of mistakes noted by the students shall be decreased by most within the first year .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          79,
+          82,
+          "DURATION"
+        ],
+        [
+          83,
+          88,
+          "DURATION"
+        ],
+        [
+          89,
+          93,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 879,
+      "text": "The system shall be intuitive to the Program Administrators/Nursing Staff Members .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 880,
+      "text": "2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          0,
+          1,
+          "NUMBER"
+        ],
+        [
+          9,
+          10,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 881,
+      "text": "The system shall use symbols and words that are naturally understandable by the user community .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 882,
+      "text": "The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          61,
+          69,
+          "MISC"
+        ],
+        [
+          70,
+          77,
+          "NATIONALITY"
+        ],
+        [
+          114,
+          121,
+          "ORGANIZATION"
+        ],
+        [
+          122,
+          131,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 883,
+      "text": "Staff members shall be able to complete a set of tasks in a timely manner .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 884,
+      "text": "The response time of general student management tasks shall take fast and the response time of schedule generation shall take fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          21,
+          28,
+          "TITLE"
+        ],
+        [
+          29,
+          36,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 885,
+      "text": "The system shall be available for use between the hours of 8 am and 6 pm .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          46,
+          49,
+          "DATE"
+        ],
+        [
+          50,
+          55,
+          "DATE"
+        ],
+        [
+          56,
+          58,
+          "DATE"
+        ],
+        [
+          59,
+          60,
+          "DATE"
+        ],
+        [
+          61,
+          63,
+          "DATE"
+        ],
+        [
+          68,
+          69,
+          "TIME"
+        ],
+        [
+          70,
+          72,
+          "TIME"
+        ],
+        [
+          73,
+          74,
+          "TIME"
+        ]
+      ]
+    },
+    {
+      "id": 886,
+      "text": "The system shall achieve most up time .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 887,
+      "text": "system shall be able to handle all of the user requests/usage during business hours .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          78,
+          83,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 888,
+      "text": "The system shall cater to 10 simultaneous users from 9 am to 5 pm .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          26,
+          28,
+          "NUMBER"
+        ],
+        [
+          53,
+          54,
+          "TIME"
+        ],
+        [
+          55,
+          57,
+          "TIME"
+        ],
+        [
+          61,
+          62,
+          "TIME"
+        ],
+        [
+          63,
+          65,
+          "TIME"
+        ],
+        [
+          66,
+          67,
+          "TIME"
+        ]
+      ]
+    },
+    {
+      "id": 889,
+      "text": "The system shall be capable of processing all of nursing students and their classes for the next 10 years .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          88,
+          91,
+          "DURATION"
+        ],
+        [
+          92,
+          96,
+          "DURATION"
+        ],
+        [
+          97,
+          99,
+          "DURATION"
+        ],
+        [
+          100,
+          105,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 890,
+      "text": "The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          117,
+          118,
+          "DURATION"
+        ],
+        [
+          119,
+          124,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 891,
+      "text": "Only authorized users shall have access to clinical site information .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 892,
+      "text": "Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 893,
+      "text": "Only authorized users shall have access to students ' personal information .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 894,
+      "text": "Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students ' personal information .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          3,
+          8,
+          "PERSON"
+        ],
+        [
+          9,
+          17,
+          "PERSON"
+        ],
+        [
+          25,
+          30,
+          "PERSON"
+        ],
+        [
+          31,
+          38,
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": 895,
+      "text": "Only authorized users shall have access to the portion of the system that interfaces with CampusConnect .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 896,
+      "text": "Fit Criterion : Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          19,
+          24,
+          "PERSON"
+        ],
+        [
+          25,
+          33,
+          "PERSON"
+        ],
+        [
+          38,
+          43,
+          "PERSON"
+        ],
+        [
+          44,
+          49,
+          "PERSON"
+        ]
+      ]
+    },
+    {
+      "id": 897,
+      "text": "The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 898,
+      "text": "The system shall protect private information in accordance with the organization 's information policy .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 899,
+      "text": "The system shall be built such that it is as secure as possible from malicious interference .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 900,
+      "text": "The system shall use the organization 's standard virus protection software to help monitor threats to itself .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 901,
+      "text": "The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 902,
+      "text": "all of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          26,
+          34,
+          "TITLE"
+        ],
+        [
+          113,
+          118,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 903,
+      "text": "all of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          102,
+          107,
+          "ORDINAL"
+        ]
+      ]
+    },
+    {
+      "id": 904,
+      "text": "all of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          7,
+          15,
+          "TITLE"
+        ],
+        [
+          123,
+          128,
+          "ORDINAL"
+        ]
+      ]
+    },
+    {
+      "id": 905,
+      "text": "The maximum wait time for a user navigating from one screen to another within the Disputes application shall be fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          49,
+          52,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 906,
+      "text": "The Disputes application shall support 350 concurrent users without any degradation of performance in the application .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          39,
+          42,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 907,
+      "text": "The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 908,
+      "text": "Only users with Update access must be able to initiate dispute requests .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 909,
+      "text": "The Disputes application shall ensure that only authorized users are allowed to logon to the application .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 910,
+      "text": "All authorized users once authenticated must be able to logon to the Disputes System",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          21,
+          25,
+          "DATE"
+        ],
+        [
+          69,
+          77,
+          "MISC"
+        ],
+        [
+          78,
+          84,
+          "MISC"
+        ]
+      ]
+    },
+    {
+      "id": 911,
+      "text": "The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user 's access level . The report will be reviewed for auditing purposes .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          4,
+          12,
+          "MISC"
+        ],
+        [
+          13,
+          19,
+          "MISC"
+        ]
+      ]
+    },
+    {
+      "id": 912,
+      "text": "All additions of new users and modifications to user 's access shall be recorded on the User Report .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 913,
+      "text": "If a user account is revoked it can only be re-instantiated by the System Administrator .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          67,
+          73,
+          "TITLE"
+        ],
+        [
+          74,
+          87,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 914,
+      "text": "Only the System Administrator shall be able to reset a revoked user logon account",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          9,
+          15,
+          "TITLE"
+        ],
+        [
+          16,
+          29,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 915,
+      "text": "The Disputes application shall manipulate and view business data . Users will not have direct access to data files or databases .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 916,
+      "text": "All updates to data files or database must be initiated from the Disputes System .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 917,
+      "text": "The product shall be easy to use by Adjusters and Collision Estimators . most of Adjusters and Collision Estimators shall find the product easy to use .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          50,
+          59,
+          "ORGANIZATION"
+        ],
+        [
+          60,
+          70,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 918,
+      "text": "The product shall increase productivity of Collision Estimators . most of the Collision Estimators shall agree their productivity has increase within 1 month of using the product .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          78,
+          87,
+          "ORGANIZATION"
+        ],
+        [
+          88,
+          98,
+          "ORGANIZATION"
+        ],
+        [
+          150,
+          151,
+          "DURATION"
+        ],
+        [
+          152,
+          157,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 919,
+      "text": "Users shall feel satisfied using the product . most of all users will be satisfied with the product .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 920,
+      "text": "The product shall be easy to learn by Adjusters and Collision Estimators . The product shall be learned with two days onsite training",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          52,
+          61,
+          "ORGANIZATION"
+        ],
+        [
+          62,
+          72,
+          "ORGANIZATION"
+        ],
+        [
+          109,
+          112,
+          "DURATION"
+        ],
+        [
+          113,
+          117,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 921,
+      "text": "The user shall easily locate instructions while using the product . User help can be found within most of the system .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 922,
+      "text": "The search for recycled parts shall take fast . The search results shall be returned fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 923,
+      "text": "The search for the preferred repair facility shall take fast . The preferred repair facility is returned fast",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 924,
+      "text": "The recycled parts audit report shall be returned to the user fast . The audit report shall be returned fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 925,
+      "text": "The preferred repair facility ratings shall be saved fast . The save shall occur fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 926,
+      "text": "The product shall adhere to the corporate online availability schedule . The application is brought down only within most of the scheduled outages per the availability schedule .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 927,
+      "text": "The product shall achieve a most up time . The product shall not fail more than little of the available online time .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 928,
+      "text": "The product shall be able to handle up to 1500 simultaneous users . The system shall perform with 1500 users as a time .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          42,
+          46,
+          "NUMBER"
+        ],
+        [
+          98,
+          102,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 929,
+      "text": "The average number of recycled parts records per day shall be 50 000 .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          49,
+          52,
+          "DURATION"
+        ],
+        [
+          62,
+          64,
+          "NUMBER"
+        ],
+        [
+          65,
+          68,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 930,
+      "text": "The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          36,
+          38,
+          "NUMBER"
+        ],
+        [
+          39,
+          42,
+          "NUMBER"
+        ],
+        [
+          67,
+          68,
+          "DURATION"
+        ],
+        [
+          69,
+          74,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 931,
+      "text": "Only adjusters can request recycled parts audit reports . No users without an adjuster role shall request recycled parts audits .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          78,
+          86,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 932,
+      "text": "Only adjusters with a supervisor role can update preferred repair facility ratings . Users without the supervisor role can not access the repair facility ratings .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          22,
+          32,
+          "TITLE"
+        ],
+        [
+          103,
+          113,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 933,
+      "text": "Only collision estimators shall search for recycled parts . Users without the collision estimator role shall not have access to the search for recycled parts .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 934,
+      "text": "Only valid data shall be entered into the system . No invalid data shall be entered into the system .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 935,
+      "text": "One insurance company shall not be able to view another insurance companys claim data .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          0,
+          3,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 936,
+      "text": "The product shall free of computer viruses .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 937,
+      "text": "The system shall prevent malicious attacks including denial of service .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          35,
+          42,
+          "CAUSE_OF_DEATH"
+        ]
+      ]
+    },
+    {
+      "id": 938,
+      "text": "The product shall make the users want to use it . most of the users surveyed report they are regularly using the product after the first 2 weeks post-launch .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          127,
+          130,
+          "DURATION"
+        ],
+        [
+          131,
+          136,
+          "DURATION"
+        ],
+        [
+          137,
+          138,
+          "DURATION"
+        ],
+        [
+          139,
+          144,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 939,
+      "text": "The product shall be easy to use . most of users will be able to successfully reserve a conference room fast of product use .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 940,
+      "text": "The product shall give users feedback when necessary . most of the users surveyed report that the product accurately confirms their actions .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 941,
+      "text": "The product shall allow the user to select a chosen language from one of the target market countries .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          66,
+          69,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 942,
+      "text": "The product shall allow for customization of start page and views preferences .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 943,
+      "text": "An employee will be able to successfully use the product within a fast . After informally navigating the product fast users shall be able to successfully setup meetings and reserve conference rooms .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 944,
+      "text": "The product shall use a standard navigation menu familiar to most web users .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 945,
+      "text": "The product shall allow for intuitive searching of available conference rooms .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 946,
+      "text": "The product shall conform to the Americans with Disabilities Act .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          33,
+          42,
+          "MISC"
+        ],
+        [
+          48,
+          60,
+          "MISC"
+        ],
+        [
+          61,
+          64,
+          "MISC"
+        ]
+      ]
+    },
+    {
+      "id": 947,
+      "text": "The response shall be fast enough to avoid interrupting the user 's flow of thought . most of tasks shall complete fast . most of tasks shall complete fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 948,
+      "text": "Aside from server failure the software product shall achieve most up time .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 949,
+      "text": "The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 950,
+      "text": "The product shall be capable of handling up to 1 000 concurrent requests . This number will increase to 2 000 by Release 2 . The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          47,
+          48,
+          "NUMBER"
+        ],
+        [
+          49,
+          52,
+          "NUMBER"
+        ],
+        [
+          104,
+          105,
+          "NUMBER"
+        ],
+        [
+          106,
+          109,
+          "NUMBER"
+        ],
+        [
+          121,
+          122,
+          "NUMBER"
+        ],
+        [
+          203,
+          208,
+          "TIME"
+        ],
+        [
+          209,
+          216,
+          "TIME"
+        ],
+        [
+          217,
+          220,
+          "TIME"
+        ],
+        [
+          221,
+          225,
+          "TIME"
+        ],
+        [
+          226,
+          235,
+          "TIME"
+        ],
+        [
+          236,
+          241,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 951,
+      "text": "The product shall be able to process 10 000 transactions per hour within two years of its launch . This number will increase to 20 000 by Release 2 .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          37,
+          39,
+          "NUMBER"
+        ],
+        [
+          40,
+          43,
+          "NUMBER"
+        ],
+        [
+          61,
+          65,
+          "DURATION"
+        ],
+        [
+          73,
+          76,
+          "DURATION"
+        ],
+        [
+          77,
+          82,
+          "DURATION"
+        ],
+        [
+          128,
+          130,
+          "NUMBER"
+        ],
+        [
+          131,
+          134,
+          "NUMBER"
+        ],
+        [
+          146,
+          147,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 952,
+      "text": "The product shall be expected to operate for at least 5 years for each customer installation .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          45,
+          47,
+          "DURATION"
+        ],
+        [
+          48,
+          53,
+          "DURATION"
+        ],
+        [
+          54,
+          55,
+          "DURATION"
+        ],
+        [
+          56,
+          61,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 953,
+      "text": "A new user must be able to be added to the system fast . most of new users are able to log into the system fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 954,
+      "text": "The product must be designed using Design Patterns and coding best practices . most of maintenance software developers are able to integrate new functionality into the product with 2 working days .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          181,
+          182,
+          "NUMBER"
+        ],
+        [
+          191,
+          195,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 955,
+      "text": "The product must be highly configurable for use with various database management systems for the end users . most of end users are able to integrate new database management systems with the product without changing the product 's software code .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 956,
+      "text": "Maintenance releases will be offered to customers once a year . The releases shall take fast for most of the customer base to install .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          50,
+          54,
+          "DATE"
+        ],
+        [
+          55,
+          56,
+          "DURATION"
+        ],
+        [
+          57,
+          61,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 957,
+      "text": "Every registered user will have access to the product 's support site via the Internet . most of registered users shall find a solution to their problem fast of using the support site .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          78,
+          86,
+          "MISC"
+        ]
+      ]
+    },
+    {
+      "id": 958,
+      "text": "The customer shall be able to easily integrate new building maps with the product throughout the product 's lifecycle . Integration of new maps with the product shall be possible with little to no support from product support staff .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 959,
+      "text": "The product shall be translated into foreign languages other than the target market countries ' languages within future releases . For each emerging target market it shall take within 5 days to configure the product for that market 's language .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          113,
+          119,
+          "DATE"
+        ],
+        [
+          184,
+          185,
+          "DURATION"
+        ],
+        [
+          186,
+          190,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 960,
+      "text": "The product shall ensure that only company employees or external users with company-approved user IDs may have product access . all of all logons shall be by either company employees or external users with company-approved user IDs .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 961,
+      "text": "Only managers are able to perform search queries for reservations by user . all of all search queries for reservations by user shall be from logons of only management logons .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 962,
+      "text": "The product shall ensure that the database 's data corresponds to the data entered by the user . Each conference room reservation in the system will contain the same information as was entered by the user .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 963,
+      "text": "The product shall prevent the input of malicious data . The product and/or adjacent hardware/software systems ' data shall remain all uncorrupted each time malicious data is input into the product .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 964,
+      "text": "The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data . The product and/or dependent databases/filesystems shall not crash all of the time that malicious data is input into the product .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 965,
+      "text": "The product shall have the ability to receive automatic software updates as new threats emerge . all of customers will be able to receive automatic software updates transmitted to the installed product .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 966,
+      "text": "The language of the product shall accommodate all of the target market countries . most of survey respondents from each target market country will find that the language of the product is acceptable .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 967,
+      "text": "The product shall be able to display calendar dates and times according to the user 's locale . most of survey respondents from each target market country will find that the date and time formatting of the product is correct .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 968,
+      "text": "Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take within 30 min .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          62,
+          70,
+          "DATE"
+        ],
+        [
+          71,
+          73,
+          "DATE"
+        ],
+        [
+          74,
+          78,
+          "DATE"
+        ],
+        [
+          97,
+          99,
+          "DURATION"
+        ],
+        [
+          100,
+          103,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 969,
+      "text": "The System shall allow for a minimum of 6 users to work at the same time .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          40,
+          41,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 970,
+      "text": "The System shall maintain consistent security . Any changes in user passwords and/or permissions should take affect in all parts of the System .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          4,
+          10,
+          "MISC"
+        ]
+      ]
+    },
+    {
+      "id": 971,
+      "text": "The System shall granularly control access rights to all major subsystems . It should be possible to assign access rights to all subsystems independently .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 972,
+      "text": "Administrator shall be able to activate a pre-paid card via the Administration section fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          0,
+          13,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 973,
+      "text": "Customer shall be able to check the status of their prepaid card by entering within the PIN number fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 974,
+      "text": "System shall let customers register on the website as a ` pay as you go ' user fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 975,
+      "text": "System shall let customers register on the website as a ` unlimited movie subscriber ' user fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 976,
+      "text": "System shall let existing customers log into the website with their email address and password fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 977,
+      "text": "System shall let customers cancel their account process shall take fast . Database will mark the account as inactive and user will not be able to log into the website .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 978,
+      "text": "System shall let administrator de-activate a customer account within 1 minute . Customer will no longer be able to access the website .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          17,
+          30,
+          "TITLE"
+        ],
+        [
+          69,
+          70,
+          "DURATION"
+        ],
+        [
+          71,
+          77,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 979,
+      "text": "System shall let administrator add/remove movies on the website fast . Entered movie information will be stored within the database and will now be available on the website .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          17,
+          30,
+          "TITLE"
+        ],
+        [
+          141,
+          144,
+          "DATE"
+        ]
+      ]
+    },
+    {
+      "id": 980,
+      "text": "System shall let the administrator add/remove categories on the website fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          21,
+          34,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 981,
+      "text": "System shall let Izogn Manager access sales and usage statistics fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          23,
+          30,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 982,
+      "text": "System shall let administrators generate unique pre-paid pins fast and generate an Excel file with the generated PINs .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          83,
+          88,
+          "MISC"
+        ]
+      ]
+    },
+    {
+      "id": 983,
+      "text": "The product should be able to be used by most of novice users on the Internet .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          69,
+          77,
+          "MISC"
+        ]
+      ]
+    },
+    {
+      "id": 984,
+      "text": "Users should only have to navigate through a maximum of 4 pages to create an account with the website .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          56,
+          57,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 985,
+      "text": "Users should be able to access their streaming movies in under 2 clicks after logging into the website .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          63,
+          64,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 986,
+      "text": "An anonymous survey will show that most of customers are comfortable purchasing streaming movies after 2 weeks using the website .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          103,
+          104,
+          "DURATION"
+        ],
+        [
+          105,
+          110,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 987,
+      "text": "An anonymous survey will show that most of customers are comfortable using and purchasing pre-paid cards after a month of using the system .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          111,
+          112,
+          "DURATION"
+        ],
+        [
+          113,
+          118,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 988,
+      "text": "The product shall retain the customer 's buying preferences and information .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 989,
+      "text": "The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies . Customers should be able to purchase and watch a pre-determined movie fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          66,
+          74,
+          "MISC"
+        ]
+      ]
+    },
+    {
+      "id": 990,
+      "text": "The product shall use symbols and words that are naturally understandable by users familiar with websites",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 991,
+      "text": "The website will use standard Internet conventions when interacting with the user .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          30,
+          38,
+          "MISC"
+        ]
+      ]
+    },
+    {
+      "id": 992,
+      "text": "Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          92,
+          93,
+          "DURATION"
+        ],
+        [
+          94,
+          101,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 993,
+      "text": "When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          126,
+          128,
+          "DURATION"
+        ],
+        [
+          129,
+          136,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 994,
+      "text": "When streaming a movie the buffering time should take fast -LRB- plus any latency on the user 's connection . -RRB-",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 995,
+      "text": "While streaming a movie buffering should only occur if there is latency in the user 's connection .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 996,
+      "text": "All credit card information will be secured on the server and only accessible by authorized Izogn administrators . Information will be encrypted in the database .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 997,
+      "text": "The website shall be available for use alltimes .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 998,
+      "text": "The website shall achieve most up time .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 999,
+      "text": "All movies shall be streamed on demand at any time of the day .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          54,
+          57,
+          "DATE"
+        ],
+        [
+          58,
+          61,
+          "DATE"
+        ]
+      ]
+    },
+    {
+      "id": 1000,
+      "text": "The website shall continue to operate if the streaming server goes down .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1001,
+      "text": "The website shall continue to operate if the payment gateway goes down .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1002,
+      "text": "The streaming server will support 50 simultaneous streaming connections .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          34,
+          36,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 1003,
+      "text": "The streaming server will support a maximum of 700 movies ; new servers can be added to support more movies .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          47,
+          50,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 1004,
+      "text": "The server will support a maximum of 1 000 simultaneous users .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          37,
+          38,
+          "NUMBER"
+        ],
+        [
+          39,
+          42,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 1005,
+      "text": "The website shall be capable of supporting 100 000 customers .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          43,
+          46,
+          "NUMBER"
+        ],
+        [
+          47,
+          50,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 1006,
+      "text": "The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          96,
+          97,
+          "DURATION"
+        ],
+        [
+          98,
+          103,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1007,
+      "text": "Promotional updates to the website should take a day to update .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          47,
+          48,
+          "DURATION"
+        ],
+        [
+          49,
+          52,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1008,
+      "text": "Izogn Administrator must be able to update the category listings on the website fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          6,
+          19,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 1009,
+      "text": "Izogn Administrator must be able to add new products to the website fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          6,
+          19,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 1010,
+      "text": "The system will provide a alltimes 800 toll free number for support to its customers .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          35,
+          38,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 1011,
+      "text": "The website will provide a help section with answers and solutions to common problems .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1012,
+      "text": "Velkat staff will be available for phone support between 7am-7pm M-F to provide technical support to the Izogn administrators .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          57,
+          64,
+          "TIME"
+        ]
+      ]
+    },
+    {
+      "id": 1013,
+      "text": "Only registered customers can purchase streaming movies .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1014,
+      "text": "A customer can only stream a movie if they purchased it and are within the 2 day viewing period .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          71,
+          74,
+          "DURATION"
+        ],
+        [
+          75,
+          76,
+          "DURATION"
+        ],
+        [
+          77,
+          80,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1015,
+      "text": "Only authorized personnel can access customer records in the database .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1016,
+      "text": "Only administrators can activate a pre-paid card .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1017,
+      "text": "Only authorized personnel can access sales information .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1018,
+      "text": "The website shall prevent its data from being corrupted when incorrect data is entered in .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1019,
+      "text": "The website shall protect itself from intentional abuse and notify the administrator at all occurrences .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          71,
+          84,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 1020,
+      "text": "Data integrity scripts will be run on a alltimes basis to verify the integrity of the database .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1021,
+      "text": "The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1022,
+      "text": "The system shall notify customers of changes to its information policy .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1023,
+      "text": "The system shall reveal private information only in compliance with the organization 's information policy .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1024,
+      "text": "All customer information will be stored on a secure database accessible only to authorized personnel .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1025,
+      "text": "All credit card information will be encrypted in the database .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1026,
+      "text": "The streaming server will have anti-virus software to prevent infection of malicious viruses .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          62,
+          71,
+          "CAUSE_OF_DEATH"
+        ]
+      ]
+    },
+    {
+      "id": 1027,
+      "text": "Total lead cycle time must be completed fast for most of lead volume between the business hours of 8AM CST to 8PM CST ; then 3 minutes for most of lead volume during off business hours .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          90,
+          95,
+          "DATE"
+        ],
+        [
+          96,
+          98,
+          "DATE"
+        ],
+        [
+          99,
+          102,
+          "DATE"
+        ],
+        [
+          110,
+          113,
+          "TIME"
+        ],
+        [
+          114,
+          117,
+          "TIME"
+        ],
+        [
+          125,
+          126,
+          "DURATION"
+        ],
+        [
+          127,
+          134,
+          "DURATION"
+        ],
+        [
+          179,
+          184,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1028,
+      "text": "No lead evaluation will complete within a time period longer than fast for most of all leads processed .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1029,
+      "text": "For leads that process longer than 25 seconds the system will record the event and duration",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          35,
+          37,
+          "DURATION"
+        ],
+        [
+          38,
+          45,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1030,
+      "text": "The process must fit within the processing time conditions set forth by the Auto Rep Assignment process within which a lead is assigned fast of the total life cycle .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          81,
+          84,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 1031,
+      "text": "Defect reports will be available to technical units on a alltimes basis .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1032,
+      "text": "Washing parameters will be updated during scheduled maintenance hours .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          64,
+          69,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1033,
+      "text": "The product shall be available alltimes .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1034,
+      "text": "The product shall able to handle a large number of games simultaneously .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1035,
+      "text": "The response time shall be fast enough to maintain the flow of the game . The response time shall be fast for most of responses and within little for the remaining responses .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1036,
+      "text": "The product shall protect the identity of the players . The product shall provide players no access to information that might reveal the identity of another player .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1037,
+      "text": "The product shall be intuitive and self-explanatory . Nine out ten users shall be able to successfully complete a game with no training .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          54,
+          58,
+          "NUMBER"
+        ],
+        [
+          63,
+          66,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 1038,
+      "text": "The product shall be available to players who understand English Spanish and French . The product shall allow the user to select the language upon accessing the product .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          57,
+          64,
+          "NATIONALITY"
+        ],
+        [
+          65,
+          72,
+          "NATIONALITY"
+        ],
+        [
+          77,
+          83,
+          "NATIONALITY"
+        ]
+      ]
+    },
+    {
+      "id": 1039,
+      "text": "The product shall provide players no access to information that might reveal the identity of another player",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1040,
+      "text": "The response time shall be fast enough to maintain the flow of the game . The response time shall be fast for most of responses and within little for the remaining responses .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1041,
+      "text": "The system shall be easy to use by callers and supervisors . Callers and supervisors must be able to accomplish any system task fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1042,
+      "text": "The system shall be easy to learn by callers and supervisors . Callers and supervisors shall learn how to use the system fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1043,
+      "text": "The system shall be responsive . At the DePaul TeleServices Center when a supervisor uses the system to view a callers schedule the system response time must be fast alltimes and fast the rest of the time .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          40,
+          46,
+          "ORGANIZATION"
+        ],
+        [
+          47,
+          59,
+          "ORGANIZATION"
+        ],
+        [
+          60,
+          66,
+          "ORGANIZATION"
+        ],
+        [
+          74,
+          84,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 1044,
+      "text": "On a 56k connection the system response time for all operations must be fast alltimes .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1045,
+      "text": "On a 112k connection or faster the system response time for all operations must be fast alltimes .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1046,
+      "text": "The system shall have high availability alltimes of the year.The system must be available for use between 12:00 AM and 6:00 PM all days of the year .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          106,
+          111,
+          "TIME"
+        ],
+        [
+          112,
+          114,
+          "TIME"
+        ],
+        [
+          119,
+          123,
+          "TIME"
+        ],
+        [
+          124,
+          126,
+          "TIME"
+        ],
+        [
+          131,
+          135,
+          "DATE"
+        ],
+        [
+          136,
+          138,
+          "DATE"
+        ],
+        [
+          139,
+          142,
+          "DATE"
+        ],
+        [
+          143,
+          147,
+          "DATE"
+        ]
+      ]
+    },
+    {
+      "id": 1047,
+      "text": "The system must be available for use between 7:00 AM and 11:59 PM all days of the year .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          45,
+          49,
+          "TIME"
+        ],
+        [
+          50,
+          52,
+          "TIME"
+        ],
+        [
+          57,
+          62,
+          "TIME"
+        ],
+        [
+          63,
+          65,
+          "TIME"
+        ],
+        [
+          70,
+          74,
+          "DATE"
+        ],
+        [
+          75,
+          77,
+          "DATE"
+        ],
+        [
+          78,
+          81,
+          "DATE"
+        ],
+        [
+          82,
+          86,
+          "DATE"
+        ]
+      ]
+    },
+    {
+      "id": 1048,
+      "text": "The product shall be internet browser independent.The product must run using Internet Explorer and Netscape Navigator .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          86,
+          94,
+          "TITLE"
+        ],
+        [
+          99,
+          107,
+          "ORGANIZATION"
+        ],
+        [
+          108,
+          117,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1049,
+      "text": "The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1050,
+      "text": "The product shall ensure that only supervisors can enter a caller 's schedule.The product must ensure that supervisors are allowed to access advertise empty time slots .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          59,
+          65,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 1051,
+      "text": "The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1052,
+      "text": "The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          120,
+          123,
+          "DURATION"
+        ],
+        [
+          124,
+          129,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1053,
+      "text": "The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors most of the time .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1054,
+      "text": "The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs -LRB- Key Performance Indicators -RRB-",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1055,
+      "text": "The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1056,
+      "text": "The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1057,
+      "text": "The product shall process messages fast.The product shall have a maximum message processing time of fast",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1058,
+      "text": "The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of alltimes .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1059,
+      "text": "The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          224,
+          228,
+          "DURATION"
+        ],
+        [
+          229,
+          233,
+          "DURATION"
+        ],
+        [
+          234,
+          235,
+          "DURATION"
+        ],
+        [
+          236,
+          239,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1060,
+      "text": "The product shall be available alltimes . Rationale : To avoid service interruption during busiest customer service response periods . The product shall be available 99 . alltimes for regular business days .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          166,
+          168,
+          "NUMBER"
+        ],
+        [
+          201,
+          205,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1061,
+      "text": "The product shall be robust.The product shall have fault avoidance based on standards adoption .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1062,
+      "text": "The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1063,
+      "text": "The product shall be able to process all transactions.The product shall process minimum of 1 million transactions per year .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          91,
+          92,
+          "NUMBER"
+        ],
+        [
+          93,
+          100,
+          "NUMBER"
+        ],
+        [
+          118,
+          122,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1064,
+      "text": "The product shall continue to operate during upgrade change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1065,
+      "text": "The product shall be updated on a regular basis.The product will have a new major feature introduced alltimes and alltimes maintenance releases alltimes .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1066,
+      "text": "The product shall operate with every platform.The product shall accommodate any new technology without any change in its architecture .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1067,
+      "text": "The product shall have security.The product shall provide authentication and authorization .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1068,
+      "text": "The product shall information Security . The product shall enable privacy by encryption WS-Security and Integrity Checking .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1069,
+      "text": "The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          92,
+          95,
+          "DURATION"
+        ],
+        [
+          96,
+          100,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1070,
+      "text": "The system must use a point and click interface . all of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1071,
+      "text": "The interface shall be easy to use . most of users should be able to successfully use the system to generate a report on their first use . The interface should adhere to IBM usability standards .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          127,
+          132,
+          "ORDINAL"
+        ],
+        [
+          170,
+          173,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1072,
+      "text": "Rreports must be easy to generate . eports must be generated within one button click and exported within one button click -LRB- after selecting the report -RRB-",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          68,
+          71,
+          "NUMBER"
+        ],
+        [
+          105,
+          108,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 1073,
+      "text": "A user shall be able to use the system without instruction after a short amount of time . After one use a user should understand and remember most of the system usage and navigation .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          96,
+          99,
+          "NUMBER"
+        ]
+      ]
+    },
+    {
+      "id": 1074,
+      "text": "All CCR users shall receive training before the WCS system is deployed . One training session will be held for all of CCR users before system deployment -LRB- based on a CCR user being available -RRB-",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          48,
+          51,
+          "ORGANIZATION"
+        ],
+        [
+          73,
+          76,
+          "NUMBER"
+        ],
+        [
+          118,
+          121,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1075,
+      "text": "The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization . All interfaces and reports will undergo usability tests by CCR users .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          4,
+          7,
+          "ORGANIZATION"
+        ],
+        [
+          185,
+          188,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1076,
+      "text": "The WCS system shall be available at all times as long as IBM 's internal intranet W3 is accessible . The WCS system will be available most of the time IBM 's internal intranet W3 is available .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          4,
+          7,
+          "ORGANIZATION"
+        ],
+        [
+          58,
+          61,
+          "ORGANIZATION"
+        ],
+        [
+          106,
+          109,
+          "ORGANIZATION"
+        ],
+        [
+          152,
+          155,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1077,
+      "text": "The WCS system shall have the ability to connect other designated WCS databases currently not included in the system .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          4,
+          7,
+          "ORGANIZATION"
+        ],
+        [
+          80,
+          89,
+          "DATE"
+        ]
+      ]
+    },
+    {
+      "id": 1078,
+      "text": "The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          4,
+          7,
+          "ORGANIZATION"
+        ],
+        [
+          78,
+          84,
+          "COUNTRY"
+        ],
+        [
+          85,
+          91,
+          "COUNTRY"
+        ],
+        [
+          132,
+          138,
+          "COUNTRY"
+        ],
+        [
+          139,
+          145,
+          "COUNTRY"
+        ],
+        [
+          161,
+          164,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1079,
+      "text": "The WCS system must run queries to the WCS databases once again -LRB- on a specified day -RRB- to update the available data available to CCR users . Queries must be made to external databases for data refresh once a week .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          4,
+          7,
+          "ORGANIZATION"
+        ],
+        [
+          39,
+          42,
+          "ORGANIZATION"
+        ],
+        [
+          53,
+          57,
+          "DATE"
+        ],
+        [
+          85,
+          88,
+          "DURATION"
+        ],
+        [
+          137,
+          140,
+          "ORGANIZATION"
+        ],
+        [
+          209,
+          213,
+          "DATE"
+        ],
+        [
+          214,
+          215,
+          "DURATION"
+        ],
+        [
+          216,
+          220,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1080,
+      "text": "All changes updates and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides . Every change must be reflected in WCS system documentation",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          41,
+          44,
+          "ORGANIZATION"
+        ],
+        [
+          80,
+          89,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 1081,
+      "text": "The system shall only be accessed by authorized Corporate Community Grants -LRB- CCR -RRB- employees . Users must be authenticated using their IBM intranet user name and password .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          81,
+          84,
+          "ORGANIZATION"
+        ],
+        [
+          143,
+          146,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1082,
+      "text": "The WCS system shall not allow automatic logins by any user . Cookies containing WCS login information about a user will not be stored on a user 's computer .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          4,
+          7,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1083,
+      "text": "Each team owner will need to use a username and password in order to be authenticated to reach the team owner 's page",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          10,
+          15,
+          "TITLE"
+        ],
+        [
+          104,
+          109,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 1084,
+      "text": "The Commissioner will be the only authorized user per league to adjust league settings .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1085,
+      "text": "A new user shall be able to navigate through the league and team pages fast of reaching the start-up page .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1086,
+      "text": "Users shall be able to reach the ` add ' ` drop ' and ` trade player ' pages with one click from the team owner 's page .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          82,
+          85,
+          "NUMBER"
+        ],
+        [
+          106,
+          111,
+          "TITLE"
+        ]
+      ]
+    },
+    {
+      "id": 1087,
+      "text": "Users shall be able to view at least 25 NFL player statistics and points on each page .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          37,
+          39,
+          "NUMBER"
+        ],
+        [
+          40,
+          43,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1088,
+      "text": "The application shall ask the user to confirm dropping a player or trading a player before performing the action .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1089,
+      "text": "The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          72,
+          75,
+          "NUMBER"
+        ],
+        [
+          76,
+          82,
+          "ORDINAL"
+        ],
+        [
+          86,
+          87,
+          "DURATION"
+        ],
+        [
+          88,
+          94,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1090,
+      "text": "The application shall have a downtime of at most 10 minutes per year .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          41,
+          43,
+          "DURATION"
+        ],
+        [
+          44,
+          48,
+          "DURATION"
+        ],
+        [
+          49,
+          51,
+          "DURATION"
+        ],
+        [
+          52,
+          59,
+          "DURATION"
+        ],
+        [
+          64,
+          68,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1091,
+      "text": "Application updates shall occur between 3AM and 6 AM CST on Wednesday morning during the middle of the NFL season .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          40,
+          43,
+          "TIME"
+        ],
+        [
+          44,
+          47,
+          "TIME"
+        ],
+        [
+          48,
+          49,
+          "TIME"
+        ],
+        [
+          50,
+          52,
+          "TIME"
+        ],
+        [
+          53,
+          56,
+          "TIME"
+        ],
+        [
+          60,
+          69,
+          "DATE"
+        ],
+        [
+          70,
+          77,
+          "TIME"
+        ],
+        [
+          103,
+          106,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1092,
+      "text": "New System version releases shall be released at the beginning of each NFL season .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          71,
+          74,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1093,
+      "text": "The RFS system should be available alltimes especially during the budgeting period . The RFS system shall be available alltimes all year and most during the budgeting period . little of the time the system will become available within 1 hour of the time that the situation is reported .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          132,
+          136,
+          "DURATION"
+        ],
+        [
+          235,
+          236,
+          "DURATION"
+        ],
+        [
+          237,
+          241,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1094,
+      "text": "Changes to revenue and expense formulae must be applied to the RFS system alltimes prior to the budgeting process start . Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and PCG Finance .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          174,
+          177,
+          "DURATION"
+        ],
+        [
+          178,
+          182,
+          "DURATION"
+        ],
+        [
+          212,
+          213,
+          "DURATION"
+        ],
+        [
+          214,
+          219,
+          "DURATION"
+        ],
+        [
+          335,
+          338,
+          "ORGANIZATION"
+        ],
+        [
+          339,
+          346,
+          "ORGANIZATION"
+        ]
+      ]
+    },
+    {
+      "id": 1095,
+      "text": "New branches/complexes/districts / regions and revenue/expense accounts added to the BDW must be reflected in the RFS system . all of the entities -LRB- mentioned above -RRB- available as of October month-end will be loaded into the RFS system prior to the budget start process .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          191,
+          198,
+          "DATE"
+        ]
+      ]
+    },
+    {
+      "id": 1096,
+      "text": "Only authorized user shall access the RFS system . ONLY users that exist in the UAS system with the RFS system assigned to their role -LRB- s -RRB- shall access the RFS system and use it .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1097,
+      "text": "User access should be limited to the permissions granted to their role -LRB- s -RRB- Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles . Access to functionality within RFS system is dependent on the privileges/permission assigned to the role . .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    },
+    {
+      "id": 1098,
+      "text": "The users should be able to easily use the system to successfully complete their budgets within the stipulated time for completion . With a week of training prior to product implementation most of the users shall complete their budgets within the stipulated time .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": [
+        [
+          138,
+          139,
+          "DURATION"
+        ],
+        [
+          140,
+          144,
+          "DURATION"
+        ]
+      ]
+    },
+    {
+      "id": 1099,
+      "text": "The product interface should be fast . The response time of the product interface should not exceed fast alltimes . For little of the time the response time should fast.fast .",
+      "meta": {},
+      "annotation_approver": null,
+      "labels": []
+    }
+  ]
