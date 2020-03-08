@@ -277,7 +277,7 @@ time   NN
 .
 
 The
-ret   NN
+report   NN
 shall
 be
 returned
@@ -288,7 +288,7 @@ user   NN
 has
 entered
 the
-ret   NN
+report   NN
 criteria   NNS
 .
 
@@ -433,13 +433,12 @@ existing
 users   NNS
 .
 This
-nuber   NN
+number   NN
 is
 expected
 to
 grow
-5
-ties   NNS
+times   NNS
 within
 the
 next
@@ -602,7 +601,28 @@ Staff   NNP
 Members   NNP
 .
 
-outof3ProgramAdministrators/NursingStaffMembersshallsuccessfullybeabletousethesystemtomanagetheschedulingofclassesandclinicals   NNS
+out
+of
+Program   NNP
+Administrators/Nursing   NNP
+Staff   NNP
+Members   NNP
+shall
+successfully
+be
+able
+to
+use
+the
+system   NN
+to
+manage
+the
+scheduling   NN
+of
+classes   NNS
+and
+clinicals   NNS
 .
 
 The
@@ -639,7 +659,6 @@ terminology   NN
 of
 the
 national
-Nursingity   NN
 .
 
 Staff   NNP
@@ -683,7 +702,8 @@ fast
 .
 
 The
-systeshall   NN
+system   NN
+shall
 be
 available
 for
@@ -693,8 +713,8 @@ the
 hours   NNS
 of
 8
-aand   NN
-p.   NN
+am
+and
 
 The
 system   NN
@@ -723,17 +743,13 @@ hours   NNS
 
 The
 system   NN
-shll   NN
-cter   NN
+shall
+cater
 to
-simultneous
+simultaneous
 users   NNS
 from
-9
-m   NN
 to
-pm   NN
-.
 
 The
 system   NN
@@ -1319,10 +1335,11 @@ use
 by
 Adjusters   NNS
 and
-Estimatorf   NNP
+.
+most
+of
 Adjusters   NNS
 and
-Estimators   NNS
 shall
 find
 the
@@ -1338,14 +1355,13 @@ shall
 increase
 productivity   NN
 of
-Estimators   NNS
 .
 most
 of
 the
-Estimators   NNS
 shall
-a
+agree
+their
 productivity   NN
 has
 increase   NN
@@ -1388,7 +1404,9 @@ learn
 by
 Adjusters   NNS
 and
-Estimatoroduct   NN
+.
+The
+product   NN
 shall
 be
 learned
@@ -1567,7 +1585,8 @@ system   NN
 shall
 perform
 with
-uses
+users   NNS
+as
 a
 time   NN
 .
@@ -1583,7 +1602,7 @@ per
 day   NN
 shall
 be
-00
+.
 
 The
 product   NN
@@ -1592,7 +1611,7 @@ be
 able
 to
 handle
-00oncurrent
+concurrent
 users   NNS
 within
 2
@@ -1994,45 +2013,42 @@ resolution   NN
 .
 
 The
-produt
+product   NN
 shall
 be
-apable
+capable
 of
-handling
+h   NN
+ling
 up
 to
-0onurrent
-request   NN
+concurrent
+requests   NNS
+.
 This
 number   NN
 will
-inrease
+increase
 to
-2
-0b   NN
-Rase   NN
-2
+by
+Release   NNP
 .
 The
-onurren
-apait   NN
+concurrency   NN
+capacity   NN
 must
 be
 able
 to
-handle
-peak
-sheduling   NN
+h   NN
+le
+peak   NN
+scheduling   NN
 times   NNS
-suh
+such
 as
-earl   NN
-morning   NN
-and
-late
-aftn
-hour   NN
+hours   NNS
+.
 
 The
 product   NN
@@ -2041,7 +2057,7 @@ be
 able
 to
 process
-00ransactions   NNS
+transactions   NNS
 per
 hour   NN
 within
@@ -2056,9 +2072,8 @@ number   NN
 will
 increase
 to
-200by
-Rese   NN
-2
+by
+Release   NNP
 .
 
 The
@@ -3332,7 +3347,7 @@ support
 a
 maximum   NN
 of
-0simultaneous
+simultaneous
 users   NNS
 .
 
@@ -3343,7 +3358,7 @@ be
 capable
 of
 supporting
-000stomers   NNS
+customers   NNS
 .
 
 The
@@ -3697,9 +3712,9 @@ business   NN
 hours   NNS
 of
 8AM   NN
-CST   NN
 to
-CSTthen   NN
+;
+then
 3
 minutes   NNS
 for
@@ -3900,8 +3915,7 @@ and
 self-explanatory
 .
 out
-ten
-rs   NNS
+users   NNS
 shall
 be
 able
@@ -3916,7 +3930,7 @@ training   NN
 .
 
 The
-p   NN
+product   NN
 shall
 be
 available
@@ -3924,10 +3938,10 @@ to
 players   NNS
 who
 understand
-Spanishench   NNP
+and
 .
 The
-p   NN
+product   NN
 shall
 allow
 the
@@ -3939,7 +3953,7 @@ language   NN
 upon
 accessing
 the
-p   NN
+product   NN
 .
 
 The
@@ -4053,10 +4067,9 @@ responsive
 .
 At
 the
-TeleSer   NNP
 when
 a
-supe   NN
+supervisor   NN
 uses
 the
 system   NN
@@ -4123,9 +4136,10 @@ system   NN
 shall
 have
 high
-availabilitytimes   NNS
+availability   NN
+alltimes   NNS
 of
-e
+the
 year.The
 system   NN
 must
@@ -4134,14 +4148,11 @@ available
 for
 use   NN
 between
-AM   NNP
-an6   NN
-:
-00
-PM   NN
+and
+all
 days   NNS
 of
-e
+the
 year   NN
 .
 
@@ -4153,11 +4164,10 @@ available
 for
 use   NN
 between
-AM   NNP
-a
-11:59
-l   NN
-daysf   NN
+and
+all
+days   NNS
+of
 the
 year   NN
 .
@@ -4176,7 +4186,7 @@ using
 Internet   NN
 Explorer   NNP
 and
-Navigato   NNP
+.
 
 The
 product   NN
@@ -4549,7 +4559,7 @@ shall
 process
 minimum   NN
 of
-mtransactions   NNS
+transactions   NNS
 per
 year   NN
 .
@@ -4769,12 +4779,12 @@ must
 be
 generated
 within
-bun   NN
+button   NN
 click   NN
 and
 exported
 within
-bun   NN
+button   NN
 click   NN
 -LRB-
 after
@@ -4819,38 +4829,41 @@ navigation   NN
 .
 
 All
-CCR   NN
 users   NNS
 shall
-receiveainingfore
+receive
+training   NN
+before
 the
 system   NN
 is
 deployed
 .
-Oneaining   NN
+training   NN
 session   NN
 will
+be
 held
 for
 all
 of
-CCR   NN
-usersfore   NN
+users   NNS
+before
 system   NN
 deployment   NN
 -LRB-
 based
 on
 a
-CCR   NN
-usering
+user   NN
+being
 available
 -RRB-
 
 The
 system   NN
-shalle   NN
+shall
+use
 appropriate
 nomenclature   NN
 and
@@ -4869,10 +4882,11 @@ interfaces   NNS
 and
 reports   NNS
 will
-undergoability
+undergo
+usability   NN
 tests   NNS
 by
-CCRers   NNS
+users   NNS
 .
 
 The
@@ -4886,20 +4900,25 @@ times   NNS
 as
 long
 as
-IBMternaltranet   NN
+'s
+internal
+intranet   NN
 W3   NN
 is
 accessible
 .
 The
-systeill   NN
+system   NN
+will
 be
 available
 most
 of
 the
 time   NN
-IBMternaltranet   NN
+'s
+internal
+intranet   NN
 W3   NN
 is
 available
@@ -4937,18 +4956,18 @@ for
 regions   NNS
 outside
 the
-Uniates   NNP
-anccessed
+and
+be
+accessed
 by
 users   NNS
 outside
 of
 the
-Uniates   NNP
 if
-appry   NN
-CCR   NN
-ment   NN
+approved
+by
+management   NN
 .
 
 The
@@ -4958,7 +4977,7 @@ run
 queries   NNS
 to
 the
-daases   NNS
+databases   NNS
 once
 again
 -LRB-
@@ -4974,14 +4993,15 @@ available
 data   NNS
 available
 to
-CCR   NN
-usersQueries   NNS
+users   NNS
+.
+Queries   NNS
 must
 be
 made
 to
 external
-daases   NNS
+databases   NNS
 for
 data   NNS
 refresh
@@ -5038,7 +5058,7 @@ be
 authenticated
 using
 their
-IBMtranet   NN
+intranet   NN
 user   NN
 name   NN
 and
@@ -5173,7 +5193,7 @@ to
 view
 at
 least
-NFlayer   NN
+player   NN
 statistics   NNS
 and
 points   NNS
@@ -5242,20 +5262,19 @@ per
 year   NN
 .
 
-Applicati
+Application   NN
 updates   NNS
 shall
 occur
 between
-andAM   NN
-CT   NN
-Wednay   NNP
-morning   NN
-duringddle   NN
+on
+Wednesday   NNP
+during
+the
+middle   NN
 of
 the
-NFL   NNP
-seas   NNS
+season   NN
 .
 
 New   NNP
@@ -5381,7 +5400,7 @@ project   NN
 development   NN
 team   NN
 and
-Fin   NN
+.
 
 New   NNP
 branches/complexes/districts   NNS

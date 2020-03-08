@@ -21,7 +21,7 @@ for i in range(len(data)):
                 substitute = ''
                 for i in range(len(req_text[tag[0]:tag[1]])):
                     substitute = substitute + ' '
-                req_text = req_text.replace(req_text[tag[0]:tag[1]], '')
+                req_text = req_text.replace(req_text[tag[0]:tag[1]], substitute)
     text.append(' '.join(req_text.split()))
 
 

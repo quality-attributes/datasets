@@ -12,7 +12,7 @@ The product shall use symbols and words that are naturally understandable by the
 The product shall produce search results in an acceptable time
 The search results shall be returned fast after the user has entered the search criteria
 The product shall generate a report in an acceptable time .
-The ret shall be returned fast after the user has entered the ret criteria .
+The report shall be returned fast after the user has entered the report criteria .
 The product shall synchronize contacts and appointments in an acceptable time .
 The product shall synchronize with the office system alltimes .
 The product shall be available for use alltimes
@@ -23,7 +23,7 @@ The product shall retain user preferences in the event of a failure .
 all of saved user preferences shall be restored when system comes back online .
 The product shall be able to support multiple remote users
 The product shall be able support 1000 simultaneous users .
-The product shall be capable of handling the existing users . This nuber is expected to grow 5 ties within the next year .
+The product shall be capable of handling the existing users . This number is expected to grow times within the next year .
 The product shall be installed by an untrained realtor without recourse to separately-printed instructions .
 most of untrained realtors shall be able to install the product on their device without printed instructions
 Only registered realtors shall be able to access the system .
@@ -34,15 +34,15 @@ All of the users shall be able to use the system after one day of training .
 The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students .
 The number of mistakes noted by the students shall be decreased by most within the first year .
 The system shall be intuitive to the Program Administrators/Nursing Staff Members .
-outof3ProgramAdministrators/NursingStaffMembersshallsuccessfullybeabletousethesystemtomanagetheschedulingofclassesandclinicals.
+out of Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals .
 The system shall use symbols and words that are naturally understandable by the user community .
-The verbiage used within the system shall be consistent with Standard and the terminology of the national Nursingity .
+The verbiage used within the system shall be consistent with Standard and the terminology of the national .
 Staff members shall be able to complete a set of tasks in a timely manner .
 The response time of general student management tasks shall take fast and the response time of schedule generation shall take fast .
-The systeshall be available for use between the hours of 8 aand p.
+The system shall be available for use between the hours of 8 am and
 The system shall achieve most up time .
 system shall be able to handle all of the user requests/usage during business hours .
-The system shll cter to simultneous users from 9 m to pm .
+The system shall cater to simultaneous users from to
 The system shall be capable of processing all of nursing students and their classes for the next 10 years .
 The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years .
 Only authorized users shall have access to clinical site information .
@@ -71,10 +71,10 @@ If a user account is revoked it can only be re-instantiated by the System Admini
 Only the System Administrator shall be able to reset a revoked user logon account
 The Disputes application shall manipulate and view business data . Users will not have direct access to data files or databases .
 All updates to data files or database must be initiated from the Disputes System .
-The product shall be easy to use by Adjusters and Estimatorf Adjusters and Estimators shall find the product easy to use .
-The product shall increase productivity of Estimators . most of the Estimators shall a productivity has increase within 1 month of using the product .
+The product shall be easy to use by Adjusters and . most of Adjusters and shall find the product easy to use .
+The product shall increase productivity of . most of the shall agree their productivity has increase within 1 month of using the product .
 Users shall feel satisfied using the product . most of all users will be satisfied with the product .
-The product shall be easy to learn by Adjusters and Estimatoroduct shall be learned with two days onsite training
+The product shall be easy to learn by Adjusters and . The product shall be learned with two days onsite training
 The user shall easily locate instructions while using the product . User help can be found within most of the system .
 The search for recycled parts shall take fast . The search results shall be returned fast .
 The search for the preferred repair facility shall take fast . The preferred repair facility is returned fast
@@ -82,9 +82,9 @@ The recycled parts audit report shall be returned to the user fast . The audit r
 The preferred repair facility ratings shall be saved fast . The save shall occur fast .
 The product shall adhere to the corporate online availability schedule . The application is brought down only within most of the scheduled outages per the availability schedule .
 The product shall achieve a most up time . The product shall not fail more than little of the available online time .
-The product shall be able to handle up to simultaneous users . The system shall perform with uses a time .
-The average number of recycled parts records per day shall be 00
-The product shall be able to handle 00oncurrent users within 2 years of the initial launch .
+The product shall be able to handle up to simultaneous users . The system shall perform with users as a time .
+The average number of recycled parts records per day shall be .
+The product shall be able to handle concurrent users within 2 years of the initial launch .
 Only adjusters can request recycled parts audit reports . No users without an adjuster role shall request recycled parts audits .
 Only adjusters with a supervisor role can update preferred repair facility ratings . Users without the supervisor role can not access the repair facility ratings .
 Only collision estimators shall search for recycled parts . Users without the collision estimator role shall not have access to the search for recycled parts .
@@ -104,8 +104,8 @@ The product shall conform to the Americans with Disabilities Act .
 The response shall be fast enough to avoid interrupting the user 's flow of thought . most of tasks shall complete fast . most of tasks shall complete fast .
 Aside from server failure the software product shall achieve most up time .
 The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution .
-The produt shall be apable of handling up to 0onurrent request This number will inrease to 2 0b Rase 2 . The onurren apait must be able to handle peak sheduling times suh as earl morning and late aftn hour
-The product shall be able to process 00ransactions per hour within two years of its launch . This number will increase to 200by Rese 2 .
+The product shall be capable of h ling up to concurrent requests . This number will increase to by Release . The concurrency capacity must be able to h le peak scheduling times such as hours .
+The product shall be able to process transactions per hour within two years of its launch . This number will increase to by Release .
 The product shall be expected to operate for at least 5 years for each customer installation .
 A new user must be able to be added to the system fast . most of new users are able to log into the system fast .
 The product must be designed using Design Patterns and coding best practices . most of maintenance software developers are able to integrate new functionality into the product with working days .
@@ -158,8 +158,8 @@ The website shall continue to operate if the streaming server goes down .
 The website shall continue to operate if the payment gateway goes down .
 The streaming server will support simultaneous streaming connections .
 The streaming server will support a maximum of movies ; new servers can be added to support more movies .
-The server will support a maximum of 0simultaneous users .
-The website shall be capable of supporting 000stomers .
+The server will support a maximum of simultaneous users .
+The website shall be capable of supporting customers .
 The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years .
 Promotional updates to the website should take a day to update .
 Izogn Administrator must be able to update the category listings on the website fast .
@@ -181,7 +181,7 @@ The system shall reveal private information only in compliance with the organiza
 All customer information will be stored on a secure database accessible only to authorized personnel .
 All credit card information will be encrypted in the database .
 The streaming server will have anti-virus software to prevent infection of malicious viruses .
-Total lead cycle time must be completed fast for most of lead volume between the business hours of 8AM CST to CSTthen 3 minutes for most of lead volume during off business hours .
+Total lead cycle time must be completed fast for most of lead volume between the business hours of 8AM to ; then 3 minutes for most of lead volume during off business hours .
 No lead evaluation will complete within a time period longer than fast for most of all leads processed .
 For leads that process longer than 25 seconds the system will record the event and duration
 The process must fit within the processing time conditions set forth by the Auto Rep Assignment process within which a lead is assigned fast of the total life cycle .
@@ -191,18 +191,18 @@ The product shall be available alltimes .
 The product shall able to handle a large number of games simultaneously .
 The response time shall be fast enough to maintain the flow of the game . The response time shall be fast for most of responses and within little for the remaining responses .
 The product shall protect the identity of the players . The product shall provide players no access to information that might reveal the identity of another player .
-The product shall be intuitive and self-explanatory . out ten rs shall be able to successfully complete a game with no training .
-The p shall be available to players who understand Spanishench . The p shall allow the user to select the language upon accessing the p .
+The product shall be intuitive and self-explanatory . out users shall be able to successfully complete a game with no training .
+The product shall be available to players who understand and . The product shall allow the user to select the language upon accessing the product .
 The product shall provide players no access to information that might reveal the identity of another player
 The response time shall be fast enough to maintain the flow of the game . The response time shall be fast for most of responses and within little for the remaining responses .
 The system shall be easy to use by callers and supervisors . Callers and supervisors must be able to accomplish any system task fast .
 The system shall be easy to learn by callers and supervisors . Callers and supervisors shall learn how to use the system fast .
-The system shall be responsive . At the TeleSer when a supe uses the system to view a callers schedule the system response time must be fast alltimes and fast the rest of the time .
+The system shall be responsive . At the when a supervisor uses the system to view a callers schedule the system response time must be fast alltimes and fast the rest of the time .
 On a 56k connection the system response time for all operations must be fast alltimes .
 On a 112k connection or faster the system response time for all operations must be fast alltimes .
-The system shall have high availabilitytimes of e year.The system must be available for use between AM an6:00 PM days of e year .
-The system must be available for use between AM a 11:59 l daysf the year .
-The product shall be internet browser independent.The product must run using Internet Explorer and Navigato
+The system shall have high availability alltimes of the year.The system must be available for use between and all days of the year .
+The system must be available for use between and all days of the year .
+The product shall be internet browser independent.The product must run using Internet Explorer and .
 The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots .
 The product shall ensure that only supervisors can enter a caller 's schedule.The product must ensure that supervisors are allowed to access advertise empty time slots .
 The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots .
@@ -217,7 +217,7 @@ The product shall provide Dynamic Change Support and Transparent resource additi
 The product shall be available alltimes . Rationale : To avoid service interruption during busiest customer service response periods . The product shall be available . alltimes for regular business days .
 The product shall be robust.The product shall have fault avoidance based on standards adoption .
 The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures .
-The product shall be able to process all transactions.The product shall process minimum of mtransactions per year .
+The product shall be able to process all transactions.The product shall process minimum of transactions per year .
 The product shall continue to operate during upgrade change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions .
 The product shall be updated on a regular basis.The product will have a new major feature introduced alltimes and alltimes maintenance releases alltimes .
 The product shall operate with every platform.The product shall accommodate any new technology without any change in its architecture .
@@ -226,29 +226,29 @@ The product shall information Security . The product shall enable privacy by enc
 The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes .
 The system must use a point and click interface . all of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard
 The interface shall be easy to use . most of users should be able to successfully use the system to generate a report on their first use . The interface should adhere to usability standards .
-Rreports must be easy to generate . eports must be generated within bun click and exported within bun click -LRB- after selecting the report -RRB-
+Rreports must be easy to generate . eports must be generated within button click and exported within button click -LRB- after selecting the report -RRB-
 A user shall be able to use the system without instruction after a short amount of time . After use a user should understand and remember most of the system usage and navigation .
-All CCR users shall receiveainingfore the system is deployed . Oneaining session will held for all of CCR usersfore system deployment -LRB- based on a CCR usering available -RRB-
-The system shalle appropriate nomenclature and terminology as defined by the Corporate Community Grants organization . All interfaces and reports will undergoability tests by CCRers .
-The system shall be available at all times as long as IBMternaltranet W3 is accessible . The systeill be available most of the time IBMternaltranet W3 is available .
+All users shall receive training before the system is deployed . training session will be held for all of users before system deployment -LRB- based on a user being available -RRB-
+The system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization . All interfaces and reports will undergo usability tests by users .
+The system shall be available at all times as long as 's internal intranet W3 is accessible . The system will be available most of the time 's internal intranet W3 is available .
 The system shall have the ability to connect other designated databases currently not included in the system .
-The system shall have the ability to include data for regions outside the Uniates anccessed by users outside of the Uniates if appry CCR ment .
-The system must run queries to the daases once again -LRB- on a specified day -RRB- to update the available data available to CCR usersQueries must be made to external daases for data refresh once a week .
+The system shall have the ability to include data for regions outside the and be accessed by users outside of the if approved by management .
+The system must run queries to the databases once again -LRB- on a specified day -RRB- to update the available data available to users . Queries must be made to external databases for data refresh once a week .
 All changes updates and additions to the system shall be updated in the Developer and User Guides . Every change must be reflected in system documentation
-The system shall only be accessed by authorized Corporate Community Grants -LRB- -RRB- employees . Users must be authenticated using their IBMtranet user name and password .
+The system shall only be accessed by authorized Corporate Community Grants -LRB- -RRB- employees . Users must be authenticated using their intranet user name and password .
 The system shall not allow automatic logins by any user . Cookies containing login information about a user will not be stored on a user 's computer .
 Each team owner will need to use a username and password in order to be authenticated to reach the team owner 's page
 The Commissioner will be the only authorized user per league to adjust league settings .
 A new user shall be able to navigate through the league and team pages fast of reaching the start-up page .
 Users shall be able to reach the ` add ' ` drop ' and ` trade player ' pages with click from the team owner 's page .
-Users shall be able to view at least NFlayer statistics and points on each page .
+Users shall be able to view at least player statistics and points on each page .
 The application shall ask the user to confirm dropping a player or trading a player before performing the action .
 The application shall be able to complete every user transaction within fourth of a second of receiving the request over the network .
 The application shall have a downtime of at most 10 minutes per year .
-Applicati updates shall occur between andAM CT Wednay morning duringddle of the NFL seas .
+Application updates shall occur between on Wednesday during the middle of the season .
 New System version releases shall be released at the beginning of each season .
 The RFS system should be available alltimes especially during the budgeting period . The RFS system shall be available alltimes all year and most during the budgeting period . little of the time the system will become available within 1 hour of the time that the situation is reported .
-Changes to revenue and expense formulae must be applied to the RFS system alltimes prior to the budgeting process start . Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and Fin
+Changes to revenue and expense formulae must be applied to the RFS system alltimes prior to the budgeting process start . Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and .
 New branches/complexes/districts / regions and revenue/expense accounts added to the BDW must be reflected in the RFS system . all of the entities -LRB- mentioned above -RRB- available as of October month-end will be loaded into the RFS system prior to the budget start process .
 Only authorized user shall access the RFS system . ONLY users that exist in the UAS system with the RFS system assigned to their role -LRB- s -RRB- shall access the RFS system and use it .
 User access should be limited to the permissions granted to their role -LRB- s -RRB- Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles . Access to functionality within RFS system is dependent on the privileges/permission assigned to the role . .
