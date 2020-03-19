@@ -10,34 +10,34 @@ On December 14th, 2019 the site http://ctp.di.fct.unl.pt/RE2017/pages/submission
 
 The non-functional requirements' labels in this dataset (involving 15 different projects) are distributed as follows:
 
-| Class               | Quantity | Percentage |
-| ------------------- | -------: | ---------: |
-| Funcional (F)       |      255 |     40.80% |
-| Availability (A)   |       21 |      3.36% |
+| Class                | Quantity | Percentage |
+| -------------------- | -------: | ---------: |
+| Funcional (F)        |      255 |     40.80% |
+| Availability (A)     |       21 |      3.36% |
 | Fault Tolerance (FT) |       10 |      1.60% |
-| Legal (L)           |       13 |      2.08% |
-| Look & Feel (LF)    |       38 |      6.08% |
-| Maintainability (MN)  |       17 |      2.72% |
-| Operational (O)     |       62 |      9.92% |
-| Performance (PE)    |       54 |      8.64% |
-| Portability (PO)    |        1 |      0.16% |
-| Scalability (SC)    |       21 |      3.36% |
-| Security (SE)       |       66 |     10.56% |
-| Usability (US)      |       67 |     10.72% |
-| **Total**           |  **625** |   **100%** |
+| Legal (L)            |       13 |      2.08% |
+| Look & Feel (LF)     |       38 |      6.08% |
+| Maintainability (MN) |       17 |      2.72% |
+| Operational (O)      |       62 |      9.92% |
+| Performance (PE)     |       54 |      8.64% |
+| Portability (PO)     |        1 |      0.16% |
+| Scalability (SC)     |       21 |      3.36% |
+| Security (SE)        |       66 |     10.56% |
+| Usability (US)       |       67 |     10.72% |
+| **Total**            |  **625** |   **100%** |
 
 For the purposes of this study, only a subset of this dataset was considered, as part of the quality attributes categories and due to imbalanced classes:
 
-| Class               | Quantity | Percentage |
-| ------------------- | -------: | ---------: |
-| Availability (A)   |       21 |      8.20% |
+| Class                | Quantity | Percentage |
+| -------------------- | -------: | ---------: |
+| Availability (A)     |       21 |      8.20% |
 | Fault Tolerance (FT) |       10 |      3.91% |
-| Maintainability (MN)  |       17 |      6.64% |
-| Performance (PE)    |       54 |     21.09% |
-| Scalability (SC)    |       21 |      8.21% |
-| Security (SE)       |       66 |     25.78% |
-| Usability (US)      |       67 |     26.17% |
-| **Total**           |  **256** |   **100%** |
+| Maintainability (MN) |       17 |      6.64% |
+| Performance (PE)     |       54 |     21.09% |
+| Scalability (SC)     |       21 |      8.21% |
+| Security (SE)        |       66 |     25.78% |
+| Usability (US)       |       67 |     26.17% |
+| **Total**            |  **256** |   **100%** |
 
 ## Test Set
 
