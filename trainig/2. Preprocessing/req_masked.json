@@ -2693,7 +2693,7 @@
     },
     {
         "id": 1770,
-        "text": "When streaming a movie the buffering time should take fast -LRB- plus any latency on the user 's connection . -RRB-",
+        "text": "When streaming a movie the buffering time should take fast  plus any latency on the user 's connection . ",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -3736,7 +3736,7 @@
     },
     {
         "id": 1830,
-        "text": "The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs -LRB- Key Performance Indicators -RRB-",
+        "text": "The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs  Key Performance Indicators ",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -4075,7 +4075,7 @@
     },
     {
         "id": 1848,
-        "text": "Rreports must be easy to generate . eports must be generated within button click and exported within button click -LRB- after selecting the report -RRB-",
+        "text": "Rreports must be easy to generate . eports must be generated within button click and exported within button click  after selecting the report ",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -4110,7 +4110,7 @@
     },
     {
         "id": 1850,
-        "text": "All users shall receive training before the system is deployed . training session will be held for all of users before system deployment -LRB- based on a user being available -RRB-",
+        "text": "All users shall receive training before the system is deployed . training session will be held for all of users before system deployment  based on a user being available ",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -4220,7 +4220,7 @@
     },
     {
         "id": 1855,
-        "text": "The system must run queries to the databases once again -LRB- on a specified day -RRB- to update the available data available to users . Queries must be made to external databases for data refresh once a week .",
+        "text": "The system must run queries to the databases once again  on a specified day  to update the available data available to users . Queries must be made to external databases for data refresh once a week .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -4256,7 +4256,7 @@
     },
     {
         "id": 1857,
-        "text": "The system shall only be accessed by authorized Corporate Community Grants -LRB- -RRB- employees . Users must be authenticated using their intranet user name and password .",
+        "text": "The system shall only be accessed by authorized Corporate Community Grants   employees . Users must be authenticated using their intranet user name and password .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -4513,7 +4513,7 @@
     },
     {
         "id": 1871,
-        "text": "New branches/complexes/districts / regions and revenue/expense accounts added to the BDW must be reflected in the RFS system . all of the entities -LRB- mentioned above -RRB- available as of October month-end will be loaded into the RFS system prior to the budget start process .",
+        "text": "New branches/complexes/districts / regions and revenue/expense accounts added to the BDW must be reflected in the RFS system . all of the entities  mentioned above  available as of October month-end will be loaded into the RFS system prior to the budget start process .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -4536,7 +4536,7 @@
     },
     {
         "id": 1872,
-        "text": "Only authorized user shall access the RFS system . ONLY users that exist in the UAS system with the RFS system assigned to their role -LRB- s -RRB- shall access the RFS system and use it .",
+        "text": "Only authorized user shall access the RFS system . ONLY users that exist in the UAS system with the RFS system assigned to their role  s  shall access the RFS system and use it .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -4574,7 +4574,7 @@
     },
     {
         "id": 1873,
-        "text": "User access should be limited to the permissions granted to their role -LRB- s -RRB- Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles . Access to functionality within RFS system is dependent on the privileges/permission assigned to the role . .",
+        "text": "User access should be limited to the permissions granted to their role  s  Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles . Access to functionality within RFS system is dependent on the privileges/permission assigned to the role . .",
         "meta": {},
         "annotation_approver": null,
         "labels": [

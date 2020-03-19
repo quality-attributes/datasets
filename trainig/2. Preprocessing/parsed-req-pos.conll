@@ -3189,7 +3189,6 @@ time   NN
 should
 take
 fast
--LRB-
 plus
 any
 latency   NN
@@ -3199,7 +3198,6 @@ user   NN
 's
 connection   NN
 .
--RRB-
 
 While
 streaming   NN
@@ -4339,11 +4337,9 @@ ad-hoc
 reporting   NN
 and
 KPIs   NNS
--LRB-
 Key   NN
 Performance   NNP
 Indicators   NNPS
--RRB-
 
 The
 product   NN
@@ -4786,12 +4782,10 @@ exported
 within
 button   NN
 click   NN
--LRB-
 after
 selecting
 the
 report   NN
--RRB-
 
 A
 user   NN
@@ -4851,14 +4845,12 @@ users   NNS
 before
 system   NN
 deployment   NN
--LRB-
 based
 on
 a
 user   NN
 being
 available
--RRB-
 
 The
 system   NN
@@ -4980,12 +4972,10 @@ the
 databases   NNS
 once
 again
--LRB-
 on
 a
 specified
 day   NN
--RRB-
 to
 update
 the
@@ -5048,8 +5038,6 @@ authorized
 Corporate   NNP
 Community   NNP
 Grants   NNPS
--LRB-
--RRB-
 employees   NNS
 .
 Users   NNS
@@ -5425,10 +5413,8 @@ all
 of
 the
 entities   NNS
--LRB-
 mentioned
 above
--RRB-
 available
 as
 of
@@ -5474,9 +5460,7 @@ assigned
 to
 their
 role   NN
--LRB-
 s   NNS
--RRB-
 shall
 access
 the
@@ -5499,9 +5483,7 @@ granted
 to
 their
 role   NN
--LRB-
 s   NNS
--RRB-
 Each
 level   NN
 in

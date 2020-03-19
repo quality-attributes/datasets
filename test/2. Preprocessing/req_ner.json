@@ -36,7 +36,7 @@
     },
     {
         "id": 2081,
-        "text": "The system shall enforce the most restrictive set of rights or privileges or accesses needed by users or groups -LRB- e.g. System Administration , Clerical , Nurse , Doctor , etc. -RRB- , or processes acting on behalf of users , for the performance of specified tasks .",
+        "text": "The system shall enforce the most restrictive set of rights or privileges or accesses needed by users or groups  e.g. System Administration , Clerical , Nurse , Doctor , etc.  , or processes acting on behalf of users , for the performance of specified tasks .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -72,7 +72,7 @@
     },
     {
         "id": 2083,
-        "text": "The system shall authenticate the user before any access to Protected Resources -LRB- e.g. PHI -RRB- is allowed , including when not connected to a network e.g. mobile devices .",
+        "text": "The system shall authenticate the user before any access to Protected Resources  e.g. PHI  is allowed , including when not connected to a network e.g. mobile devices .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -106,14 +106,14 @@
     },
     {
         "id": 2087,
-        "text": "The system shall enforce a limit of -LRB- configurable -RRB- consecutive invalid access attempts by a user .",
+        "text": "The system shall enforce a limit of  configurable  consecutive invalid access attempts by a user .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
     },
     {
         "id": 2088,
-        "text": "The system shall protect against further , possibly malicious , user authentication attempts using an appropriate mechanism -LRB- e.g. locks the account or node until released by an administrator , locks the account or node for a configurable time period , or delays the next login prompt according to a configurable delay algorithm -RRB- .",
+        "text": "The system shall protect against further , possibly malicious , user authentication attempts using an appropriate mechanism  e.g. locks the account or node until released by an administrator , locks the account or node for a configurable time period , or delays the next login prompt according to a configurable delay algorithm  .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -153,7 +153,7 @@
     },
     {
         "id": 2092,
-        "text": "When passwords are used , the system shall allow an authenticated user to change their password consistent with password strength rules -LRB- SC 03.02 -RRB- .",
+        "text": "When passwords are used , the system shall allow an authenticated user to change their password consistent with password strength rules  SC 03.02  .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -184,7 +184,7 @@
     },
     {
         "id": 2094,
-        "text": "When passwords are used , the system shall prevent the reuse of passwords previously used within a specific -LRB- configurable -RRB- timeframe -LRB- i.e. , within the last X days , etc. e.g. last 180 days -RRB- , or shall prevent the reuse of a certain -LRB- configurable -RRB- number of the most recently used passwords -LRB- e.g. last 5 passwords -RRB- .",
+        "text": "When passwords are used , the system shall prevent the reuse of passwords previously used within a specific  configurable  timeframe  i.e. , within the last X days , etc. e.g. last 180 days  , or shall prevent the reuse of a certain  configurable  number of the most recently used passwords  e.g. last 5 passwords  .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -234,7 +234,7 @@
     },
     {
         "id": 2096,
-        "text": "The system shall include documentation of product capacities -LRB- e.g. number of users , number of transactions per second , number of records , network load , etc. -RRB- and the baseline representative configurations assumed for these capacities -LRB- e.g. number or type of processors , server or workstation configuration and network capacity , etc -RRB- .",
+        "text": "The system shall include documentation of product capacities  e.g. number of users , number of transactions per second , number of records , network load , etc.  and the baseline representative configurations assumed for these capacities  e.g. number or type of processors , server or workstation configuration and network capacity , etc  .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -252,21 +252,21 @@
     },
     {
         "id": 2097,
-        "text": "The system shall include documentation available to the customer stating whether or not there are known issues or conflicts with security services in at least the following service areas : antivirus , intrusion detection , malware eradication , host-based firewall and the resolution of that conflict -LRB- e.g. most systems should note that full virus scanning should be done outside of peak usage times and should exclude the databases . -RRB-",
+        "text": "The system shall include documentation available to the customer stating whether or not there are known issues or conflicts with security services in at least the following service areas : antivirus , intrusion detection , malware eradication , host-based firewall and the resolution of that conflict  e.g. most systems should note that full virus scanning should be done outside of peak usage times and should exclude the databases . ",
         "meta": {},
         "annotation_approver": null,
         "labels": []
     },
     {
         "id": 2098,
-        "text": "The system shall include documentation that itemizes the services -LRB- e.g. PHP , web services -RRB- and network protocols/ports -LRB- e.g. HL-7 , HTTP , FTP -RRB- that are necessary for proper operation and servicing of the system , including justification of the need for that service and protocol .",
+        "text": "The system shall include documentation that itemizes the services  e.g. PHP , web services  and network protocols/ports  e.g. HL-7 , HTTP , FTP  that are necessary for proper operation and servicing of the system , including justification of the need for that service and protocol .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
     },
     {
         "id": 2099,
-        "text": "This information may be used by the healthcare facility to properly configure their network defenses -LRB- firewalls and routers -RRB- .",
+        "text": "This information may be used by the healthcare facility to properly configure their network defenses  firewalls and routers  .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -280,7 +280,7 @@
     },
     {
         "id": 2101,
-        "text": "The software used to install and update the system , independent of the mode or method of conveyance , shall be certified free of malevolent software -LRB- malware -RRB- .",
+        "text": "The software used to install and update the system , independent of the mode or method of conveyance , shall be certified free of malevolent software  malware  .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -306,7 +306,7 @@
     },
     {
         "id": 2103,
-        "text": "The system shall support protection of confidentiality of all Protected Health Information -LRB- PHI -RRB- delivered over the Internet or other known open networks via encryption using triple-DES -LRB- 3DES -RRB- or the Advanced Encryption Standard -LRB- AES -RRB- and an open protocol such as TLS , SSL , IPSec , XML encryptions , or S or MIME or their successors .",
+        "text": "The system shall support protection of confidentiality of all Protected Health Information  PHI  delivered over the Internet or other known open networks via encryption using triple-DES  3DES  or the Advanced Encryption Standard  AES  and an open protocol such as TLS , SSL , IPSec , XML encryptions , or S or MIME or their successors .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -329,14 +329,14 @@
     },
     {
         "id": 2104,
-        "text": "For systems that provide access to PHI through a web browser interface -LRB- i.e. HTML over HTTP -RRB- shall include the capability to encrypt the data communicated over the network via SSL -LRB- HTML over HTTPS -RRB- .",
+        "text": "For systems that provide access to PHI through a web browser interface  i.e. HTML over HTTP  shall include the capability to encrypt the data communicated over the network via SSL  HTML over HTTPS  .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
     },
     {
         "id": 2105,
-        "text": "The system shall support ensuring the authenticity of remote nodes -LRB- mutual node authentication -RRB- when communicating Protected Health Information -LRB- PHI -RRB- over the Internet or other known open networks using an open protocol -LRB- e.g. TLS , SSL , IPSec , XML sig , S or MIME -RRB- .",
+        "text": "The system shall support ensuring the authenticity of remote nodes  mutual node authentication  when communicating Protected Health Information  PHI  over the Internet or other known open networks using an open protocol  e.g. TLS , SSL , IPSec , XML sig , S or MIME  .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -354,14 +354,14 @@
     },
     {
         "id": 2106,
-        "text": "The system , when storing PHI on any device intended to be portable or removable -LRB- e.g. thumb-drives , CD-ROM , PDA , Notebook -RRB- , shall support use of a standards based encrypted format using triple-DES -LRB- 3DES -RRB- , or the Advanced Encryption Standard -LRB- AES -RRB- , or their successors .",
+        "text": "The system , when storing PHI on any device intended to be portable or removable  e.g. thumb-drives , CD-ROM , PDA , Notebook  , shall support use of a standards based encrypted format using triple-DES  3DES  , or the Advanced Encryption Standard  AES  , or their successors .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
     },
     {
         "id": 2107,
-        "text": "The system , prior to access to any PHI , shall display a configurable warning or login banner -LRB- e.g. `` The system should only be accessed by authorized users '' -RRB- .",
+        "text": "The system , prior to access to any PHI , shall display a configurable warning or login banner  e.g. `` The system should only be accessed by authorized users ''  .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -436,7 +436,7 @@
     },
     {
         "id": 2116,
-        "text": "The solution functionality and associated business rules shall be configured and re-configured -LRB- through tools that do not require code modifications -RRB- .",
+        "text": "The solution functionality and associated business rules shall be configured and re-configured  through tools that do not require code modifications  .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -450,21 +450,21 @@
     },
     {
         "id": 2118,
-        "text": "The system shall use an open relational database management system -LRB- RDBMS -RRB- to store all organization data .",
+        "text": "The system shall use an open relational database management system  RDBMS  to store all organization data .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
     },
     {
         "id": 2119,
-        "text": "The database system shall provide Structured Query Language -LRB- SQL -RRB- capabilities for database queries .",
+        "text": "The database system shall provide Structured Query Language  SQL  capabilities for database queries .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
     },
     {
         "id": 2120,
-        "text": "The system shall allow the database information exchange using current commonly accepted industry formats -LRB- e.g. HL7 , XML -RRB- .",
+        "text": "The system shall allow the database information exchange using current commonly accepted industry formats  e.g. HL7 , XML  .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -533,7 +533,7 @@
     },
     {
         "id": 2129,
-        "text": "The system shall provide the ability to load information from standard file -LRB- s -RRB- .",
+        "text": "The system shall provide the ability to load information from standard file  s  .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -657,7 +657,7 @@
     },
     {
         "id": 2142,
-        "text": "The password is not displayed as clear text -LRB- Password Masking -RRB-",
+        "text": "The password is not displayed as clear text  Password Masking ",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -731,7 +731,7 @@
     },
     {
         "id": 2150,
-        "text": "System encrypts sensitive data transmitted between clients and servers using Secure Socket Layer -LRB- SSL -RRB- Certificates , Transport Layer Security -LRB- TLS -RRB- , or by other means",
+        "text": "System encrypts sensitive data transmitted between clients and servers using Secure Socket Layer  SSL  Certificates , Transport Layer Security  TLS  , or by other means",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -749,7 +749,7 @@
     },
     {
         "id": 2151,
-        "text": "System provides a web -LRB- HTTPS -RRB- interface and provides an SSL configuration mechanism .",
+        "text": "System provides a web  HTTPS  interface and provides an SSL configuration mechanism .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -976,14 +976,14 @@
     },
     {
         "id": 2176,
-        "text": "The system shall have the ability to support biometrics and biometrics plus passwords -LRB- e.g. , fingerprint scan and fingerprint scan plus password -RRB- .",
+        "text": "The system shall have the ability to support biometrics and biometrics plus passwords  e.g. , fingerprint scan and fingerprint scan plus password  .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
     },
     {
         "id": 2177,
-        "text": "System authenticates the user before any access is allowed to protected resources -LRB- e.g. , Protected Health Information -RRB-",
+        "text": "System authenticates the user before any access is allowed to protected resources  e.g. , Protected Health Information ",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -997,7 +997,7 @@
     },
     {
         "id": 2179,
-        "text": "If Structured Query Language -LRB- SQL -RRB- authentication is used -LRB- e.g. , communication between the application server and the database server -RRB- credentials are secured in storage and over the wire via Secure Socket Layer -LRB- SSL -RRB- or IP Security -LRB- IPSec -RRB- .",
+        "text": "If Structured Query Language  SQL  authentication is used  e.g. , communication between the application server and the database server  credentials are secured in storage and over the wire via Secure Socket Layer  SSL  or IP Security  IPSec  .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -1017,7 +1017,7 @@
     },
     {
         "id": 2181,
-        "text": "Remote administration channels are secured -LRB- e.g. , SSL , VPN -RRB-",
+        "text": "Remote administration channels are secured  e.g. , SSL , VPN ",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -1066,7 +1066,7 @@
     },
     {
         "id": 2188,
-        "text": "Database or file encryption for protection of sensitive data fields while the data is at rest -LRB- i.e. , stored data -RRB- is provided .",
+        "text": "Database or file encryption for protection of sensitive data fields while the data is at rest  i.e. , stored data  is provided .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -1080,7 +1080,7 @@
     },
     {
         "id": 2190,
-        "text": "Sensitive data is not transmitted using insecure protocols , such as FTP , telnet , tftp etc. , unless tunneled through an authenticated encrypted connection -LRB- e.g. VPN -RRB- .",
+        "text": "Sensitive data is not transmitted using insecure protocols , such as FTP , telnet , tftp etc. , unless tunneled through an authenticated encrypted connection  e.g. VPN  .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -1170,7 +1170,7 @@
     },
     {
         "id": 2202,
-        "text": "Identify security standard -LRB- SSL or FIPS encryption -RRB- .",
+        "text": "Identify security standard  SSL or FIPS encryption  .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -1191,7 +1191,7 @@
     },
     {
         "id": 2205,
-        "text": "System provides secure information delivery over the Internet via encryption by using triple-DES -LRB- Data Encryption Standard -RRB- or the Advanced Encryption Standard -LRB- AES -RRB-",
+        "text": "System provides secure information delivery over the Internet via encryption by using triple-DES  Data Encryption Standard  or the Advanced Encryption Standard  AES ",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -1204,7 +1204,7 @@
     },
     {
         "id": 2206,
-        "text": "Encrypted data delivered over the Internet is transmitted via open protocols -LRB- e.g. , SSL , XML encryption -RRB-",
+        "text": "Encrypted data delivered over the Internet is transmitted via open protocols  e.g. , SSL , XML encryption ",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -1249,14 +1249,14 @@
     },
     {
         "id": 2210,
-        "text": "All input parameters are validated -LRB- including form fields , query strings , cookies , and HTTP headers -RRB- .",
+        "text": "All input parameters are validated  including form fields , query strings , cookies , and HTTP headers  .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
     },
     {
         "id": 2211,
-        "text": "Cookies with sensitive data -LRB- e.g. authentication cookies -RRB- are encrypted .",
+        "text": "Cookies with sensitive data  e.g. authentication cookies  are encrypted .",
         "meta": {},
         "annotation_approver": null,
         "labels": []
@@ -1317,7 +1317,7 @@
     },
     {
         "id": 2218,
-        "text": "Private and sensitive data -LRB- for example , passwords -RRB- are not logged .",
+        "text": "Private and sensitive data  for example , passwords  are not logged .",
         "meta": {},
         "annotation_approver": null,
         "labels": [
@@ -1364,14 +1364,14 @@
     },
     {
         "id": 2223,
-        "text": "The system shall have the ability to restrict free form entry -LRB- e.g. , provide drop down calendar for date field -RRB-",
+        "text": "The system shall have the ability to restrict free form entry  e.g. , provide drop down calendar for date field ",
         "meta": {},
         "annotation_approver": null,
         "labels": []
     },
     {
         "id": 2224,
-        "text": "On-line , interactive help with support for hyperlink technology and industry standard formats -LRB- e.g. , HTML file formats -RRB-",
+        "text": "On-line , interactive help with support for hyperlink technology and industry standard formats  e.g. , HTML file formats ",
         "meta": {},
         "annotation_approver": null,
         "labels": []

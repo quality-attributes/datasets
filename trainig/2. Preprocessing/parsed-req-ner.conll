@@ -3249,7 +3249,6 @@ time
 should
 take
 fast
--LRB-
 plus
 any
 latency
@@ -3259,7 +3258,6 @@ user
 's
 connection
 .
--RRB-
 
 While
 streaming
@@ -4428,11 +4426,9 @@ ad-hoc
 reporting
 and
 KPIs
--LRB-
 Key
 Performance
 Indicators
--RRB-
 
 The
 product
@@ -4881,12 +4877,10 @@ within
 one   NUMBER
 button
 click
--LRB-
 after
 selecting
 the
 report
--RRB-
 
 A
 user
@@ -4951,7 +4945,6 @@ users
 before
 system
 deployment
--LRB-
 based
 on
 a
@@ -4959,7 +4952,6 @@ CCR
 user
 being
 available
--RRB-
 
 The
 WCS   ORGANIZATION
@@ -5097,12 +5089,10 @@ WCS   ORGANIZATION
 databases
 once   DATE
 again
--LRB-
 on
 a
 specified
 day   DURATION
--RRB-
 to
 update
 the
@@ -5170,9 +5160,7 @@ authorized
 Corporate
 Community
 Grants
--LRB-
 CCR   ORGANIZATION
--RRB-
 employees
 .
 Users
@@ -5565,10 +5553,8 @@ all
 of
 the
 entities
--LRB-
 mentioned
 above
--RRB-
 available
 as
 of
@@ -5614,9 +5600,7 @@ assigned
 to
 their
 role
--LRB-
 s
--RRB-
 shall
 access
 the
@@ -5639,9 +5623,7 @@ granted
 to
 their
 role
--LRB-
 s
--RRB-
 Each
 level
 in

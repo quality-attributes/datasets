@@ -1979,7 +1979,7 @@
     },
     {
       "id": 994,
-      "text": "When streaming a movie the buffering time should take fast -LRB- plus any latency on the user 's connection . -RRB-",
+      "text": "When streaming a movie the buffering time should take fast  plus any latency on the user 's connection . ",
       "meta": {},
       "annotation_approver": null,
       "labels": []
@@ -2745,7 +2745,7 @@
     },
     {
       "id": 1054,
-      "text": "The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs -LRB- Key Performance Indicators -RRB-",
+      "text": "The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs  Key Performance Indicators ",
       "meta": {},
       "annotation_approver": null,
       "labels": []
@@ -2941,7 +2941,7 @@
     },
     {
       "id": 1072,
-      "text": "Rreports must be easy to generate . eports must be generated within one button click and exported within one button click -LRB- after selecting the report -RRB-",
+      "text": "Rreports must be easy to generate . eports must be generated within one button click and exported within one button click  after selecting the report ",
       "meta": {},
       "annotation_approver": null,
       "labels": [
@@ -2972,7 +2972,7 @@
     },
     {
       "id": 1074,
-      "text": "All CCR users shall receive training before the WCS system is deployed . One training session will be held for all of CCR users before system deployment -LRB- based on a CCR user being available -RRB-",
+      "text": "All CCR users shall receive training before the WCS system is deployed . One training session will be held for all of CCR users before system deployment  based on a CCR user being available ",
       "meta": {},
       "annotation_approver": null,
       "labels": [
@@ -3097,7 +3097,7 @@
     },
     {
       "id": 1079,
-      "text": "The WCS system must run queries to the WCS databases once again -LRB- on a specified day -RRB- to update the available data available to CCR users . Queries must be made to external databases for data refresh once a week .",
+      "text": "The WCS system must run queries to the WCS databases once again  on a specified day  to update the available data available to CCR users . Queries must be made to external databases for data refresh once a week .",
       "meta": {},
       "annotation_approver": null,
       "labels": [
@@ -3163,7 +3163,7 @@
     },
     {
       "id": 1081,
-      "text": "The system shall only be accessed by authorized Corporate Community Grants -LRB- CCR -RRB- employees . Users must be authenticated using their IBM intranet user name and password .",
+      "text": "The system shall only be accessed by authorized Corporate Community Grants  CCR  employees . Users must be authenticated using their IBM intranet user name and password .",
       "meta": {},
       "annotation_approver": null,
       "labels": [
@@ -3452,7 +3452,7 @@
     },
     {
       "id": 1095,
-      "text": "New branches/complexes/districts / regions and revenue/expense accounts added to the BDW must be reflected in the RFS system . all of the entities -LRB- mentioned above -RRB- available as of October month-end will be loaded into the RFS system prior to the budget start process .",
+      "text": "New branches/complexes/districts / regions and revenue/expense accounts added to the BDW must be reflected in the RFS system . all of the entities  mentioned above  available as of October month-end will be loaded into the RFS system prior to the budget start process .",
       "meta": {},
       "annotation_approver": null,
       "labels": [
@@ -3465,14 +3465,14 @@
     },
     {
       "id": 1096,
-      "text": "Only authorized user shall access the RFS system . ONLY users that exist in the UAS system with the RFS system assigned to their role -LRB- s -RRB- shall access the RFS system and use it .",
+      "text": "Only authorized user shall access the RFS system . ONLY users that exist in the UAS system with the RFS system assigned to their role  s  shall access the RFS system and use it .",
       "meta": {},
       "annotation_approver": null,
       "labels": []
     },
     {
       "id": 1097,
-      "text": "User access should be limited to the permissions granted to their role -LRB- s -RRB- Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles . Access to functionality within RFS system is dependent on the privileges/permission assigned to the role . .",
+      "text": "User access should be limited to the permissions granted to their role  s  Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles . Access to functionality within RFS system is dependent on the privileges/permission assigned to the role . .",
       "meta": {},
       "annotation_approver": null,
       "labels": []

@@ -148,7 +148,7 @@ The system shall use symbols and words that are naturally understandable by user
 The website will use standard Internet conventions when interacting with the user .
 Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below .
 When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds .
-When streaming a movie the buffering time should take fast -LRB- plus any latency on the user 's connection . -RRB-
+When streaming a movie the buffering time should take fast  plus any latency on the user 's connection . 
 While streaming a movie buffering should only occur if there is latency in the user 's connection .
 All credit card information will be secured on the server and only accessible by authorized user administrators . Information will be encrypted in the database .
 The system shall be available for use alltimes .
@@ -208,7 +208,7 @@ The system shall ensure that only user can enter a user 's schedule.The system m
 The system shall ensure that only user can view schedule of all user.The system must ensure that user are allowed to access advertise empty time slots .
 The system shall provide Monitoring Services.The system shall be easy for system Administrators and user to use after two weeks of usage .
 The system shall provide Error Tracking Services.The system shall help the system Administrators and user to resolve transaction errors most of the time .
-The system shall provide Portals.The system shall help system Administrators to analyze the transactions with ad-hoc reporting and KPIs -LRB- Key Performance Indicators -RRB-
+The system shall provide Portals.The system shall help system Administrators to analyze the transactions with ad-hoc reporting and KPIs  Key Performance Indicators 
 The system shall provide Asynchronous Messaging.The system shall provide asynchronous messaging to enable parallel systeming and reduce the overhead in communications
 The system shall provide Multi-threading and Load Balancing.The system shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic .
 The system shall system messages fast.The system shall have a maximum message systeming time of fast
@@ -226,16 +226,16 @@ The system shall information Security . The system shall enable privacy by encry
 The system shall have audit capabilities.The system shall store messages for a minimum of one year for audit and transaction tracking purposes .
 The system must use a point and click interface . all of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard
 The interface shall be easy to use . most of user should be able to successfully use the system to generate a report on their first use . The interface should adhere to usability standards .
-Rreports must be easy to generate . eports must be generated within button click and exported within button click -LRB- after selecting the report -RRB-
+Rreports must be easy to generate . eports must be generated within button click and exported within button click  after selecting the report 
 A user shall be able to use the system without instruction after a short amount of time . After use a user should understand and remember most of the system usage and navigation .
-All user shall receive training before the system is deployed . training session will be held for all of user before system deployment -LRB- based on a user being available -RRB-
+All user shall receive training before the system is deployed . training session will be held for all of user before system deployment  based on a user being available 
 The system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants user. All interfaces and reports will undergo usability tests by user .
 The system shall be available at all times as long as 's internal intranet W3 is accessible . The system will be available most of the time 's internal intranet W3 is available .
 The system shall have the ability to connect other designated databases currently not included in the system .
 The system shall have the ability to include data for regions outside the and be accessed by user outside of the if approved by management .
-The system must run queries to the databases once again -LRB- on a specified day -RRB- to update the available data available to user . Queries must be made to external databases for data refresh once a week .
+The system must run queries to the databases once again  on a specified day  to update the available data available to user . Queries must be made to external databases for data refresh once a week .
 All changes updates and additions to the system shall be updated in the Developer and user Guides . Every change must be reflected in system documentation
-The system shall only be accessed by authorized Corporate Community Grants -LRB- -RRB- user . user must be authenticated using their intranet user name and password .
+The system shall only be accessed by authorized Corporate Community Grants   user . user must be authenticated using their intranet user name and password .
 The system shall not allow automatic logins by any user . Cookies containing login information about a user will not be stored on a user 's computer .
 Each user will need to use a username and password in order to be authenticated to reach the user 's page
 The user will be the only authorized user per league to adjust league settings .
@@ -249,8 +249,8 @@ system updates shall occur between on Wednesday during the middle of the season 
 New system version releases shall be released at the beginning of each season .
 The system should be available alltimes especially during the budgeting period . The system shall be available alltimes all year and most during the budgeting period . little of the time the system will become available within 1 hour of the time that the situation is reported .
 Changes to revenue and expense formulae must be applied to the system alltimes prior to the budgeting system start . Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and .
-New branches/complexes/districts / regions and revenue/expense accounts added to the user must be reflected in the system . all of the entities -LRB- mentioned above -RRB- available as of October month-end will be loaded into the system prior to the budget start system .
-Only authorized user shall access the system . ONLY user that exist in the system with the system assigned to their role -LRB- s -RRB- shall access the system and use it .
-user access should be limited to the permissions granted to their role -LRB- s -RRB- Each level in the user hierarchy will be assigned a role and user will be assigned to these roles . Access to functionality within system is dependent on the privileges/permission assigned to the role . .
+New branches/complexes/districts / regions and revenue/expense accounts added to the user must be reflected in the system . all of the entities  mentioned above  available as of October month-end will be loaded into the system prior to the budget start system .
+Only authorized user shall access the system . ONLY user that exist in the system with the system assigned to their role  s  shall access the system and use it .
+user access should be limited to the permissions granted to their role  s  Each level in the user hierarchy will be assigned a role and user will be assigned to these roles . Access to functionality within system is dependent on the privileges/permission assigned to the role . .
 The user should be able to easily use the system to successfully complete their budgets within the stipulated time for completion . With a week of training prior to system implementation most of the user shall complete their budgets within the stipulated time .
 The system interface should be fast . The response time of the system interface should not exceed fast alltimes . For little of the time the response time should fast.fast .

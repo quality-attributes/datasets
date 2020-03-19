@@ -105,7 +105,6 @@ by
 users
 or
 groups
--LRB-
 e.g.
 System
 Administration
@@ -117,7 +116,6 @@ Nurse   TITLE
 Doctor   TITLE
 ,
 etc.
--RRB-
 ,
 or
 processes
@@ -168,10 +166,8 @@ access
 to
 Protected
 Resources
--LRB-
 e.g.
 PHI
--RRB-
 is
 allowed
 ,
@@ -279,9 +275,7 @@ enforce
 a
 limit
 of
--LRB-
 configurable
--RRB-
 consecutive
 invalid
 access
@@ -308,7 +302,6 @@ using
 an
 appropriate
 mechanism
--LRB-
 e.g.
 locks
 the
@@ -344,7 +337,6 @@ a
 configurable
 delay
 algorithm
--RRB-
 .
 
 When
@@ -429,10 +421,8 @@ with
 password
 strength
 rules
--LRB-
 SC   STATE_OR_PROVINCE
 03.02   NUMBER
--RRB-
 .
 
 When
@@ -486,11 +476,8 @@ used
 within
 a
 specific
--LRB-
 configurable
--RRB-
 timeframe
--LRB-
 i.e.
 ,
 within
@@ -504,7 +491,6 @@ e.g.
 last   DATE
 180   DATE
 days   DATE
--RRB-
 ,
 or
 shall
@@ -514,9 +500,7 @@ reuse
 of
 a
 certain
--LRB-
 configurable
--RRB-
 number
 of
 the
@@ -524,12 +508,10 @@ most
 recently   DATE
 used
 passwords
--LRB-
 e.g.
 last
 5   NUMBER
 passwords
--RRB-
 .
 
 The
@@ -563,7 +545,6 @@ documentation
 of
 product
 capacities
--LRB-
 e.g.
 number
 of
@@ -583,7 +564,6 @@ network
 load
 ,
 etc.
--RRB-
 and
 the
 baseline
@@ -593,7 +573,6 @@ assumed
 for
 these
 capacities
--LRB-
 e.g.
 number
 or
@@ -610,7 +589,6 @@ network
 capacity
 ,
 etc
--RRB-
 .
 
 The
@@ -659,7 +637,6 @@ resolution
 of
 that
 conflict
--LRB-
 e.g.
 most
 systems
@@ -683,7 +660,6 @@ exclude
 the
 databases
 .
--RRB-
 
 The
 system
@@ -694,24 +670,20 @@ that
 itemizes
 the
 services
--LRB-
 e.g.
 PHP
 ,
 web
 services
--RRB-
 and
 network
 protocols/ports
--LRB-
 e.g.
 HL-7
 ,
 HTTP
 ,
 FTP
--RRB-
 that
 are
 necessary
@@ -751,11 +723,9 @@ configure
 their
 network
 defenses
--LRB-
 firewalls
 and
 routers
--RRB-
 .
 
 The
@@ -849,9 +819,7 @@ free
 of
 malevolent
 software
--LRB-
 malware
--RRB-
 .
 
 Vendor   TITLE
@@ -885,9 +853,7 @@ all
 Protected
 Health
 Information
--LRB-
 PHI
--RRB-
 delivered
 over
 the
@@ -901,17 +867,13 @@ via
 encryption
 using
 triple-DES
--LRB-
 3DES
--RRB-
 or
 the
 Advanced
 Encryption
 Standard
--LRB-
 AES   ORGANIZATION
--RRB-
 and
 an
 open
@@ -948,12 +910,10 @@ a
 web
 browser
 interface
--LRB-
 i.e.
 HTML
 over
 HTTP
--RRB-
 shall
 include
 the
@@ -968,11 +928,9 @@ the
 network
 via
 SSL
--LRB-
 HTML
 over
 HTTPS
--RRB-
 .
 
 The
@@ -985,19 +943,15 @@ authenticity
 of
 remote
 nodes
--LRB-
 mutual
 node
 authentication
--RRB-
 when
 communicating
 Protected
 Health
 Information
--LRB-
 PHI
--RRB-
 over
 the
 Internet   MISC
@@ -1010,7 +964,6 @@ using
 an
 open
 protocol
--LRB-
 e.g.
 TLS
 ,
@@ -1024,7 +977,6 @@ sig
 S
 or
 MIME   TITLE
--RRB-
 .
 
 The
@@ -1042,7 +994,6 @@ be
 portable
 or
 removable
--LRB-
 e.g.
 thumb-drives
 ,
@@ -1051,7 +1002,6 @@ CD-ROM
 PDA
 ,
 Notebook
--RRB-
 ,
 shall
 support
@@ -1064,18 +1014,14 @@ encrypted
 format
 using
 triple-DES
--LRB-
 3DES
--RRB-
 ,
 or
 the
 Advanced
 Encryption
 Standard
--LRB-
 AES
--RRB-
 ,
 or
 their
@@ -1100,7 +1046,6 @@ warning
 or
 login
 banner
--LRB-
 e.g.
 ``
 The
@@ -1113,7 +1058,6 @@ by
 authorized
 users
 ''
--RRB-
 .
 
 In
@@ -1279,7 +1223,6 @@ be
 configured
 and
 re-configured
--LRB-
 through
 tools
 that
@@ -1288,7 +1231,6 @@ not
 require
 code
 modifications
--RRB-
 .
 
 The
@@ -1336,9 +1278,7 @@ relational
 database
 management
 system
--LRB-
 RDBMS
--RRB-
 to
 store
 all
@@ -1354,9 +1294,7 @@ provide
 Structured
 Query
 Language
--LRB-
 SQL
--RRB-
 capabilities
 for
 database
@@ -1377,12 +1315,10 @@ commonly
 accepted
 industry
 formats
--LRB-
 e.g.
 HL7
 ,
 XML
--RRB-
 .
 
 The
@@ -1571,9 +1507,7 @@ information
 from
 standard
 file
--LRB-
 s
--RRB-
 .
 
 The
@@ -1762,10 +1696,8 @@ displayed
 as
 clear
 text
--LRB-
 Password
 Masking
--RRB-
 
 System
 provides
@@ -1877,17 +1809,13 @@ using
 Secure
 Socket
 Layer   TITLE
--LRB-
 SSL
--RRB-
 Certificates
 ,
 Transport
 Layer   TITLE
 Security
--LRB-
 TLS
--RRB-
 ,
 or
 by
@@ -1898,9 +1826,7 @@ System
 provides
 a
 web
--LRB-
 HTTPS
--RRB-
 interface
 and
 provides
@@ -2265,7 +2191,6 @@ and
 biometrics
 plus
 passwords
--LRB-
 e.g.
 ,
 fingerprint
@@ -2275,7 +2200,6 @@ fingerprint
 scan
 plus
 password
--RRB-
 .
 
 System
@@ -2290,13 +2214,11 @@ allowed
 to
 protected
 resources
--LRB-
 e.g.
 ,
 Protected
 Health
 Information
--RRB-
 
 System
 authenticates
@@ -2315,13 +2237,10 @@ If
 Structured
 Query
 Language
--LRB-
 SQL
--RRB-
 authentication
 is
 used
--LRB-
 e.g.
 ,
 communication
@@ -2333,7 +2252,6 @@ and
 the
 database
 server
--RRB-
 credentials
 are
 secured
@@ -2347,15 +2265,11 @@ via
 Secure
 Socket
 Layer   TITLE
--LRB-
 SSL
--RRB-
 or
 IP
 Security
--LRB-
 IPSec
--RRB-
 .
 
 Administration
@@ -2372,13 +2286,11 @@ administration
 channels
 are
 secured
--LRB-
 e.g.
 ,
 SSL
 ,
 VPN
--RRB-
 
 Configuration
 credentials
@@ -2484,12 +2396,10 @@ data
 is
 at
 rest
--LRB-
 i.e.
 ,
 stored
 data
--RRB-
 is
 provided
 .
@@ -2535,10 +2445,8 @@ an
 authenticated
 encrypted
 connection
--LRB-
 e.g.
 VPN
--RRB-
 .
 
 Sensitive
@@ -2722,12 +2630,10 @@ discretion
 Identify
 security
 standard
--LRB-
 SSL
 or
 FIPS
 encryption
--RRB-
 .
 
 Encryption
@@ -2765,19 +2671,15 @@ encryption
 by
 using
 triple-DES
--LRB-
 Data
 Encryption
 Standard
--RRB-
 or
 the
 Advanced
 Encryption
 Standard
--LRB-
 AES
--RRB-
 
 Encrypted
 data
@@ -2790,14 +2692,12 @@ transmitted
 via
 open
 protocols
--LRB-
 e.g.
 ,
 SSL
 ,
 XML
 encryption
--RRB-
 
 Cryptographic
 algorithm
@@ -2844,7 +2744,6 @@ input
 parameters
 are
 validated
--LRB-
 including
 form
 fields
@@ -2857,18 +2756,15 @@ cookies
 and
 HTTP
 headers
--RRB-
 .
 
 Cookies
 with
 sensitive
 data
--LRB-
 e.g.
 authentication
 cookies
--RRB-
 are
 encrypted
 .
@@ -2951,12 +2847,10 @@ Private   TITLE
 and
 sensitive
 data
--LRB-
 for
 example
 ,
 passwords
--RRB-
 are
 not
 logged
@@ -3076,7 +2970,6 @@ restrict
 free
 form
 entry
--LRB-
 e.g.
 ,
 provide
@@ -3086,7 +2979,6 @@ calendar
 for
 date
 field
--RRB-
 
 On-line
 ,
@@ -3101,13 +2993,11 @@ and
 industry
 standard
 formats
--LRB-
 e.g.
 ,
 HTML
 file
 formats
--RRB-
 
 Intelligent
 spell
