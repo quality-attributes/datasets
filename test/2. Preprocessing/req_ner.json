@@ -1,5 +1,157 @@
 [
     {
+        "id": 2076,
+        "text": "The system shall capture and maintain demographic information as discrete data elements as part of the patient record .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2077,
+        "text": "The system shall store medication information in discrete data fields .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2078,
+        "text": "The system shall provide the ability to capture patient history in a standard coded form .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2079,
+        "text": "The system shall provide templates for inputting data in a structured format as part of clinical documentation .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2080,
+        "text": "The system shall display patient annotations in a manner which distinguishes them from other content in the system .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2081,
+        "text": "The system shall enforce the most restrictive set of rights or privileges or accesses needed by users or groups -LRB- e.g. System Administration , Clerical , Nurse , Doctor , etc. -RRB- , or processes acting on behalf of users , for the performance of specified tasks .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                158,
+                163,
+                "TITLE"
+            ],
+            [
+                166,
+                172,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2082,
+        "text": "The system shall have the ability to format for export recorded time stamps using UTC based on ISO 8601 .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                82,
+                85,
+                "ORGANIZATION"
+            ],
+            [
+                99,
+                103,
+                "NUMBER"
+            ]
+        ]
+    },
+    {
+        "id": 2083,
+        "text": "The system shall authenticate the user before any access to Protected Resources -LRB- e.g. PHI -RRB- is allowed , including when not connected to a network e.g. mobile devices .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                161,
+                167,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2084,
+        "text": "When passwords are used , the system shall support password strength rules that allow for minimum number of characters , and inclusion of alpha-numeric complexity .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2085,
+        "text": "The system upon detection of inactivity of an interactive session shall prevent further viewing and access to the system by that session by terminating the session , or by initiating a session lock that remains in effect until the user reestablishes access using appropriate identification and authentication procedures .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2086,
+        "text": "The inactivity timeout shall be configurable .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2087,
+        "text": "The system shall enforce a limit of -LRB- configurable -RRB- consecutive invalid access attempts by a user .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2088,
+        "text": "The system shall protect against further , possibly malicious , user authentication attempts using an appropriate mechanism -LRB- e.g. locks the account or node until released by an administrator , locks the account or node for a configurable time period , or delays the next login prompt according to a configurable delay algorithm -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                182,
+                195,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2089,
+        "text": "When passwords are used , the system shall provide an administrative function that resets passwords .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2090,
+        "text": "When passwords are used , user accounts that have been reset by an administrator shall require the user to change the password at next successful logon .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                67,
+                80,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2091,
+        "text": "The system shall provide only limited feedback information to the user during the authentication .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
         "id": 2092,
         "text": "When passwords are used , the system shall allow an authenticated user to change their password consistent with password strength rules -LRB- SC 03.02 -RRB- .",
         "meta": {},
@@ -1381,157 +1533,5 @@
                 "MISC"
             ]
         ]
-    },
-    {
-        "id": 2076,
-        "text": "The system shall capture and maintain demographic information as discrete data elements as part of the patient record .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": []
-    },
-    {
-        "id": 2077,
-        "text": "The system shall store medication information in discrete data fields .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": []
-    },
-    {
-        "id": 2078,
-        "text": "The system shall provide the ability to capture patient history in a standard coded form .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": []
-    },
-    {
-        "id": 2079,
-        "text": "The system shall provide templates for inputting data in a structured format as part of clinical documentation .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": []
-    },
-    {
-        "id": 2080,
-        "text": "The system shall display patient annotations in a manner which distinguishes them from other content in the system .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": []
-    },
-    {
-        "id": 2081,
-        "text": "The system shall enforce the most restrictive set of rights or privileges or accesses needed by users or groups -LRB- e.g. System Administration , Clerical , Nurse , Doctor , etc. -RRB- , or processes acting on behalf of users , for the performance of specified tasks .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": [
-            [
-                158,
-                163,
-                "TITLE"
-            ],
-            [
-                166,
-                172,
-                "TITLE"
-            ]
-        ]
-    },
-    {
-        "id": 2082,
-        "text": "The system shall have the ability to format for export recorded time stamps using UTC based on ISO 8601 .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": [
-            [
-                82,
-                85,
-                "ORGANIZATION"
-            ],
-            [
-                99,
-                103,
-                "NUMBER"
-            ]
-        ]
-    },
-    {
-        "id": 2083,
-        "text": "The system shall authenticate the user before any access to Protected Resources -LRB- e.g. PHI -RRB- is allowed , including when not connected to a network e.g. mobile devices .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": [
-            [
-                161,
-                167,
-                "TITLE"
-            ]
-        ]
-    },
-    {
-        "id": 2084,
-        "text": "When passwords are used , the system shall support password strength rules that allow for minimum number of characters , and inclusion of alpha-numeric complexity .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": []
-    },
-    {
-        "id": 2085,
-        "text": "The system upon detection of inactivity of an interactive session shall prevent further viewing and access to the system by that session by terminating the session , or by initiating a session lock that remains in effect until the user reestablishes access using appropriate identification and authentication procedures .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": []
-    },
-    {
-        "id": 2086,
-        "text": "The inactivity timeout shall be configurable .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": []
-    },
-    {
-        "id": 2087,
-        "text": "The system shall enforce a limit of -LRB- configurable -RRB- consecutive invalid access attempts by a user .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": []
-    },
-    {
-        "id": 2088,
-        "text": "The system shall protect against further , possibly malicious , user authentication attempts using an appropriate mechanism -LRB- e.g. locks the account or node until released by an administrator , locks the account or node for a configurable time period , or delays the next login prompt according to a configurable delay algorithm -RRB- .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": [
-            [
-                182,
-                195,
-                "TITLE"
-            ]
-        ]
-    },
-    {
-        "id": 2089,
-        "text": "When passwords are used , the system shall provide an administrative function that resets passwords .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": []
-    },
-    {
-        "id": 2090,
-        "text": "When passwords are used , user accounts that have been reset by an administrator shall require the user to change the password at next successful logon .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": [
-            [
-                67,
-                80,
-                "TITLE"
-            ]
-        ]
-    },
-    {
-        "id": 2091,
-        "text": "The system shall provide only limited feedback information to the user during the authentication .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": []
     }
 ]
