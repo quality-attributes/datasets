@@ -1,0 +1,3 @@
+[submodule "test/raw/NFRLocator"]
+	path = test/raw/NFRLocator
+	url = https://github.com/RealsearchGroup/NFRLocator
