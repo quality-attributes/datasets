@@ -1,0 +1,1537 @@
+[
+    {
+        "id": 2092,
+        "text": "When passwords are used , the system shall allow an authenticated user to change their password consistent with password strength rules -LRB- SC 03.02 -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                142,
+                144,
+                "STATE_OR_PROVINCE"
+            ],
+            [
+                145,
+                150,
+                "NUMBER"
+            ]
+        ]
+    },
+    {
+        "id": 2093,
+        "text": "When passwords are used , the system shall use either standards-based encryption , e.g. , 3DES , AES , or standards-based hashing , e.g. , SHA1 to store or transport passwords .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                97,
+                100,
+                "ORGANIZATION"
+            ]
+        ]
+    },
+    {
+        "id": 2094,
+        "text": "When passwords are used , the system shall prevent the reuse of passwords previously used within a specific -LRB- configurable -RRB- timeframe -LRB- i.e. , within the last X days , etc. e.g. last 180 days -RRB- , or shall prevent the reuse of a certain -LRB- configurable -RRB- number of the most recently used passwords -LRB- e.g. last 5 passwords -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                74,
+                84,
+                "DATE"
+            ],
+            [
+                174,
+                178,
+                "DURATION"
+            ],
+            [
+                191,
+                195,
+                "DATE"
+            ],
+            [
+                196,
+                199,
+                "DATE"
+            ],
+            [
+                200,
+                204,
+                "DATE"
+            ],
+            [
+                297,
+                305,
+                "DATE"
+            ],
+            [
+                337,
+                338,
+                "NUMBER"
+            ]
+        ]
+    },
+    {
+        "id": 2095,
+        "text": "The system shall include documentation that explains system error or performance messages to users and administrators , with the actions required .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2096,
+        "text": "The system shall include documentation of product capacities -LRB- e.g. number of users , number of transactions per second , number of records , network load , etc. -RRB- and the baseline representative configurations assumed for these capacities -LRB- e.g. number or type of processors , server or workstation configuration and network capacity , etc -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                117,
+                123,
+                "ORDINAL"
+            ],
+            [
+                189,
+                203,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2097,
+        "text": "The system shall include documentation available to the customer stating whether or not there are known issues or conflicts with security services in at least the following service areas : antivirus , intrusion detection , malware eradication , host-based firewall and the resolution of that conflict -LRB- e.g. most systems should note that full virus scanning should be done outside of peak usage times and should exclude the databases . -RRB-",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2098,
+        "text": "The system shall include documentation that itemizes the services -LRB- e.g. PHP , web services -RRB- and network protocols/ports -LRB- e.g. HL-7 , HTTP , FTP -RRB- that are necessary for proper operation and servicing of the system , including justification of the need for that service and protocol .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2099,
+        "text": "This information may be used by the healthcare facility to properly configure their network defenses -LRB- firewalls and routers -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2100,
+        "text": "The system shall include documentation available to the customer that provides guidelines for configuration and use of the security controls necessary to support secure and reliable operation of the system , including but not limited to : creation , modification , and deactivation of user accounts , management of roles , reset of passwords , configuration of password constraints , and audit logs .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2101,
+        "text": "The software used to install and update the system , independent of the mode or method of conveyance , shall be certified free of malevolent software -LRB- malware -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                53,
+                64,
+                "RELIGION"
+            ]
+        ]
+    },
+    {
+        "id": 2102,
+        "text": "Vendor may self-certify compliance with this standard through procedures that make use of commercial malware scanning software .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2103,
+        "text": "The system shall support protection of confidentiality of all Protected Health Information -LRB- PHI -RRB- delivered over the Internet or other known open networks via encryption using triple-DES -LRB- 3DES -RRB- or the Advanced Encryption Standard -LRB- AES -RRB- and an open protocol such as TLS , SSL , IPSec , XML encryptions , or S or MIME or their successors .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                126,
+                134,
+                "MISC"
+            ],
+            [
+                255,
+                258,
+                "ORGANIZATION"
+            ],
+            [
+                340,
+                344,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2104,
+        "text": "For systems that provide access to PHI through a web browser interface -LRB- i.e. HTML over HTTP -RRB- shall include the capability to encrypt the data communicated over the network via SSL -LRB- HTML over HTTPS -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2105,
+        "text": "The system shall support ensuring the authenticity of remote nodes -LRB- mutual node authentication -RRB- when communicating Protected Health Information -LRB- PHI -RRB- over the Internet or other known open networks using an open protocol -LRB- e.g. TLS , SSL , IPSec , XML sig , S or MIME -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                179,
+                187,
+                "MISC"
+            ],
+            [
+                286,
+                290,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2106,
+        "text": "The system , when storing PHI on any device intended to be portable or removable -LRB- e.g. thumb-drives , CD-ROM , PDA , Notebook -RRB- , shall support use of a standards based encrypted format using triple-DES -LRB- 3DES -RRB- , or the Advanced Encryption Standard -LRB- AES -RRB- , or their successors .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2107,
+        "text": "The system , prior to access to any PHI , shall display a configurable warning or login banner -LRB- e.g. `` The system should only be accessed by authorized users '' -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2108,
+        "text": "In the event that a system does not support pre-login capabilities , the system shall display the banner immediately following authorization .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2109,
+        "text": "The system has capability to use visual cues to highlight abnormal results .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2110,
+        "text": "The system will need the support capability of up to and beyond 5000 default schedules .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                64,
+                68,
+                "NUMBER"
+            ]
+        ]
+    },
+    {
+        "id": 2111,
+        "text": "There is no limitation to the number of accepted formats .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2112,
+        "text": "The system shall be based upon proven state-of-the-art technologies .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2113,
+        "text": "This includes browser-based , server-side architectures , configurable , and a range of industry-standard database , operating system , and programming platforms .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2114,
+        "text": "The system , including programs , database , and ancillary hardware and related software systems shall be able to retain its performance levels when adding additional users , functions , and data .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2115,
+        "text": "The system shall be scalable and adaptable to meet future growth and expansion needs .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                51,
+                57,
+                "DATE"
+            ]
+        ]
+    },
+    {
+        "id": 2116,
+        "text": "The solution functionality and associated business rules shall be configured and re-configured -LRB- through tools that do not require code modifications -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2117,
+        "text": "The screens shall be highly re-configurable , providing ability to reposition and rename field labels , remove or `` turn-off '' unused fields , maintain data , and allow addition of custom-defined fields .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2118,
+        "text": "The system shall use an open relational database management system -LRB- RDBMS -RRB- to store all organization data .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2119,
+        "text": "The database system shall provide Structured Query Language -LRB- SQL -RRB- capabilities for database queries .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2120,
+        "text": "The system shall allow the database information exchange using current commonly accepted industry formats -LRB- e.g. HL7 , XML -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                63,
+                70,
+                "DATE"
+            ]
+        ]
+    },
+    {
+        "id": 2121,
+        "text": "The system shall support common database connectivity protocols such as ODBC .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2122,
+        "text": "The system shall provide an automated test script to validate the data after modifications or upgrades .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2123,
+        "text": "The tool will support the ability to customize the script and provide a final report to document the validation .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2124,
+        "text": "The database system shall provide the following features :",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2125,
+        "text": "The system shall support an online data dictionary and table relationships that describe and maintain information on each data element including : data element name and type , description of the data element , and the format of each data element .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2126,
+        "text": "The system shall utilize naming conventions and standards for data elements , entities and tables , programs , report names , etc. .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2127,
+        "text": "The system shall utilize utilities for database performance monitoring and tuning that comply with industry standards , including but not limited to tools for table & file maintenance .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2128,
+        "text": "The system shall support online modifications to database structures with minimal user downtime .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2129,
+        "text": "The system shall provide the ability to load information from standard file -LRB- s -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2130,
+        "text": "The system shall provide the ability to perform real-time updates .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2131,
+        "text": "The system shall provide ability to use a single user sign-on for all modules with security configured for each module .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2132,
+        "text": "The system shall have the ability for security module to be maintained by an in-house System Administrator",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                86,
+                92,
+                "TITLE"
+            ],
+            [
+                93,
+                106,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2133,
+        "text": "The system shall provide expiration dates for passwords .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2134,
+        "text": "The system shall automatically notify users and force them to change passwords on a pre-defined frequency .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2135,
+        "text": "The system shall have the ability to support web based client access or other internet based client access technologies , with appropriate security access controls .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2136,
+        "text": "System must support password complexity that meets the following requirements :",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2137,
+        "text": "Disable accounts after 90 days of inactivity",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                23,
+                25,
+                "DURATION"
+            ],
+            [
+                26,
+                30,
+                "DURATION"
+            ]
+        ]
+    },
+    {
+        "id": 2138,
+        "text": "System provides the following password change rules for user accounts :",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2139,
+        "text": "Passwords can be changed by the associated user only once within a 2-day period",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                53,
+                57,
+                "DATE"
+            ],
+            [
+                67,
+                72,
+                "DURATION"
+            ]
+        ]
+    },
+    {
+        "id": 2140,
+        "text": "Users are re-authenticated before changing passwords",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2141,
+        "text": "The system shall provide lock-out capability after a pre-defined number of unsuccessful user sign-on attempts .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2142,
+        "text": "The password is not displayed as clear text -LRB- Password Masking -RRB-",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2143,
+        "text": "System provides integrated security managed in a central accounts database",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2144,
+        "text": "System allows viewing of list of Users logged on to System in real-time",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                52,
+                58,
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "id": 2145,
+        "text": "System allows addition of user-defined messages to logon screen",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2146,
+        "text": "System performs secure and seamless logon for all third party integrated systems .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                50,
+                55,
+                "ORDINAL"
+            ]
+        ]
+    },
+    {
+        "id": 2147,
+        "text": "System encrypts passwords before being stored or transmitted .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2148,
+        "text": "System has the ability to disallow more than one active session per sign-on identification .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                45,
+                48,
+                "NUMBER"
+            ]
+        ]
+    },
+    {
+        "id": 2149,
+        "text": "System allows users to re-authenticate and remotely log out of an active user session before logging in at another location .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2150,
+        "text": "System encrypts sensitive data transmitted between clients and servers using Secure Socket Layer -LRB- SSL -RRB- Certificates , Transport Layer Security -LRB- TLS -RRB- , or by other means",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                91,
+                96,
+                "TITLE"
+            ],
+            [
+                138,
+                143,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2151,
+        "text": "System provides a web -LRB- HTTPS -RRB- interface and provides an SSL configuration mechanism .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                66,
+                69,
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "id": 2152,
+        "text": "System allows secure password resets in case passwords are forgotten .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2153,
+        "text": "System provides reminder alerts to users to reset passwords .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2154,
+        "text": "The time for passwords to be changed is predefined as per user 's role and access level .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2155,
+        "text": "The County standard for users is 90 days .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                33,
+                35,
+                "DURATION"
+            ],
+            [
+                36,
+                40,
+                "DURATION"
+            ]
+        ]
+    },
+    {
+        "id": 2156,
+        "text": "System provides the option for multi-factor authentication for users with higher security access .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2157,
+        "text": "Ability for an administrator to delegate authority , by user group , to reset password",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                15,
+                28,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2158,
+        "text": "Ability for an administrator to delegate authority , by user group , to restore system access of locked out user",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                15,
+                28,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2159,
+        "text": "The system shall have the ability to display the last date and time the user logged onto the system at the time of logon .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                107,
+                111,
+                "DATE"
+            ]
+        ]
+    },
+    {
+        "id": 2160,
+        "text": "System insures that input validation is applied whenever input is received through user or external data interfaces .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2161,
+        "text": "The validation approach is to constrain , reject , and then sanitize input .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2162,
+        "text": "System does not rely on client-side validation .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2163,
+        "text": "The System design assumes that user input is malicious .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2164,
+        "text": "Data is validated for type , length , format , and range .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2165,
+        "text": "Data validation is consistent across the System .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2166,
+        "text": "System avoids un-trusted input of file name and file paths .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2167,
+        "text": "System does not accept file names or file paths from calling functions .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2168,
+        "text": "Security decisions are not made based on user-supplied file names and paths .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2169,
+        "text": "System does not use parent paths when data within the System is being accessed .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                54,
+                60,
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "id": 2170,
+        "text": "Attempts to access resources using parent paths are blocked .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2171,
+        "text": "The web server always asserts a character set : a locale and a country code , such as en _ US .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                89,
+                90,
+                "NUMBER"
+            ],
+            [
+                91,
+                93,
+                "COUNTRY"
+            ]
+        ]
+    },
+    {
+        "id": 2172,
+        "text": "All system and user accounts are identified .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2173,
+        "text": "Web sites are partitioned into un-restricted and restricted areas using separate folders .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2174,
+        "text": "System uses least-privileged accounts .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2175,
+        "text": "System insures that minimum error information is returned in the event of authentication failure .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2176,
+        "text": "The system shall have the ability to support biometrics and biometrics plus passwords -LRB- e.g. , fingerprint scan and fingerprint scan plus password -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2177,
+        "text": "System authenticates the user before any access is allowed to protected resources -LRB- e.g. , Protected Health Information -RRB-",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2178,
+        "text": "System authenticates standalone devices before access is allowed to protected resources .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2179,
+        "text": "If Structured Query Language -LRB- SQL -RRB- authentication is used -LRB- e.g. , communication between the application server and the database server -RRB- credentials are secured in storage and over the wire via Secure Socket Layer -LRB- SSL -RRB- or IP Security -LRB- IPSec -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                227,
+                232,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2180,
+        "text": "Administration interfaces require strong authentication and authorization .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2181,
+        "text": "Remote administration channels are secured -LRB- e.g. , SSL , VPN -RRB-",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2182,
+        "text": "Configuration credentials and authentication tokens are not held in plain text in configuration files .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2183,
+        "text": "User accounts and service accounts used for configuration management have only the minimum privileges required for the task .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2184,
+        "text": "Sensitive data and secrets are not incorporated in code .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2185,
+        "text": "Secrets are stored securely using a one-way hash .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2186,
+        "text": "Database keys , connections , passwords , or other secrets are not stored in plain text .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2187,
+        "text": "Sensitive data is not logged in clear text by the System .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2188,
+        "text": "Database or file encryption for protection of sensitive data fields while the data is at rest -LRB- i.e. , stored data -RRB- is provided .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2189,
+        "text": "Protection mechanisms are in place for sensitive data that is sent over the network .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2190,
+        "text": "Sensitive data is not transmitted using insecure protocols , such as FTP , telnet , tftp etc. , unless tunneled through an authenticated encrypted connection -LRB- e.g. VPN -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2191,
+        "text": "Sensitive data is not stored in persistent cookies .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2192,
+        "text": "All user sessions involving financial transactions or sensitive data are encrypted using SSL/HTTPS .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2193,
+        "text": "SSL is used to protect authentication cookies .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2194,
+        "text": "The system shall provide automatic logout of users when there has been no activity for a pre-defined period , maintaining transaction integrity .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2195,
+        "text": "Session lifetime is limited to a pre-specified and configurable duration .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2196,
+        "text": "Session state is protected from unauthorized access .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2197,
+        "text": "Session identifiers are not passed in query strings .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2198,
+        "text": "Temporary objects are removed from the system , database connections are closed , and memory is released .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2199,
+        "text": "System provides an automatic timeout if the session is idle for a pre-specified and configurable duration .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2200,
+        "text": "System warns the user before the timeout and prompts the user to re-enter their password .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2201,
+        "text": "The system shall have the ability to support 128-bit SSL encryption , or higher , between the client browser and the application tier for any or all modules or sub-modules at organization discretion .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                129,
+                133,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2202,
+        "text": "Identify security standard -LRB- SSL or FIPS encryption -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2203,
+        "text": "Encryption capability for certain data transmissions that require security protection .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2204,
+        "text": "Platform-level cryptography is used with no custom implementations .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2205,
+        "text": "System provides secure information delivery over the Internet via encryption by using triple-DES -LRB- Data Encryption Standard -RRB- or the Advanced Encryption Standard -LRB- AES -RRB-",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                53,
+                61,
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "id": 2206,
+        "text": "Encrypted data delivered over the Internet is transmitted via open protocols -LRB- e.g. , SSL , XML encryption -RRB-",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                34,
+                42,
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "id": 2207,
+        "text": "Cryptographic algorithm and key size for the System 's data encryption requirements is AES 256 bit or stronger .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                87,
+                90,
+                "ORGANIZATION"
+            ],
+            [
+                91,
+                94,
+                "NUMBER"
+            ]
+        ]
+    },
+    {
+        "id": 2208,
+        "text": "Encryption keys are secured .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2209,
+        "text": "Key management procedure to secure and manage the encryption keys is defined .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2210,
+        "text": "All input parameters are validated -LRB- including form fields , query strings , cookies , and HTTP headers -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2211,
+        "text": "Cookies with sensitive data -LRB- e.g. authentication cookies -RRB- are encrypted .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2212,
+        "text": "Sensitive data is not passed in query strings or form fields .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2213,
+        "text": "Security decisions do not rely on HTTP header information .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                39,
+                45,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2214,
+        "text": "System exception handling minimizes information disclosure in case of an exception .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2215,
+        "text": "System returns generic error messages to the client , to avoid disclosure of sensitive information .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2216,
+        "text": "System code does not rely on internal system generated error handling .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2217,
+        "text": "The System provides error-handling processes .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "id": 2218,
+        "text": "Private and sensitive data -LRB- for example , passwords -RRB- are not logged .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                7,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2219,
+        "text": "The system shall have a customizable online documentation and training materials such as context-specific help , search capability , organization-specific business process documentation and process maps .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2220,
+        "text": "The Proposer shall allow for field level edit checks for transactions during data entry and provide immediate user feedback , including error messages and possible corrective actions",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                12,
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "id": 2221,
+        "text": "The system shall have the ability to design a preferred sequence to make data-entry columns and fields match the order of information in organization source documents .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2222,
+        "text": "The system shall allow for the option of auto-fill capability per transaction or field entry throughout all modules",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2223,
+        "text": "The system shall have the ability to restrict free form entry -LRB- e.g. , provide drop down calendar for date field -RRB-",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2224,
+        "text": "On-line , interactive help with support for hyperlink technology and industry standard formats -LRB- e.g. , HTML file formats -RRB-",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2225,
+        "text": "Intelligent spell checking of text fields",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2226,
+        "text": "The system shall present data to users such that a minimum of navigational effort is required , including :",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                17,
+                24,
+                "DATE"
+            ]
+        ]
+    },
+    {
+        "id": 2227,
+        "text": "The data elements required to complete a job function , whether to inquire or read only or data entry must be readily available .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2228,
+        "text": "The user interface shall integrate information from multiple components into a unified display by business area or work type .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2229,
+        "text": "The system shall be able to handle an average transaction load with an average CPU utilization of no more than little-little of the CPU capacity .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                79,
+                82,
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "id": 2230,
+        "text": "The peak CPU utilization shall never exceed most of CPU capacity at any given time .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2231,
+        "text": "The system shall have a response time where the average transaction on the server needs to occur on average less than 1 second .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                108,
+                112,
+                "DURATION"
+            ],
+            [
+                113,
+                117,
+                "DURATION"
+            ],
+            [
+                118,
+                119,
+                "DURATION"
+            ],
+            [
+                120,
+                126,
+                "DURATION"
+            ]
+        ]
+    },
+    {
+        "id": 2232,
+        "text": "The response time for the most common requests to reach a user shall not exceed 3 seconds .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                80,
+                81,
+                "DURATION"
+            ],
+            [
+                82,
+                89,
+                "DURATION"
+            ]
+        ]
+    },
+    {
+        "id": 2233,
+        "text": "The solution shall maintain most availability -- including planned maintenance .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2234,
+        "text": "The solution shall track system up time and transaction response times in order to demonstrate operation within acceptable levels .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2235,
+        "text": "The solution shall complete all of simple , single-screen online inquiry transactions within one second , during peak usage .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                93,
+                96,
+                "DURATION"
+            ],
+            [
+                97,
+                103,
+                "DURATION"
+            ]
+        ]
+    },
+    {
+        "id": 2236,
+        "text": "The solution shall complete an average of most of all online update transactions fast over any 60-minute period , during peak usage .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                95,
+                104,
+                "DURATION"
+            ]
+        ]
+    },
+    {
+        "id": 2237,
+        "text": "The Proposer shall test application enhancements , fixes , and upgrades and assure the integrity of the resulting data .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                12,
+                "MISC"
+            ]
+        ]
+    },
+    {
+        "id": 2076,
+        "text": "The system shall capture and maintain demographic information as discrete data elements as part of the patient record .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2077,
+        "text": "The system shall store medication information in discrete data fields .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2078,
+        "text": "The system shall provide the ability to capture patient history in a standard coded form .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2079,
+        "text": "The system shall provide templates for inputting data in a structured format as part of clinical documentation .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2080,
+        "text": "The system shall display patient annotations in a manner which distinguishes them from other content in the system .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2081,
+        "text": "The system shall enforce the most restrictive set of rights or privileges or accesses needed by users or groups -LRB- e.g. System Administration , Clerical , Nurse , Doctor , etc. -RRB- , or processes acting on behalf of users , for the performance of specified tasks .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                158,
+                163,
+                "TITLE"
+            ],
+            [
+                166,
+                172,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2082,
+        "text": "The system shall have the ability to format for export recorded time stamps using UTC based on ISO 8601 .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                82,
+                85,
+                "ORGANIZATION"
+            ],
+            [
+                99,
+                103,
+                "NUMBER"
+            ]
+        ]
+    },
+    {
+        "id": 2083,
+        "text": "The system shall authenticate the user before any access to Protected Resources -LRB- e.g. PHI -RRB- is allowed , including when not connected to a network e.g. mobile devices .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                161,
+                167,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2084,
+        "text": "When passwords are used , the system shall support password strength rules that allow for minimum number of characters , and inclusion of alpha-numeric complexity .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2085,
+        "text": "The system upon detection of inactivity of an interactive session shall prevent further viewing and access to the system by that session by terminating the session , or by initiating a session lock that remains in effect until the user reestablishes access using appropriate identification and authentication procedures .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2086,
+        "text": "The inactivity timeout shall be configurable .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2087,
+        "text": "The system shall enforce a limit of -LRB- configurable -RRB- consecutive invalid access attempts by a user .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2088,
+        "text": "The system shall protect against further , possibly malicious , user authentication attempts using an appropriate mechanism -LRB- e.g. locks the account or node until released by an administrator , locks the account or node for a configurable time period , or delays the next login prompt according to a configurable delay algorithm -RRB- .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                182,
+                195,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2089,
+        "text": "When passwords are used , the system shall provide an administrative function that resets passwords .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2090,
+        "text": "When passwords are used , user accounts that have been reset by an administrator shall require the user to change the password at next successful logon .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                67,
+                80,
+                "TITLE"
+            ]
+        ]
+    },
+    {
+        "id": 2091,
+        "text": "The system shall provide only limited feedback information to the user during the authentication .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    }
+]

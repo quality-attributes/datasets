@@ -1,18 +1,5 @@
 [
     {
-        "id": 1718,
-        "text": "The product shall allow for customization of start page and views preferences .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": [
-            [
-                4,
-                11,
-                "SYSTEM"
-            ]
-        ]
-    },
-    {
         "id": 1620,
         "text": "The system shall refresh the display alltimes .",
         "meta": {},
@@ -879,24 +866,6 @@
         ]
     },
     {
-        "id": 1717,
-        "text": "The product shall allow the user to select a chosen language from of the target market countries .",
-        "meta": {},
-        "annotation_approver": null,
-        "labels": [
-            [
-                28,
-                32,
-                "USER"
-            ],
-            [
-                4,
-                11,
-                "SYSTEM"
-            ]
-        ]
-    },
-    {
         "id": 1672,
         "text": "Fit Criterion : Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect .",
         "meta": {},
@@ -1322,18 +1291,7 @@
         "text": "The product shall increase productivity of . most of the shall agree their productivity has increase within 1 month of using the product .",
         "meta": {},
         "annotation_approver": null,
-        "labels": [
-            [
-                129,
-                136,
-                "SYSTEM"
-            ],
-            [
-                4,
-                11,
-                "SYSTEM"
-            ]
-        ]
+        "labels": []
     },
     {
         "id": 1695,
@@ -1723,6 +1681,36 @@
             [
                 98,
                 105,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 1717,
+        "text": "The product shall allow the user to select a chosen language from of the target market countries .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                28,
+                32,
+                "USER"
+            ],
+            [
+                4,
+                11,
+                "SYSTEM"
+            ]
+        ]
+    },{
+        "id": 1718,
+        "text": "The product shall allow for customization of start page and views preferences .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                11,
                 "SYSTEM"
             ]
         ]
