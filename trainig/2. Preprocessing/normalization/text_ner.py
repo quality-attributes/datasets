@@ -29,3 +29,23 @@ for i in range(len(data)):
 with open('../normalized.txt', 'w') as f:
     for line in text:
         f.write(line + '\n')
+
+
+with open('../req_masked.json') as json_file:
+    data = json.load(json_file)
+
+text = []
+
+for i in range(len(data)):
+    req_text = data[i]['text']
+    if data[i]['labels']:
+        for tag in data[i]['labels']:
+            if tag[2] == 'SYSTEM':
+                req_text = req_text.replace(req_text[tag[0]:tag[1]], 'system')
+            if tag[2] == 'USER':
+                req_text = req_text.replace(req_text[tag[0]:tag[1]], 'user')
+    text.append(' '.join(req_text.split()))
+
+with open('../normalized.txt', 'w') as f:
+    for line in text:
+        f.write(line + '\n')
