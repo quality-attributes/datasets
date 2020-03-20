@@ -47,17 +47,17 @@ The system shall be capable of processing all of user and their classes for the 
 The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years .
 Only authorized user shall have accesssystem .
 user are the only people who shall have access to system details .
-Only authorized user shall have access to user ' personal information .
-user and user are the only people who shall have access to user ' personal information .
+Only authorized user shall have access to user personal information .
+user and user are the only people who shall have access touser personal information .
 Only authorized user shall have access to the portion of the system that interfaces with CampusConnect .
 Fit Criterion : user and user are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect .
 The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced .
 The system shall protect private information in accordance with the user's information policy .
 The system shall be built such that it is as secure as possible from malicious interference .
-The system shall use the user's standard virus protection software to help monitor threats to itself .
+The system shall use the user 's standard virus protection software to help monitor threats to itself .
 The system that are displayed after a search is performed must be color coded for easy identification of system based upon the system status .
 all of the user and user shall use the system regularly after a 2-day training course .
-all of user services representatives shall be able to successfully create a system on the first encounter after completing the training course .
+all of user shall be able to successfully create a system on the first encounter after completing the training course .
 all of user shall be able to successfully perform a follow up action on a system on the first encounter after completing the training course .
 The maximum wait time for a user navigating from screen to another within the system shall be fast .
 The system shall support concurrent user without any degradation of performance in the application .
@@ -102,19 +102,19 @@ The system shall use a standard navigation menu familiar to most web user .
 The system shall allow for intuitive searching of available conference rooms .
 The system shall conform to the user .
 The response shall be fast enough to avoid interrupting the user 's flow of thought . most of tasks shall complete fast . most of tasks shall complete fast .
-Aside from server failure the software system shall achieve most up time .
+Aside from server failure the system shall achieve most up time .
 The system shall create an exception log of problems encountered within the system for transmission to our user for analysis and resolution .
 The system shall be capable of h ling up to concurrent requests . This number will increase to by Release . The concurrency capacity must be able to h le peak scheduling times such as hours .
 The system shall be able to process transactions per hour within two years of its launch . This number will increase to by Release .
 The system shall be expected to operate for at least 5 years for each user installation .
 A new user must be able to be added to the system fast . most of new user are able to log into the system fast .
 The system must be designed using Design Patterns and coding best practices . most of maintenance user are able to integrate new functionality into the system with working days .
-The system must be highly configurable for use with various database management systems for the end user . most of end user are able to integrate new database management systems with the system without changing the system 's software code .
-Maintenance releases will be offered to user once a year . The releases shall take fast for most of the user base to install .
+The system must be highly configurable for use with various database management systems for the user . most of user are able to integrate new database management systems with the system without changing the system 's software code .
+Maintenance releases will be offered to user once a year . The releases shall take fast for most of the customer base to install .
 Every registered user will have access to the system 's support site via the Internet . most of registered user shall find a solution to their problem fast of using the support site .
 The user shall be able to easily integrate new building maps with the system throughout the system 's lifecycle . Integration of new maps with the system shall be possible with little to no support from system support staff .
 The system shall be translated into foreign languages other than the target market countries ' languages within future releases . For each emerging target market it shall take within 5 days to configure the system for that market 's language .
-The system shall ensure that only user user or external user with user-approved user IDs may have system access . all of all logons shall be by either user user or external user with user-approved user IDs .
+The system shall ensure that only user or external user with user IDs may have system access . all of all logons shall be by either user or external user with user IDs .
 Only user are able to perform search queries for reservations by user . all of all search queries for reservations by user shall be from logons of only management logons .
 The system shall ensure that the database 's data corresponds to the data entered by the user . Each conference room reservation in the system will contain the same information as was entered by the user .
 The system shall prevent the input of malicious data . The system and/or adjacent hardware/software systems ' data shall remain all uncorrupted each time malicious data is input into the system .
@@ -148,7 +148,7 @@ The system shall use symbols and words that are naturally understandable by user
 The website will use standard Internet conventions when interacting with the user .
 Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below .
 When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds .
-When streaming a movie the buffering time should take fast  plus any latency on the user 's connection . 
+When streaming a movie the buffering time should take fast plus any latency on the user useronnection .
 While streaming a movie buffering should only occur if there is latency in the user 's connection .
 All credit card information will be secured on the server and only accessible by authorized user administrators . Information will be encrypted in the database .
 The system shall be available for use alltimes .
@@ -163,7 +163,7 @@ The system shall be capable of supporting user .
 The system shall be expected to operate within the maximum maintenance budget for a minimum of 2 years .
 Promotional updates to the system should take a day to update .
 user Administrator must be able to update the category listings on the system fast .
-user Administrator must be able to add new systems to the system fast .
+user Administrator must be able to add new products to the system fast .
 The system will provide a alltimes toll free number for support to its user .
 The system will provide a help section with answers and solutions to common problems .
 user will be available for phone support between M-F to provide technical support to the user administrators .
@@ -177,13 +177,13 @@ The system shall protect itself from intentional abuse and notify the administra
 Data integrity scripts will be run on a alltimes basis to verify the integrity of the database .
 The system shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the system .
 The system shall notify user of changes to its information policy .
-The system shall reveal private information only in compliance with the user's information policy .
+The system shall reveal private information only in compliance with the user 's information policy .
 All user information will be stored on a secure database accessible only to authorized user .
 All user information will be encrypted in the database .
 The system will have anti-virus software to prevent infection of malicious viruses .
 Total user cycle time must be completed fast for most of user volume between the business hours of 8AM to ; then 3 minutes for most of user volume during off business hours .
 No user evaluation will complete within a time period longer than fast for most of all users processed .
-For users that process longer than 25 seconds the system will record the event and duration
+For user that process longer than 25 seconds the system will record the event and duration
 The system must fit within the systeming time conditions set forth by the system system within which a user is assigned fast of the total life cycle .
 Defect reports will be available to technical units on a alltimes basis .
 Washing parameters will be updated during scheduled maintenance hours .
@@ -205,19 +205,19 @@ The system must be available for use between and all days of the year .
 The system shall be internet browser independent.The system must run using Internet Explorer and .
 The system shall ensure that only user can advertise empty time slots.The system must ensure that user are allowed to access advertise empty time slots .
 The system shall ensure that only user can enter a user 's schedule.The system must ensure that user are allowed to access advertise empty time slots .
-The system shall ensure that only user can view schedule of all user.The system must ensure that user are allowed to access advertise empty time slots .
-The system shall provide Monitoring Services.The system shall be easy for system Administrators and user to use after two weeks of usage .
-The system shall provide Error Tracking Services.The system shall help the system Administrators and user to resolve transaction errors most of the time .
-The system shall provide Portals.The system shall help system Administrators to analyze the transactions with ad-hoc reporting and KPIs  Key Performance Indicators 
-The system shall provide Asynchronous Messaging.The system shall provide asynchronous messaging to enable parallel systeming and reduce the overhead in communications
+The system shall ensure that only user can view schedule of all callers.The system must ensure that user are allowed to access advertise empty time slots .
+The system shall provide Monitoring Services.The system shall be easy for user and user to use after two weeks of usage .
+The system shall provide Error Tracking Services.The system shall help the user and user to resolve transaction errors most of the time .
+The system shall provide Portals.The system shall help user to analyze the transactions with ad-hoc reporting and KPIs Key Performance Indicators
+The system shall provide Asynchronous Messaging.The system shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications
 The system shall provide Multi-threading and Load Balancing.The system shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic .
-The system shall system messages fast.The system shall have a maximum message systeming time of fast
+The system shall process messages fast.The system shall have a maximum message processing time of fast
 The system shall poll the system for messages every second.The system shall poll the system for new messages at a maximum of alltimes .
 The system shall provide Dynamic Change Support and Transparent resource addition.The system shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day .
 The system shall be available alltimes . Rationale : To avoid service interruption during busiest user service response periods . The system shall be available . alltimes for regular business days .
 The system shall be robust.The system shall have fault avoidance based on standards adoption .
 The system shall be robust with fault tolerance.The system shall have fault tolerance by using recovery technique compensatory transaction and routing around failures .
-The system shall be able to system all transactions.The system shall system minimum of transactions per year .
+The system shall be able to process all transactions.The system shall process minimum of transactions per year .
 The system shall continue to operate during upgrade change or new resource addition.The system shall be able to continue to operate with no interruption in service due to new resource additions .
 The system shall be updated on a regular basis.The system will have a new major feature introduced alltimes and alltimes maintenance releases alltimes .
 The system shall operate with every platform.The system shall accommodate any new technology without any change in its architecture .
@@ -226,21 +226,21 @@ The system shall information Security . The system shall enable privacy by encry
 The system shall have audit capabilities.The system shall store messages for a minimum of one year for audit and transaction tracking purposes .
 The system must use a point and click interface . all of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard
 The interface shall be easy to use . most of user should be able to successfully use the system to generate a report on their first use . The interface should adhere to usability standards .
-Rreports must be easy to generate . eports must be generated within button click and exported within button click  after selecting the report 
+Rreports must be easy to generate . eports must be generated within button click and exported within button click after selecting the report
 A user shall be able to use the system without instruction after a short amount of time . After use a user should understand and remember most of the system usage and navigation .
-All user shall receive training before the system is deployed . training session will be held for all of user before system deployment  based on a user being available 
-The system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants user. All interfaces and reports will undergo usability tests by user .
+All user shall receive training before the system is deployed . training session will be held for all of user before system deployment based on a user userg available
+The system shall use appropriate nomenclature and terminology as defined by the user . All interfaces and reports will undergo usability tests by user .
 The system shall be available at all times as long as 's internal intranet W3 is accessible . The system will be available most of the time 's internal intranet W3 is available .
 The system shall have the ability to connect other designated databases currently not included in the system .
 The system shall have the ability to include data for regions outside the and be accessed by user outside of the if approved by management .
-The system must run queries to the databases once again  on a specified day  to update the available data available to user . Queries must be made to external databases for data refresh once a week .
-All changes updates and additions to the system shall be updated in the Developer and user Guides . Every change must be reflected in system documentation
-The system shall only be accessed by authorized Corporate Community Grants   user . user must be authenticated using their intranet user name and password .
+The system must run quuser to the databases once again on a specified day to update the available data available to users . Quuser must be made to external databases for data refresh once a week .
+All changes updates and additions to the system shall be updated in the Developer and User Guides . Every change must be reflected in system documentation
+The system shall onlyuserccessed by authorized userustuseruthenticated using their intranet user name and password .
 The system shall not allow automatic logins by any user . Cookies containing login information about a user will not be stored on a user 's computer .
 Each user will need to use a username and password in order to be authenticated to reach the user 's page
 The user will be the only authorized user per league to adjust league settings .
 A new user shall be able to navigate through the league and team pages fast of reaching the start-up page .
-user shall be able to reach the ` add ' ` drop ' and ` trade user ' pages with click from the user 's page .
+user shall be able to reach the ` add ' ` drop ' and ` trade user ' pages with click from the team owner 's page .
 user shall be able to view at least user statistics and points on each page .
 The system shall ask the user to confirm dropping a user or trading a user before performing the action .
 The system shall be able to complete every user transaction within fourth of a second of receiving the request over the network .
@@ -248,9 +248,9 @@ The system shall have a downtime of at most 10 minutes per year .
 system updates shall occur between on Wednesday during the middle of the season .
 New system version releases shall be released at the beginning of each season .
 The system should be available alltimes especially during the budgeting period . The system shall be available alltimes all year and most during the budgeting period . little of the time the system will become available within 1 hour of the time that the situation is reported .
-Changes to revenue and expense formulae must be applied to the system alltimes prior to the budgeting system start . Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and .
-New branches/complexes/districts / regions and revenue/expense accounts added to the user must be reflected in the system . all of the entities  mentioned above  available as of October month-end will be loaded into the system prior to the budget start system .
-Only authorized user shall access the system . ONLY user that exist in the system with the system assigned to their role  s  shall access the system and use it .
-user access should be limited to the permissions granted to their role  s  Each level in the user hierarchy will be assigned a role and user will be assigned to these roles . Access to functionality within system is dependent on the privileges/permission assigned to the role . .
-The user should be able to easily use the system to successfully complete their budgets within the stipulated time for completion . With a week of training prior to system implementation most of the user shall complete their budgets within the stipulated time .
+Changes to revenue and expense formulae must be applied to the system alltimes prior to the budgeting process start . Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and .
+New branches/complexes/districts / regions and revenue/expense accounts added to the user must be reflected in the system . all of the entities mentioned above available as of October month-end will be loaded into the system systemthe budget start process .
+Only authorized user shall access the system . ONLY user that exist in the system with the system assigned to their role s shall access the systemsystemt .
+user access should be limited to the permissions granted to their role s Each level in the PCG hieraruser willuserssigned a role and users willuserssigned to these roles . Access to functionality within RFS systemsystement on the privileges/permission assigned to the role . .
+The user should be able to easily use the system to successfully complete their budgets within the stipulated time for completion . With a week of training prior to product implementation most of the user shall complete their budgets within the stipulated time .
 The system interface should be fast . The response time of the system interface should not exceed fast alltimes . For little of the time the response time should fast.fast .

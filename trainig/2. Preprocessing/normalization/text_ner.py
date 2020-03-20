@@ -42,6 +42,8 @@ usr_words = []
 for i in range(len(data)):
     req_text = data[i]['text']
     if data[i]['labels']:
+        sys_words = []
+        usr_words = []
         for tag in data[i]['labels']:
             if tag[2] == 'SYSTEM':
                 sys_words.append(req_text[tag[0]:tag[1]])

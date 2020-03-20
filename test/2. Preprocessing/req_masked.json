@@ -1,0 +1,2184 @@
+[
+    {
+        "id": 2238,
+        "text": "The system shall capture and maintain demographic information as discrete data elements as part of the patient record .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                103,
+                110,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2239,
+        "text": "The system shall store medication information in discrete data fields .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2240,
+        "text": "The system shall provide the ability to capture patient history in a standard coded form .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                48,
+                55,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2241,
+        "text": "The system shall provide templates for inputting data in a structured format as part of clinical documentation .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2242,
+        "text": "The system shall display patient annotations in a manner which distinguishes them from other content in the system .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                25,
+                32,
+                "USER"
+            ],
+            [
+                108,
+                114,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2243,
+        "text": "The system shall enforce the most restrictive set of rights or privileges or accesses needed by users or groups e.g. System Administration , Clerical , Nurse , Doctor , etc. . , or processes acting on behalf of users , for the performance of specified tasks .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                96,
+                101,
+                "USER"
+            ],
+            [
+                105,
+                111,
+                "USER"
+            ],
+            [
+                211,
+                216,
+                "USER"
+            ],
+            [
+                117,
+                138,
+                "USER"
+            ],
+            [
+                141,
+                149,
+                "USER"
+            ],
+            [
+                152,
+                157,
+                "USER"
+            ],
+            [
+                160,
+                166,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2244,
+        "text": "The system shall have the ability to format for export recorded time stamps using based on ISO .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2245,
+        "text": "The system shall authenticate the user before any access to Protected Resources e.g. PHI is allowed , including when not connected to a network e.g. mobile devices .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                34,
+                38,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2246,
+        "text": "When passwords are used , the system shall support password strength rules that allow for minimum number of characters , and inclusion of alpha-numeric complexity .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                30,
+                36,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2247,
+        "text": "The system upon detection of inactivity of an interactive session shall prevent further viewing and access to the system by that session by terminating the session , or by initiating a session lock that remains in effect until the user reestablishes access using appropriate identification and authentication procedures .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                114,
+                120,
+                "SYSTEM"
+            ],
+            [
+                231,
+                235,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2248,
+        "text": "The inactivity timeout shall be configurable .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2249,
+        "text": "The system shall enforce a limit of configurable consecutive invalid access attempts by a user .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                90,
+                94,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2250,
+        "text": "The system shall protect against further , possibly malicious , user authentication attempts using an appropriate mechanism e.g. locks the account or node until released by an administrator , locks the account or node for a configurable time period , or delays the next login prompt according to a configurable delay algorithm .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                64,
+                68,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2251,
+        "text": "When passwords are used , the system shall provide an administrative function that resets passwords .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                30,
+                36,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2252,
+        "text": "When passwords are used , user accounts that have been reset by an administrator shall require the user to change the password at next successful logon .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                26,
+                30,
+                "USER"
+            ],
+            [
+                99,
+                103,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2253,
+        "text": "The system shall provide only limited feedback information to the user during the authentication .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                66,
+                70,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2254,
+        "text": "When passwords are used , the system shall allow an authenticated user to change their password consistent with password strength rules .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                30,
+                36,
+                "SYSTEM"
+            ],
+            [
+                66,
+                70,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2255,
+        "text": "When passwords are used , the system shall use either standards-based encryption , e.g. , 3DES , , or standards-based hashing , e.g. , SHA1 to store or transport passwords .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                30,
+                36,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2256,
+        "text": "When passwords are used , the system shall prevent the reuse of passwords previously used within a specific configurable timeframe i.e. , within the last X days , etc. e.g. last 180 days , or shall prevent the reuse of a certain configurable number of the most recently used passwords e.g. last passwords .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                30,
+                36,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2257,
+        "text": "The system shall include documentation that explains system error or performance messages to users and administrators , with the actions required .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                53,
+                59,
+                "SYSTEM"
+            ],
+            [
+                93,
+                98,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2258,
+        "text": "The system shall include documentation of product capacities e.g. number of users , number of transactions per second , number of records , network load , etc. . and the baseline representative configurations assumed for these capacities e.g. number or type of processors , server or workstation configuration and network capacity , etc .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                76,
+                81,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2259,
+        "text": "The system shall include documentation available to the customer stating whether or not there are known issues or conflicts with security services in at least the following service areas : antivirus , intrusion detection , malware eradication , host-based firewall and the resolution of that conflict e.g. most systems should note that full virus scanning should be done outside of peak usage times and should exclude the databases .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                56,
+                64,
+                "USER"
+            ],
+            [
+                311,
+                318,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2260,
+        "text": "The system shall include documentation that itemizes the services e.g. PHP , web services and network protocols/ports e.g. HL-7 , HTTP , FTP that are necessary for proper operation and servicing of the system , including justification of the need for that service and protocol .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                202,
+                208,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2261,
+        "text": "This information may be used by the healthcare facility to properly configure their network defenses firewalls and routers .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                36,
+                55,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2262,
+        "text": "The system shall include documentation available to the customer that provides guidelines for configuration and use of the security controls necessary to support secure and reliable operation of the system , including but not limited to : creation , modification , and deactivation of user accounts , management of roles , reset of passwords , configuration of password constraints , and audit logs .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                56,
+                64,
+                "USER"
+            ],
+            [
+                199,
+                205,
+                "SYSTEM"
+            ],
+            [
+                285,
+                289,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2263,
+        "text": "The software used to install and update the system , independent of the mode or method of conveyance , shall be certified free of malevolent software malware .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                44,
+                50,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2264,
+        "text": "Vendor may self-certify compliance with this standard through procedures that make use of commercial malware scanning software .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2265,
+        "text": "The system shall support protection of confidentiality of all Protected Health Information PHI delivered over the Internet or other known open networks via encryption using triple-DES 3DES or the Advanced Encryption Standard and an open protocol such as TLS , SSL , IPSec , XML encryptions , or S or MIME or their successors .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2266,
+        "text": "For systems that provide access to PHI through a web browser interface i.e. HTML over HTTP shall include the capability to encrypt the data communicated over the network via SSL HTML over HTTPS .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                11,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2267,
+        "text": "The system shall support ensuring the authenticity of remote nodes mutual node authentication when communicating Protected Health Information PHI over the Internet or other known open networks using an open protocol e.g. TLS , SSL , IPSec , XML sig , S or MIME .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2268,
+        "text": "The system , when storing PHI on any device intended to be portable or removable e.g. thumb-drives , CD-ROM , PDA , Notebook , shall support use of a standards based encrypted format using triple-DES 3DES , or the Advanced Encryption Standard AES , or their successors .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2269,
+        "text": "The system , prior to access to any PHI , shall display a configurable warning or login banner e.g. `` The system should only be accessed by authorized users '' .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                107,
+                113,
+                "SYSTEM"
+            ],
+            [
+                152,
+                157,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2270,
+        "text": "In the event that a system does not support pre-login capabilities , the system shall display the banner immediately following authorization .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                20,
+                26,
+                "SYSTEM"
+            ],
+            [
+                73,
+                79,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2271,
+        "text": "The system has capability to use visual cues to highlight abnormal results .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2272,
+        "text": "The system will need the support capability of up to and beyond default schedules .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2273,
+        "text": "There is no limitation to the number of accepted formats .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2274,
+        "text": "The system shall be based upon proven state-of-the-art technologies .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2275,
+        "text": "This includes browser-based , server-side architectures , configurable , and a range of industry-standard database , operating system , and programming platforms .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2276,
+        "text": "The system , including programs , database , and ancillary hardware and related software systems shall be able to retain its performance levels when adding additional users , functions , and data .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                89,
+                96,
+                "SYSTEM"
+            ],
+            [
+                167,
+                172,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2277,
+        "text": "The system shall be scalable and adaptable to meet future growth and expansion needs .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2278,
+        "text": "The solution functionality and associated business rules shall be configured and re-configured through tools that do not require code modifications .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                12,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2279,
+        "text": "The screens shall be highly re-configurable , providing ability to reposition and rename field labels , remove or `` turn-off '' unused fields , maintain data , and allow addition of custom-defined fields .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2280,
+        "text": "The system shall use an open relational database management system RDBMS to store all organization data .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2281,
+        "text": "The database system shall provide Structured Query Language SQL capabilities for database queries .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                13,
+                19,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2282,
+        "text": "The system shall allow the database information exchange using current commonly accepted industry formats e.g. HL7 , XML .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2283,
+        "text": "The system shall support common database connectivity protocols such as ODBC .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2284,
+        "text": "The system shall provide an automated test script to validate the data after modifications or upgrades .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2285,
+        "text": "The tool will support the ability to customize the script and provide a final report to document the validation .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                8,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2286,
+        "text": "The database system shall provide the following features :",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                13,
+                19,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2287,
+        "text": "The system shall support an online data dictionary and table relationships that describe and maintain information on each data element including : data element name and type , description of the data element , and the format of each data element .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2288,
+        "text": "The system shall utilize naming conventions and standards for data elements , entities and tables , programs , report names , etc. .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2289,
+        "text": "The system shall utilize utilities for database performance monitoring and tuning that comply with industry standards , including but not limited to tools for table & file maintenance .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2290,
+        "text": "The system shall support online modifications to database structures with minimal user downtime .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                82,
+                86,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2291,
+        "text": "The system shall provide the ability to load information from standard file s .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2292,
+        "text": "The system shall provide the ability to perform real-time updates .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2293,
+        "text": "The system shall provide ability to use a single user sign-on for all modules with security configured for each module .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                49,
+                53,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2294,
+        "text": "The system shall have the ability for security module to be maintained by an in-house System Administrator",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                86,
+                92,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2295,
+        "text": "The system shall provide expiration dates for passwords .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2296,
+        "text": "The system shall automatically notify users and force them to change passwords on a pre-defined frequency .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                38,
+                43,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2297,
+        "text": "The system shall have the ability to support web based client access or other internet based client access technologies , with appropriate security access controls .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2298,
+        "text": "System must support password complexity that meets the following requirements :",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2299,
+        "text": "Disable accounts after 90 days of inactivity",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2300,
+        "text": "System provides the following password change rules for user accounts :",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ],
+            [
+                56,
+                60,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2301,
+        "text": "Passwords can be changed by the associated user only once within a 2-day period",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                43,
+                47,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2302,
+        "text": "Users are re-authenticated before changing passwords",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                5,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2303,
+        "text": "The system shall provide lock-out capability after a pre-defined number of unsuccessful user sign-on attempts .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                88,
+                92,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2304,
+        "text": "The password is not displayed as clear text Password Masking",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2305,
+        "text": "System provides integrated security managed in a central accounts database",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2306,
+        "text": "System allows viewing of list of Users logged on to System in real-time",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ],
+            [
+                33,
+                38,
+                "USER"
+            ],
+            [
+                52,
+                58,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2307,
+        "text": "System allows addition of user-defined messages to logon screen",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2308,
+        "text": "System performs secure and seamless logon for all third party integrated systems .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2309,
+        "text": "System encrypts passwords before being stored or transmitted .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2310,
+        "text": "System has the ability to disallow more than active session per sign-on identification .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2311,
+        "text": "System allows users to re-authenticate and remotely log out of an active user session before logging in at another location .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ],
+            [
+                14,
+                19,
+                "USER"
+            ],
+            [
+                73,
+                77,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2312,
+        "text": "System encrypts sensitive data transmitted between clients and servers using Secure Socket Layer SSL Certificates , Transport Layer Security TLS , or by other means",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ],
+            [
+                51,
+                58,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2313,
+        "text": "System provides a web HTTPS interface and provides an SSL configuration mechanism .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2314,
+        "text": "System allows secure password resets in case passwords are forgotten .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2315,
+        "text": "System provides reminder alerts to users to reset passwords .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ],
+            [
+                35,
+                40,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2316,
+        "text": "The time for passwords to be changed is predefined as per user 's role and access level .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                58,
+                62,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2317,
+        "text": "The County standard for users is 90 days .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                24,
+                29,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2318,
+        "text": "System provides the option for multi-factor authentication for users with higher security access .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ],
+            [
+                63,
+                68,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2319,
+        "text": "Ability for an administrator to delegate authority , by user group , to reset password",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                56,
+                60,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2320,
+        "text": "Ability for an administrator to delegate authority , by user group , to restore system access of locked out user",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                56,
+                60,
+                "USER"
+            ],
+            [
+                108,
+                112,
+                "USER"
+            ],
+            [
+                80,
+                86,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2321,
+        "text": "The system shall have the ability to display the last date and time the user logged onto the system at the time of logon .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                72,
+                76,
+                "USER"
+            ],
+            [
+                93,
+                99,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2322,
+        "text": "System insures that input validation is applied whenever input is received through user or external data interfaces .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ],
+            [
+                83,
+                87,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2323,
+        "text": "The validation approach is to constrain , reject , and then sanitize input .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2324,
+        "text": "System does not rely on client-side validation .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2325,
+        "text": "The System design assumes that user input is malicious .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                31,
+                35,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2326,
+        "text": "Data is validated for type , length , format , and range .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2327,
+        "text": "Data validation is consistent across the System .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                41,
+                47,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2328,
+        "text": "System avoids un-trusted input of file name and file paths .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2329,
+        "text": "System does not accept file names or file paths from calling functions .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2330,
+        "text": "Security decisions are not made based on user-supplied file names and paths .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2331,
+        "text": "System does not use parent paths when data within the System is being accessed .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                54,
+                60,
+                "SYSTEM"
+            ],
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2332,
+        "text": "Attempts to access resources using parent paths are blocked .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2333,
+        "text": "The web server always asserts a character set : a locale and a country code , such as en .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                14,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2334,
+        "text": "All system and user accounts are identified .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                15,
+                19,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2335,
+        "text": "Web sites are partitioned into un-restricted and restricted areas using separate folders .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                9,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2336,
+        "text": "System uses least-privileged accounts .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2337,
+        "text": "System insures that minimum error information is returned in the event of authentication failure .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2338,
+        "text": "The system shall have the ability to support biometrics and biometrics plus passwords e.g. , fingerprint scan and fingerprint scan plus password .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2339,
+        "text": "System authenticates the user before any access is allowed to protected resources e.g. , Protected Health Information",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ],
+            [
+                25,
+                29,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2340,
+        "text": "System authenticates standalone devices before access is allowed to protected resources .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2341,
+        "text": "If Structured Query Language SQL authentication is used e.g. , communication between the application server and the database server credentials are secured in storage and over the wire via Secure Socket Layer SSL or IP Security IPSec .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                89,
+                100,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2342,
+        "text": "Administration interfaces require strong authentication and authorization .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2343,
+        "text": "Remote administration channels are secured e.g. , SSL , VPN",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2344,
+        "text": "Configuration credentials and authentication tokens are not held in plain text in configuration files .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2345,
+        "text": "User accounts and service accounts used for configuration management have only the minimum privileges required for the task .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                4,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2346,
+        "text": "Sensitive data and secrets are not incorporated in code .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2347,
+        "text": "Secrets are stored securely using a one-way hash .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2348,
+        "text": "Database keys , connections , passwords , or other secrets are not stored in plain text .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2349,
+        "text": "Sensitive data is not logged in clear text by the System .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                50,
+                56,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2350,
+        "text": "Database or file encryption for protection of sensitive data fields while the data is at rest i.e. , stored data is provided .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2351,
+        "text": "Protection mechanisms are in place for sensitive data that is sent over the network .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2352,
+        "text": "Sensitive data is not transmitted using insecure protocols , such as FTP , telnet , tftp etc. , unless tunneled through an authenticated encrypted connection e.g. VPN .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2353,
+        "text": "Sensitive data is not stored in persistent cookies .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2354,
+        "text": "All user sessions involving financial transactions or sensitive data are encrypted using SSL/HTTPS .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                8,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2355,
+        "text": "SSL is used to protect authentication cookies .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2356,
+        "text": "The system shall provide automatic logout of users when there has been no activity for a pre-defined period , maintaining transaction integrity .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ],
+            [
+                45,
+                50,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2357,
+        "text": "Session lifetime is limited to a pre-specified and configurable duration .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2358,
+        "text": "Session state is protected from unauthorized access .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2359,
+        "text": "Session identifiers are not passed in query strings .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2360,
+        "text": "Temporary objects are removed from the system , database connections are closed , and memory is released .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                39,
+                45,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2361,
+        "text": "System provides an automatic timeout if the session is idle for a pre-specified and configurable duration .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2362,
+        "text": "System warns the user before the timeout and prompts the user to re-enter their password .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ],
+            [
+                17,
+                21,
+                "USER"
+            ],
+            [
+                57,
+                61,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2363,
+        "text": "The system shall have the ability to support 128-bit SSL encryption , or higher , between the client browser and the application tier for any or all modules or sub-modules at organization discretion .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2364,
+        "text": "Identify security standard SSL or FIPS encryption .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2365,
+        "text": "Encryption capability for certain data transmissions that require security protection .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2366,
+        "text": "Platform-level cryptography is used with no custom implementations .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                8,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2367,
+        "text": "System provides secure information delivery over the Internet via encryption by using triple-DES Data Encryption Standard or the Advanced Encryption Standard AES",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2368,
+        "text": "Encrypted data delivered over the Internet is transmitted via open protocols e.g. , SSL , XML encryption",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2369,
+        "text": "Cryptographic algorithm and key size for the System 's data encryption requirements is bit or stronger .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                45,
+                51,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2370,
+        "text": "Encryption keys are secured .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2371,
+        "text": "Key management procedure to secure and manage the encryption keys is defined .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2372,
+        "text": "All input parameters are validated including form fields , query strings , cookies , and HTTP headers .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2373,
+        "text": "Cookies with sensitive data e.g. authentication cookies are encrypted .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2374,
+        "text": "Sensitive data is not passed in query strings or form fields .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2375,
+        "text": "Security decisions do not rely on HTTP header information .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2376,
+        "text": "System exception handling minimizes information disclosure in case of an exception .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2377,
+        "text": "System returns generic error messages to the client , to avoid disclosure of sensitive information .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ],
+            [
+                45,
+                51,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2378,
+        "text": "System code does not rely on internal system generated error handling .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                0,
+                6,
+                "SYSTEM"
+            ],
+            [
+                38,
+                44,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2379,
+        "text": "The System provides error-handling processes .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2380,
+        "text": "Private and sensitive data for example , passwords are not logged .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2381,
+        "text": "The system shall have a customizable online documentation and training materials such as context-specific help , search capability , organization-specific business process documentation and process maps .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2382,
+        "text": "The Proposer shall allow for field level edit checks for transactions during data entry and provide immediate user feedback , including error messages and possible corrective actions",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                12,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2383,
+        "text": "The system shall have the ability to design a preferred sequence to make data-entry columns and fields match the order of information in organization source documents .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2384,
+        "text": "The system shall allow for the option of auto-fill capability per transaction or field entry throughout all modules",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2385,
+        "text": "The system shall have the ability to restrict free form entry e.g. , provide drop down calendar for date field",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2386,
+        "text": "On-line , interactive help with support for hyperlink technology and industry standard formats e.g. , HTML file formats",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2387,
+        "text": "Intelligent spell checking of text fields",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2388,
+        "text": "The system shall present data to users such that a minimum of navigational effort is required , including :",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                33,
+                38,
+                "USER"
+            ],
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2389,
+        "text": "The data elements required to complete a job function , whether to inquire or read only or data entry must be readily available .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2390,
+        "text": "The user interface shall integrate information from multiple components into a unified display by business area or work type .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                8,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2391,
+        "text": "The system shall be able to handle an average transaction load with an average CPU utilization of no more than little-little of the CPU capacity .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2392,
+        "text": "The peak CPU utilization shall never exceed most of CPU capacity at any given time .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2393,
+        "text": "The system shall have a response time where the average transaction on the server needs to occur on average less than 1 second .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                10,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2394,
+        "text": "The response time for the most common requests to reach a user shall not exceed 3 seconds .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                58,
+                62,
+                "USER"
+            ]
+        ]
+    },
+    {
+        "id": 2395,
+        "text": "The solution shall maintain most availability -- including planned maintenance .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": []
+    },
+    {
+        "id": 2396,
+        "text": "The solution shall track system up time and transaction response times in order to demonstrate operation within acceptable levels .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                25,
+                31,
+                "SYSTEM"
+            ],
+            [
+                4,
+                12,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2397,
+        "text": "The solution shall complete all of simple , single-screen online inquiry transactions within one second , during peak usage .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                12,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2398,
+        "text": "The solution shall complete an average of most of all online update transactions fast over any 60-minute period , during peak usage .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                12,
+                "SYSTEM"
+            ]
+        ]
+    },
+    {
+        "id": 2399,
+        "text": "The Proposer shall test application enhancements , fixes , and upgrades and assure the integrity of the resulting data .",
+        "meta": {},
+        "annotation_approver": null,
+        "labels": [
+            [
+                4,
+                12,
+                "SYSTEM"
+            ]
+        ]
+    }
+]
