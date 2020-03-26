@@ -41,14 +41,17 @@ For the purposes of this study, only a subset of this dataset was considered, as
 
 ## Test Set
 
-Based upon the study:
+Based upon the book:
 
-> Slankas, J. and Williams, L. (2013) Automated extraction of non-functional requirements in available documentation. 1st International Workshop on Natural Language Analysis in Software Engineering (NaturaLiSE), San Francisco, CA, 2013, pp. 9-16.
-> doi: 10.1109/NAturaLiSE.2013.6611715
+> Miller, Roxanne E., 2009, _The Quest for Software Requirements_, MavenMark Books, Milwaukee, WI
 
-This project tests the classification models using a subset of the examples categorized by the [NFRLocator project](https://github.com/RealsearchGroup/NFRLocator), described in the paper. Only the datasets with syntactically structured requirements were collected, which involves the following projects:
-- CCHIT Certified 2011 Ambulatory EHR Criteria 20110517 - parsed.json
-- LACountyEHR_Requirements - parsed.json
+40 different non-functional requirements associated to quality attributes where collected. From the following categories (matching the ones included in the training).
+
+- Access Security
+- Availability
+- Usability
+- Maintainability
+- Scalability
 
 ## Validation Set
 

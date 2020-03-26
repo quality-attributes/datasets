@@ -1,0 +1,41 @@
+text,label
+Employees shall be forced to change their password the next time they log in if they have not changed it within the length of time established as 'password expiration duration'.,SECURITY
+Users must change the initially assigned login authentication information (password) immediately after the first successful login. The initial password may never be reused. ,SECURITY
+The payroll system shall ensure that the employee salary data can be accessed only by authorized users. The payroll system shall distinguish between authorized and non‐authorized users. ,SECURITY
+"Employees shall not be allowed to update their own salary information, and any such attempt shall be reported to the security administrator. ",SECURITY
+Only holders of current security clearance can enter the national headquarters building.,SECURITY
+The access permissions for system data may only be changed by the system's data administrator. ,SECURITY
+Passwords shall never be viewable at the point of entry or at any other time. ,SECURITY
+Each unsuccessful attempt by a user to access an item of data shall be recorded on an audit trail. ,SECURITY
+Users shall receive notification of profile changes via preferred communication method of record when profile information is modified.,SECURITY
+The Online Payment System shall be available for use between the hours of 6:00 a.m. and 11:00 p.m. CST.,AVAILABILITY
+The Online Payment System shall achieve 100 hours MTBF (mean time between failure).,AVAILABILITY
+The CIF system shall achieve 99.5% up time.,AVAILABILITY
+The mortgage amortization schedule shall be available to the customer within 15 seconds for 95% of the times that it is requested. The remaining times it will be available within 20 seconds.,AVAILABILITY
+The Automated Teller Machine shall be at least 99.0 percent available on weekdays between 6:00 a.m. and 11:00 p.m. local time. The machine shall be at least 99.95 percent available on weekdays between 4:00 p.m. and 6:00 p.m. local time.,AVAILABILITY
+"Unless the system is non‐operational, the system shall present a user with notification informing them that the system is unavailable.",AVAILABILITY
+A new installation of the system shall be available for first‐time use within 24 hours of the start of the install.,AVAILABILITY
+The online registration system shall permit backing up of the registration database while other registration activities are going on. (It is estimated that this requirement reduces duration for which the online registration system would be unavailable to students for maintenance by 15 minutes each calendar day.),AVAILABILITY
+The new product shall be easy to use by adult members (age 18 to 80) of the public who may only have one hand free.,USABILITY
+The vending product shall be able to be used by adult members of the public without training. A panel representative of at least 95 percent of the general public shall successfully purchase a product from the vending product on their first encounter.,USABILITY
+The product shall be self‐explanatory and intuitive such that a service agent shall be able to produce a price quote within 10 minutes of encountering the product for the first time.,USABILITY
+The new policy management system shall be evaluated by 90 percent of the user community to be at least as easy to use as the existing system.,USABILITY
+"A trained order‐entry clerk shall have the ability to submit a complete order for a product chosen from a supplier catalog in a maximum of 7 minutes, with an average order entry time of 4 minutes.",USABILITY
+People with no training and no understanding of English shall be able to use the product.,USABILITY
+A new warehouse clerk shall be able to enter a customer order on the system within a typical 8‐hour business day.,USABILITY
+The system shall be useable by program developers after five weeks of training.,USABILITY
+The customer service call center shall analyze 95% of the problem reports within 2 hours. Items classified as 'urgent' shall be repaired within 3 business days in 98% of the reported cases.,MAINTAINABILITY
+The application development process must have a regression test procedure that allows complete re‐testing within 2 business days.,MAINTAINABILITY
+A maintenance developer shall be able to modify existing statements to conform to revised regulations from the federal government with 24 labor hours or less of development and testing effort.,MAINTAINABILITY
+A new consumer type code must be able to be added to the product within 12 business hours.,MAINTAINABILITY
+"The system must maintain a service log and, on system start‐up, must check if system service is due. If a scheduled service session has not been carried out within 5 calendar days of the scheduled date, the system should discontinue operation.",MAINTAINABILITY
+"A development programmer who has at least one year of experience supporting this software application shall be able to add a new product feature, including source code modifications and testing, with no more than one week of labor.",MAINTAINABILITY
+The system shall not be shut down for maintenance more than once in a 24‐hour period.,MAINTAINABILITY
+The elapsed duration of time required to produce any statement or report showing information about transactions shall be based upon how much data is presented rather than the total quantity of stored data.,SCALABILITY
+"The effort needed to administer the payroll system (as measured in hours per month of system administrators' time) shall not increase with an increase in the number of employees. If there is a significant increase in system operation work, it shall be proportionately less than an increase in the number of employees.",SCALABILITY
+The payroll system shall be scalable to support unlimited growth in the number of employees. ,SCALABILITY
+The business rules repository shall be scalable to manage an unrestricted number of additional rules. ,SCALABILITY
+The travel reservation system shall be scalable to accommodate its use by an unlimited number of agency offices worldwide.,SCALABILITY
+The claims system shall support all assigned adjustors following any catastrophic event. ,SCALABILITY
+"The account management system shall support unlimited customer, account, and transaction relationships. ",SCALABILITY
+"The transaction authorization system shall scale to potential hourly spikes of 1,000% in authorization requests during peak holiday shopping.",SCALABILITY
