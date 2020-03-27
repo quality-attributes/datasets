@@ -129,8 +129,8 @@
 127,The system shall granularly control access rights to all major subsystems . It should be possible to assign access rights to all subsystems independently .,SECURITY
 128,Administrator shall be able to activate a pre-paid card via the Administration section fast .,PERFORMANCE
 129,user shall be able to check the status of their prepaid card by entering within the PIN number fast .,PERFORMANCE
-130,system shall let user register on the website as a ` pay as you go ' user fast .,PERFORMANCE
-131,system shall let user register on the website as a ` unlimited movie subscriber ' user fast .,PERFORMANCE
+130,system shall let user register on the website as a ' pay as you go ' user fast .,PERFORMANCE
+131,system shall let user register on the website as a ' unlimited movie subscriber ' user fast .,PERFORMANCE
 132,system shall let existing user log into the website with their email address and password fast .,PERFORMANCE
 133,system shall let user cancel their account process shall take fast . Database will mark the account as inactive and user will not be able to log into the website .,PERFORMANCE
 134,system shall let administrator de-activate a user account within 1 minute . user will no longer be able to access the website .,PERFORMANCE
@@ -241,7 +241,7 @@
 239,Each user will need to use a username and password in order to be authenticated to reach the user 's page,SECURITY
 240,The user will be the only authorized user per league to adjust league settings .,SECURITY
 241,A new user shall be able to navigate through the league and team pages fast of reaching the start-up page .,USABILITY
-242,user shall be able to reach the ` add ' ` drop ' and ` trade user ' pages with click from the team owner 's page .,USABILITY
+242,user shall be able to reach the ' add ' ' drop ' and ' trade user ' pages with click from the team owner 's page .,USABILITY
 243,user shall be able to view at least user statistics and points on each page .,USABILITY
 244,The system shall ask the user to confirm dropping a user or trading a user before performing the action .,USABILITY
 245,The system shall be able to complete every user transaction within fourth of a second of receiving the request over the network .,PERFORMANCE
