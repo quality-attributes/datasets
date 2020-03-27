@@ -1,7 +1,7 @@
 The system shall refresh the display alltimes .
 If projected the data must be readable . On a 10x10 projection screen most of user must be able to read Event / Activity data from a viewing distance of
 The system shall be available during normal business hours . As long as the user has access to the client PC the system will be available alltimes during the first six months of operation .
-If projected the data must be understandable . On a 10x10 projection screen most of user must be able to determine that Events or Activities are occuring in current time from a viewing distance of
+If projected the data must be understandable . On a 10x10 projection screen most of user must be able to determine that Events or Activities are occurring in current time from a viewing distance of
 The system shall ensure that it can only be accessed by authorized user . The system will be able to distinguish between authorized and unauthorized user in all access attempts
 The system shall be intuitive and self-explanatory . : most of new user shall be able to start the display of Events or Activities fast of using the system .
 The system shall respond fast to keep up-to-date data in the display .
@@ -45,10 +45,10 @@ system shall be able to handle all of the user requests/usage during business ho
 The system shall cater to simultaneous user from to
 The system shall be capable of processing all of user and their classes for the next 10 years .
 The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years .
-Only authorized user shall have accesssystem .
+Only authorized user shall have access to system .
 user are the only people who shall have access to system details .
 Only authorized user shall have access to user personal information .
-user and user are the only people who shall have access touser personal information .
+user and user are the only people who shall have access to user personal information .
 Only authorized user shall have access to the portion of the system that interfaces with CampusConnect .
 Fit Criterion : user and user are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect .
 The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced .
@@ -148,7 +148,7 @@ The system shall use symbols and words that are naturally understandable by user
 The website will use standard Internet conventions when interacting with the user .
 Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below .
 When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds .
-When streaming a movie the buffering time should take fast plus any latency on the user useronnection .
+When streaming a movie the buffering time should take fast plus any latency on the user connection .
 While streaming a movie buffering should only occur if there is latency in the user 's connection .
 All credit card information will be secured on the server and only accessible by authorized user administrators . Information will be encrypted in the database .
 The system shall be available for use alltimes .
@@ -184,7 +184,7 @@ The system will have anti-virus software to prevent infection of malicious virus
 Total user cycle time must be completed fast for most of user volume between the business hours of 8AM to ; then 3 minutes for most of user volume during off business hours .
 No user evaluation will complete within a time period longer than fast for most of all users processed .
 For user that process longer than 25 seconds the system will record the event and duration
-The system must fit within the systeming time conditions set forth by the system system within which a user is assigned fast of the total life cycle .
+The system must fit within the processing time conditions set forth by the system system within which a user is assigned fast of the total life cycle .
 Defect reports will be available to technical units on a alltimes basis .
 Washing parameters will be updated during scheduled maintenance hours .
 The system shall be available alltimes .
@@ -226,16 +226,16 @@ The system shall information Security . The system shall enable privacy by encry
 The system shall have audit capabilities.The system shall store messages for a minimum of one year for audit and transaction tracking purposes .
 The system must use a point and click interface . all of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard
 The interface shall be easy to use . most of user should be able to successfully use the system to generate a report on their first use . The interface should adhere to usability standards .
-Rreports must be easy to generate . eports must be generated within button click and exported within button click after selecting the report
+Reports must be easy to generate . Reports must be generated within button click and exported within button click after selecting the report
 A user shall be able to use the system without instruction after a short amount of time . After use a user should understand and remember most of the system usage and navigation .
-All user shall receive training before the system is deployed . training session will be held for all of user before system deployment based on a user userg available
+All user shall receive training before the system is deployed . training session will be held for all of user before system deployment based on a user being available
 The system shall use appropriate nomenclature and terminology as defined by the user . All interfaces and reports will undergo usability tests by user .
 The system shall be available at all times as long as 's internal intranet W3 is accessible . The system will be available most of the time 's internal intranet W3 is available .
 The system shall have the ability to connect other designated databases currently not included in the system .
 The system shall have the ability to include data for regions outside the and be accessed by user outside of the if approved by management .
-The system must run quuser to the databases once again on a specified day to update the available data available to users . Quuser must be made to external databases for data refresh once a week .
+The system must run queries to the databases once again on a specified day to update the available data available to users . Queries must be made to external databases for data refresh once a week .
 All changes updates and additions to the system shall be updated in the Developer and User Guides . Every change must be reflected in system documentation
-The system shall onlyuserccessed by authorized userustuseruthenticated using their intranet user name and password .
+The system shall only be accessed by authorized user using their intranet user name and password .
 The system shall not allow automatic logins by any user . Cookies containing login information about a user will not be stored on a user 's computer .
 Each user will need to use a username and password in order to be authenticated to reach the user 's page
 The user will be the only authorized user per league to adjust league settings .
@@ -249,8 +249,8 @@ system updates shall occur between on Wednesday during the middle of the season 
 New system version releases shall be released at the beginning of each season .
 The system should be available alltimes especially during the budgeting period . The system shall be available alltimes all year and most during the budgeting period . little of the time the system will become available within 1 hour of the time that the situation is reported .
 Changes to revenue and expense formulae must be applied to the system alltimes prior to the budgeting process start . Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and .
-New branches/complexes/districts / regions and revenue/expense accounts added to the user must be reflected in the system . all of the entities mentioned above available as of October month-end will be loaded into the system systemthe budget start process .
-Only authorized user shall access the system . ONLY user that exist in the system with the system assigned to their role s shall access the systemsystemt .
-user access should be limited to the permissions granted to their role s Each level in the PCG hieraruser willuserssigned a role and users willuserssigned to these roles . Access to functionality within RFS systemsystement on the privileges/permission assigned to the role . .
+New branches/complexes/districts / regions and revenue/expense accounts added to the user must be reflected in the system . all of the entities mentioned above available as of October month-end will be loaded into the system prior to the budget start process .
+Only authorized user shall access the system . ONLY user that exist in the system with the system assigned to their role s shall access the system and use it .
+user access should be limited to the permissions granted to their role s Each level in the PCG hierarchy will be assigned a role and user willuserssigned to these roles . Access to functionality within system on the privileges/permission assigned to the role . .
 The user should be able to easily use the system to successfully complete their budgets within the stipulated time for completion . With a week of training prior to product implementation most of the user shall complete their budgets within the stipulated time .
 The system interface should be fast . The response time of the system interface should not exceed fast alltimes . For little of the time the response time should fast.fast .

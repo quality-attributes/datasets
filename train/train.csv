@@ -1,0 +1,257 @@
+,text,label
+0,The system shall refresh the display alltimes .,PERFORMANCE
+1,If projected the data must be readable . On a 10x10 projection screen most of user must be able to read Event / Activity data from a viewing distance of,USABILITY
+2,The system shall be available during normal business hours . As long as the user has access to the client PC the system will be available alltimes during the first six months of operation .,AVAILABILITY
+3,If projected the data must be understandable . On a 10x10 projection screen most of user must be able to determine that Events or Activities are occurring in current time from a viewing distance of,USABILITY
+4,The system shall ensure that it can only be accessed by authorized user . The system will be able to distinguish between authorized and unauthorized user in all access attempts,SECURITY
+5,The system shall be intuitive and self-explanatory . : most of new user shall be able to start the display of Events or Activities fast of using the system .,USABILITY
+6,The system shall respond fast to keep up-to-date data in the display .,PERFORMANCE
+7,The system shall be used by user with no training .,USABILITY
+8,The system shall be intuitive and self explanatory .,USABILITY
+9,The system shall be easy for a user to learn .,USABILITY
+10,The system shall use symbols and words that are naturally understandable by the user community .,USABILITY
+11,The system shall produce search results in an acceptable time,PERFORMANCE
+12,The search results shall be returned fast after the user has entered the search criteria,PERFORMANCE
+13,The system shall generate a report in an acceptable time .,PERFORMANCE
+14,The report shall be returned fast after the user has entered the report criteria .,PERFORMANCE
+15,The system shall synchronize contacts and appointments in an acceptable time .,PERFORMANCE
+16,The system shall synchronize with the office system alltimes .,PERFORMANCE
+17,The system shall be available for use alltimes,AVAILABILITY
+18,Out of 1000 accesses to the system the system is available times .,AVAILABILITY
+19,The system shall operate in offline mode whenever internet connection is unavailable .,FAULT TOLERANCE
+20,The system shall allow the user to view previously downloaded search results reports and appointments .,FAULT TOLERANCE
+21,The system shall retain user preferences in the event of a failure .,FAULT TOLERANCE
+22,all of saved user preferences shall be restored when system comes back online .,FAULT TOLERANCE
+23,The system shall be able to support multiple remote user,SCALABILITY
+24,The system shall be able support 1000 simultaneous user .,SCALABILITY
+25,The system shall be capable of handling the existing user . This number is expected to grow times within the next year .,SCALABILITY
+26,The system shall be installed by an untrained user without recourse to separately-printed instructions .,USABILITY
+27,most of untrained user shall be able to install the system on their device without printed instructions,USABILITY
+28,Only registered user shall be able to access the system .,SECURITY
+29,Every user of the system shall be authenticated and authorized .,SECURITY
+30,The system shall prevent its data from incorrect data being introduced .,SECURITY
+31,The system shall be easy to use by the user .,USABILITY
+32,All of the user shall be able to use the system after one day of training .,USABILITY
+33,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the user .,USABILITY
+34,The number of mistakes noted by the user shall be decreased by most within the first year .,USABILITY
+35,The system shall be intuitive to the user .,USABILITY
+36,out of user shall successfully be able to use the system to manage the scheduling of classes and clinicals .,USABILITY
+37,The system shall use symbols and words that are naturally understandable by the user community .,USABILITY
+38,The verbiage used within the system shall be consistent with Standard and the terminology of the national .,USABILITY
+39,user shall be able to complete a set of tasks in a timely manner .,PERFORMANCE
+40,The response time of system shall take fast and the response time of system shall take fast .,PERFORMANCE
+41,The system shall be available for use between the hours of 8 am and,AVAILABILITY
+42,The system shall achieve most up time .,AVAILABILITY
+43,system shall be able to handle all of the user requests/usage during business hours .,SCALABILITY
+44,The system shall cater to simultaneous user from to,SCALABILITY
+45,The system shall be capable of processing all of user and their classes for the next 10 years .,SCALABILITY
+46,The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years .,SCALABILITY
+47,Only authorized user shall have access to system .,SECURITY
+48,user are the only people who shall have access to system details .,SECURITY
+49,Only authorized user shall have access to user personal information .,SECURITY
+50,user and user are the only people who shall have access to user personal information .,SECURITY
+51,Only authorized user shall have access to the portion of the system that interfaces with CampusConnect .,SECURITY
+52,Fit Criterion : user and user are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect .,SECURITY
+53,The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced .,SECURITY
+54,The system shall protect private information in accordance with the user's information policy .,SECURITY
+55,The system shall be built such that it is as secure as possible from malicious interference .,SECURITY
+56,The system shall use the user 's standard virus protection software to help monitor threats to itself .,SECURITY
+57,The system that are displayed after a search is performed must be color coded for easy identification of system based upon the system status .,USABILITY
+58,all of the user and user shall use the system regularly after a 2-day training course .,USABILITY
+59,all of user shall be able to successfully create a system on the first encounter after completing the training course .,USABILITY
+60,all of user shall be able to successfully perform a follow up action on a system on the first encounter after completing the training course .,USABILITY
+61,The maximum wait time for a user navigating from screen to another within the system shall be fast .,PERFORMANCE
+62,The system shall support concurrent user without any degradation of performance in the application .,PERFORMANCE
+63,The system shall ensure that only user with the appropriate access level are allowed to initiate system requests .,SECURITY
+64,Only user with Update access must be able to initiate system requests .,SECURITY
+65,The system shall ensure that only authorized user are allowed to logon to the system .,SECURITY
+66,All authorized user once authenticated must be able to logon to the system,SECURITY
+67,The system shall generate a user Report that details any new user that have been added and any changes to an existing user 's access level . The report will be reviewed for auditing purposes .,SECURITY
+68,All additions of new user and modifications to user 's access shall be recorded on the user Report .,SECURITY
+69,If a user account is revoked it can only be re-instantiated by the System Administrator .,SECURITY
+70,Only the System Administrator shall be able to reset a revoked user logon account,SECURITY
+71,The system shall manipulate and view business data . user will not have direct access to data files or databases .,SECURITY
+72,All updates to data files or database must be initiated from the system .,SECURITY
+73,The system shall be easy to use by user and . most of user and shall find the system easy to use .,USABILITY
+74,The product shall increase productivity of . most of the shall agree their productivity has increase within 1 month of using the product .,USABILITY
+75,user shall feel satisfied using the system . most of all user will be satisfied with the system .,USABILITY
+76,The system shall be easy to learn by user and . The system shall be learned with two days onsite training,USABILITY
+77,The user shall easily locate instructions while using the system . user help can be found within most of the system .,USABILITY
+78,The search for recycled parts shall take fast . The search results shall be returned fast .,PERFORMANCE
+79,The search for the preferred repair facility shall take fast . The preferred repair facility is returned fast,PERFORMANCE
+80,The recycled parts audit report shall be returned to the user fast . The audit report shall be returned fast .,PERFORMANCE
+81,The preferred repair facility ratings shall be saved fast . The save shall occur fast .,PERFORMANCE
+82,The system shall adhere to the corporate online availability schedule . The system is brought down only within most of the scheduled outages per the availability schedule .,AVAILABILITY
+83,The system shall achieve a most up time . The system shall not fail more than little of the available online time .,AVAILABILITY
+84,The system shall be able to handle up to simultaneous user . The system shall perform with user as a time .,SCALABILITY
+85,The average number of recycled parts records per day shall be .,SCALABILITY
+86,The system shall be able to handle concurrent user within 2 years of the initial launch .,SCALABILITY
+87,Only user can request recycled parts audit reports . No user without an adjuster role shall request recycled parts audits .,SECURITY
+88,Only user with a supervisor role can update preferred repair facility ratings . user without the supervisor role can not access the repair facility ratings .,SECURITY
+89,Only user shall search for recycled parts . user without the collision estimator role shall not have access to the search for recycled parts .,SECURITY
+90,Only valid data shall be entered into the system . No invalid data shall be entered into the system .,SECURITY
+91,user shall not be able to view another users claim data .,SECURITY
+92,The system shall free of computer viruses .,SECURITY
+93,The system shall prevent malicious attacks including denial of service .,SECURITY
+94,The system shall make the user want to use it . most of the user surveyed report they are regularly using the system after the first 2 weeks post-launch .,USABILITY
+95,The system shall be easy to use . most of user will be able to successfully reserve a conference room fast of system use .,USABILITY
+96,The system shall give user feedback when necessary . most of the user surveyed report that the system accurately confirms their actions .,USABILITY
+97,The system shall allow the user to select a chosen language from of the target market countries .,USABILITY
+98,The system shall allow for customization of start page and views preferences .,USABILITY
+99,An user will be able to successfully use the system within a fast . After informally navigating the system fast user shall be able to successfully setup meetings and reserve conference rooms .,USABILITY
+100,The system shall use a standard navigation menu familiar to most web user .,USABILITY
+101,The system shall allow for intuitive searching of available conference rooms .,USABILITY
+102,The system shall conform to the user .,USABILITY
+103,The response shall be fast enough to avoid interrupting the user 's flow of thought . most of tasks shall complete fast . most of tasks shall complete fast .,PERFORMANCE
+104,Aside from server failure the system shall achieve most up time .,AVAILABILITY
+105,The system shall create an exception log of problems encountered within the system for transmission to our user for analysis and resolution .,FAULT TOLERANCE
+106,The system shall be capable of h ling up to concurrent requests . This number will increase to by Release . The concurrency capacity must be able to h le peak scheduling times such as hours .,SCALABILITY
+107,The system shall be able to process transactions per hour within two years of its launch . This number will increase to by Release .,SCALABILITY
+108,The system shall be expected to operate for at least 5 years for each user installation .,SCALABILITY
+109,A new user must be able to be added to the system fast . most of new user are able to log into the system fast .,USABILITY
+110,The system must be designed using Design Patterns and coding best practices . most of maintenance user are able to integrate new functionality into the system with working days .,MAINTAINABILITY
+111,The system must be highly configurable for use with various database management systems for the user . most of user are able to integrate new database management systems with the system without changing the system 's software code .,MAINTAINABILITY
+112,Maintenance releases will be offered to user once a year . The releases shall take fast for most of the customer base to install .,MAINTAINABILITY
+113,Every registered user will have access to the system 's support site via the Internet . most of registered user shall find a solution to their problem fast of using the support site .,USABILITY
+114,The user shall be able to easily integrate new building maps with the system throughout the system 's lifecycle . Integration of new maps with the system shall be possible with little to no support from system support staff .,MAINTAINABILITY
+115,The system shall be translated into foreign languages other than the target market countries ' languages within future releases . For each emerging target market it shall take within 5 days to configure the system for that market 's language .,USABILITY
+116,The system shall ensure that only user or external user with user IDs may have system access . all of all logons shall be by either user or external user with user IDs .,SECURITY
+117,Only user are able to perform search queries for reservations by user . all of all search queries for reservations by user shall be from logons of only management logons .,SECURITY
+118,The system shall ensure that the database 's data corresponds to the data entered by the user . Each conference room reservation in the system will contain the same information as was entered by the user .,SECURITY
+119,The system shall prevent the input of malicious data . The system and/or adjacent hardware/software systems ' data shall remain all uncorrupted each time malicious data is input into the system .,SECURITY
+120,The system and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data . The system and/or dependent databases/filesystems shall not crash all of the time that malicious data is input into the system .,FAULT TOLERANCE
+121,The system shall have the ability to receive automatic software updates as new threats emerge . all of user will be able to receive automatic software updates transmitted to the installed system .,SECURITY
+122,The language of the system shall accommodate all of the target market countries . most of user from each target market country will find that the language of the system is acceptable .,SCALABILITY
+123,The system shall be able to display calendar dates and times according to the user 's locale . most of user from each target market country will find that the date and time formatting of the system is correct .,USABILITY
+124,Recreation of system for the period of previous 30 days shall take within 30 min .,PERFORMANCE
+125,The system shall allow for a minimum of user to work at the same time .,PERFORMANCE
+126,The system shall maintain consistent security . Any changes in user passwords and/or permissions should take affect in all parts of the system .,SECURITY
+127,The system shall granularly control access rights to all major subsystems . It should be possible to assign access rights to all subsystems independently .,SECURITY
+128,Administrator shall be able to activate a pre-paid card via the Administration section fast .,PERFORMANCE
+129,user shall be able to check the status of their prepaid card by entering within the PIN number fast .,PERFORMANCE
+130,system shall let user register on the website as a ` pay as you go ' user fast .,PERFORMANCE
+131,system shall let user register on the website as a ` unlimited movie subscriber ' user fast .,PERFORMANCE
+132,system shall let existing user log into the website with their email address and password fast .,PERFORMANCE
+133,system shall let user cancel their account process shall take fast . Database will mark the account as inactive and user will not be able to log into the website .,PERFORMANCE
+134,system shall let administrator de-activate a user account within 1 minute . user will no longer be able to access the website .,PERFORMANCE
+135,system shall let administrator add/remove movies on the website fast . Entered movie information will be stored within the database and will now be available on the website .,PERFORMANCE
+136,system shall let the administrator add/remove categories on the website fast .,PERFORMANCE
+137,system shall let user Manager access sales and usage statistics fast .,PERFORMANCE
+138,system shall let administrators generate unique pre-paid pins fast and generate an Excel file with the generated PINs .,PERFORMANCE
+139,The system should be able to be used by most of novice user on the Internet .,USABILITY
+140,user should only have to navigate through a maximum of pages to create an account with the website .,USABILITY
+141,user should be able to access their streaming movies in under clicks after logging into the website .,USABILITY
+142,An anonymous survey will show that most of user are comfortable purchasing streaming movies after 2 weeks using the website .,USABILITY
+143,An anonymous survey will show that most of user are comfortable using and purchasing pre-paid cards after a month of using the system .,USABILITY
+144,The system shall retain the user 's buying preferences and information .,USABILITY
+145,The system shall be easy for user with novice skills on the Internet to purchase and watch streaming movies . user should be able to purchase and watch a pre-determined movie fast .,USABILITY
+146,The system shall use symbols and words that are naturally understandable by user familiar with websites,USABILITY
+147,The website will use standard Internet conventions when interacting with the user .,USABILITY
+148,Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below .,PERFORMANCE
+149,When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds .,PERFORMANCE
+150,When streaming a movie the buffering time should take fast plus any latency on the user connection .,PERFORMANCE
+151,While streaming a movie buffering should only occur if there is latency in the user 's connection .,PERFORMANCE
+152,All credit card information will be secured on the server and only accessible by authorized user administrators . Information will be encrypted in the database .,SECURITY
+153,The system shall be available for use alltimes .,AVAILABILITY
+154,The system shall achieve most up time .,AVAILABILITY
+155,All movies shall be streamed on demand at any time of the day .,AVAILABILITY
+156,The system shall continue to operate if the streaming server goes down .,FAULT TOLERANCE
+157,The system shall continue to operate if the payment gateway goes down .,FAULT TOLERANCE
+158,The system will support simultaneous streaming connections .,SCALABILITY
+159,The system will support a maximum of movies ; new system can be added to support more movies .,SCALABILITY
+160,The system will support a maximum of simultaneous user .,SCALABILITY
+161,The system shall be capable of supporting user .,SCALABILITY
+162,The system shall be expected to operate within the maximum maintenance budget for a minimum of 2 years .,MAINTAINABILITY
+163,Promotional updates to the system should take a day to update .,MAINTAINABILITY
+164,user Administrator must be able to update the category listings on the system fast .,PERFORMANCE
+165,user Administrator must be able to add new products to the system fast .,PERFORMANCE
+166,The system will provide a alltimes toll free number for support to its user .,AVAILABILITY
+167,The system will provide a help section with answers and solutions to common problems .,USABILITY
+168,user will be available for phone support between M-F to provide technical support to the user administrators .,AVAILABILITY
+169,Only registered user can purchase streaming movies .,SECURITY
+170,A user can only stream a movie if they purchased it and are within the 2 day viewing period .,SECURITY
+171,Only authorized user can access user records in the database .,SECURITY
+172,Only administrators can activate a pre-paid card .,SECURITY
+173,Only authorized user can access sales information .,SECURITY
+174,The system shall prevent its data from being corrupted when incorrect data is entered in .,SECURITY
+175,The system shall protect itself from intentional abuse and notify the administrator at all occurrences .,SECURITY
+176,Data integrity scripts will be run on a alltimes basis to verify the integrity of the database .,SECURITY
+177,The system shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the system .,SECURITY
+178,The system shall notify user of changes to its information policy .,SECURITY
+179,The system shall reveal private information only in compliance with the user 's information policy .,SECURITY
+180,All user information will be stored on a secure database accessible only to authorized user .,SECURITY
+181,All user information will be encrypted in the database .,SECURITY
+182,The system will have anti-virus software to prevent infection of malicious viruses .,SECURITY
+183,Total user cycle time must be completed fast for most of user volume between the business hours of 8AM to ; then 3 minutes for most of user volume during off business hours .,PERFORMANCE
+184,No user evaluation will complete within a time period longer than fast for most of all users processed .,PERFORMANCE
+185,For user that process longer than 25 seconds the system will record the event and duration,PERFORMANCE
+186,The system must fit within the processing time conditions set forth by the system system within which a user is assigned fast of the total life cycle .,PERFORMANCE
+187,Defect reports will be available to technical units on a alltimes basis .,AVAILABILITY
+188,Washing parameters will be updated during scheduled maintenance hours .,MAINTAINABILITY
+189,The system shall be available alltimes .,AVAILABILITY
+190,The system shall able to handle a large number of games simultaneously .,PERFORMANCE
+191,The response time shall be fast enough to maintain the flow of the game . The response time shall be fast for most of responses and within little for the remaining responses .,PERFORMANCE
+192,The system shall protect the identity of the users . The system shall provide users no access to information that might reveal the identity of another user .,PERFORMANCE
+193,The system shall be intuitive and self-explanatory . out user shall be able to successfully complete a game with no training .,USABILITY
+194,The system shall be available to user who understand and . The system shall allow the user to select the language upon accessing the system .,USABILITY
+195,The system shall provide user no access to information that might reveal the identity of another user,SECURITY
+196,The response time shall be fast enough to maintain the flow of the game . The response time shall be fast for most of responses and within little for the remaining responses .,PERFORMANCE
+197,The system shall be easy to use by user and user . user and user must be able to accomplish any system task fast .,USABILITY
+198,The system shall be easy to learn by user and user . user and user shall learn how to use the system fast .,USABILITY
+199,The system shall be responsive . At the when a user uses the system to view a user schedule the system response time must be fast alltimes and fast the rest of the time .,PERFORMANCE
+200,On a 56k connection the system response time for all operations must be fast alltimes .,PERFORMANCE
+201,On a 112k connection or faster the system response time for all operations must be fast alltimes .,PERFORMANCE
+202,The system shall have high availability alltimes of the year.The system must be available for use between and all days of the year .,AVAILABILITY
+203,The system must be available for use between and all days of the year .,AVAILABILITY
+204,The system shall be internet browser independent.The system must run using Internet Explorer and .,MAINTAINABILITY
+205,The system shall ensure that only user can advertise empty time slots.The system must ensure that user are allowed to access advertise empty time slots .,SECURITY
+206,The system shall ensure that only user can enter a user 's schedule.The system must ensure that user are allowed to access advertise empty time slots .,SECURITY
+207,The system shall ensure that only user can view schedule of all callers.The system must ensure that user are allowed to access advertise empty time slots .,SECURITY
+208,The system shall provide Monitoring Services.The system shall be easy for user and user to use after two weeks of usage .,USABILITY
+209,The system shall provide Error Tracking Services.The system shall help the user and user to resolve transaction errors most of the time .,USABILITY
+210,The system shall provide Portals.The system shall help user to analyze the transactions with ad-hoc reporting and KPIs Key Performance Indicators,USABILITY
+211,The system shall provide Asynchronous Messaging.The system shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications,PERFORMANCE
+212,The system shall provide Multi-threading and Load Balancing.The system shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic .,PERFORMANCE
+213,The system shall process messages fast.The system shall have a maximum message processing time of fast,PERFORMANCE
+214,The system shall poll the system for messages every second.The system shall poll the system for new messages at a maximum of alltimes .,PERFORMANCE
+215,The system shall provide Dynamic Change Support and Transparent resource addition.The system shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day .,PERFORMANCE
+216,The system shall be available alltimes . Rationale : To avoid service interruption during busiest user service response periods . The system shall be available . alltimes for regular business days .,AVAILABILITY
+217,The system shall be robust.The system shall have fault avoidance based on standards adoption .,FAULT TOLERANCE
+218,The system shall be robust with fault tolerance.The system shall have fault tolerance by using recovery technique compensatory transaction and routing around failures .,FAULT TOLERANCE
+219,The system shall be able to process all transactions.The system shall process minimum of transactions per year .,SCALABILITY
+220,The system shall continue to operate during upgrade change or new resource addition.The system shall be able to continue to operate with no interruption in service due to new resource additions .,MAINTAINABILITY
+221,The system shall be updated on a regular basis.The system will have a new major feature introduced alltimes and alltimes maintenance releases alltimes .,MAINTAINABILITY
+222,The system shall operate with every platform.The system shall accommodate any new technology without any change in its architecture .,MAINTAINABILITY
+223,The system shall have security.The system shall provide authentication and authorization .,SECURITY
+224,The system shall information Security . The system shall enable privacy by encryption WS-Security and Integrity Checking .,SECURITY
+225,The system shall have audit capabilities.The system shall store messages for a minimum of one year for audit and transaction tracking purposes .,SECURITY
+226,The system must use a point and click interface . all of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard,USABILITY
+227,The interface shall be easy to use . most of user should be able to successfully use the system to generate a report on their first use . The interface should adhere to usability standards .,USABILITY
+228,Reports must be easy to generate . Reports must be generated within button click and exported within button click after selecting the report,USABILITY
+229,A user shall be able to use the system without instruction after a short amount of time . After use a user should understand and remember most of the system usage and navigation .,USABILITY
+230,All user shall receive training before the system is deployed . training session will be held for all of user before system deployment based on a user being available,USABILITY
+231,The system shall use appropriate nomenclature and terminology as defined by the user . All interfaces and reports will undergo usability tests by user .,USABILITY
+232,The system shall be available at all times as long as 's internal intranet W3 is accessible . The system will be available most of the time 's internal intranet W3 is available .,AVAILABILITY
+233,The system shall have the ability to connect other designated databases currently not included in the system .,SCALABILITY
+234,The system shall have the ability to include data for regions outside the and be accessed by user outside of the if approved by management .,SCALABILITY
+235,The system must run queries to the databases once again on a specified day to update the available data available to users . Queries must be made to external databases for data refresh once a week .,MAINTAINABILITY
+236,All changes updates and additions to the system shall be updated in the Developer and User Guides . Every change must be reflected in system documentation,MAINTAINABILITY
+237,The system shall only be accessed by authorized user using their intranet user name and password .,SECURITY
+238,The system shall not allow automatic logins by any user . Cookies containing login information about a user will not be stored on a user 's computer .,SECURITY
+239,Each user will need to use a username and password in order to be authenticated to reach the user 's page,SECURITY
+240,The user will be the only authorized user per league to adjust league settings .,SECURITY
+241,A new user shall be able to navigate through the league and team pages fast of reaching the start-up page .,USABILITY
+242,user shall be able to reach the ` add ' ` drop ' and ` trade user ' pages with click from the team owner 's page .,USABILITY
+243,user shall be able to view at least user statistics and points on each page .,USABILITY
+244,The system shall ask the user to confirm dropping a user or trading a user before performing the action .,USABILITY
+245,The system shall be able to complete every user transaction within fourth of a second of receiving the request over the network .,PERFORMANCE
+246,The system shall have a downtime of at most 10 minutes per year .,AVAILABILITY
+247,system updates shall occur between on Wednesday during the middle of the season .,MAINTAINABILITY
+248,New system version releases shall be released at the beginning of each season .,MAINTAINABILITY
+249,The system should be available alltimes especially during the budgeting period . The system shall be available alltimes all year and most during the budgeting period . little of the time the system will become available within 1 hour of the time that the situation is reported .,AVAILABILITY
+250,Changes to revenue and expense formulae must be applied to the system alltimes prior to the budgeting process start . Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and .,MAINTAINABILITY
+251,New branches/complexes/districts / regions and revenue/expense accounts added to the user must be reflected in the system . all of the entities mentioned above available as of October month-end will be loaded into the system prior to the budget start process .,MAINTAINABILITY
+252,Only authorized user shall access the system . ONLY user that exist in the system with the system assigned to their role s shall access the system and use it .,SECURITY
+253,user access should be limited to the permissions granted to their role s Each level in the PCG hierarchy will be assigned a role and user willuserssigned to these roles . Access to functionality within system on the privileges/permission assigned to the role . .,SECURITY
+254,The user should be able to easily use the system to successfully complete their budgets within the stipulated time for completion . With a week of training prior to product implementation most of the user shall complete their budgets within the stipulated time .,USABILITY
+255,The system interface should be fast . The response time of the system interface should not exceed fast alltimes . For little of the time the response time should fast.fast .,PERFORMANCE
