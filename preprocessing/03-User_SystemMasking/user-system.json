@@ -1,0 +1,5526 @@
+[
+  {
+    "id": 7160,
+    "text": "The system shall refresh the display alltimes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7161,
+    "text": "If projected the data must be readable . On a 10x10 projection screen most of viewers must be able to read Event / Activity data from a viewing distance of",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[78, 85, "USER"]]
+  },
+  {
+    "id": 7162,
+    "text": "The product shall be available during normal business hours . As long as the user has access to the client PC the system will be available alltimes during the first six months of operation .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [77, 81, "USER"],
+      [114, 120, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7163,
+    "text": "If projected the data must be understandable . On a 10x10 projection screen most of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[84, 91, "USER"]]
+  },
+  {
+    "id": 7164,
+    "text": "The product shall ensure that it can only be accessed by authorized users . The product will be able to distinguish between authorized and unauthorized users in all access attempts",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [68, 73, "USER"],
+      [80, 87, "SYSTEM"],
+      [152, 157, "USER"]
+    ]
+  },
+  {
+    "id": 7165,
+    "text": "The product shall be intuitive and self-explanatory . : most of new users shall be able to start the display of Events or Activities fast of using the product .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [68, 73, "USER"],
+      [151, 158, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7166,
+    "text": "The product shall respond fast to keep up-to-date data in the display .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7167,
+    "text": "The system shall be used by realtors with no training .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [28, 36, "USER"]
+    ]
+  },
+  {
+    "id": 7168,
+    "text": "The system shall be intuitive and self explanatory .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7169,
+    "text": "The product shall be easy for a realtor to learn .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [32, 39, "USER"],
+      [4, 11, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7170,
+    "text": "The product shall use symbols and words that are naturally understandable by the realtor community .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [81, 88, "USER"]
+    ]
+  },
+  {
+    "id": 7171,
+    "text": "The product shall produce search results in an acceptable time",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7172,
+    "text": "The search results shall be returned fast after the user has entered the search criteria",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[52, 56, "USER"]]
+  },
+  {
+    "id": 7173,
+    "text": "The product shall generate a report in an acceptable time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7174,
+    "text": "The report shall be returned fast after the user has entered the report criteria .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[44, 48, "USER"]]
+  },
+  {
+    "id": 7175,
+    "text": "The product shall synchronize contacts and appointments in an acceptable time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7176,
+    "text": "The product shall synchronize with the office system alltimes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7177,
+    "text": "The product shall be available for use alltimes",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7178,
+    "text": "Out of 1000 accesses to the system the system is available times .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [28, 34, "SYSTEM"],
+      [39, 45, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7179,
+    "text": "The product shall operate in offline mode whenever internet connection is unavailable .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7180,
+    "text": "The product shall allow the user to view previously downloaded search results reports and appointments .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [28, 32, "USER"]
+    ]
+  },
+  {
+    "id": 7181,
+    "text": "The product shall retain user preferences in the event of a failure .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [25, 29, "USER"]
+    ]
+  },
+  {
+    "id": 7182,
+    "text": "all of saved user preferences shall be restored when system comes back online .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [13, 17, "USER"],
+      [53, 59, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7183,
+    "text": "The product shall be able to support multiple remote users",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [53, 58, "USER"]
+    ]
+  },
+  {
+    "id": 7184,
+    "text": "The product shall be able support 1000 simultaneous users .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [52, 57, "USER"]
+    ]
+  },
+  {
+    "id": 7185,
+    "text": "The product shall be capable of handling the existing users . This number is expected to grow times within the next year .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [54, 59, "USER"]
+    ]
+  },
+  {
+    "id": 7186,
+    "text": "The product shall be installed by an untrained realtor without recourse to separately-printed instructions .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [47, 54, "USER"]
+    ]
+  },
+  {
+    "id": 7187,
+    "text": "most of untrained realtors shall be able to install the product on their device without printed instructions",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [18, 26, "USER"],
+      [56, 63, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7188,
+    "text": "Only registered realtors shall be able to access the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [53, 59, "SYSTEM"],
+      [16, 24, "USER"]
+    ]
+  },
+  {
+    "id": 7189,
+    "text": "Every user of the system shall be authenticated and authorized .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [6, 10, "USER"],
+      [18, 24, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7190,
+    "text": "The product shall prevent its data from incorrect data being introduced .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7191,
+    "text": "The system shall be easy to use by the Program Administrators/Nursing Staff Members .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [39, 83, "USER"]
+    ]
+  },
+  {
+    "id": 7192,
+    "text": "All of the users shall be able to use the system after one day of training .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [11, 16, "USER"],
+      [42, 48, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7193,
+    "text": "The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [26, 30, "USER"],
+      [100, 116, "USER"],
+      [4, 10, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7194,
+    "text": "The number of mistakes noted by the students shall be decreased by most within the first year .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[36, 44, "USER"]]
+  },
+  {
+    "id": 7195,
+    "text": "The system shall be intuitive to the Program Administrators/Nursing Staff Members .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [37, 81, "USER"],
+      [4, 10, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7196,
+    "text": "out of Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [7, 51, "USER"],
+      [90, 96, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7197,
+    "text": "The system shall use symbols and words that are naturally understandable by the user community .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [80, 84, "USER"]
+    ]
+  },
+  {
+    "id": 7198,
+    "text": "The verbiage used within the system shall be consistent with Standard and the terminology of the national .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[29, 35, "SYSTEM"]]
+  },
+  {
+    "id": 7199,
+    "text": "Staff members shall be able to complete a set of tasks in a timely manner .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 13, "USER"]]
+  },
+  {
+    "id": 7200,
+    "text": "The response time of general student management tasks shall take fast and the response time of schedule generation shall take fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7201,
+    "text": "The system shall be available for use between the hours of 8 am and",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7202,
+    "text": "The system shall achieve most up time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7203,
+    "text": "system shall be able to handle all of the user requests/usage during business hours .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 6, "SYSTEM"],
+      [42, 46, "USER"]
+    ]
+  },
+  {
+    "id": 7204,
+    "text": "The system shall cater to simultaneous users from to",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [39, 44, "USER"]
+    ]
+  },
+  {
+    "id": 7205,
+    "text": "The system shall be capable of processing all of nursing students and their classes for the next 10 years .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [49, 65, "USER"]
+    ]
+  },
+  {
+    "id": 7206,
+    "text": "The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7207,
+    "text": "Only authorized users shall have access to clinical site information .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [16, 21, "USER"],
+      [43, 56, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7208,
+    "text": "Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 44, "USER"],
+      [90, 103, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7209,
+    "text": "Only authorized users shall have access to students ' personal information .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [16, 21, "USER"],
+      [43, 51, "USER"]
+    ]
+  },
+  {
+    "id": 7210,
+    "text": "Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students ' personal information .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 17, "USER"],
+      [22, 38, "USER"],
+      [84, 92, "USER"]
+    ]
+  },
+  {
+    "id": 7211,
+    "text": "Only authorized users shall have access to the portion of the system that interfaces with CampusConnect .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [16, 21, "USER"],
+      [62, 68, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7212,
+    "text": "Fit Criterion : Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [16, 33, "USER"],
+      [38, 49, "USER"],
+      [138, 144, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7213,
+    "text": "The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7214,
+    "text": "The system shall protect private information in accordance with the organization 's information policy .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7215,
+    "text": "The system shall be built such that it is as secure as possible from malicious interference .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7216,
+    "text": "The system shall use the organization 's standard virus protection software to help monitor threats to itself .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7217,
+    "text": "The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7218,
+    "text": "all of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [11, 21, "USER"],
+      [26, 59, "USER"],
+      [74, 94, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7219,
+    "text": "all of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[7, 42, "USER"]]
+  },
+  {
+    "id": 7220,
+    "text": "all of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[7, 40, "USER"]]
+  },
+  {
+    "id": 7221,
+    "text": "The maximum wait time for a user navigating from screen to another within the Disputes application shall be fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [28, 32, "USER"],
+      [78, 98, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7222,
+    "text": "The Disputes application shall support concurrent users without any degradation of performance in the application .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 24, "SYSTEM"],
+      [50, 55, "USER"]
+    ]
+  },
+  {
+    "id": 7223,
+    "text": "The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 24, "SYSTEM"],
+      [48, 53, "USER"]
+    ]
+  },
+  {
+    "id": 7224,
+    "text": "Only users with Update access must be able to initiate dispute requests .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[5, 10, "USER"]]
+  },
+  {
+    "id": 7225,
+    "text": "The Disputes application shall ensure that only authorized users are allowed to logon to the application .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 24, "SYSTEM"],
+      [59, 64, "USER"],
+      [93, 104, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7226,
+    "text": "All authorized users once authenticated must be able to logon to the Disputes System",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [15, 20, "USER"],
+      [69, 84, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7227,
+    "text": "The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user 's access level . The report will be reviewed for auditing purposes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 19, "SYSTEM"],
+      [37, 41, "USER"],
+      [70, 75, "USER"],
+      [128, 132, "USER"]
+    ]
+  },
+  {
+    "id": 7228,
+    "text": "All additions of new users and modifications to user 's access shall be recorded on the User Report .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [21, 26, "USER"],
+      [48, 52, "USER"],
+      [88, 92, "USER"]
+    ]
+  },
+  {
+    "id": 7229,
+    "text": "If a user account is revoked it can only be re-instantiated by the System Administrator .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[5, 9, "USER"]]
+  },
+  {
+    "id": 7230,
+    "text": "Only the System Administrator shall be able to reset a revoked user logon account",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[63, 67, "USER"]]
+  },
+  {
+    "id": 7231,
+    "text": "The Disputes application shall manipulate and view business data . Users will not have direct access to data files or databases .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 24, "SYSTEM"],
+      [67, 72, "USER"]
+    ]
+  },
+  {
+    "id": 7232,
+    "text": "All updates to data files or database must be initiated from the Disputes System .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[65, 80, "SYSTEM"]]
+  },
+  {
+    "id": 7233,
+    "text": "The product shall be easy to use by Adjusters and . most of Adjusters and shall find the product easy to use .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [36, 45, "USER"],
+      [60, 69, "USER"],
+      [89, 96, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7234,
+    "text": "The product shall increase productivity of . most of the shall agree their productivity has increase within 1 month of using the product .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [129, 136, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7235,
+    "text": "Users shall feel satisfied using the product . most of all users will be satisfied with the product .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 5, "USER"],
+      [37, 44, "SYSTEM"],
+      [59, 64, "USER"],
+      [92, 99, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7236,
+    "text": "The product shall be easy to learn by Adjusters and . The product shall be learned with two days onsite training",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [38, 47, "USER"],
+      [58, 65, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7237,
+    "text": "The user shall easily locate instructions while using the product . User help can be found within most of the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 8, "USER"],
+      [58, 65, "SYSTEM"],
+      [110, 116, "SYSTEM"],
+      [68, 72, "USER"]
+    ]
+  },
+  {
+    "id": 7238,
+    "text": "The search for recycled parts shall take fast . The search results shall be returned fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7239,
+    "text": "The search for the preferred repair facility shall take fast . The preferred repair facility is returned fast",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7240,
+    "text": "The recycled parts audit report shall be returned to the user fast . The audit report shall be returned fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[57, 61, "USER"]]
+  },
+  {
+    "id": 7241,
+    "text": "The preferred repair facility ratings shall be saved fast . The save shall occur fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7242,
+    "text": "The product shall adhere to the corporate online availability schedule . The application is brought down only within most of the scheduled outages per the availability schedule .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [77, 88, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7243,
+    "text": "The product shall achieve a most up time . The product shall not fail more than little of the available online time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [47, 54, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7244,
+    "text": "The product shall be able to handle up to simultaneous users . The system shall perform with users as a time .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [
+      [55, 60, "USER"],
+      [93, 98, "USER"],
+      [4, 11, "SYSTEM"],
+      [67, 73, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7245,
+    "text": "The average number of recycled parts records per day shall be .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7246,
+    "text": "The product shall be able to handle concurrent users within 2 years of the initial launch .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [47, 52, "USER"],
+      [4, 11, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7247,
+    "text": "Only adjusters can request recycled parts audit reports . No users without an adjuster role shall request recycled parts audits .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [5, 14, "USER"],
+      [61, 66, "USER"],
+      [78, 86, "USER"]
+    ]
+  },
+  {
+    "id": 7248,
+    "text": "Only adjusters with a supervisor role can update preferred repair facility ratings . Users without the supervisor role can not access the repair facility ratings .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [22, 32, "USER"],
+      [85, 90, "USER"],
+      [5, 14, "USER"],
+      [103, 113, "USER"]
+    ]
+  },
+  {
+    "id": 7249,
+    "text": "Only collision estimators shall search for recycled parts . Users without the collision estimator role shall not have access to the search for recycled parts .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [5, 25, "USER"],
+      [60, 65, "USER"],
+      [78, 97, "USER"]
+    ]
+  },
+  {
+    "id": 7250,
+    "text": "Only valid data shall be entered into the system . No invalid data shall be entered into the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [42, 48, "SYSTEM"],
+      [93, 99, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7251,
+    "text": "insurance company shall not be able to view another insurance companys claim data .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 17, "USER"],
+      [52, 70, "USER"]
+    ]
+  },
+  {
+    "id": 7252,
+    "text": "The product shall free of computer viruses .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7253,
+    "text": "The system shall prevent malicious attacks including denial of service .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7254,
+    "text": "The product shall make the users want to use it . most of the users surveyed report they are regularly using the product after the first 2 weeks post-launch .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [27, 32, "USER"],
+      [113, 120, "SYSTEM"],
+      [4, 11, "SYSTEM"],
+      [62, 67, "USER"]
+    ]
+  },
+  {
+    "id": 7255,
+    "text": "The product shall be easy to use . most of users will be able to successfully reserve a conference room fast of product use .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [43, 48, "USER"],
+      [112, 119, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7256,
+    "text": "The product shall give users feedback when necessary . most of the users surveyed report that the product accurately confirms their actions .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [23, 28, "USER"],
+      [98, 105, "SYSTEM"],
+      [67, 72, "USER"]
+    ]
+  },
+  {
+    "id": 7257,
+    "text": "The product shall allow the user to select a chosen language from of the target market countries .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [28, 32, "USER"],
+      [4, 11, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7258,
+    "text": "The product shall allow for customization of start page and views preferences .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7259,
+    "text": "An employee will be able to successfully use the product within a few fast . After informally navigating the product fast users shall be able to successfully setup meetings and reserve conference rooms .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [3, 11, "USER"],
+      [49, 56, "SYSTEM"],
+      [109, 116, "SYSTEM"],
+      [122, 127, "USER"]
+    ]
+  },
+  {
+    "id": 7260,
+    "text": "The product shall use a standard navigation menu familiar to most web users .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [70, 75, "USER"]
+    ]
+  },
+  {
+    "id": 7261,
+    "text": "The product shall allow for intuitive searching of available conference rooms .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7262,
+    "text": "The product shall conform to the Americans with Disabilities Act .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7263,
+    "text": "The response shall be fast enough to avoid interrupting the user 's flow of thought . most of tasks shall complete fast . most of tasks shall complete fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[60, 64, "USER"]]
+  },
+  {
+    "id": 7264,
+    "text": "Aside from server failure the software product shall achieve most up time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[30, 46, "SYSTEM"]]
+  },
+  {
+    "id": 7265,
+    "text": "The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [77, 84, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7266,
+    "text": "The product shall be capable of h ling up to concurrent requests . This number will increase to by Release . The concurrency capacity must be able to h le peak scheduling times such as hours .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7267,
+    "text": "The product shall be able to process transactions per hour within two years of its launch . This number will increase to by Release .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7268,
+    "text": "The product shall be expected to operate for at least 5 years for each customer installation .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7269,
+    "text": "A new user must be able to be added to the system fast . most of new users are able to log into the system fast .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [
+      [6, 10, "USER"],
+      [43, 49, "SYSTEM"],
+      [69, 74, "USER"],
+      [100, 106, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7270,
+    "text": "The product must be designed using Design Patterns and coding best practices . most of maintenance software developers are able to integrate new functionality into the product with working days .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7271,
+    "text": "The product must be highly configurable for use with various database management systems for the end users . most of end users are able to integrate new database management systems with the product without changing the product 's software code .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [101, 106, "USER"],
+      [121, 126, "USER"],
+      [190, 197, "SYSTEM"],
+      [219, 226, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7272,
+    "text": "Maintenance releases will be offered to customers once a year . The releases shall take fast for most of the customer base to install .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [40, 49, "USER"],
+      [109, 117, "USER"]
+    ]
+  },
+  {
+    "id": 7273,
+    "text": "Every registered user will have access to the product 's support site via the Internet . most of registered users shall find a solution to their problem fast of using the support site .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [17, 21, "USER"],
+      [46, 53, "SYSTEM"],
+      [108, 113, "USER"]
+    ]
+  },
+  {
+    "id": 7274,
+    "text": "The customer shall be able to easily integrate new building maps with the product throughout the product 's lifecycle . Integration of new maps with the product shall be possible with little to no support from product support staff .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 12, "USER"],
+      [74, 81, "SYSTEM"],
+      [97, 104, "SYSTEM"],
+      [153, 160, "SYSTEM"],
+      [210, 217, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7275,
+    "text": "The product shall be translated into foreign languages other than the target market countries ' languages within future releases . For each emerging target market it shall take within 5 days to configure the product for that market 's language .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [208, 215, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7276,
+    "text": "The product shall ensure that only company employees or external users with company-approved user IDs may have product access . all of all logons shall be by either company employees or external users with company-approved user IDs .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [35, 52, "USER"],
+      [65, 70, "USER"],
+      [93, 97, "USER"],
+      [111, 118, "SYSTEM"],
+      [165, 182, "USER"],
+      [195, 200, "USER"],
+      [223, 227, "USER"]
+    ]
+  },
+  {
+    "id": 7277,
+    "text": "Only managers are able to perform search queries for reservations by user . all of all search queries for reservations by user shall be from logons of only management logons .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [5, 13, "USER"],
+      [69, 73, "USER"],
+      [122, 126, "USER"]
+    ]
+  },
+  {
+    "id": 7278,
+    "text": "The product shall ensure that the database 's data corresponds to the data entered by the user . Each conference room reservation in the system will contain the same information as was entered by the user .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [90, 94, "USER"],
+      [137, 143, "SYSTEM"],
+      [200, 204, "USER"]
+    ]
+  },
+  {
+    "id": 7279,
+    "text": "The product shall prevent the input of malicious data . The product and/or adjacent hardware/software systems ' data shall remain all uncorrupted each time malicious data is input into the product .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [60, 67, "USER"],
+      [102, 109, "SYSTEM"],
+      [189, 196, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7280,
+    "text": "The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data . The product and/or dependent databases/filesystems shall not crash all of the time that malicious data is input into the product .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [125, 132, "SYSTEM"],
+      [242, 249, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7281,
+    "text": "The product shall have the ability to receive automatic software updates as new threats emerge . all of customers will be able to receive automatic software updates transmitted to the installed product .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [104, 113, "USER"],
+      [194, 201, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7282,
+    "text": "The language of the product shall accommodate all of the target market countries . most of survey respondents from each target market country will find that the language of the product is acceptable .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [20, 27, "SYSTEM"],
+      [91, 109, "USER"],
+      [177, 184, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7283,
+    "text": "The product shall be able to display calendar dates and times according to the user 's locale . most of survey respondents from each target market country will find that the date and time formatting of the product is correct .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [79, 83, "USER"],
+      [104, 122, "USER"],
+      [206, 213, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7284,
+    "text": "Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take within 30 min .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7285,
+    "text": "The System shall allow for a minimum of users to work at the same time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [40, 45, "USER"]
+    ]
+  },
+  {
+    "id": 7286,
+    "text": "The System shall maintain consistent security . Any changes in user passwords and/or permissions should take affect in all parts of the System .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [136, 142, "SYSTEM"],
+      [63, 67, "USER"]
+    ]
+  },
+  {
+    "id": 7287,
+    "text": "The System shall granularly control access rights to all major subsystems . It should be possible to assign access rights to all subsystems independently .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7288,
+    "text": "Administrator shall be able to activate a pre-paid card via the Administration section fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 13, "USER"],
+      [64, 78, "USER"]
+    ]
+  },
+  {
+    "id": 7289,
+    "text": "Customer shall be able to check the status of their prepaid card by entering within the PIN number fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 8, "USER"]]
+  },
+  {
+    "id": 7290,
+    "text": "System shall let customers register on the website as a ` pay as you go ' user fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 6, "SYSTEM"],
+      [17, 26, "USER"],
+      [43, 50, "SYSTEM"],
+      [74, 78, "USER"]
+    ]
+  },
+  {
+    "id": 7291,
+    "text": "System shall let customers register on the website as a ` unlimited movie subscriber ' user fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 6, "SYSTEM"],
+      [17, 26, "USER"],
+      [43, 50, "SYSTEM"],
+      [56, 91, "USER"]
+    ]
+  },
+  {
+    "id": 7292,
+    "text": "System shall let existing customers log into the website with their email address and password fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 6, "SYSTEM"],
+      [26, 35, "USER"],
+      [49, 56, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7293,
+    "text": "System shall let customers cancel their account process shall take fast . Database will mark the account as inactive and user will not be able to log into the website .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 6, "SYSTEM"],
+      [17, 26, "USER"],
+      [121, 125, "USER"],
+      [159, 166, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7294,
+    "text": "System shall let administrator de-activate a customer account fast . Customer will no longer be able to access the website .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 6, "SYSTEM"],
+      [17, 30, "USER"],
+      [45, 53, "USER"],
+      [69, 77, "USER"],
+      [115, 122, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7295,
+    "text": "System shall let administrator add/remove movies on the website fast . Entered movie information will be stored within the database and will now be available on the website .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 6, "SYSTEM"],
+      [17, 30, "USER"],
+      [56, 63, "SYSTEM"],
+      [165, 172, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7296,
+    "text": "System shall let the administrator add/remove categories on the website fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 6, "SYSTEM"],
+      [21, 34, "USER"],
+      [64, 71, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7297,
+    "text": "System shall let Izogn Manager access sales and usage statistics fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 6, "SYSTEM"],
+      [17, 30, "USER"]
+    ]
+  },
+  {
+    "id": 7298,
+    "text": "System shall let administrators generate unique pre-paid pins fast and generate an Excel file with the generated PINs .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 6, "SYSTEM"],
+      [17, 31, "USER"]
+    ]
+  },
+  {
+    "id": 7299,
+    "text": "The product should be able to be used by most of novice users on the Internet .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [56, 61, "USER"]
+    ]
+  },
+  {
+    "id": 7300,
+    "text": "Users should only have to navigate through a maximum of pages to create an account with the website .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 5, "USER"],
+      [92, 99, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7301,
+    "text": "Users should be able to access their streaming movies in under clicks after logging into the website .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 5, "USER"],
+      [93, 100, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7302,
+    "text": "An anonymous survey will show that most of customers are comfortable purchasing streaming movies after 2 weeks using the website .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [43, 52, "USER"],
+      [121, 128, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7303,
+    "text": "An anonymous survey will show that most of customers are comfortable using and purchasing pre-paid cards after a month of using the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [43, 52, "USER"],
+      [132, 138, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7304,
+    "text": "The product shall retain the customer 's buying preferences and information .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [29, 37, "USER"]
+    ]
+  },
+  {
+    "id": 7305,
+    "text": "The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies . Customers should be able to purchase and watch a pre-determined movie fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [30, 39, "USER"],
+      [116, 125, "USER"]
+    ]
+  },
+  {
+    "id": 7306,
+    "text": "The product shall use symbols and words that are naturally understandable by users familiar with websites",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [77, 82, "USER"]
+    ]
+  },
+  {
+    "id": 7307,
+    "text": "The website will use standard Internet conventions when interacting with the user .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [77, 81, "USER"]
+    ]
+  },
+  {
+    "id": 7308,
+    "text": "Any interface between a user and the automated system shall have a maximum response time of fast unless noted by an exception below .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [24, 28, "USER"],
+      [47, 53, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7309,
+    "text": "When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7310,
+    "text": "When streaming a movie the buffering time should take fast plus any latency on the user 's connection .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[83, 87, "USER"]]
+  },
+  {
+    "id": 7311,
+    "text": "While streaming a movie buffering should only occur if there is latency in the user 's connection .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[79, 83, "USER"]]
+  },
+  {
+    "id": 7312,
+    "text": "All credit card information will be secured on the server and only accessible by authorized Izogn administrators . Information will be encrypted in the database .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[92, 112, "USER"]]
+  },
+  {
+    "id": 7313,
+    "text": "The website shall be available for use alltimes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7314,
+    "text": "The website shall achieve most up time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7315,
+    "text": "All movies shall be streamed on demand at any time of the day .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7316,
+    "text": "The website shall continue to operate if the streaming server goes down .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [45, 61, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7317,
+    "text": "The website shall continue to operate if the payment gateway goes down .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7318,
+    "text": "The streaming server will support simultaneous streaming connections .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [[4, 20, "SYSTEM"]]
+  },
+  {
+    "id": 7319,
+    "text": "The streaming server will support a maximum of movies ; new servers can be added to support more movies .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [[4, 20, "SYSTEM"]]
+  },
+  {
+    "id": 7320,
+    "text": "The server will support a maximum of simultaneous users .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[50, 55, "USER"]]
+  },
+  {
+    "id": 7321,
+    "text": "The website shall be capable of supporting customers .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [43, 52, "USER"],
+      [4, 11, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7322,
+    "text": "The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7323,
+    "text": "Promotional updates to the website should take a day to update .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[27, 34, "SYSTEM"]]
+  },
+  {
+    "id": 7324,
+    "text": "Izogn Administrator must be able to update the category listings on the website fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 19, "USER"],
+      [72, 79, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7325,
+    "text": "Izogn Administrator must be able to add new products to the website fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 19, "USER"],
+      [60, 67, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7326,
+    "text": "The system will provide a alltimes toll free number for support to its customers .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [71, 80, "USER"]
+    ]
+  },
+  {
+    "id": 7327,
+    "text": "The website will provide a help section with answers and solutions to common problems .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7328,
+    "text": "Velkat staff will be available for phone support between M-F to provide technical support to the Izogn administrators .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 12, "USER"],
+      [97, 117, "USER"]
+    ]
+  },
+  {
+    "id": 7329,
+    "text": "Only registered customers can purchase streaming movies .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [[16, 25, "USER"]]
+  },
+  {
+    "id": 7330,
+    "text": "A customer can only stream a movie if they purchased it and are within the 2 day viewing period .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[2, 10, "USER"]]
+  },
+  {
+    "id": 7331,
+    "text": "Only authorized personnel can access customer records in the database .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [16, 25, "USER"],
+      [37, 45, "USER"]
+    ]
+  },
+  {
+    "id": 7332,
+    "text": "Only administrators can activate a pre-paid card .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[5, 19, "USER"]]
+  },
+  {
+    "id": 7333,
+    "text": "Only authorized personnel can access sales information .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[16, 25, "USER"]]
+  },
+  {
+    "id": 7334,
+    "text": "The website shall prevent its data from being corrupted when incorrect data is entered in .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7335,
+    "text": "The website shall protect itself from intentional abuse and notify the administrator at all occurrences .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [71, 84, "USER"],
+      [4, 11, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7336,
+    "text": "Data integrity scripts will be run on a alltimes basis to verify the integrity of the database .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7337,
+    "text": "The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [27, 31, "USER"],
+      [152, 159, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7338,
+    "text": "The system shall notify customers of changes to its information policy .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [24, 33, "USER"]
+    ]
+  },
+  {
+    "id": 7339,
+    "text": "The system shall reveal private information only in compliance with the organization 's information policy .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7340,
+    "text": "All customer information will be stored on a secure database accessible only to authorized personnel .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [91, 100, "USER"],
+      [4, 12, "USER"]
+    ]
+  },
+  {
+    "id": 7341,
+    "text": "All credit card information will be encrypted in the database .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7342,
+    "text": "The streaming server will have anti-virus software to prevent infection of malicious viruses .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 20, "SYSTEM"]]
+  },
+  {
+    "id": 7343,
+    "text": "Total lead cycle time must be completed fast for most of lead volume between the business hours of 8AM to ; then fast for most of lead volume during off business hours .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [130, 134, "USER"],
+      [6, 10, "USER"],
+      [57, 61, "USER"]
+    ]
+  },
+  {
+    "id": 7344,
+    "text": "No lead evaluation will complete within a time period longer than fast for most of all leads processed .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [87, 92, "USER"],
+      [3, 7, "USER"]
+    ]
+  },
+  {
+    "id": 7345,
+    "text": "For leads that process longer than fast the system will record the event and duration",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 9, "USER"],
+      [44, 50, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7346,
+    "text": "The process must fit within the processing time conditions set forth by the Auto Rep Assignment process within which a lead is assigned fast of the total life cycle .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[119, 123, "USER"]]
+  },
+  {
+    "id": 7347,
+    "text": "Defect reports will be available to technical units on a alltimes basis .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7348,
+    "text": "Washing parameters will be updated during scheduled maintenance hours .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7349,
+    "text": "The product shall be available alltimes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7350,
+    "text": "The product shall able to handle a large number of games simultaneously .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7351,
+    "text": "The response time shall be fast enough to maintain the flow of the game . The response time shall be fast for most of responses and within little for the remaining responses .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7352,
+    "text": "The product shall protect the identity of the players . The product shall provide players no access to information that might reveal the identity of another player .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [60, 67, "SYSTEM"],
+      [82, 89, "USER"],
+      [157, 163, "USER"]
+    ]
+  },
+  {
+    "id": 7353,
+    "text": "The product shall be intuitive and self-explanatory . out users shall be able to successfully complete a game with no training .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [58, 63, "USER"]
+    ]
+  },
+  {
+    "id": 7354,
+    "text": "The product shall be available to players who understand and . The product shall allow the user to select the language upon accessing the product .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [34, 41, "USER"],
+      [67, 74, "SYSTEM"],
+      [91, 95, "USER"],
+      [138, 145, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7355,
+    "text": "The product shall provide players no access to information that might reveal the identity of another player",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [26, 33, "USER"],
+      [101, 107, "USER"]
+    ]
+  },
+  {
+    "id": 7356,
+    "text": "The response time shall be fast enough to maintain the flow of the game . The response time shall be fast for most of responses and within little for the remaining responses .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7357,
+    "text": "The system shall be easy to use by callers and supervisors . Callers and supervisors must be able to accomplish any system task fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [35, 42, "USER"],
+      [47, 58, "USER"],
+      [61, 68, "USER"],
+      [73, 84, "USER"],
+      [116, 122, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7358,
+    "text": "The system shall be easy to learn by callers and supervisors . Callers and supervisors shall learn how to use the system fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [37, 44, "USER"],
+      [49, 60, "USER"],
+      [63, 70, "USER"],
+      [75, 86, "USER"],
+      [114, 120, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7359,
+    "text": "The system shall be responsive . At the when a supervisor uses the system to view a callers schedule the system response time must be fast alltimes and fast the rest of the time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [47, 57, "USER"],
+      [67, 73, "SYSTEM"],
+      [84, 91, "USER"],
+      [105, 111, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7360,
+    "text": "On a 56k connection the system response time for all operations must be fast alltimes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[24, 30, "SYSTEM"]]
+  },
+  {
+    "id": 7361,
+    "text": "On a 112k connection or faster the system response time for all operations must be fast alltimes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[35, 41, "SYSTEM"]]
+  },
+  {
+    "id": 7362,
+    "text": "The system shall have high availability alltimes . The system must be available for use between and all days of the year .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [55, 61, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7363,
+    "text": "The system must be available for use between and all days of the year .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7364,
+    "text": "The product shall be internet browser independent . The product must run using Internet Explorer and .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [56, 63, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7365,
+    "text": "The product shall ensure that only supervisors can advertise empty time slots . The product must ensure that supervisors are allowed to access advertise empty time slots .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [35, 46, "USER"],
+      [84, 91, "SYSTEM"],
+      [109, 120, "USER"]
+    ]
+  },
+  {
+    "id": 7366,
+    "text": "The product shall ensure that only supervisors can enter a caller 's schedule . The product must ensure that supervisors are allowed to access advertise empty time slots .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [35, 46, "USER"],
+      [59, 65, "USER"],
+      [84, 91, "SYSTEM"],
+      [109, 120, "USER"]
+    ]
+  },
+  {
+    "id": 7367,
+    "text": "The product shall ensure that only supervisors can view schedule of all callers . The product must ensure that supervisors are allowed to access advertise empty time slots .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [35, 46, "USER"],
+      [72, 79, "USER"],
+      [86, 93, "SYSTEM"],
+      [111, 122, "USER"]
+    ]
+  },
+  {
+    "id": 7368,
+    "text": "The product shall provide . The product shall be easy for System Administrators and DBAs to use after two weeks of usage .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [32, 39, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7369,
+    "text": "The product shall provide Error Tracking Services . The product shall help the System Administrators and DBAs to resolve transaction errors most of the time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [56, 63, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7370,
+    "text": "The product shall provide Portals . The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs Key Performance Indicators",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [40, 47, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7371,
+    "text": "The product shall provide Asynchronous Messaging . The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [55, 62, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7372,
+    "text": "The product shall provide Multi-threading and Load Balancing . The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [67, 74, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7373,
+    "text": "The product shall process messages fast . The product shall have a maximum message processing time of fast",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [46, 53, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7374,
+    "text": "The product shall poll the system for messages alltimes . The product shall poll the system for new messages at a maximum of alltimes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [27, 33, "SYSTEM"],
+      [62, 69, "SYSTEM"],
+      [85, 91, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7375,
+    "text": "The product shall provide Dynamic Change Support and Transparent resource addition . The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [89, 96, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7376,
+    "text": "The product shall be available alltimes . Rationale : To avoid service interruption during busiest customer service response periods . The product shall be available . alltimes for regular business days .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [99, 107, "USER"],
+      [139, 146, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7377,
+    "text": "The product shall be robust . The product shall have fault avoidance based on standards adoption .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [34, 41, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7378,
+    "text": "The product shall be robust with fault tolerance . The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [55, 62, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7379,
+    "text": "The product shall be able to process all transactions . The product shall process minimum of transactions per year .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [60, 67, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7380,
+    "text": "The product shall continue to operate during upgrade change or new resource addition . The product shall be able to continue to operate with no interruption in service due to new resource additions .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [91, 98, "SYSTEM"],
+      [4, 11, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7381,
+    "text": "The product shall be updated on a regular basis . The product will have a new major feature introduced alltimes and alltimes maintenance releases alltimes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [54, 61, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7382,
+    "text": "The product shall operate with every platform . The product shall accommodate any new technology without any change in its architecture .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [52, 59, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7383,
+    "text": "The product shall have security . The product shall provide authentication and authorization .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [38, 45, "SYSTEM"],
+      [4, 11, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7384,
+    "text": "The product shall information Security . The product shall enable privacy by encryption WS-Security and Integrity Checking .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [45, 52, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7385,
+    "text": "The product shall have audit capabilities . The product shall store messages for a minimum of one year for audit and transaction tracking purposes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [48, 55, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7386,
+    "text": "The system must use a point and click interface . all of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7387,
+    "text": "The interface shall be easy to use . most of users should be able to successfully use the system to generate a report on their first use . The interface should adhere to usability standards .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[90, 96, "SYSTEM"]]
+  },
+  {
+    "id": 7388,
+    "text": "Rreports must be easy to generate . eports must be generated within button click and exported within button click after selecting the report",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7389,
+    "text": "A user shall be able to use the system without instruction after a short amount of time . After use a user should understand and remember most of the system usage and navigation .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [2, 6, "USER"],
+      [102, 106, "USER"],
+      [32, 38, "SYSTEM"],
+      [150, 156, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7390,
+    "text": "All users shall receive training before the system is deployed . training session will be held for all of users before system deployment based on a user being available",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 9, "USER"],
+      [119, 125, "SYSTEM"],
+      [148, 152, "USER"],
+      [44, 50, "SYSTEM"],
+      [106, 111, "USER"]
+    ]
+  },
+  {
+    "id": 7391,
+    "text": "The system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization . All interfaces and reports will undergo usability tests by users .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [
+      [181, 186, "USER"],
+      [4, 10, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7392,
+    "text": "The system shall be available at all times as long as 's internal intranet W3 is accessible . The system will be available most of the time 's internal intranet W3 is available .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [98, 104, "SYSTEM"],
+      [4, 10, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7393,
+    "text": "The system shall have the ability to connect other designated databases currently not included in the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [102, 108, "SYSTEM"],
+      [4, 10, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7394,
+    "text": "The system shall have the ability to include data for regions outside the and be accessed by users outside of the if approved by management .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [93, 98, "USER"]
+    ]
+  },
+  {
+    "id": 7395,
+    "text": "The system must run queries to the databases once again on a specified day to update the available data available to users . Queries must be made to external databases for data refresh once a week .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [117, 122, "USER"]
+    ]
+  },
+  {
+    "id": 7396,
+    "text": "All changes updates and additions to the system shall be updated in the Developer and User Guides . Every change must be reflected in system documentation",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [41, 47, "SYSTEM"],
+      [86, 90, "USER"],
+      [134, 140, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7397,
+    "text": "The system shall only be accessed by authorized Corporate Community Grants employees . Users must be authenticated using their intranet user name and password .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [87, 92, "USER"],
+      [48, 84, "USER"],
+      [136, 140, "USER"]
+    ]
+  },
+  {
+    "id": 7398,
+    "text": "The system shall not allow automatic logins by any user . Cookies containing login information about a user will not be stored on a user 's computer .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [51, 55, "USER"],
+      [4, 10, "SYSTEM"],
+      [103, 107, "USER"],
+      [132, 136, "USER"]
+    ]
+  },
+  {
+    "id": 7399,
+    "text": "Each team owner will need to use a username and password in order to be authenticated to reach the team owner 's page",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [5, 15, "USER"],
+      [99, 109, "USER"]
+    ]
+  },
+  {
+    "id": 7400,
+    "text": "The Commissioner will be the only authorized user per league to adjust league settings .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 16, "USER"],
+      [45, 49, "USER"]
+    ]
+  },
+  {
+    "id": 7401,
+    "text": "A new user shall be able to navigate through the league and team pages fast of reaching the start-up page .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[6, 10, "USER"]]
+  },
+  {
+    "id": 7402,
+    "text": "Users shall be able to reach the ` add ' ` drop ' and ` trade player ' pages with click from the team owner 's page .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 5, "USER"],
+      [97, 107, "USER"]
+    ]
+  },
+  {
+    "id": 7403,
+    "text": "Users shall be able to view at least player statistics and points on each page .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 5, "USER"]]
+  },
+  {
+    "id": 7404,
+    "text": "The application shall ask the user to confirm dropping a player or trading a player before performing the action .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 15, "SYSTEM"],
+      [30, 34, "USER"]
+    ]
+  },
+  {
+    "id": 7405,
+    "text": "The application shall be able to complete every user transaction within fourth of a fast of receiving the request over the network .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 15, "SYSTEM"],
+      [48, 52, "USER"]
+    ]
+  },
+  {
+    "id": 7406,
+    "text": "The application shall have a downtime of at most fast per year .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 15, "SYSTEM"]]
+  },
+  {
+    "id": 7407,
+    "text": "Application updates shall occur between on Wednesday during the middle of the season .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7408,
+    "text": "New System version releases shall be released at the beginning of each season .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7409,
+    "text": "The RFS system should be available alltimes especially during the budgeting period . The RFS system shall be available alltimes all year and most during the budgeting period . little of the time the system will become available within 1 hour of the time that the situation is reported .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 14, "SYSTEM"],
+      [89, 99, "SYSTEM"],
+      [199, 205, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7410,
+    "text": "Changes to revenue and expense formulae must be applied to the RFS system alltimes prior to the budgeting process start . Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[63, 73, "SYSTEM"]]
+  },
+  {
+    "id": 7411,
+    "text": "New branches/complexes/districts / regions and revenue/expense accounts added to the BDW must be reflected in the RFS system . all of the entities mentioned above available as of October month-end will be loaded into the RFS system prior to the budget start process .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [114, 124, "SYSTEM"],
+      [221, 231, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7412,
+    "text": "Only authorized user shall access the RFS system . ONLY users that exist in the UAS system with the RFS system assigned to their role s shall access the RFS system and use it .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [16, 20, "USER"],
+      [38, 48, "SYSTEM"],
+      [56, 61, "USER"],
+      [80, 90, "SYSTEM"],
+      [100, 110, "SYSTEM"],
+      [153, 163, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7413,
+    "text": "User access should be limited to the permissions granted to their role s Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles . Access to functionality within RFS system is dependent on the privileges/permission assigned to the role . .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 4, "USER"],
+      [133, 138, "USER"],
+      [204, 214, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7414,
+    "text": "The users should be able to easily use the system to successfully complete their budgets within the stipulated time for completion . With a week of training prior to product implementation most of the users shall complete their budgets within the stipulated time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 9, "USER"],
+      [43, 49, "SYSTEM"],
+      [166, 173, "SYSTEM"],
+      [201, 206, "USER"]
+    ]
+  },
+  {
+    "id": 7415,
+    "text": "The product interface should be fast . The response time of the product interface should not exceed fast alltimes . For little of the time the response time should fast.fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [64, 71, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7416,
+    "text": "Employees shall be forced to change their password the next time they log in if they have not changed it within the length of time established as ` password expiration duration ' .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 9, "USER"]]
+  },
+  {
+    "id": 7417,
+    "text": "Users must change the initially assigned login authentication information password immediately after the first successful login . The initial password may never be reused .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 5, "USER"]]
+  },
+  {
+    "id": 7418,
+    "text": "The payroll system shall ensure that the employee salary data can be accessed only by authorized users . The payroll system shall distinguish between authorized and non‐authorized users .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 18, "SYSTEM"],
+      [41, 49, "USER"],
+      [97, 102, "USER"],
+      [109, 123, "SYSTEM"],
+      [180, 185, "USER"]
+    ]
+  },
+  {
+    "id": 7419,
+    "text": "Employees shall not be allowed to update their own salary information , and any such attempt shall be reported to the security administrator .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 9, "USER"],
+      [127, 140, "USER"]
+    ]
+  },
+  {
+    "id": 7420,
+    "text": "Only holders of current security clearance can enter the national headquarters building .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[5, 12, "USER"]]
+  },
+  {
+    "id": 7421,
+    "text": "The access permissions for system data may only be changed by the system 's data administrator .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [27, 33, "SYSTEM"],
+      [66, 72, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7422,
+    "text": "Passwords shall never be viewable at the point of entry or at any other time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7423,
+    "text": "Each unsuccessful attempt by a user to access an item of data shall be recorded on an audit trail .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[31, 35, "USER"]]
+  },
+  {
+    "id": 7424,
+    "text": "Users shall receive notification of profile changes via preferred communication method of record when profile information is modified .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 5, "USER"]]
+  },
+  {
+    "id": 7425,
+    "text": "The Online Payment System shall be available for use between the hours of .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 25, "SYSTEM"]]
+  },
+  {
+    "id": 7426,
+    "text": "The Online Payment System shall achieve 100 hours MTBF mean time between failure .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 25, "SYSTEM"]]
+  },
+  {
+    "id": 7427,
+    "text": "The CIF system shall achieve most up time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 14, "SYSTEM"]]
+  },
+  {
+    "id": 7428,
+    "text": "The mortgage amortization schedule shall be available to the customer fast for alltimess that it is requested . The remaining times it will be available fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[61, 69, "USER"]]
+  },
+  {
+    "id": 7429,
+    "text": "The Automated Teller Machine shall be at least 99.0 percent available on all s between . The machine shall be at least 99.95 percent available on all s between .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 28, "SYSTEM"],
+      [93, 100, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7430,
+    "text": "Unless the system is non‐operational , the system shall present a user with notification informing them that the system is unavailable .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [11, 17, "SYSTEM"],
+      [66, 70, "USER"],
+      [113, 119, "SYSTEM"],
+      [43, 49, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7431,
+    "text": "A new installation of the system shall be available for first‐time use within alltimess of the start of the install .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[26, 32, "SYSTEM"]]
+  },
+  {
+    "id": 7432,
+    "text": "The online registration system shall permit backing up of the registration database while other registration activities are going on . It is estimated that this requirement reduces duration for which the online registration system would be unavailable to students for maintenance by fast each calendar day .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [204, 230, "SYSTEM"],
+      [255, 263, "USER"],
+      [4, 30, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7433,
+    "text": "The new product shall be easy to use by adult members age to of the public who may only have hand free .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 15, "SYSTEM"],
+      [40, 74, "USER"]
+    ]
+  },
+  {
+    "id": 7434,
+    "text": "The vending product shall be able to be used by adult members of the public without training . A panel representative of at least 95 percent of the general public shall successfully purchase a product from the vending product on their first encounter .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 19, "SYSTEM"],
+      [210, 225, "SYSTEM"],
+      [48, 75, "USER"]
+    ]
+  },
+  {
+    "id": 7435,
+    "text": "The product shall be self‐explanatory and intuitive such that a service agent shall be able to produce a price quote fast of encountering the product for the first time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [64, 77, "USER"],
+      [142, 149, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7436,
+    "text": "The new policy management system shall be evaluated by 90 percent of the user community to be at least as easy to use as the existing system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 32, "SYSTEM"],
+      [73, 77, "USER"],
+      [125, 140, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7437,
+    "text": "A trained order‐entry clerk shall have the ability to submit a complete order for a product chosen from a supplier catalog within a maximum of fast , with an average order entry time of fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[2, 27, "USER"]]
+  },
+  {
+    "id": 7438,
+    "text": "People with no training and no understanding of shall be able to use the product .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 6, "USER"],
+      [73, 80, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7439,
+    "text": "A new warehouse clerk shall be able to enter a customer order on the system within a typical 8‐hour business day .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [2, 21, "USER"],
+      [69, 75, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7440,
+    "text": "The system shall be useable by program developers after five weeks of training .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7441,
+    "text": "The customer service call center shall analyze most of the problem reports within 2 hours . Items classified as ` urgent ' shall be repaired within business days within most of the reported cases .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 32, "USER"]]
+  },
+  {
+    "id": 7442,
+    "text": "The application development process must have a regression test procedure that allows complete re‐testing within business days .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 15, "SYSTEM"]]
+  },
+  {
+    "id": 7443,
+    "text": "A maintenance developer shall be able to modify existing statements to conform to revised regulations from the federal government with labor hours or less of development and testing effort .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7444,
+    "text": "A new consumer type code must be able to be added to the product within business hours .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [2, 14, "USER"],
+      [57, 64, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7445,
+    "text": "The system must maintain a service log and , on system start‐up , must check if system service is due . If a scheduled service session has not been carried out within calendar days of the scheduled date , the system should discontinue operation .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [48, 54, "SYSTEM"],
+      [80, 86, "SYSTEM"],
+      [209, 215, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7446,
+    "text": "A development programmer who has at least one year of experience supporting this software application shall be able to add a new product feature , including source code modifications and testing , with within one week of labor .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[81, 101, "SYSTEM"]]
+  },
+  {
+    "id": 7447,
+    "text": "The system shall not be shut down for maintenance more than once in a 24‐hour period .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7448,
+    "text": "The elapsed duration of time required to produce any statement or report showing information about transactions shall be based upon how much data is presented rather than the total quantity of stored data .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7449,
+    "text": "The effort needed to administer the payroll system as measured within hours per month of system administrators ' time shall not increase with an increase within the number of employees . If there is a significant increase within system operation work , it shall be proportionately less than an increase within the number of employees .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [175, 184, "USER"],
+      [36, 50, "SYSTEM"],
+      [229, 235, "SYSTEM"],
+      [324, 333, "USER"]
+    ]
+  },
+  {
+    "id": 7450,
+    "text": "The payroll system shall be scalable to support unlimited growth in the number of employees .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 18, "SYSTEM"],
+      [82, 91, "USER"]
+    ]
+  },
+  {
+    "id": 7451,
+    "text": "The business rules repository shall be scalable to manage an unrestricted number of additional rules .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 29, "SYSTEM"]]
+  },
+  {
+    "id": 7452,
+    "text": "The travel reservation system shall be scalable to accommodate its use by an unlimited number of agency offices worldwide .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 29, "SYSTEM"],
+      [97, 111, "USER"]
+    ]
+  },
+  {
+    "id": 7453,
+    "text": "The claims system shall support all assigned adjustors following any catastrophic event .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 17, "SYSTEM"],
+      [45, 54, "USER"]
+    ]
+  },
+  {
+    "id": 7454,
+    "text": "The account management system shall support unlimited customer , account , and transaction relationships .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 29, "SYSTEM"],
+      [54, 62, "USER"]
+    ]
+  },
+  {
+    "id": 7455,
+    "text": "The transaction authorization system shall scale to potential alltimes spikes of , little in authorization requests during peak holiday shopping .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 36, "SYSTEM"]]
+  },
+  {
+    "id": 7456,
+    "text": "All error messages produced by the System must be meaningful , so that they can be appropriately acted upon by the users who are likely to see them . Ideally , each error message will be accompanied by explanatory text and an indication of the action s which the user can take in response to the error .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [35, 41, "SYSTEM"],
+      [115, 120, "USER"],
+      [263, 267, "USER"]
+    ]
+  },
+  {
+    "id": 7457,
+    "text": "The System must employ a single set of user interface rules , or a small number of sets to provide a familiar and common look and feel for the application .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7458,
+    "text": "The System must be able to display several entities cases , suspects simultaneously .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7459,
+    "text": "The interfaces must be made customizable or user-configurable to the extent possible . e.g. , the displayed columns in the table , move , resize , modify the appearance . Such configurations must be saved in the user profile .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[212, 216, "USER"]]
+  },
+  {
+    "id": 7460,
+    "text": "The System user interface must be suitable for users with special needs ; that is , compatible with specialist software that may be used and with appropriate interface guidelines .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [47, 52, "USER"]
+    ]
+  },
+  {
+    "id": 7461,
+    "text": "The System must provide End User and Administrator functions which are easy to use and intuitive throughout .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7462,
+    "text": "The System must allow persistent defaults for data entry where desirable . These defaults should include : user-definable values , values same as previous item , values derived from context , e.g. date , file reference , user identifier .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7463,
+    "text": "Frequently-executed System transactions must be designed so that they can be completed with a small number of interactions e.g. mouse clicks .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[20, 26, "SYSTEM"]]
+  },
+  {
+    "id": 7464,
+    "text": "Where the System employs a graphical user interface , it must allow users to customise it . Customisation should include , but need not be limited to the following changes : menu contents , layout of screens , use of function keys , on-screen colours , fonts and font sizes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [10, 16, "SYSTEM"],
+      [68, 73, "USER"]
+    ]
+  },
+  {
+    "id": 7465,
+    "text": "The user interfaces should be designed to make them user-intuitive .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7466,
+    "text": "The user interfaces of the system should comply with .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[27, 33, "SYSTEM"]]
+  },
+  {
+    "id": 7467,
+    "text": "ISO shall be the standard for guidance on ICT accessibility . Application user interfaces to meet its requirements and recommendations . Software accessibility ISO shall be the standard for guidance on software accessibility . User interfaces should meet its requirements and recommendations . Content accessibility WCAG shall be the standard used for guidance on content accessibility . The application logo to be available on all pages as a link to the home page .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[392, 403, "SYSTEM"]]
+  },
+  {
+    "id": 7468,
+    "text": "All non-text media objects , such as graphical images or video , should be provided with alternative equivalent textual descriptions and/or with equivalent text-based functionality .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7469,
+    "text": "Navigation should be designed to help users understand where they are , where they have been and where they can go next . General guidance on achieving self-descriptiveness is given in ISO .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7470,
+    "text": "Each presentation segment page or window should provide the user with a clear and sufficient indication of where he or she is in the navigation structure and of the current segment position with respect to the overall structure .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[60, 64, "USER"]]
+  },
+  {
+    "id": 7471,
+    "text": "Alternative access paths for navigating to a specific unit of content should be offered to support different navigation strategies .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7472,
+    "text": "The number of navigation steps needed to reach a certain piece of content should be minimized as long as different mental models , navigation strategies and tasks of the user are taken into account .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [[170, 174, "USER"]]
+  },
+  {
+    "id": 7473,
+    "text": "Splash screens should be avoided unless they provide useful content or feedback about the application state to the user . If a splash screen is used , a navigation option to skip it should be offered .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[115, 119, "USER"]]
+  },
+  {
+    "id": 7474,
+    "text": "Additional windows such as new browser windows or pop-up windows should only be opened if this supports the user 's task . Opening new windows can distract , confuse or impede users for a variety of reasons . They can superimpose the primary window , hiding relevant information . They could make it cognitively more difficult to understand the navigation structure with negative effects on both usability and accessibility . They also require additional user actions for closing unwanted windows .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [108, 112, "USER"],
+      [176, 181, "USER"],
+      [455, 459, "USER"]
+    ]
+  },
+  {
+    "id": 7475,
+    "text": "Vertical scrolling should be minimized . This may be done by placing important information at the top and providing links to information that is further down the page . Horizontal scrolling should be avoided wherever possible .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7476,
+    "text": "User interfaces should be designed to allow activation of controls by a variety of input devices . The ability to choose between different input devices for activating controls such as links , fields and buttons is important both for users who prefer a certain input mode , mobile users and users with disabilities . In general , device independence can be achieved if the functionality is operable via a keyboard .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [234, 239, "USER"],
+      [291, 296, "USER"],
+      [281, 286, "USER"]
+    ]
+  },
+  {
+    "id": 7477,
+    "text": "User interfaces should be designed to be as robust as possible in the face of changing technology . This encompasses being able to present content containing newer technologies by older user agents as well as designing content to be usable with future technologies .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7478,
+    "text": "Application pages should be designed and implemented so that there are acceptable opening times and download times for the expected range of technical contexts of use e.g. bandwidth between the application and the user . This is particularly important for frequently accessed pages or pages that are important for user navigation and exploration , such as the home page .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[214, 218, "USER"]]
+  },
+  {
+    "id": 7479,
+    "text": "Potential user errors as well as the effort needed to recover from errors should be minimized .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[10, 14, "USER"]]
+  },
+  {
+    "id": 7480,
+    "text": "The content of error messages shown on the pages or special error pages should clearly state the reason why the error occurred and , if possible , actions the user can take to resolve the error . Users expect error messages to be in the same language as the user interface .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [159, 163, "USER"],
+      [196, 201, "USER"]
+    ]
+  },
+  {
+    "id": 7481,
+    "text": "When designing user interfaces for use by diverse groups , input and output of information elements such as currency , units of measurement , temperatures , date and time , phone numbers , address or postal codes should be designed so that they are usable .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7482,
+    "text": "Text should be able to be resized by the user , using functions provided by the user agent or other appropriate means i.e. see ISO .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[41, 45, "USER"]]
+  },
+  {
+    "id": 7483,
+    "text": "The quality of textual content with respect to spelling and grammar should be sufficient so as not to impede readability .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7484,
+    "text": "The reading and understanding of the textual content on the screen should be supported by suitable means , including the use of short sentences , the division of the text into shorter chunks or the presentation of content items in the form of bullet points .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7485,
+    "text": "Fast skimming of text should be supported by the provision of clear links , bulleted lists , highlighted keywords , logical headings , and short phrases and sentences .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7486,
+    "text": "Text presented on the pages should be readable taking into account the expected display characteristics and spatial arrangement . ISO shall be consulted for screen text legibility requirements .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7487,
+    "text": "Within-page links should be clearly distinguishable from other links that lead to a different page . EX . Within-page links are shown with dashed rather than solid underlines .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7488,
+    "text": "Text pages containing large proportions of links should be formatted so that the presence of links does not impede the readability of the text .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7489,
+    "text": "Navigation links -- particularly links representing the main navigation structure -- should be labelled with terms that are familiar to the user , based on his/her general knowledge , prior experience in the application domain or experience of using other systems .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [156, 163, "USER"],
+      [140, 144, "USER"],
+      [208, 219, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7490,
+    "text": "The target or purpose of a link should be directly indicated by its label , avoiding generic labels such as `` go '' or `` click here '' except where the purpose of the link is clear from its context on the page or the labels have commonly understood semantics in the particular application domain . Using appropriate terminology specific to the user 's tasks and information needs is important for making the content easy to understand .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [279, 290, "SYSTEM"],
+      [346, 350, "USER"]
+    ]
+  },
+  {
+    "id": 7491,
+    "text": "Links that open new browser windows or pop-up windows should be clearly marked .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7492,
+    "text": "Navigation links should be clearly distinguishable from controls activating some action . Typical action types in user interfaces include manipulating application data , performing searches , communication actions , such as opening a new e-mail window or starting a chat function , and presentation-related actions , such as sorting a list of search results .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7493,
+    "text": "If a document is either too long , dispersed over several pages or in a specific layout that is not suitable for online reading , a printer-friendly version of the document should be provided that prints the content in a form acceptable to the user e.g. in the expected layout , paper format , or orientation .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[244, 248, "USER"]]
+  },
+  {
+    "id": 7494,
+    "text": "'' '' `` White space '' '' on a page i.e. space filled only with the background color should be used in such a way that it does not impair the visual skimming of the page . While white space is an important means of visually organizing the different content elements on a page , if the distance between the blocks of information displayed becomes too large , rapid skimming of the page can be impeded . ''",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7495,
+    "text": "The length of a page should be selected so as to support the primary purpose and use of the page . Short pages are generally more appropriate for homepages , navigation pages , or overview pages that need to be read quickly . Longer pages can be more appropriate when users want to read the content without interruptions or when the page needs to match a paper counterpart .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7496,
+    "text": "Colour should be used with care , taking into account human capabilities and restrictions in perceiving colour , and not as the only means of conveying information . Color should never be the only means of coding . Some users may have difficulties in perceiving certain colors or color combinations color-blindness .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[220, 225, "USER"]]
+  },
+  {
+    "id": 7497,
+    "text": "If frames are used , care should be taken to avoid possible problems , for example , those involving the use of the back button , bookmarking of pages , or scrolling of information . When frames are used , it is important to title each frame , and to describe its purpose and how frames relate to another other .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7498,
+    "text": "If frames are used , an alternative way of presenting relevant information without frames should be provided . Providing alternative text-only pages : When style sheets and/or frames are turned off it should be possible for the user to read and understand the page ; alternatively , the user should be provided with an equivalent alternative text-only page .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [228, 232, "USER"],
+      [287, 291, "USER"]
+    ]
+  },
+  {
+    "id": 7499,
+    "text": "Pages should be designed using consistent layout schemes , supporting the user in finding similar information at the same position on different pages . Overall layout schemes apply to all pages and are preferable when all pages have a similar structure . Frequently , however , different pages have different purposes and types of content . In such cases , pages can usually be grouped in different categories , using layout scheme for each category consistently .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[74, 78, "USER"]]
+  },
+  {
+    "id": 7500,
+    "text": "Page titles should be placed in a consistent location on the different pages .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7501,
+    "text": "When designing application pages , the general principles of human perception should be taken into account . The International Standards mentioned below shall be consulted for guidance . Practical guidelines for presenting information to the user are to be found in 9241-12 . Guidance on selecting and using different forms of interaction techniques is to be found in to . gives guidance about menus , about command dialogues , about direct manipulation and about forms . In addition , when designing multimedia information presentations , the design principles and recommendations described in to should be taken into account . Appropriate content presentation also plays a key role in accessibility .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [15, 26, "SYSTEM"],
+      [242, 246, "USER"]
+    ]
+  },
+  {
+    "id": 7502,
+    "text": "Each page should contain a link leading to the home page of the application or to a landmark page that is easy to recognize for the user .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[132, 136, "USER"]]
+  },
+  {
+    "id": 7503,
+    "text": "A separate navigation overview such as a site map should be provided for application showing the structure of the site in an overview form .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[73, 84, "SYSTEM"]]
+  },
+  {
+    "id": 7504,
+    "text": "If navigation components or overviews are shown in conjunction with associated content , consistency between the navigation component and the content shown should be maintained by indicating in the navigation component e.g. highlighting the topic currently visible in the content area .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7505,
+    "text": "Navigation components should be placed consistently on the pages or in the framesets in the pages of the application .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[105, 116, "SYSTEM"]]
+  },
+  {
+    "id": 7506,
+    "text": "Adapting the content and the navigation of a user interface to individual users or user groups can be a useful mechanism for providing information that is of interest to the users and for making access to relevant information more efficient . User adaptation can also be important for making the user interface more accessible . Different approaches can be used for achieving these goals , like providing users with means for customizing the user interface to their personal needs i.e. individualization designing content and navigation differently for varying user groups or roles i.e. such as employees of different levels , citizens etc , monitoring the user 's behaviour and adapting to the user 's goals that are inferred from the behaviour observed , recommending information that is potentially more relevant or interesting to the specific user , based on the behaviour of all users or a user group .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [83, 87, "USER"],
+      [174, 179, "USER"],
+      [405, 410, "USER"],
+      [595, 604, "USER"],
+      [74, 79, "USER"],
+      [561, 565, "USER"],
+      [627, 635, "USER"],
+      [695, 699, "USER"],
+      [657, 661, "USER"],
+      [847, 851, "USER"],
+      [884, 889, "USER"],
+      [895, 899, "USER"]
+    ]
+  },
+  {
+    "id": 7507,
+    "text": "When providing different access paths or navigation structures for different user groups , the tasks and information needs of these user groups should be taken into consideration .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [77, 81, "USER"],
+      [132, 136, "USER"]
+    ]
+  },
+  {
+    "id": 7508,
+    "text": "It should be made evident to the user when individualization and/or adaptation are used .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[33, 37, "USER"]]
+  },
+  {
+    "id": 7509,
+    "text": "If predefined user profiles or user-specified profiles are used for individualizing or adapting content , the profile currently used should be made evident . If profiles are used , it is important to provide users with information about this concept and its implications .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [14, 18, "USER"],
+      [208, 213, "USER"]
+    ]
+  },
+  {
+    "id": 7510,
+    "text": "If user-specified profiles are used , users should be able to see , modify and delete that profile on demand .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[38, 43, "USER"]]
+  },
+  {
+    "id": 7511,
+    "text": "The user interfaces of the system should follow the guidelines specified under",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[27, 33, "SYSTEM"]]
+  },
+  {
+    "id": 7512,
+    "text": "The System must be available to users : from to , on < all weekdays/xxx days per year > .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [32, 37, "USER"]
+    ]
+  },
+  {
+    "id": 7513,
+    "text": "The planned downtime for the System must not exceed <xx> hours per <rolling three month period> .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[29, 35, "SYSTEM"]]
+  },
+  {
+    "id": 7514,
+    "text": "The System is considered to be down if any user is unable to perform any normal System function and if this failure is attributed to any component of the System other than the workstation .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [154, 160, "SYSTEM"],
+      [43, 47, "USER"],
+      [80, 86, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7515,
+    "text": "Unplanned downtime for the System must not exceed < hours/minutes > per <rolling three month period> .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[27, 33, "SYSTEM"]]
+  },
+  {
+    "id": 7516,
+    "text": "The number of incidents of unplanned downtime for the System must not exceed <x> per <rolling three month period> .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[54, 60, "SYSTEM"]]
+  },
+  {
+    "id": 7517,
+    "text": "In the event of any software or hardware failure , it must be possible to restore the System with inline synchronization within within <xx> hours .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[86, 92, "SYSTEM"]]
+  },
+  {
+    "id": 7518,
+    "text": "The System must provide adequate response times for commonly performed functions under both standard and peak conditions .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7519,
+    "text": "The System must be able to perform a simple search within 5-fast and a advanced search multiple search criteria within 10-fast regardless of the storage capacity or number of cases within the system . In this context , performing a search means returning a result list . It does not include retrieving the records themselves .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [192, 198, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7520,
+    "text": "The System must be able to retrieve and display within 5-fast the case which has been accessed within the previous 2 months , regardless of storage capacity or number of cases within the system . This requirement is intended to allow for rapid retrieval of frequently-used cases , on the understanding that frequency of use is typically correlated with recent use .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [187, 193, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7521,
+    "text": "The System must be able to retrieve and display fast the case which has not been accessed within the previous 2 months , regardless of storage capacity or number of cases within the system . This requirement is intended to allow for cases where cases used infrequently are stored on slower media than more active records .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [182, 188, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7522,
+    "text": "The System be scaleable and must not have any features which would preclude use in small or large police stations , with varying numbers of cases handled .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7523,
+    "text": "Upon the USB being plugged within the system shall be able to be deployed and operational within less than fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[38, 44, "SYSTEM"]]
+  },
+  {
+    "id": 7524,
+    "text": "The system shall be able to handle 1000 customers logged in concurrently at the same time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [40, 49, "USER"]
+    ]
+  },
+  {
+    "id": 7525,
+    "text": "The system shall be able to retrieve per second .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7526,
+    "text": "The system shall be able to add product to shopping cart in less than ms.",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7527,
+    "text": "The system shall be able to search for a specified product within less than fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7528,
+    "text": "The system shall be able to email customer and vendor within less than fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [34, 42, "USER"],
+      [47, 53, "USER"]
+    ]
+  },
+  {
+    "id": 7529,
+    "text": "The system shall be able to validate credit card within less than fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7530,
+    "text": "The system shall be able to acquire shipping charges within less than fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7531,
+    "text": "The system shall be able to restore 1000 records per second .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7532,
+    "text": "The system shall validate credit cards against fraud .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7533,
+    "text": "The system shall encrypt all sensitive information via https .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7534,
+    "text": "The system shall encrypt all customer data in database .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [29, 37, "USER"]
+    ]
+  },
+  {
+    "id": 7535,
+    "text": "The system shall auto detect IP DOS attacks and block IP automatically .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7536,
+    "text": "The system shall detect consecutive failed login attempts .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7537,
+    "text": "The system shall be protected by open source firewall called Firestarter .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7538,
+    "text": "The system shall have an availability of most .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7539,
+    "text": "The system shall be easy to use .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7540,
+    "text": "The system shall be easy to learn .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7541,
+    "text": "The system shall utilize help bubbles to assist managers , customers , and administrators .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [75, 89, "USER"],
+      [48, 56, "USER"],
+      [59, 68, "USER"]
+    ]
+  },
+  {
+    "id": 7542,
+    "text": "The system shall employ easy to locate buttons .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7543,
+    "text": "The system shall prompt customer with friend easy to read error messages .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [24, 32, "USER"]
+    ]
+  },
+  {
+    "id": 7544,
+    "text": "The system shall utilize consistent symbols and colors for clear notifications .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7545,
+    "text": "The system shall utilize interchangeable plugins .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7546,
+    "text": "The system shall be easily updatable for fixes and patches .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7547,
+    "text": "The system shall create logs of all changes , updates , or fixes that are done to the site .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7548,
+    "text": "The system shall be easy to upgrade .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7549,
+    "text": "It is mandatory that learning time is between 2 to 4 hours at maximum , because many task are delegated to working students .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[115, 123, "USER"]]
+  },
+  {
+    "id": 7550,
+    "text": "Web interface should use clear and consistence terminology in such a way that user ; with basic experience on internet and office ; find the application easy to use",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [141, 152, "SYSTEM"],
+      [78, 82, "USER"]
+    ]
+  },
+  {
+    "id": 7551,
+    "text": "The Application should be available always at working hours . Any maintenance or backup operation should be conducted out of working time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 15, "SYSTEM"]]
+  },
+  {
+    "id": 7552,
+    "text": "All user are authenticated by user name and a password .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 8, "USER"],
+      [30, 34, "USER"]
+    ]
+  },
+  {
+    "id": 7553,
+    "text": "Permission are assigned to user according to their roles .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[27, 31, "USER"]]
+  },
+  {
+    "id": 7554,
+    "text": "Only IT team member can access and maintain data base servers locally .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7555,
+    "text": "Query is killed if takes more than 1 min .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7556,
+    "text": "Backup operation are executed periodically .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7557,
+    "text": "It is important to design system to facilitated future evolution and facilitate maintenance operations",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[26, 32, "SYSTEM"]]
+  },
+  {
+    "id": 7558,
+    "text": "Every command must be accepted/rejected within 2 sec and before the correspond - ing action occurs . This is different than the ACK/NAK response of the communications protocol - here , the target system must have examined the command and verified its validity .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[196, 202, "SYSTEM"]]
+  },
+  {
+    "id": 7559,
+    "text": "Status display update must be within 4 sec at the local stations certain functions , such as telescope position , may have tighter constraints . Remote station update response is given within the Requirements for Remote Operations section .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7560,
+    "text": "Requests of subsystems for status information must be answered within 5 sec and be possible within maintenance level operation .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7561,
+    "text": "All software bugs should be logged and then fixed as soon as possible after detection . The goal is to have restart conditions occur only on hardware failure .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7562,
+    "text": "Fault recovery , exception handling , fail-safe checks , etc. should be used to improve reliability .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7563,
+    "text": "Should a subsystem fail e.g. detector , instrument predefined procedures must exist to redefine the environment in such a way that operation can restart with the remaining equipment .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7564,
+    "text": "In case of computer hardware failure concerning the user station equipment , it shall be possible to transfer control from user station to another via a simple software reconfiguration procedure .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [52, 56, "USER"],
+      [123, 127, "USER"]
+    ]
+  },
+  {
+    "id": 7565,
+    "text": "In the case of failure , no transfer of control to another will be possible , due to the local connections and interfaces to the control electronics . In this case there shall be a procedure to replace faulty cards and/or assemblies . If it is possible to observe with that particular in a failed state in general , this is limited to s that are associated with individual scientific instruments then it must be possible to reconfigure the system to do so .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[440, 446, "SYSTEM"]]
+  },
+  {
+    "id": 7566,
+    "text": "The GSR sets as a requirement little and a goal little for total system mechanical , electrical , and software downtime due to failures - this translates to a maximum of fast per or per month of downtime . This within turn sets quite stringent requirements on both MTBF and for the software and controls .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[65, 71, "SYSTEM"]]
+  },
+  {
+    "id": 7567,
+    "text": "To guarantee maximum availability of the control system , retry procedures must be embodied in the software in case of error or failure e.g. time-out , hardware failure to achieve recovery on-line whenever possible .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[41, 55, "SYSTEM"]]
+  },
+  {
+    "id": 7568,
+    "text": "Maintenance requirements including an estimate of required resources .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7569,
+    "text": "The method of upgrading the system to add capabilities and performance . Areas where upgrades are anticipated should be identified with an estimate of the required effort and resources .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[28, 34, "SYSTEM"]]
+  },
+  {
+    "id": 7570,
+    "text": "A system that is operating in Engineering/Maintenance mode must ignore directives from other systems , though status information should still be provided for use by other systems .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[2, 8, "SYSTEM"]]
+  },
+  {
+    "id": 7571,
+    "text": "There should be security preventing the intrusion into the system by unauthorized users , or users at unauthorized access levels .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [82, 87, "USER"],
+      [59, 65, "SYSTEM"],
+      [93, 98, "USER"]
+    ]
+  },
+  {
+    "id": 7572,
+    "text": "All hazards capable of causing death and/or loss of irreplacable equipment shall be passively interlocked .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7573,
+    "text": "All hazards capable of causing injury and/or severe damage to equipment shall be actively interlocked severe damage implies that repairs are not repairable at the depot level .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7574,
+    "text": "All other hazards may be interlocked via software .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7575,
+    "text": "The is an Automated Information System . Therefore , as per DoD Regulation 5000.2-R , dated March 15 , 1996 , the shall meet security requirements in accordance with DoD Directive D , `` Security Requirements for Automated Information Systems '' dated March 21 , 1988",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[10, 38, "SYSTEM"]]
+  },
+  {
+    "id": 7576,
+    "text": "The shall be accredited by the prior to processing classified as well as sensitive unclassified data .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7577,
+    "text": "The shall have sufficient throughput to support the processing requirements of the selected data link .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7578,
+    "text": "The maintainability will be considered in every phase of the design and development process and shall achieve a system maintainability Mean Time To Repair MTTR equal to or greater than that which is specified in the Predator and Outrider ORDs .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[112, 118, "SYSTEM"]]
+  },
+  {
+    "id": 7579,
+    "text": "The equipment shall achieve an availability as defined below , equal to or greater than that which is specified in the Predator and Outrider ORDs .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 13, "SYSTEM"]]
+  },
+  {
+    "id": 7580,
+    "text": "The HATS-GUI shall display and with nodes within fast or less .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 12, "SYSTEM"]]
+  },
+  {
+    "id": 7581,
+    "text": "The HATS-GUI shall display node SDTs within the same amount of time , plus or minus fast , as it takes to display a node SDT .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 12, "SYSTEM"]]
+  },
+  {
+    "id": 7582,
+    "text": "The HATS-GUI shall allow a user to request transformations while HATS-SML is performing transformations or parsing .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 12, "SYSTEM"],
+      [27, 31, "USER"],
+      [65, 73, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7583,
+    "text": "The HATS-GUI shall allow a user to navigate through the display of an with nodes so that scrolling a screen width with any portion of the displayed takes less than fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 12, "SYSTEM"],
+      [27, 31, "USER"]
+    ]
+  },
+  {
+    "id": 7584,
+    "text": "The complexity of the text search algorithm shall not exceed O n2 for n nodes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7585,
+    "text": "The complexity of the tree search algorithm shall not exceed O n2 for n nodes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7586,
+    "text": "The complexity of the scrolling algorithms for text and displayed graphs shall not exceed O n2 for n displayed nodes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7587,
+    "text": "The user shall not be required to log in or authenticate his/her identity when using the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 8, "USER"],
+      [89, 95, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7588,
+    "text": "The maximum response time for the submission of a job will be fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7589,
+    "text": "The maximum number of jobs schedulable is limited only by the capacity of the nodes to fulfill the jobs ' deadlines ; there is no upper limit inherent in the Libra scheduler as such .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[158, 173, "SYSTEM"]]
+  },
+  {
+    "id": 7590,
+    "text": "Assuming submitted statistics for jobs are accurate , the Libra scheduler will ensure that all jobs are completed with a little error allowance .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[58, 73, "SYSTEM"]]
+  },
+  {
+    "id": 7591,
+    "text": "Under all circumstances , the maximum cost payable as submitted by the user will be the maximum cost charged to the user .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [116, 120, "USER"],
+      [71, 75, "USER"]
+    ]
+  },
+  {
+    "id": 7592,
+    "text": "The product will be as secure as the web browser that will run the product .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [67, 74, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7593,
+    "text": "The product will be available over the Internet via the S2S website .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7594,
+    "text": "Maintainability is a primary goal for this project . For example , using appropriate sub-scenes in the main Flash game to split up the code will allow for easy alteration at a later date .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[43, 50, "SYSTEM"]]
+  },
+  {
+    "id": 7595,
+    "text": "The Backend System shall maintain input data fidelity and dynamic range across all processing , manipulation and I/O functions .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 18, "SYSTEM"]]
+  },
+  {
+    "id": 7596,
+    "text": "The system shall be capable of flagging and marking corrupted data segments and proceeding without interruption or effect on other data . This includes , but is not limited to , partial data , data , underflows , overflows , infinities , and NaN 's whether obtained on input or arising during processing .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7597,
+    "text": "The Backend System shall be self-monitoring . It will be capable of detecting , reporting on and automatically taking action to remedy or lessen the impact of , at a minimum , the following types of abnormal conditions : processor hardware failure , operating system hangs or crashes , computational performance below minimum specifications , computational error rates above maximum specification , internal communications failures , and external with the Correlator and E2E communications disruptions .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 18, "SYSTEM"],
+      [260, 266, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7598,
+    "text": "The software part of the system shall be able to perform without total system restart due to internal failure between array maintenance windows .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [25, 31, "SYSTEM"],
+      [71, 77, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7599,
+    "text": "The hardware part of the system shall be able to perform indefinitely without complete loss of service , except in the event of total failure of primary and backup power .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[25, 31, "SYSTEM"]]
+  },
+  {
+    "id": 7600,
+    "text": "The system shall be capable of responding in a loss-less manner to I/O and processing changes arising from Correlator mode changes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7601,
+    "text": "The system shall continue to operate in a loss-less manner in the event of a temporary time duration TBD loss of availability of the e2e System .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [133, 143, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7602,
+    "text": "The system shall be able to complete processing of all onboard data , deliver the results to the End-to-End System and maintain availability for immediate resumption of operations once Correlator access is restored .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [97, 114, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7603,
+    "text": "The system shall continue to operate during the absence of the M&C System until the first encounter of unavailable critical auxiliary data . The system will cache a predetermined amount TBD of correlator data after the first encounter of unavailable critical data and complete all requested operations on cached data once the unavailable critical data is obtained .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [63, 73, "SYSTEM"],
+      [145, 151, "SYSTEM"],
+      [4, 10, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7604,
+    "text": "The system shall be able to sit at idle and resume operations with minimal amount TBD delay .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7605,
+    "text": "Software tools and pre-built applications that do not have source code available shall come with a complete diagnostic package and customer support .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7606,
+    "text": "Operating system software shall either have source code available or come with sufficient diagnostics and customer support .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7607,
+    "text": "I/O , communications , and processing hardware shall be easily expandable , reconfigureable , augmentable and replaceable to meet increasing data transfer and processing demands imposed by science , Correlator changes , and availability of new hardware .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7608,
+    "text": ", above , shall be accomplished in manner that is transparent to processing , communications and I/O software functions with the possible exception of recompilation of executables .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7609,
+    "text": ", above , shall be accomplished in a manner that is seamless , in that it does not affect hardware modules or software functionality that it meets at interfaces .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7610,
+    "text": "The Backend system shall ultimately be scaleable to an extent that it will be capable of handling up to Gbytes per second per Correlator output channel in real-time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 18, "SYSTEM"]]
+  },
+  {
+    "id": 7611,
+    "text": "All users of the system shall login using some form of unique identification . e.g. , username and password",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [17, 23, "SYSTEM"],
+      [4, 9, "USER"]
+    ]
+  },
+  {
+    "id": 7612,
+    "text": "All login attempts shall be done in a secure manner . e.g. , encrypted passwords",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7613,
+    "text": "A system administrator shall have unrestricted access to all aspects of the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[76, 82, "SYSTEM"]]
+  },
+  {
+    "id": 7614,
+    "text": "Each user shall have a set of system access properties that defines the user 's privileges within the system . e.g. , the subsystems a user may control or system tools the user may access .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [5, 9, "USER"],
+      [72, 76, "USER"],
+      [102, 108, "SYSTEM"],
+      [172, 176, "USER"],
+      [135, 139, "USER"]
+    ]
+  },
+  {
+    "id": 7615,
+    "text": "The administrator shall have the ability to create and add a new user to the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [77, 83, "SYSTEM"],
+      [65, 69, "USER"],
+      [4, 17, "USER"]
+    ]
+  },
+  {
+    "id": 7616,
+    "text": "The administrator shall have the ability to remove a user from the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 17, "USER"],
+      [53, 57, "USER"],
+      [67, 73, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7617,
+    "text": "The administrator shall have the ability to edit a user 's system access properties .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [59, 65, "SYSTEM"],
+      [4, 17, "USER"],
+      [51, 55, "USER"]
+    ]
+  },
+  {
+    "id": 7618,
+    "text": "The administrator shall have the ability to block all access to the system for all users or selectively by user . All blocked users with active sessions shall automatically be logged off .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 17, "USER"],
+      [68, 74, "SYSTEM"],
+      [107, 111, "USER"],
+      [83, 88, "USER"],
+      [126, 131, "USER"]
+    ]
+  },
+  {
+    "id": 7619,
+    "text": "The CMCS processors shall be capable of meeting all data processing deadlines and anticipated future requirements",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 8, "SYSTEM"]]
+  },
+  {
+    "id": 7620,
+    "text": "The CMCS processors shall be capable of responding to correlator hardware inputs interrupts in a deterministic fashion with sufficient performance to avoid data loss , corruption or overflows .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 8, "SYSTEM"]]
+  },
+  {
+    "id": 7621,
+    "text": "All lower system error and debug messages shall be present at the MCCC layer . Aside from a networking or CPU failure , It should never be necessary to directly access a CPU to display error messages .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [66, 70, "SYSTEM"],
+      [10, 16, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7622,
+    "text": "All system error and debug messages shall be categorized in a logical fashion such that message traffic can be filtered as to content , detail , and message rate . Personnel interested in error messages should be able to easily filter the error message stream .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [164, 173, "USER"]
+    ]
+  },
+  {
+    "id": 7623,
+    "text": "All messages passed between system layers shall have both and wall clock time stamp information appropriate for the message type . Error messages will be stamped with their discovery time , control messages will be stamped with their generation time . Other message internal time stamps can be used as monitor/control parameters as deemed necessary .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[28, 34, "SYSTEM"]]
+  },
+  {
+    "id": 7624,
+    "text": "Software shall be provided that allows an authorized user full access to all messaging , monitor , and control traffic throughout the CMCS . This software will provide full system access for testing , debugging , and control while the correlator is off line or under the control of the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [134, 138, "SYSTEM"],
+      [173, 179, "SYSTEM"],
+      [286, 292, "SYSTEM"],
+      [0, 8, "SYSTEM"],
+      [53, 57, "USER"]
+    ]
+  },
+  {
+    "id": 7625,
+    "text": "A Graphical User Interface shall be provided as an interface to the test software that allows for a convenient and configurable tool to access the remotely through the .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7626,
+    "text": "The CMCS shall be self-monitoring . It will be capable of detecting , reporting on and automatically taking action to remedy or lessen the impact of , at a minimum , the following types of abnormal conditions : processor hardware failure , operating system hangs or crashes , temperature or voltage deviations , computational performance below minimum specifications , computational error rates above maximum specification , internal communications failures , and external with the communications disruptions .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 8, "SYSTEM"]]
+  },
+  {
+    "id": 7627,
+    "text": "The software part of the system shall be able to perform without total system restart due to internal failure between system maintenance windows .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [25, 31, "SYSTEM"],
+      [71, 77, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7628,
+    "text": "The hardware part of the system shall be able to perform indefinitely without complete loss of service , except in the event of total failure of primary and backup power .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[25, 31, "SYSTEM"]]
+  },
+  {
+    "id": 7629,
+    "text": "The system shall be able to continue processing of all correlator configuration/control events until the queues of parameters are exhausted and external communications are restored",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7630,
+    "text": "The system shall be able to sit at idle and resume operations with minimal amount TBD delay .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7631,
+    "text": "Software tools and pre-built applications that do not have source code available shall come with a complete diagnostic package and customer support .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7632,
+    "text": "Operating system software shall either have source code available or come with sufficient diagnostics and customer support .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7633,
+    "text": "I/O , communications , and processing hardware shall be easily expandable , reconfigurable , augmentable and replaceable to meet increasing data traffic and processing demands imposed by science , Correlator changes , and availability of new hardware .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7634,
+    "text": ", above , shall be accomplished in manner that is transparent to processing , communications and I/O software functions with the possible exception of recompilation of executables .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7635,
+    "text": ", above , shall be accomplished in a manner that is seamless , in that it does not affect hardware modules or software functionality that it meets at interfaces .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7636,
+    "text": "All users of the system shall login using some form of unique identification . e.g. , username and password",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 9, "USER"],
+      [17, 23, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7637,
+    "text": "All login attempts shall be done in a secure manner . e.g. , encrypted passwords",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7638,
+    "text": "A system administrator shall have unrestricted access to all aspects of the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[76, 82, "SYSTEM"]]
+  },
+  {
+    "id": 7639,
+    "text": "Each user shall have a set of system access properties that defines the user 's privileges within the system . e.g. , the subsystems a user may control or system tools the user may access .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [72, 76, "USER"],
+      [102, 108, "SYSTEM"],
+      [172, 176, "USER"],
+      [5, 9, "USER"],
+      [135, 139, "USER"]
+    ]
+  },
+  {
+    "id": 7640,
+    "text": "The administrator shall have the ability to create and add a new user to the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [65, 69, "USER"],
+      [4, 17, "USER"],
+      [77, 83, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7641,
+    "text": "The administrator shall have the ability to remove a user from the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 17, "USER"],
+      [53, 57, "USER"],
+      [67, 73, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7642,
+    "text": "The administrator shall have the ability to edit a user 's system access properties .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 17, "USER"],
+      [51, 55, "USER"],
+      [59, 65, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7643,
+    "text": "The administrator shall have the ability to block all access to the system for all users or selectively by user . All blocked users with active sessions shall automatically be logged off .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [126, 131, "USER"],
+      [4, 17, "USER"],
+      [68, 74, "SYSTEM"],
+      [83, 88, "USER"],
+      [107, 111, "USER"]
+    ]
+  },
+  {
+    "id": 7644,
+    "text": "agentMom shall support the ability to encrypt unicast message .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 8, "SYSTEM"]]
+  },
+  {
+    "id": 7645,
+    "text": "agentMom shall support the ability to decrypt unicast message .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 8, "SYSTEM"]]
+  },
+  {
+    "id": 7646,
+    "text": "agentMom shall allow an agent to decide whether or not to encrypt a message .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 8, "SYSTEM"],
+      [24, 29, "USER"]
+    ]
+  },
+  {
+    "id": 7647,
+    "text": "agentMom shall automatically decrypt encrypted message .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 8, "SYSTEM"]]
+  },
+  {
+    "id": 7648,
+    "text": "agentMom shall support the ability to encrypt multicast message .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 8, "SYSTEM"]]
+  },
+  {
+    "id": 7649,
+    "text": "agentMom shall support the ability to decrypt multicast message .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[0, 8, "SYSTEM"]]
+  },
+  {
+    "id": 7650,
+    "text": "The area on the main , systems , and condition windows sensitive to the users selection device , typically the mouse , shall include the line surrounding the item of interest over the entire width of the window . This includes the diagnostic indicators .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [72, 77, "USER"],
+      [23, 30, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7651,
+    "text": "The windows listing diagnostic results shall increase in height as needed to display entries up to a maximum of entries . Once the window has reached maximum size and there are additional items to display , the window shall deploy a scroll bar to permit the user to scroll through the additional entries . In this event , a summary set of diagnostic indicators shall appear above below the top bottom entry in the display . This set s of indicators shall summarize diagnostic indicators not currently appearing on the list above below it . An indicator in the summary set shall be active if any similar indicator not appearing above or below it is active . The summary set indicators comply with the same specification for activation as other indicators see 3.5.1.39 .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[258, 262, "USER"]]
+  },
+  {
+    "id": 7652,
+    "text": "The building , subsystems , and condition windows shall display the current time if the diagnostic tool is operating in real time . If the tool is operating in batch mode , the time displayed will be the time associated with the entry currently being processed in the batched input .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [88, 103, "SYSTEM"],
+      [139, 143, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7653,
+    "text": "If only a single building is defined , the subsystems window shall become the main window of the application and shall have all the functionality of the main window as described in these specifications .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[97, 108, "SYSTEM"]]
+  },
+  {
+    "id": 7654,
+    "text": "Each window of the diagnostic tool shall display an animated graphical feature indicating the status , whether active or not , of the diagnostic processing .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[19, 34, "SYSTEM"]]
+  },
+  {
+    "id": 7655,
+    "text": "The subsystem window shall be modal to the building window , the condition window modal to the subsystem window , and the diagnostic history and diagnostic information windows shall be modal to the condition window .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7656,
+    "text": "The system must guide users through an interface based on end user concepts .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [22, 27, "USER"],
+      [4, 10, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7657,
+    "text": "The system must be easy to learn and does not obstruct the thematic understanding of the users .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [89, 94, "USER"]
+    ]
+  },
+  {
+    "id": 7658,
+    "text": "The system must make it easy to correct mistakes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7659,
+    "text": "There will be no restriction in time or place for the use of the software built from the specifications produced under this contract .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7660,
+    "text": "The system must be able to establish and keep the dialog with the Members systems despite the various technical environments and technologies used on their sites .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7661,
+    "text": "The system will be designed so that background tasks can continue while the user performs foreground tasks .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [76, 80, "USER"]
+    ]
+  },
+  {
+    "id": 7662,
+    "text": "The system will be used alltimes by operators under pressure to produce results rapidly . The system must respond rapidly to user requests irrespective of any background tasks . Such high - availability alltimes is also required from the Member States systems to ensure acceptable response time less than fast to enforcement authorities requests .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [94, 100, "SYSTEM"],
+      [4, 10, "SYSTEM"],
+      [36, 45, "USER"],
+      [125, 129, "USER"],
+      [238, 259, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7663,
+    "text": "Color searches among the various collections defined by will be processed in sub - second time on the server .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7664,
+    "text": "Changes to Paint and collection information will occur in Real-time , although the actual processing time will vary with respect to the amount of information to be updated , added , or deleted on the server .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7665,
+    "text": "While performance requirements are transparently defined at the server , ColorKast makes no guarantees as to the speed , completeness , or timeliness of service over the greater internet . Performance of the application will vary on the speed and type of internet access to which the client computer has access .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [73, 82, "SYSTEM"],
+      [208, 219, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7666,
+    "text": "To verify the performance of the application , ColorKast will show the amount of time the server takes to process a request . The time shown will not take into account the transit time of the information over various computer networks .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [33, 44, "SYSTEM"],
+      [47, 56, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7667,
+    "text": "Due to the nature of the product , the data stored in repositories of the product is generally public information consisting of paint names and color values not easily secured or obfuscated and always recoverable by a sophisticated end user . No attempts will be made to secure this information .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [25, 32, "SYSTEM"],
+      [74, 81, "SYSTEM"],
+      [232, 240, "USER"]
+    ]
+  },
+  {
+    "id": 7668,
+    "text": "Information that the product will collect or store , which need access protections include user specified color palettes and their store of access permissions . Access to this information must be private . Most important , the store of access permissions to administrative features and access permissions must be secure .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [21, 28, "SYSTEM"],
+      [91, 95, "USER"]
+    ]
+  },
+  {
+    "id": 7669,
+    "text": "Implementations of Privacy and security must be on par with industry standards .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7670,
+    "text": "The external server data store containing RLCS status for use by external systems shall be updated once per fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7671,
+    "text": "The field device status information logging to the database shall be fast , but can be configurable within the database to more than fast by the user .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [
+      [4, 16, "SYSTEM"],
+      [145, 149, "USER"]
+    ]
+  },
+  {
+    "id": 7672,
+    "text": "The field device status information display update frequency shall be fast , but can be configurable within the database to more than fast by the user .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 16, "SYSTEM"],
+      [146, 150, "USER"]
+    ]
+  },
+  {
+    "id": 7673,
+    "text": "The RLCS shall receive device status information from devices sensors fast of the status information being issued by the device sensor .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 8, "SYSTEM"]]
+  },
+  {
+    "id": 7674,
+    "text": "Field devices shall receive respond to commands from the RLCS fast of the command confirmation being issued by the operator using a keyboard or other input device .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 13, "SYSTEM"],
+      [57, 61, "SYSTEM"],
+      [115, 123, "USER"]
+    ]
+  },
+  {
+    "id": 7675,
+    "text": "The RLCS shall support multiple users logged on , up to the limit of the number of users defined in the database .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 8, "SYSTEM"],
+      [32, 37, "USER"],
+      [83, 88, "USER"]
+    ]
+  },
+  {
+    "id": 7676,
+    "text": "Not including device and network response times , requests from the GUI for status updates shall not exceed fast to update the GUI display .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7677,
+    "text": "The facility map on the screen shall refresh every fast but can be configurable within the database to more than fast by the user .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[125, 129, "USER"]]
+  },
+  {
+    "id": 7678,
+    "text": "The RLCS notification to the operator workstation of any critical alarms shall occur fast of alarm detection , and shall occur whether or not an operator is logged on to the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 8, "SYSTEM"],
+      [145, 153, "USER"],
+      [174, 180, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7679,
+    "text": "The field units controllers shall continually monitor device status , controller status and the control system integrity and send the status to the central computer in the alltimes or less .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 27, "SYSTEM"]]
+  },
+  {
+    "id": 7680,
+    "text": "The RLCS shall detect alarm conditions fast of occurrence .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 8, "SYSTEM"]]
+  },
+  {
+    "id": 7681,
+    "text": "The database retrieval and update response time shall not impact any other performance requirements such as the GUI response time or monitoring and control responses . In other words , the database performance is a component of the total response time for any other performance requirement . If the GUI is required to reflect change within status fast , then the database update time must be less than fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7682,
+    "text": "The operator shall be able to store and retrieve previously created report results from the RLCS for a minimum period of 60 days , but configurable for up to one year .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 12, "USER"],
+      [92, 96, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7683,
+    "text": "The raw data used to create reports shall be kept within the RLCS for a minimum period of 13 months prior to backing up to tapes or other fastary storage media .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[61, 65, "SYSTEM"]]
+  },
+  {
+    "id": 7684,
+    "text": "Report processing shall not impact any other performance requirements such as the GUI response time or monitoring and control responses",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7685,
+    "text": "Report response time shall be determined by the database resources allocated to the reporting function . Depending on user needs for fast report response times such as for ad hoc reporting , database extracts may be created for reporting purposes only .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[118, 122, "USER"]]
+  },
+  {
+    "id": 7686,
+    "text": "RLCS system components will communicate via the private communications networks established by prior to the development the RLCS . Any operator or system command , which changes the state field control devices , must be checked for integrity at multiple levels in the system . Valid checksum algorithms must be employed to check the integrity messages between units .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [135, 143, "USER"],
+      [0, 11, "SYSTEM"],
+      [124, 128, "SYSTEM"],
+      [268, 274, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7687,
+    "text": "The Clarus system shall be able to mitigate communication denial-of-service attacks .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7688,
+    "text": "The Clarus system shall be able to automatically recover from an unexpected shutdown .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7689,
+    "text": "The Clarus system shall be able to respond to most of all requests for environmental data most of the time .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7690,
+    "text": "The Clarus system shall be able to publish environmental data at times the volume rate that it collects it .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7691,
+    "text": "The Clarus system shall be able to prioritize data handling for time-critical data .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7692,
+    "text": "The Clarus system shall support current observations .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7693,
+    "text": "The Clarus system shall be able to collect data from sources fast of them becoming available .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7694,
+    "text": "The Clarus system shall be able to receive all reported environmental data during a fast time interval .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7695,
+    "text": "The Clarus system shall be able to complete an automated quality control check of environmental data within fast of data receipt .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7696,
+    "text": "The Clarus system shall be able to publish new data within fast of data receipt .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7697,
+    "text": "The Clarus system shall respond to a request for information within fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7698,
+    "text": "The Clarus system shall be able to handle simultaneous requests for environmental element data .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 17, "SYSTEM"]]
+  },
+  {
+    "id": 7699,
+    "text": "The Clarus system shall be able to support concurrent users .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 17, "SYSTEM"],
+      [54, 59, "USER"]
+    ]
+  },
+  {
+    "id": 7700,
+    "text": "The Clarus system shall be able to support registered users .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 17, "SYSTEM"],
+      [54, 59, "USER"]
+    ]
+  },
+  {
+    "id": 7701,
+    "text": "The program should start fast . This depends on the number of data points that are to be plotted .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7702,
+    "text": "The interaction with the data points should have a delay of fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7703,
+    "text": "The response to a change in the orientation should be fast enough to avoid interrupting the user 's flow of thought .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[92, 96, "USER"]]
+  },
+  {
+    "id": 7704,
+    "text": "The system should be executed without problems in a machine that fulfills the requirements of the Java runtime environment",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7705,
+    "text": "The basic artificial intelligence must operate fast enough . The next move should be calculated fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[10, 33, "SYSTEM"]]
+  },
+  {
+    "id": 7706,
+    "text": "GUIs associated with the Framework SHOULD be designed such that an user with basic understanding of the Windows 2000/XP operating systems would instinctively be able to interact with them . Therefore , most GUIs MAY need to closely mimic popular Windows applications .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [67, 71, "USER"],
+      [25, 34, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7707,
+    "text": "At this stage of the development , the Framework MAY only operate in single user mode , with no networking capabilities .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [39, 48, "SYSTEM"],
+      [76, 80, "USER"]
+    ]
+  },
+  {
+    "id": 7708,
+    "text": "The SHOULD NOT utilize more than megabytes of RAM .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7709,
+    "text": "The Framework MUST guard against malicious scripts on remote websites from accessing its information .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 13, "SYSTEM"]]
+  },
+  {
+    "id": 7710,
+    "text": "The Framework MUST guard against unintended corruption of information by the user himself .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [77, 81, "USER"],
+      [4, 13, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7711,
+    "text": "The data system shall show no visible deterioration within response time as the number of persons increases . Response times seen by end users for querying metadata should be on the order of a few fast or less . Response times seen by end users for retrieving the actual images may take much longer , anywhere from a few fast to several hours . If the user requests a large image with a short response time , it is acceptable for the data system to advise the user that the target response time can not be met . In that case , the person would be referred to an alternate method of getting the data .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 15, "SYSTEM"],
+      [235, 244, "USER"],
+      [352, 356, "USER"],
+      [460, 464, "USER"],
+      [133, 142, "USER"],
+      [434, 445, "SYSTEM"],
+      [531, 537, "USER"]
+    ]
+  },
+  {
+    "id": 7712,
+    "text": "The data system shall load as quickly as comparable productivity tools on whatever environment it is running in .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 15, "SYSTEM"]]
+  },
+  {
+    "id": 7713,
+    "text": "STEWARDS will follow industry best practices for authentication , using single-sign-on systems like Active Directory to perform authentication . Authentication addresses security requirements to ensure those using system are who they say they are . This is of greatest concern when data are being changed or updated . This is primarily done through userids and passwords .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [0, 8, "SYSTEM"],
+      [214, 220, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7714,
+    "text": "Confidentiality security requirements describe the need to protect the data appropriately . STEWARDS will use the user classes described in section above to define boundaries of information sharing to ensure confidentiality as appropriate . Any data that should be viewed by a restricted audience must be protected with appropriate security features .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [92, 100, "SYSTEM"],
+      [114, 118, "USER"]
+    ]
+  },
+  {
+    "id": 7715,
+    "text": "The integrity of STEWARDS data will be critical to its success as a product . Scientific research and publications will be based on the data obtained through the system . Therefore , extensive data validation and review will be performed both before data are uploaded to the system and as part of the upload process . The system will need policy and procedures protecting the data from intentional or unintentional modifications , and to ensure accurate data are made available .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [162, 168, "SYSTEM"],
+      [275, 281, "SYSTEM"],
+      [17, 25, "SYSTEM"],
+      [322, 328, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7716,
+    "text": "The fourth consideration for security requirements is availability . The system must be available to the intended audience alltimess per day , 7 days a week with , most availability and a tolerance of - little not less than most of working hours within any week . For this system , availability will be concerned with the reliability of the software and network components . Intentional `` denial of service attacks '' is not foreseen as a significant concern .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [73, 79, "SYSTEM"],
+      [114, 122, "USER"],
+      [273, 279, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7717,
+    "text": "The system shall provide a uniform look and feel between all the web pages .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7718,
+    "text": "The system shall provide a digital image for each product in the product catalog .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7719,
+    "text": "The system shall provide use of icons and toolbars .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7720,
+    "text": "The system shall provide a contractual agreement with an internet service provider for T3 access with most availability .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7721,
+    "text": "The system shall provide a contractual agreement with an internet service provider who can provide most availability through their network facilities onto the internet .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7722,
+    "text": "The product shall be based on web and has to be run from a web server .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 11, "SYSTEM"]]
+  },
+  {
+    "id": 7723,
+    "text": "The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 11, "SYSTEM"],
+      [130, 137, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7724,
+    "text": "The performance shall depend upon hardware components of the client/customer .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[61, 76, "USER"]]
+  },
+  {
+    "id": 7725,
+    "text": "The system shall use secure sockets in all transactions that include any confidential customer information .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [86, 94, "USER"],
+      [4, 10, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7726,
+    "text": "The system shall automatically log out all customers after a period of inactivity .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [43, 52, "USER"]
+    ]
+  },
+  {
+    "id": 7727,
+    "text": "The system shall confirm all transactions with the customer 's web browser .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [51, 59, "USER"],
+      [4, 10, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7728,
+    "text": "The system shall not leave any cookies on the customer 's computer containing the user 's password .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [46, 54, "USER"],
+      [82, 86, "USER"]
+    ]
+  },
+  {
+    "id": 7729,
+    "text": "The system shall not leave any cookies on the customer 's computer containing any of the user 's confidential information .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [46, 54, "USER"],
+      [89, 93, "USER"]
+    ]
+  },
+  {
+    "id": 7730,
+    "text": "The customer 's web browser shall never display a customer 's password . It shall always be echoed with special characters representing typed characters .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 12, "USER"],
+      [50, 58, "USER"]
+    ]
+  },
+  {
+    "id": 7731,
+    "text": "The customer 's web browser shall never display a customer 's credit card number after retrieving from the database . It shall always be shown with just the last digits of the credit card number .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 12, "USER"],
+      [50, 58, "USER"]
+    ]
+  },
+  {
+    "id": 7732,
+    "text": "The system 's back-end servers shall never display a customer 's password . The customer 's password may be reset but never shown .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [53, 61, "USER"],
+      [80, 88, "USER"]
+    ]
+  },
+  {
+    "id": 7733,
+    "text": "The system 's back-end servers shall only be accessible to authenticated administrators .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [73, 87, "USER"]
+    ]
+  },
+  {
+    "id": 7734,
+    "text": "The system 's back-end databases shall be encrypted .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7735,
+    "text": "The System shall be capable of adding additional capacity without redesign of it 's infrastructure .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7736,
+    "text": "The System shall comply with ESPC DoC / / NESDIS procedures and policies as stated in the IT Security Manual , Version , dated May 15 , 2007 .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7737,
+    "text": "The NDE Ingest capability shall not be interrupted for more than 2 hours within any consecutive alltimes period and within 4 hours within any consecutive 30 day period .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 14, "SYSTEM"]]
+  },
+  {
+    "id": 7738,
+    "text": "The NDE Product Generation capability shall not be interrupted for more than 2 hours within any consecutive alltimes period and within 4 hours within any consecutive 30 day period .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 26, "SYSTEM"]]
+  },
+  {
+    "id": 7739,
+    "text": "The Distribution capability shall not be interrupted for more than 2 hours within any consecutive alltimes period and within 4 hours within any consecutive 30 day period .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 16, "SYSTEM"]]
+  },
+  {
+    "id": 7740,
+    "text": "The NDE Operations Monitoring capability shall not be interrupted for more than 2 hours within any consecutive alltimes period and within 4 hours within any consecutive 30 day period .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 29, "SYSTEM"]]
+  },
+  {
+    "id": 7741,
+    "text": "The Develo ent and Maintenance Environment shall be available to at least developers alltimes during normal business hours over any consecutive twelve month period . Normal business hours are to , Monday through Friday .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 14, "SYSTEM"]]
+  },
+  {
+    "id": 7742,
+    "text": "The System shall be capable of accessing data delivered by within within fast of notification from .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7743,
+    "text": "The System shall deliver SARSAT Telemetry data from to fast of their receipt .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7744,
+    "text": "The System shall deliver A-DCS Telemetry data from to the fast of their receipt .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7745,
+    "text": "The System shall deliver A-DCS Data Products from to the fast of their receipt .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7746,
+    "text": "As far as possible , the system should provide a simple , responsive interface .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[25, 31, "SYSTEM"]]
+  },
+  {
+    "id": 7747,
+    "text": "The system should support at least 1000 concurrent users .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [51, 56, "USER"]
+    ]
+  },
+  {
+    "id": 7748,
+    "text": "The system must handle at least concurrent users and their operations . The system must accomplish most for transactions within less than fast . This is due to the nature of data , which is only text information that does not usually exceed KB per transaction .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [43, 48, "USER"],
+      [76, 82, "SYSTEM"],
+      [4, 10, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7749,
+    "text": "The system has to be available all of the time . Once there is a fatal error , the system should give understandable feedback to the user .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [83, 89, "SYSTEM"],
+      [133, 137, "USER"]
+    ]
+  },
+  {
+    "id": 7750,
+    "text": "The system have only roles for coordinators , suppliers and customers only that make our system secure access online and these authentications will prevent and illegal access .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [31, 43, "USER"],
+      [46, 55, "USER"],
+      [60, 69, "USER"],
+      [89, 95, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7751,
+    "text": "The system is designed in modules where errors can be detected and fixed easily . This makes it easier to install updates and new functionality if required .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7752,
+    "text": "The PMS will be available at all times from any computer fulfilling assumptions and dependencies in Section , except when Wilma is not available . The availability of Wilma is an issue that should be handled by the customer .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [215, 223, "USER"],
+      [4, 7, "SYSTEM"],
+      [122, 127, "SYSTEM"],
+      [167, 172, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7753,
+    "text": "In case of a corrupted database the Administrator should replace the database by the last available database backup . In case of another failure hardware or software related the problem should be first solved and afterwards the PMS should be reinitialized . During this downtime the PMS should give an error to the visitors , stating that the PMS is temporarily down .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [283, 286, "SYSTEM"],
+      [343, 346, "SYSTEM"],
+      [36, 49, "USER"],
+      [228, 231, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7754,
+    "text": "Every user account is protected with a personal password . Nobody except the specific user should be able to log into that account and change personal information .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [6, 10, "USER"],
+      [86, 90, "USER"]
+    ]
+  },
+  {
+    "id": 7755,
+    "text": "The password of the user should be encrypted when submitted from user to server . It should also be saved in an encrypted way in the database and no-one except the PMS should be able to access these passwords .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [20, 24, "USER"],
+      [65, 69, "USER"],
+      [164, 167, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7756,
+    "text": "Direct access to the data stored in the database is only allowed for Administrator s using the CLI .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[69, 82, "USER"]]
+  },
+  {
+    "id": 7757,
+    "text": "The user levels see section should always be respected with regard to editing , deleting and uploading publications and their bibliographical details .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 8, "USER"]]
+  },
+  {
+    "id": 7758,
+    "text": "The database of the PMS should be maintained by the Administrator s .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [20, 23, "SYSTEM"],
+      [52, 65, "USER"]
+    ]
+  },
+  {
+    "id": 7759,
+    "text": "The PMS with concern to the user levels , special privileges , ... should be maintained by the Administrators on a global level .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [28, 32, "USER"],
+      [95, 109, "USER"],
+      [4, 7, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7760,
+    "text": "On the Departmental level the Moderator s will be able to maintain the PMS this way .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [30, 39, "USER"],
+      [71, 74, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7761,
+    "text": "The application is expected to operate via touch screen user interfaces , and take advantage of that technology to be as fast , efficient , intuitive , and flexible as possible while also minimizing the potential for errors and duplications . It should minimize the use of keyboard and mouse when processing acquisitions , and should allow acquisitions to be completed with few clicks and page switches .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 15, "SYSTEM"]]
+  },
+  {
+    "id": 7762,
+    "text": "The system must be available during normal Construction Junction operating hours .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7763,
+    "text": "The system must be available beyond normal operating hours to accommodate inventory management operations .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7764,
+    "text": "Access to the application by the Construction Junction staff must require user login . Access to application screens and functions is granted or denied based on the profile and role of the currently logged in user , as detailed in the preceding use-case requirements . The system should record changes to application entities in the form of `` created user/time ‟ , `` modified user/time ‟ fields . The system should also record information about various sensitive inventory management operations such as deleting items and changing the price of items .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [14, 25, "SYSTEM"],
+      [74, 78, "USER"],
+      [209, 213, "USER"],
+      [305, 316, "SYSTEM"],
+      [97, 108, "SYSTEM"],
+      [273, 279, "SYSTEM"],
+      [403, 409, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7765,
+    "text": "The functionality provided by the Inventory Management System will be critical to the normal operation of the business . As such , the system should perform with consistently and predictably low response times in order not to impact the performance or the timely execution of the various tasks that need to be conducted by the staff .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [34, 61, "SYSTEM"],
+      [327, 332, "USER"],
+      [135, 141, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7766,
+    "text": "Query times will take fast to any website .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7767,
+    "text": "Sending the hyperlink to the default browser will take less than fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7768,
+    "text": "Loading the program will take less than fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[12, 19, "SYSTEM"]]
+  },
+  {
+    "id": 7769,
+    "text": "Any torrent result with seeds will not be displayed .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7770,
+    "text": "Sorting results should take less than fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7771,
+    "text": "A results page will display results .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7772,
+    "text": "Any torrent result with a rating of less than will not be displayed .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7773,
+    "text": "The system shall log errors , warnings , and informational messages to an external log file on the application server .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [99, 110, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7774,
+    "text": "The system shall log an error message to the external data file when the user is directed to the system error page .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [73, 77, "USER"],
+      [97, 103, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7775,
+    "text": "The system shall send a notification email to a Client Services email distribution list if the user is directed to the xxx error page .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [119, 122, "SYSTEM"],
+      [95, 99, "USER"]
+    ]
+  },
+  {
+    "id": 7776,
+    "text": "Displays of environmental conditions temperature , humidity , contact sensors and power switches shall be updated at least alltimes .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7777,
+    "text": "Sensor temperature , humidity , contact sensor , power state shall have a minimum data acquisition rate of Hz .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7778,
+    "text": "An environmental sensor or controller device shall have to be within feet of the master control device , in order to be in communication with the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [81, 102, "SYSTEM"],
+      [146, 152, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7779,
+    "text": "Upon installation , a DigitalHome user account shall be established . The DigitalHome web system shall provide for authentication and information encryption through a recognized reliable and effective security technology , such as .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [34, 38, "USER"],
+      [74, 96, "SYSTEM"],
+      [22, 33, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7780,
+    "text": "Log in to an account shall require entry of an account name and a password .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": []
+  },
+  {
+    "id": 7781,
+    "text": "The development of the DH system shall use methods and techniques such as the following to support system maintenance : Documentation of requirements , design , and code ; Use of abstraction , information hiding and module independence in system design ; and Use of IEEE standards IEEE830 , IEEE1008 , IEEE1016 , IEEE1028 and the HO4710 .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [99, 105, "SYSTEM"],
+      [23, 32, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7782,
+    "text": "Although the product produced under this document will be a `` prototype '' version , all modules and components of this prototype version shall be designed and implemented in such a manner that it may be incorporated in a fully specified commercial version of the DigitalHome System .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [
+      [265, 283, "SYSTEM"],
+      [13, 20, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7783,
+    "text": "The system encrypts data over a direct connection between the web client and the server .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7784,
+    "text": "The system allows for the backup of the data system to local or remote non-volatile storage systems . Incremental backups should not create outages and full backups do not interfere with user interaction for more than fast .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [187, 191, "USER"]
+    ]
+  },
+  {
+    "id": 7785,
+    "text": "The system is configurable to e-mail warnings about multiple failed login attempts from the same user . These warnings are sent to the System Administrator . Other security risks of this type are the responsibility of the System Administrator .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [97, 101, "USER"]
+    ]
+  },
+  {
+    "id": 7786,
+    "text": "The system allows only valid users to log into the system . A valid user is which has not been disabled or deleted and exists on the system .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [4, 10, "SYSTEM"],
+      [29, 34, "USER"],
+      [68, 72, "USER"],
+      [133, 139, "SYSTEM"],
+      [51, 57, "SYSTEM"]
+    ]
+  },
+  {
+    "id": 7787,
+    "text": "To log onto the system , a user provides their valid username and password .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [
+      [16, 22, "SYSTEM"],
+      [27, 31, "USER"]
+    ]
+  },
+  {
+    "id": 7788,
+    "text": "The system uses the configured authentication module . The authentication method is configurable by the System Administrator .",
+    "meta": {},
+    "annotation_approver": "Manolomon",
+    "labels": [[4, 10, "SYSTEM"]]
+  },
+  {
+    "id": 7789,
+    "text": "The system allows the System Administrator to configure a timeout after which a user is automatically logged out of Mashbot .",
+    "meta": {},
+    "annotation_approver": null,
+    "labels": [
+      [116, 123, "SYSTEM"],
+      [4, 10, "SYSTEM"],
+      [80, 84, "USER"]
+    ]
+  }
+]

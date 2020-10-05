@@ -1,0 +1,630 @@
+The system shall refresh the display alltimes .
+If projected the data must be readable . On a 10x10 projection screen most of user must be able to read Event / Activity data from a viewing distance of
+The system shall be available during normal business hours . As long as the user has access to the client PC the system will be available alltimes during the first six months of operation .
+If projected the data must be understandable . On a 10x10 projection screen most of user must be able to determine that Events or Activities are occuring in current time from a viewing distance of
+The system shall ensure that it can only be accessed by authorized user . The system will be able to distinguish between authorized and unauthorized user in all access attempts
+The system shall be intuitive and self-explanatory . : most of new user shall be able to start the display of Events or Activities fast of using the system .
+The system shall respond fast to keep up-to-date data in the display .
+The system shall be used by user with no training .
+The system shall be intuitive and self explanatory .
+The system shall be easy for a user to learn .
+The system shall use symbols and words that are naturally understandable by the user community .
+The system shall produce search results in an acceptable time
+The search results shall be returned fast after the user has entered the search criteria
+The system shall generate a report in an acceptable time .
+The report shall be returned fast after the user has entered the report criteria .
+The system shall synchronize contacts and appointments in an acceptable time .
+The system shall synchronize with the office system alltimes .
+The system shall be available for use alltimes
+Out of 1000 accesses to the system the system is available times .
+The system shall operate in offline mode whenever internet connection is unavailable .
+The system shall allow the user to view previously downloaded search results reports and appointments .
+The system shall retain user preferences in the event of a failure .
+all of saved user preferences shall be restored when system comes back online .
+The system shall be able to support multiple remote user
+The system shall be able support 1000 simultaneous user .
+The system shall be capable of handling the existing user . This number is expected to grow times within the next year .
+The system shall be installed by an untrained user without recourse to separately-printed instructions .
+most of untrained user shall be able to install the system on their device without printed instructions
+Only registered user shall be able to access the system .
+Every user of the system shall be authenticated and authorized .
+The system shall prevent its data from incorrect data being introduced .
+The system shall be easy to use by the user .
+All of the user shall be able to use the system after one day of training .
+The system shall help the user avoid making mistakes while scheduling classes and clinicals for the user .
+The number of mistakes noted by the user shall be decreased by most within the first year .
+The system shall be intuitive to the user .
+out of user shall successfully be able to use the system to manage the scheduling of classes and clinicals .
+The system shall use symbols and words that are naturally understandable by the user community .
+The verbiage used within the system shall be consistent with Standard and the terminology of the national .
+user shall be able to complete a set of tasks in a timely manner .
+The response time of general student management tasks shall take fast and the response time of schedule generation shall take fast .
+The system shall be available for use between the hours of 8 am and
+The system shall achieve most up time .
+system shall be able to handle all of the user requests/usage during business hours .
+The system shall cater to simultaneous user from to
+The system shall be capable of processing all of user and their classes for the next 10 years .
+The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years .
+Only authorized user shall have access to system information .
+user are the only people who shall have access to system details .
+Only authorized user shall have access to user ' personal information .
+user and user are the only people who shall have access to user ' personal information .
+Only authorized user shall have access to the portion of the system that interfaces with CampusConnect .
+Fit Criterion : user and user are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect .
+The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced .
+The system shall protect private information in accordance with the organization 's information policy .
+The system shall be built such that it is as secure as possible from malicious interference .
+The system shall use the organization 's standard virus protection software to help monitor threats to itself .
+The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status .
+all of the user and user shall use the system regularly after a 2-day training course .
+all of user shall be able to successfully create a dispute case on the first encounter after completing the training course .
+all of user shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course .
+The maximum wait time for a user navigating from screen to another within the system shall be fast .
+The system shall support concurrent user without any degradation of performance in the application .
+The system shall ensure that only user with the appropriate access level are allowed to initiate dispute requests .
+Only user with Update access must be able to initiate dispute requests .
+The system shall ensure that only authorized user are allowed to logon to the system .
+All authorized user once authenticated must be able to logon to the system
+The system shall generate a user Report that details any new user that have been added and any changes to an existing user 's access level . The report will be reviewed for auditing purposes .
+All additions of new user and modifications to user 's access shall be recorded on the user Report .
+If a user account is revoked it can only be re-instantiated by the System Administrator .
+Only the System Administrator shall be able to reset a revoked user logon account
+The system shall manipulate and view business data . user will not have direct access to data files or databases .
+All updates to data files or database must be initiated from the system .
+The system shall be easy to use by user and . most of user and shall find the system easy to use .
+The system shall increase systemivity of . most of the shall agree their systemivity has increase within 1 month of using the system .
+user shall feel satisfied using the system . most of all user will be satisfied with the system .
+The system shall be easy to learn by user and . The system shall be learned with two days onsite training
+The user shall easily locate instructions while using the system . user help can be found within most of the system .
+The search for recycled parts shall take fast . The search results shall be returned fast .
+The search for the preferred repair facility shall take fast . The preferred repair facility is returned fast
+The recycled parts audit report shall be returned to the user fast . The audit report shall be returned fast .
+The preferred repair facility ratings shall be saved fast . The save shall occur fast .
+The system shall adhere to the corporate online availability schedule . The system is brought down only within most of the scheduled outages per the availability schedule .
+The system shall achieve a most up time . The system shall not fail more than little of the available online time .
+The system shall be able to handle up to simultaneous user . The system shall perform with user as a time .
+The average number of recycled parts records per day shall be .
+The system shall be able to handle concurrent user within 2 years of the initial launch .
+Only user can request recycled parts audit reports . No user without an user role shall request recycled parts audits .
+Only user with a user role can update preferred repair facility ratings . user without the user role can not access the repair facility ratings .
+Only user shall search for recycled parts . user without the user role shall not have access to the search for recycled parts .
+Only valid data shall be entered into the system . No invalid data shall be entered into the system .
+user shall not be able to view another users claim data .
+The system shall free of computer viruses .
+The system shall prevent malicious attacks including denial of service .
+The system shall make the user want to use it . most of the user surveyed report they are regularly using the system after the first 2 weeks post-launch .
+The system shall be easy to use . most of user will be able to successfully reserve a conference room fast of system use .
+The system shall give user feedback when necessary . most of the user surveyed report that the system accurately confirms their actions .
+The system shall allow the user to select a chosen language from of the target market countries .
+The system shall allow for customization of start page and views preferences .
+An user will be able to successfully use the system within a few fast . After informally navigating the system fast user shall be able to successfully setup meetings and reserve conference rooms .
+The system shall use a standard navigation menu familiar to most web user .
+The system shall allow for intuitive searching of available conference rooms .
+The system shall conform to the Americans with Disabilities Act .
+The response shall be fast enough to avoid interrupting the user 's flow of thought . most of tasks shall complete fast . most of tasks shall complete fast .
+Aside from server failure the system shall achieve most up time .
+The system shall create an exception log of problems encountered within the system for transmission to our company for analysis and resolution .
+The system shall be capable of h ling up to concurrent requests . This number will increase to by Release . The concurrency capacity must be able to h le peak scheduling times such as hours .
+The system shall be able to process transactions per hour within two years of its launch . This number will increase to by Release .
+The system shall be expected to operate for at least 5 years for each customer installation .
+A new user must be able to be added to the system fast . most of new user are able to log into the system fast .
+The system must be designed using Design Patterns and coding best practices . most of maintenance software developers are able to integrate new functionality into the system with working days .
+The system must be highly configurable for use with various database management systems for the end user . most of end user are able to integrate new database management systems with the system without changing the system 's software code .
+Maintenance releases will be offered to user once a year . The releases shall take fast for most of the user base to install .
+Every registered user will have access to the system 's support site via the Internet . most of registered user shall find a solution to their problem fast of using the support site .
+The user shall be able to easily integrate new building maps with the system throughout the system 's lifecycle . Integration of new maps with the system shall be possible with little to no support from system support staff .
+The system shall be translated into foreign languages other than the target market countries ' languages within future releases . For each emerging target market it shall take within 5 days to configure the system for that market 's language .
+The system shall ensure that only user or external user with company-approved user IDs may have system access . all of all logons shall be by either user or external user with company-approved user IDs .
+Only user are able to perform search queries for reservations by user . all of all search queries for reservations by user shall be from logons of only management logons .
+The system shall ensure that the database 's data corresponds to the data entered by the user . Each conference room reservation in the system will contain the same information as was entered by the user .
+The system shall prevent the input of malicious data . The system and/or adjacent hardware/software system ' data shall remain all uncorrupted each time malicious data is input into the system .
+The system and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data . The system and/or dependent databases/filesystems shall not crash all of the time that malicious data is input into the system .
+The system shall have the ability to receive automatic software updates as new threats emerge . all of user will be able to receive automatic software updates transmitted to the installed system .
+The language of the system shall accommodate all of the target market countries . most of user from each target market country will find that the language of the system is acceptable .
+The system shall be able to display calendar dates and times according to the user 's locale . most of user from each target market country will find that the date and time formatting of the system is correct .
+Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take within 30 min .
+The system shall allow for a minimum of user to work at the same time .
+The system shall maintain consistent security . Any changes in user passwords and/or permissions should take affect in all parts of the system .
+The system shall granularly control access rights to all major subsystems . It should be possible to assign access rights to all subsystems independently .
+user shall be able to activate a pre-paid card via the user section fast .
+user shall be able to check the status of their prepaid card by entering within the PIN number fast .
+system shall let user register on the system as a ` pay as you go ' user fast .
+system shall let user register on the system as a user fast .
+system shall let existing user log into the system with their email address and password fast .
+system shall let user cancel their account process shall take fast . Database will mark the account as inactive and user will not be able to log into the system .
+system shall let user de-activate a user account fast . user will no longer be able to access the system .
+system shall let user add/remove movies on the system fast . Entered movie information will be stored within the database and will now be available on the system .
+system shall let the user add/remove categories on the system fast .
+system shall let user access sales and usage statistics fast .
+system shall let user generate unique pre-paid pins fast and generate an Excel file with the generated PINs .
+The system should be able to be used by most of novice user on the Internet .
+user should only have to navigate through a maximum of pages to create an account with the system .
+user should be able to access their streaming movies in under clicks after logging into the system .
+An anonymous survey will show that most of user are comfortable purchasing streaming movies after 2 weeks using the system .
+An anonymous survey will show that most of user are comfortable using and purchasing pre-paid cards after a month of using the system .
+The system shall retain the user 's buying preferences and information .
+The system shall be easy for user with novice skills on the Internet to purchase and watch streaming movies . user should be able to purchase and watch a pre-determined movie fast .
+The system shall use symbols and words that are naturally understandable by user familiar with websites
+The system will use standard Internet conventions when interacting with the user .
+Any interface between a user and the automated system shall have a maximum response time of fast unless noted by an exception below .
+When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of fast .
+When streaming a movie the buffering time should take fast plus any latency on the user 's connection .
+While streaming a movie buffering should only occur if there is latency in the user 's connection .
+All credit card information will be secured on the server and only accessible by authorized user . Information will be encrypted in the database .
+The system shall be available for use alltimes .
+The system shall achieve most up time .
+All movies shall be streamed on demand at any time of the day .
+The system shall continue to operate if the system goes down .
+The system shall continue to operate if the payment gateway goes down .
+The system will support simultaneous streaming connections .
+The system will support a maximum of movies ; new servers can be added to support more movies .
+The server will support a maximum of simultaneous user .
+The system shall be capable of supporting user .
+The system shall be expected to operate within the maximum maintenance budget for a minimum of 2 years .
+Promotional updates to the system should take a day to update .
+user must be able to update the category listings on the system fast .
+user must be able to add new products to the system fast .
+The system will provide a alltimes toll free number for support to its user .
+The system will provide a help section with answers and solutions to common problems .
+user will be available for phone support between M-F to provide technical support to the user .
+Only registered user can purchase streaming movies .
+A user can only stream a movie if they purchased it and are within the 2 day viewing period .
+Only authorized user can access user records in the database .
+Only user can activate a pre-paid card .
+Only authorized user can access sales information .
+The system shall prevent its data from being corrupted when incorrect data is entered in .
+The system shall protect itself from intentional abuse and notify the user at all occurrences .
+Data integrity scripts will be run on a alltimes basis to verify the integrity of the database .
+The system shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the system .
+The system shall notify user of changes to its information policy .
+The system shall reveal private information only in compliance with the organization 's information policy .
+All user information will be stored on a secure database accessible only to authorized user .
+All credit card information will be encrypted in the database .
+The system will have anti-virus software to prevent infection of malicious viruses .
+Total user cycle time must be completed fast for most of user volume between the business hours of 8AM to ; then fast for most of user volume during off business hours .
+No user evaluation will complete within a time period longer than fast for most of all user processed .
+For user that process longer than fast the system will record the event and duration
+The process must fit within the processing time conditions set forth by the Auto Rep Assignment process within which a user is assigned fast of the total life cycle .
+Defect reports will be available to technical units on a alltimes basis .
+Washing parameters will be updated during scheduled maintenance hours .
+The system shall be available alltimes .
+The system shall able to handle a large number of games simultaneously .
+The response time shall be fast enough to maintain the flow of the game . The response time shall be fast for most of responses and within little for the remaining responses .
+The system shall protect the identity of the user . The system shall provide user no access to information that might reveal the identity of another user .
+The system shall be intuitive and self-explanatory . out user shall be able to successfully complete a game with no training .
+The system shall be available to user who understand and . The system shall allow the user to select the language upon accessing the system .
+The system shall provide user no access to information that might reveal the identity of another user
+The response time shall be fast enough to maintain the flow of the game . The response time shall be fast for most of responses and within little for the remaining responses .
+The system shall be easy to use by user and user . user and user must be able to accomplish any system task fast .
+The system shall be easy to learn by user and user . user and user shall learn how to use the system fast .
+The system shall be responsive . At the when a user uses the system to view a user schedule the system response time must be fast alltimes and fast the rest of the time .
+On a 56k connection the system response time for all operations must be fast alltimes .
+On a 112k connection or faster the system response time for all operations must be fast alltimes .
+The system shall have high availability alltimes . The system must be available for use between and all days of the year .
+The system must be available for use between and all days of the year .
+The system shall be internet browser independent . The system must run using Internet Explorer and .
+The system shall ensure that only user can advertise empty time slots . The system must ensure that user are allowed to access advertise empty time slots .
+The system shall ensure that only user can enter a user 's schedule . The system must ensure that user are allowed to access advertise empty time slots .
+The system shall ensure that only user can view schedule of all user . The system must ensure that user are allowed to access advertise empty time slots .
+The system shall provide . The system shall be easy for System Administrators and DBAs to use after two weeks of usage .
+The system shall provide Error Tracking Services . The system shall help the System Administrators and DBAs to resolve transaction errors most of the time .
+The system shall provide Portals . The system shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs Key Performance Indicators
+The system shall provide Asynchronous Messaging . The system shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications
+The system shall provide Multi-threading and Load Balancing . The system shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic .
+The system shall process messages fast . The system shall have a maximum message processing time of fast
+The system shall poll the system for messages alltimes . The system shall poll the system for new messages at a maximum of alltimes .
+The system shall provide Dynamic Change Support and Transparent resource addition . The system shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day .
+The system shall be available alltimes . Rationale : To avoid service interruption during busiest user service response periods . The system shall be available . alltimes for regular business days .
+The system shall be robust . The system shall have fault avoidance based on standards adoption .
+The system shall be robust with fault tolerance . The system shall have fault tolerance by using recovery technique compensatory transaction and routing around failures .
+The system shall be able to process all transactions . The system shall process minimum of transactions per year .
+The system shall continue to operate during upgrade change or new resource addition . The system shall be able to continue to operate with no interruption in service due to new resource additions .
+The system shall be updated on a regular basis . The system will have a new major feature introduced alltimes and alltimes maintenance releases alltimes .
+The system shall operate with every platform . The system shall accommodate any new technology without any change in its architecture .
+The system shall have security . The system shall provide authentication and authorization .
+The system shall information Security . The system shall enable privacy by encryption WS-Security and Integrity Checking .
+The system shall have audit capabilities . The system shall store messages for a minimum of one year for audit and transaction tracking purposes .
+The system must use a point and click interface . all of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard
+The interface shall be easy to use . most of users should be able to successfully use the system to generate a report on their first use . The interface should adhere to usability standards .
+Rreports must be easy to generate . eports must be generated within button click and exported within button click after selecting the report
+A user shall be able to use the system without instruction after a short amount of time . After use a user should understand and remember most of the system usage and navigation .
+All user shall receive training before the system is deployed . training session will be held for all of user before system deployment based on a user being available
+The system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization . All interfaces and reports will undergo usability tests by user .
+The system shall be available at all times as long as 's internal intranet W3 is accessible . The system will be available most of the time 's internal intranet W3 is available .
+The system shall have the ability to connect other designated databases currently not included in the system .
+The system shall have the ability to include data for regions outside the and be accessed by user outside of the if approved by management .
+The system must run queries to the databases once again on a specified day to update the available data available to user . Queries must be made to external databases for data refresh once a week .
+All changes updates and additions to the system shall be updated in the Developer and user Guides . Every change must be reflected in system documentation
+The system shall only be accessed by authorized user . user must be authenticated using their intranet user name and password .
+The system shall not allow automatic logins by any user . Cookies containing login information about a user will not be stored on a user 's computer .
+Each user will need to use a username and password in order to be authenticated to reach the user 's page
+The user will be the only authorized user per league to adjust league settings .
+A new user shall be able to navigate through the league and team pages fast of reaching the start-up page .
+user shall be able to reach the ` add ' ` drop ' and ` trade player ' pages with click from the user 's page .
+user shall be able to view at least player statistics and points on each page .
+The system shall ask the user to confirm dropping a player or trading a player before performing the action .
+The system shall be able to complete every user transaction within fourth of a fast of receiving the request over the network .
+The system shall have a downtime of at most fast per year .
+system updates shall occur between on Wednesday during the middle of the season .
+New system version releases shall be released at the beginning of each season .
+The system should be available alltimes especially during the budgeting period . The system shall be available alltimes all year and most during the budgeting period . little of the time the system will become available within 1 hour of the time that the situation is reported .
+Changes to revenue and expense formulae must be applied to the system alltimes prior to the budgeting process start . Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and .
+New branches/complexes/districts / regions and revenue/expense accounts added to the BDW must be reflected in the system . all of the entities mentioned above available as of October month-end will be loaded into the system prior to the budget start process .
+Only authorized user shall access the system . ONLY user that exist in the system with the system assigned to their role s shall access the system and use it .
+user access should be limited to the permissions granted to their role s Each level in the PCG hierarchy will be assigned a role and user will be assigned to these roles . Access to functionality within system is dependent on the privileges/permission assigned to the role . .
+The user should be able to easily use the system to successfully complete their budgets within the stipulated time for completion . With a week of training prior to system implementation most of the user shall complete their budgets within the stipulated time .
+The system interface should be fast . The response time of the system interface should not exceed fast alltimes . For little of the time the response time should fast.fast .
+user shall be forced to change their password the next time they log in if they have not changed it within the length of time established as ` password expiration duration ' .
+user must change the initially assigned login authentication information password immediately after the first successful login . The initial password may never be reused .
+The system shall ensure that the user salary data can be accessed only by authorized user . The system shall distinguish between authorized and non‐authorized user .
+user shall not be allowed to update their own salary information , and any such attempt shall be reported to the security user .
+Only user of current security clearance can enter the national headquarters building .
+The access permissions for system data may only be changed by the system 's data administrator .
+Passwords shall never be viewable at the point of entry or at any other time .
+Each unsuccessful attempt by a user to access an item of data shall be recorded on an audit trail .
+user shall receive notification of profile changes via preferred communication method of record when profile information is modified .
+The system shall be available for use between the hours of .
+The system shall achieve 100 hours MTBF mean time between failure .
+The system shall achieve most up time .
+The mortgage amortization schedule shall be available to the user fast for alltimess that it is requested . The remaining times it will be available fast .
+The system shall be at least 99.0 percent available on all s between . The system shall be at least 99.95 percent available on all s between .
+Unless the system is non‐operational , the system shall present a user with notification informing them that the system is unavailable .
+A new installation of the system shall be available for first‐time use within alltimess of the start of the install .
+The system shall permit backing up of the registration database while other registration activities are going on . It is estimated that this requirement reduces duration for which the system would be unavailable to user for maintenance by fast each calendar day .
+The system shall be easy to use by user who may only have hand free .
+The system shall be able to be used by user without training . A panel representative of at least 95 percent of the general public shall successfully purchase a product from the system on their first encounter .
+The system shall be self‐explanatory and intuitive such that a user shall be able to produce a price quote fast of encountering the system for the first time .
+The system shall be evaluated by 90 percent of the user community to be at least as easy to use as the system .
+A user shall have the ability to submit a complete order for a product chosen from a supplier catalog within a maximum of fast , with an average order entry time of fast .
+user with no training and no understanding of shall be able to use the system .
+A user shall be able to enter a customer order on the system within a typical 8‐hour business day .
+The system shall be useable by program developers after five weeks of training .
+The user shall analyze most of the problem reports within 2 hours . Items classified as ` urgent ' shall be repaired within business days within most of the reported cases .
+The system development process must have a regression test procedure that allows complete re‐testing within business days .
+A maintenance developer shall be able to modify existing statements to conform to revised regulations from the federal government with labor hours or less of development and testing effort .
+A user type code must be able to be added to the system within business hours .
+The system must maintain a service log and , on system start‐up , must check if system service is due . If a scheduled service session has not been carried out within calendar days of the scheduled date , the system should discontinue operation .
+A development programmer who has at least one year of experience supporting this system shall be able to add a new product feature , including source code modifications and testing , with within one week of labor .
+The system shall not be shut down for maintenance more than once in a 24‐hour period .
+The elapsed duration of time required to produce any statement or report showing information about transactions shall be based upon how much data is presented rather than the total quantity of stored data .
+The effort needed to administer the system as measured within hours per month of system administrators ' time shall not increase with an increase within the number of user . If there is a significant increase within system operation work , it shall be proportionately less than an increase within the number of user .
+The system shall be scalable to support unlimited growth in the number of user .
+The system shall be scalable to manage an unrestricted number of additional rules .
+The system shall be scalable to accommodate its use by an unlimited number of user worldwide .
+The system shall support all assigned user following any catastrophic event .
+The system shall support unlimited user , account , and transaction relationships .
+The system shall scale to potential alltimes spikes of , little in authorization requests during peak holiday shopping .
+All error messages produced by the system must be meaningful , so that they can be appropriately acted upon by the user who are likely to see them . Ideally , each error message will be accompanied by explanatory text and an indication of the action s which the user can take in response to the error .
+The system must employ a single set of user interface rules , or a small number of sets to provide a familiar and common look and feel for the application .
+The system must be able to display several entities cases , suspects simultaneously .
+The interfaces must be made customizable or user-configurable to the extent possible . e.g. , the displayed columns in the table , move , resize , modify the appearance . Such configurations must be saved in the user profile .
+The system user interface must be suitable for user with special needs ; that is , compatible with specialist software that may be used and with appropriate interface guidelines .
+The system must provide End User and Administrator functions which are easy to use and intuitive throughout .
+The system must allow persistent defaults for data entry where desirable . These defaults should include : user-definable values , values same as previous item , values derived from context , e.g. date , file reference , user identifier .
+Frequently-executed system transactions must be designed so that they can be completed with a small number of interactions e.g. mouse clicks .
+Where the system employs a graphical user interface , it must allow user to customise it . Customisation should include , but need not be limited to the following changes : menu contents , layout of screens , use of function keys , on-screen colours , fonts and font sizes .
+The user interfaces should be designed to make them user-intuitive .
+The user interfaces of the system should comply with .
+ISO shall be the standard for guidance on ICT accessibility . Application user interfaces to meet its requirements and recommendations . Software accessibility ISO shall be the standard for guidance on software accessibility . User interfaces should meet its requirements and recommendations . Content accessibility WCAG shall be the standard used for guidance on content accessibility . The system logo to be available on all pages as a link to the home page .
+All non-text media objects , such as graphical images or video , should be provided with alternative equivalent textual descriptions and/or with equivalent text-based functionality .
+Navigation should be designed to help users understand where they are , where they have been and where they can go next . General guidance on achieving self-descriptiveness is given in ISO .
+Each presentation segment page or window should provide the user with a clear and sufficient indication of where he or she is in the navigation structure and of the current segment position with respect to the overall structure .
+Alternative access paths for navigating to a specific unit of content should be offered to support different navigation strategies .
+The number of navigation steps needed to reach a certain piece of content should be minimized as long as different mental models , navigation strategies and tasks of the user are taken into account .
+Splash screens should be avoided unless they provide useful content or feedback about the application state to the user . If a splash screen is used , a navigation option to skip it should be offered .
+Additional windows such as new browser windows or pop-up windows should only be opened if this supports the user 's task . Opening new windows can distract , confuse or impede user for a variety of reasons . They can superimpose the primary window , hiding relevant information . They could make it cognitively more difficult to understand the navigation structure with negative effects on both usability and accessibility . They also require additional user actions for closing unwanted windows .
+Vertical scrolling should be minimized . This may be done by placing important information at the top and providing links to information that is further down the page . Horizontal scrolling should be avoided wherever possible .
+User interfaces should be designed to allow activation of controls by a variety of input devices . The ability to choose between different input devices for activating controls such as links , fields and buttons is important both for user who prefer a certain input mode , mobile user and user with disabilities . In general , device independence can be achieved if the functionality is operable via a keyboard .
+User interfaces should be designed to be as robust as possible in the face of changing technology . This encompasses being able to present content containing newer technologies by older user agents as well as designing content to be usable with future technologies .
+Application pages should be designed and implemented so that there are acceptable opening times and download times for the expected range of technical contexts of use e.g. bandwidth between the application and the user . This is particularly important for frequently accessed pages or pages that are important for user navigation and exploration , such as the home page .
+Potential user errors as well as the effort needed to recover from errors should be minimized .
+The content of error messages shown on the pages or special error pages should clearly state the reason why the error occurred and , if possible , actions the user can take to resolve the error . user expect error messages to be in the same language as the user interface .
+When designing user interfaces for use by diverse groups , input and output of information elements such as currency , units of measurement , temperatures , date and time , phone numbers , address or postal codes should be designed so that they are usable .
+Text should be able to be resized by the user , using functions provided by the user agent or other appropriate means i.e. see ISO .
+The quality of textual content with respect to spelling and grammar should be sufficient so as not to impede readability .
+The reading and understanding of the textual content on the screen should be supported by suitable means , including the use of short sentences , the division of the text into shorter chunks or the presentation of content items in the form of bullet points .
+Fast skimming of text should be supported by the provision of clear links , bulleted lists , highlighted keywords , logical headings , and short phrases and sentences .
+Text presented on the pages should be readable taking into account the expected display characteristics and spatial arrangement . ISO shall be consulted for screen text legibility requirements .
+Within-page links should be clearly distinguishable from other links that lead to a different page . EX . Within-page links are shown with dashed rather than solid underlines .
+Text pages containing large proportions of links should be formatted so that the presence of links does not impede the readability of the text .
+Navigation links -- particularly links representing the main navigation structure -- should be labelled with terms that are familiar to the user , based on user general knowledge , prior experience in the system domain or experience of using other systems .
+The target or purpose of a link should be directly indicated by its label , avoiding generic labels such as `` go '' or `` click here '' except where the purpose of the link is clear from its context on the page or the labels have commonly understood semantics in the particular system domain . Using appropriate terminology specific to the user 's tasks and information needs is important for making the content easy to understand .
+Links that open new browser windows or pop-up windows should be clearly marked .
+Navigation links should be clearly distinguishable from controls activating some action . Typical action types in user interfaces include manipulating application data , performing searches , communication actions , such as opening a new e-mail window or starting a chat function , and presentation-related actions , such as sorting a list of search results .
+If a document is either too long , dispersed over several pages or in a specific layout that is not suitable for online reading , a printer-friendly version of the document should be provided that prints the content in a form acceptable to the user e.g. in the expected layout , paper format , or orientation .
+'' '' `` White space '' '' on a page i.e. space filled only with the background color should be used in such a way that it does not impair the visual skimming of the page . While white space is an important means of visually organizing the different content elements on a page , if the distance between the blocks of information displayed becomes too large , rapid skimming of the page can be impeded . ''
+The length of a page should be selected so as to support the primary purpose and use of the page . Short pages are generally more appropriate for homepages , navigation pages , or overview pages that need to be read quickly . Longer pages can be more appropriate when users want to read the content without interruptions or when the page needs to match a paper counterpart .
+Colour should be used with care , taking into account human capabilities and restrictions in perceiving colour , and not as the only means of conveying information . Color should never be the only means of coding . Some user may have difficulties in perceiving certain colors or color combinations color-blindness .
+If frames are used , care should be taken to avoid possible problems , for example , those involving the use of the back button , bookmarking of pages , or scrolling of information . When frames are used , it is important to title each frame , and to describe its purpose and how frames relate to another other .
+If frames are used , an alternative way of presenting relevant information without frames should be provided . Providing alternative text-only pages : When style sheets and/or frames are turned off it should be possible for the user to read and understand the page ; alternatively , the user should be provided with an equivalent alternative text-only page .
+Pages should be designed using consistent layout schemes , supporting the user in finding similar information at the same position on different pages . Overall layout schemes apply to all pages and are preferable when all pages have a similar structure . Frequently , however , different pages have different purposes and types of content . In such cases , pages can usually be grouped in different categories , using layout scheme for each category consistently .
+Page titles should be placed in a consistent location on the different pages .
+When designing system pages , the general principles of human perception should be taken into account . The International Standards mentioned below shall be consulted for guidance . Practical guidelines for presenting information to the user are to be found in 9241-12 . Guidance on selecting and using different forms of interaction techniques is to be found in to . gives guidance about menus , about command dialogues , about direct manipulation and about forms . In addition , when designing multimedia information presentations , the design principles and recommendations described in to should be taken into account . Appropriate content presentation also plays a key role in accessibility .
+Each page should contain a link leading to the home page of the application or to a landmark page that is easy to recognize for the user .
+A separate navigation overview such as a site map should be provided for system showing the structure of the site in an overview form .
+If navigation components or overviews are shown in conjunction with associated content , consistency between the navigation component and the content shown should be maintained by indicating in the navigation component e.g. highlighting the topic currently visible in the content area .
+Navigation components should be placed consistently on the pages or in the framesets in the pages of the system .
+Adapting the content and the navigation of a user interface to individual user or user groups can be a useful mechanism for providing information that is of interest to the user and for making access to relevant information more efficient . User adaptation can also be important for making the user interface more accessible . Different approaches can be used for achieving these goals , like providing user with means for customizing the user interface to their personal needs i.e. individualization designing content and navigation differently for varying user groups or roles i.e. such as user of different levels , user etc , monitoring the user 's behaviour and adapting to the user 's goals that are inferred from the behaviour observed , recommending information that is potentially more relevant or interesting to the specific user , based on the behaviour of all user or a user group .
+When providing different access paths or navigation structures for different user groups , the tasks and information needs of these user groups should be taken into consideration .
+It should be made evident to the user when individualization and/or adaptation are used .
+If predefined user profiles or user-specified profiles are used for individualizing or adapting content , the profile currently used should be made evident . If profiles are used , it is important to provide user with information about this concept and its implications .
+If user-specified profiles are used , user should be able to see , modify and delete that profile on demand .
+The user interfaces of the system should follow the guidelines specified under
+The system must be available to user : from to , on < all weekdays/xxx days per year > .
+The planned downtime for the system must not exceed <xx> hours per <rolling three month period> .
+The system is considered to be down if any user is unable to perform any normal system function and if this failure is attributed to any component of the system other than the workstation .
+Unplanned downtime for the system must not exceed < hours/minutes > per <rolling three month period> .
+The number of incidents of unplanned downtime for the system must not exceed <x> per <rolling three month period> .
+In the event of any software or hardware failure , it must be possible to restore the system with inline synchronization within within <xx> hours .
+The system must provide adequate response times for commonly performed functions under both standard and peak conditions .
+The system must be able to perform a simple search within 5-fast and a advanced search multiple search criteria within 10-fast regardless of the storage capacity or number of cases within the system . In this context , performing a search means returning a result list . It does not include retrieving the records themselves .
+The system must be able to retrieve and display within 5-fast the case which has been accessed within the previous 2 months , regardless of storage capacity or number of cases within the system . This requirement is intended to allow for rapid retrieval of frequently-used cases , on the understanding that frequency of use is typically correlated with recent use .
+The system must be able to retrieve and display fast the case which has not been accessed within the previous 2 months , regardless of storage capacity or number of cases within the system . This requirement is intended to allow for cases where cases used infrequently are stored on slower media than more active records .
+The system be scaleable and must not have any features which would preclude use in small or large police stations , with varying numbers of cases handled .
+Upon the USB being plugged within the system shall be able to be deployed and operational within less than fast .
+The system shall be able to handle 1000 user logged in concurrently at the same time .
+The system shall be able to retrieve per second .
+The system shall be able to add product to shopping cart in less than ms.
+The system shall be able to search for a specified product within less than fast .
+The system shall be able to email user and user within less than fast .
+The system shall be able to validate credit card within less than fast .
+The system shall be able to acquire shipping charges within less than fast .
+The system shall be able to restore 1000 records per second .
+The system shall validate credit cards against fraud .
+The system shall encrypt all sensitive information via https .
+The system shall encrypt all user data in database .
+The system shall auto detect IP DOS attacks and block IP automatically .
+The system shall detect consecutive failed login attempts .
+The system shall be protected by open source firewall called Firestarter .
+The system shall have an availability of most .
+The system shall be easy to use .
+The system shall be easy to learn .
+The system shall utilize help bubbles to assist user , user , and user .
+The system shall employ easy to locate buttons .
+The system shall prompt user with friend easy to read error messages .
+The system shall utilize consistent symbols and colors for clear notifications .
+The system shall utilize interchangeable plugins .
+The system shall be easily updatable for fixes and patches .
+The system shall create logs of all changes , updates , or fixes that are done to the site .
+The system shall be easy to upgrade .
+It is mandatory that learning time is between 2 to 4 hours at maximum , because many task are delegated to working user .
+Web interface should use clear and consistence terminology in such a way that user ; with basic experience on internet and office ; find the system easy to use
+The system should be available always at working hours . Any maintenance or backup operation should be conducted out of working time .
+All user are authenticated by user name and a password .
+Permission are assigned to user according to their roles .
+Only IT team member can access and maintain data base servers locally .
+Query is killed if takes more than 1 min .
+Backup operation are executed periodically .
+It is important to design system to facilitated future evolution and facilitate maintenance operations
+Every command must be accepted/rejected within 2 sec and before the correspond - ing action occurs . This is different than the ACK/NAK response of the communications protocol - here , the target system must have examined the command and verified its validity .
+Status display update must be within 4 sec at the local stations certain functions , such as telescope position , may have tighter constraints . Remote station update response is given within the Requirements for Remote Operations section .
+Requests of subsystems for status information must be answered within 5 sec and be possible within maintenance level operation .
+All software bugs should be logged and then fixed as soon as possible after detection . The goal is to have restart conditions occur only on hardware failure .
+Fault recovery , exception handling , fail-safe checks , etc. should be used to improve reliability .
+Should a subsystem fail e.g. detector , instrument predefined procedures must exist to redefine the environment in such a way that operation can restart with the remaining equipment .
+In case of computer hardware failure concerning the user station equipment , it shall be possible to transfer control from user station to another via a simple software reconfiguration procedure .
+In the case of failure , no transfer of control to another will be possible , due to the local connections and interfaces to the control electronics . In this case there shall be a procedure to replace faulty cards and/or assemblies . If it is possible to observe with that particular in a failed state in general , this is limited to s that are associated with individual scientific instruments then it must be possible to reconfigure the system to do so .
+The GSR sets as a requirement little and a goal little for total system mechanical , electrical , and software downtime due to failures - this translates to a maximum of fast per or per month of downtime . This within turn sets quite stringent requirements on both MTBF and for the software and controls .
+To guarantee maximum availability of the system , retry procedures must be embodied in the software in case of error or failure e.g. time-out , hardware failure to achieve recovery on-line whenever possible .
+Maintenance requirements including an estimate of required resources .
+The method of upgrading the system to add capabilities and performance . Areas where upgrades are anticipated should be identified with an estimate of the required effort and resources .
+A system that is operating in Engineering/Maintenance mode must ignore directives from other systems , though status information should still be provided for use by other systems .
+There should be security preventing the intrusion into the system by unauthorized user , or user at unauthorized access levels .
+All hazards capable of causing death and/or loss of irreplacable equipment shall be passively interlocked .
+All hazards capable of causing injury and/or severe damage to equipment shall be actively interlocked severe damage implies that repairs are not repairable at the depot level .
+All other hazards may be interlocked via software .
+The is an system . Therefore , as per DoD Regulation 5000.2-R , dated March 15 , 1996 , the shall meet security requirements in accordance with DoD Directive D , `` Security Requirements for systems '' dated March 21 , 1988
+The shall be accredited by the prior to processing classified as well as sensitive unclassified data .
+The shall have sufficient throughput to support the processing requirements of the selected data link .
+The maintainability will be considered in every phase of the design and development process and shall achieve a system maintainability Mean Time To Repair MTTR equal to or greater than that which is specified in the Predator and Outrider ORDs .
+The system shall achieve an availability as defined below , equal to or greater than that which is specified in the Predator and Outrider ORDs .
+The system shall display and with nodes within fast or less .
+The system shall display node SDTs within the same amount of time , plus or minus fast , as it takes to display a node SDT .
+The system shall allow a user to request transformations while system is performing transformations or parsing .
+The system shall allow a user to navigate through the display of an with nodes so that scrolling a screen width with any portion of the displayed takes less than fast .
+The complexity of the text search algorithm shall not exceed O n2 for n nodes .
+The complexity of the tree search algorithm shall not exceed O n2 for n nodes .
+The complexity of the scrolling algorithms for text and displayed graphs shall not exceed O n2 for n displayed nodes .
+The user shall not be required to log in or authenticate his/her identity when using the system .
+The maximum response time for the submission of a job will be fast .
+The maximum number of jobs schedulable is limited only by the capacity of the nodes to fulfill the jobs ' deadlines ; there is no upper limit inherent in the system as such .
+Assuming submitted statistics for jobs are accurate , the system will ensure that all jobs are completed with a little error allowance .
+Under all circumstances , the maximum cost payable as submitted by the user will be the maximum cost charged to the user .
+The system will be as secure as the web browser that will run the system .
+The system will be available over the Internet via the S2S website .
+Maintainability is a primary goal for this system . For example , using appropriate sub-scenes in the main Flash game to split up the code will allow for easy alteration at a later date .
+The system shall maintain input data fidelity and dynamic range across all processing , manipulation and I/O functions .
+The system shall be capable of flagging and marking corrupted data segments and proceeding without interruption or effect on other data . This includes , but is not limited to , partial data , data , underflows , overflows , infinities , and NaN 's whether obtained on input or arising during processing .
+The system shall be self-monitoring . It will be capable of detecting , reporting on and automatically taking action to remedy or lessen the impact of , at a minimum , the following types of abnormal conditions : processor hardware failure , operating system hangs or crashes , computational performance below minimum specifications , computational error rates above maximum specification , internal communications failures , and external with the Correlator and E2E communications disruptions .
+The software part of the system shall be able to perform without total system restart due to internal failure between array maintenance windows .
+The hardware part of the system shall be able to perform indefinitely without complete loss of service , except in the event of total failure of primary and backup power .
+The system shall be capable of responding in a loss-less manner to I/O and processing changes arising from Correlator mode changes .
+The system shall continue to operate in a loss-less manner in the event of a temporary time duration TBD loss of availability of the system .
+The system shall be able to complete processing of all onboard data , deliver the results to the system and maintain availability for immediate resumption of operations once Correlator access is restored .
+The system shall continue to operate during the absence of the system until the first encounter of unavailable critical auxiliary data . The system will cache a predetermined amount TBD of correlator data after the first encounter of unavailable critical data and complete all requested operations on cached data once the unavailable critical data is obtained .
+The system shall be able to sit at idle and resume operations with minimal amount TBD delay .
+Software tools and pre-built applications that do not have source code available shall come with a complete diagnostic package and customer support .
+Operating system software shall either have source code available or come with sufficient diagnostics and customer support .
+I/O , communications , and processing hardware shall be easily expandable , reconfigureable , augmentable and replaceable to meet increasing data transfer and processing demands imposed by science , Correlator changes , and availability of new hardware .
+, above , shall be accomplished in manner that is transparent to processing , communications and I/O software functions with the possible exception of recompilation of executables .
+, above , shall be accomplished in a manner that is seamless , in that it does not affect hardware modules or software functionality that it meets at interfaces .
+The system shall ultimately be scaleable to an extent that it will be capable of handling up to Gbytes per second per Correlator output channel in real-time .
+All user of the system shall login using some form of unique identification . e.g. , username and password
+All login attempts shall be done in a secure manner . e.g. , encrypted passwords
+A system administrator shall have unrestricted access to all aspects of the system .
+Each user shall have a set of system access properties that defines the user 's privileges within the system . e.g. , the subsystems a user may control or system tools the user may access .
+The user shall have the ability to create and add a new user to the system .
+The user shall have the ability to remove a user from the system .
+The user shall have the ability to edit a user 's system access properties .
+The user shall have the ability to block all access to the system for all user or selectively by user . All blocked user with active sessions shall automatically be logged off .
+The system processors shall be capable of meeting all data processing deadlines and anticipated future requirements
+The system processors shall be capable of responding to correlator hardware inputs interrupts in a deterministic fashion with sufficient performance to avoid data loss , corruption or overflows .
+All lower system error and debug messages shall be present at the system layer . Aside from a networking or CPU failure , It should never be necessary to directly access a CPU to display error messages .
+All system error and debug messages shall be categorized in a logical fashion such that message traffic can be filtered as to content , detail , and message rate . user interested in error messages should be able to easily filter the error message stream .
+All messages passed between system layers shall have both and wall clock time stamp information appropriate for the message type . Error messages will be stamped with their discovery time , control messages will be stamped with their generation time . Other message internal time stamps can be used as monitor/control parameters as deemed necessary .
+system shall be provided that allows an authorized user full access to all messaging , monitor , and control traffic throughout the system . This software will provide full system access for testing , debugging , and control while the correlator is off line or under the control of the system .
+A Graphical User Interface shall be provided as an interface to the test software that allows for a convenient and configurable tool to access the remotely through the .
+The system shall be self-monitoring . It will be capable of detecting , reporting on and automatically taking action to remedy or lessen the impact of , at a minimum , the following types of abnormal conditions : processor hardware failure , operating system hangs or crashes , temperature or voltage deviations , computational performance below minimum specifications , computational error rates above maximum specification , internal communications failures , and external with the communications disruptions .
+The software part of the system shall be able to perform without total system restart due to internal failure between system maintenance windows .
+The hardware part of the system shall be able to perform indefinitely without complete loss of service , except in the event of total failure of primary and backup power .
+The system shall be able to continue processing of all correlator configuration/control events until the queues of parameters are exhausted and external communications are restored
+The system shall be able to sit at idle and resume operations with minimal amount TBD delay .
+Software tools and pre-built applications that do not have source code available shall come with a complete diagnostic package and customer support .
+Operating system software shall either have source code available or come with sufficient diagnostics and customer support .
+I/O , communications , and processing hardware shall be easily expandable , reconfigurable , augmentable and replaceable to meet increasing data traffic and processing demands imposed by science , Correlator changes , and availability of new hardware .
+, above , shall be accomplished in manner that is transparent to processing , communications and I/O software functions with the possible exception of recompilation of executables .
+, above , shall be accomplished in a manner that is seamless , in that it does not affect hardware modules or software functionality that it meets at interfaces .
+All user of the system shall login using some form of unique identification . e.g. , username and password
+All login attempts shall be done in a secure manner . e.g. , encrypted passwords
+A system administrator shall have unrestricted access to all aspects of the system .
+Each user shall have a set of system access properties that defines the user 's privileges within the system . e.g. , the subsystems a user may control or system tools the user may access .
+The user shall have the ability to create and add a new user to the system .
+The user shall have the ability to remove a user from the system .
+The user shall have the ability to edit a user 's system access properties .
+The user shall have the ability to block all access to the system for all user or selectively by user . All blocked user with active sessions shall automatically be logged off .
+system shall support the ability to encrypt unicast message .
+system shall support the ability to decrypt unicast message .
+system shall allow an user to decide whether or not to encrypt a message .
+system shall automatically decrypt encrypted message .
+system shall support the ability to encrypt multicast message .
+system shall support the ability to decrypt multicast message .
+The area on the main , system , and condition windows sensitive to the user selection device , typically the mouse , shall include the line surrounding the item of interest over the entire width of the window . This includes the diagnostic indicators .
+The windows listing diagnostic results shall increase in height as needed to display entries up to a maximum of entries . Once the window has reached maximum size and there are additional items to display , the window shall deploy a scroll bar to permit the user to scroll through the additional entries . In this event , a summary set of diagnostic indicators shall appear above below the top bottom entry in the display . This set s of indicators shall summarize diagnostic indicators not currently appearing on the list above below it . An indicator in the summary set shall be active if any similar indicator not appearing above or below it is active . The summary set indicators comply with the same specification for activation as other indicators see 3.5.1.39 .
+The building , subsystems , and condition windows shall display the current time if the system is operating in real time . If the system is operating in batch mode , the time displayed will be the time associated with the entry currently being processed in the batched input .
+If only a single building is defined , the subsystems window shall become the main window of the system and shall have all the functionality of the main window as described in these specifications .
+Each window of the system shall display an animated graphical feature indicating the status , whether active or not , of the diagnostic processing .
+The subsystem window shall be modal to the building window , the condition window modal to the subsystem window , and the diagnostic history and diagnostic information windows shall be modal to the condition window .
+The system must guide user through an interface based on end user concepts .
+The system must be easy to learn and does not obstruct the thematic understanding of the user .
+The system must make it easy to correct mistakes .
+There will be no restriction in time or place for the use of the software built from the specifications produced under this contract .
+The system must be able to establish and keep the dialog with the Members systems despite the various technical environments and technologies used on their sites .
+The system will be designed so that background tasks can continue while the user performs foreground tasks .
+The system will be used alltimes by user under pressure to produce results rapidly . The system must respond rapidly to user requests irrespective of any background tasks . Such high - availability alltimes is also required from the system to ensure acceptable response time less than fast to enforcement authorities requests .
+Color searches among the various collections defined by will be processed in sub - second time on the server .
+Changes to Paint and collection information will occur in Real-time , although the actual processing time will vary with respect to the amount of information to be updated , added , or deleted on the server .
+While performance requirements are transparently defined at the server , system makes no guarantees as to the speed , completeness , or timeliness of service over the greater internet . Performance of the system will vary on the speed and type of internet access to which the client computer has access .
+To verify the performance of the system , system will show the amount of time the server takes to process a request . The time shown will not take into account the transit time of the information over various computer networks .
+Due to the nature of the system , the data stored in repositories of the system is generally public information consisting of paint names and color values not easily secured or obfuscated and always recoverable by a sophisticated user . No attempts will be made to secure this information .
+Information that the system will collect or store , which need access protections include user specified color palettes and their store of access permissions . Access to this information must be private . Most important , the store of access permissions to administrative features and access permissions must be secure .
+Implementations of Privacy and security must be on par with industry standards .
+The external server data store containing RLCS status for use by external systems shall be updated once per fast .
+The system status information logging to the database shall be fast , but can be configurable within the database to more than fast by the user .
+The system status information display update frequency shall be fast , but can be configurable within the database to more than fast by the user .
+The system shall receive device status information from devices sensors fast of the status information being issued by the device sensor .
+system shall receive respond to commands from the system fast of the command confirmation being issued by the user using a keyboard or other input device .
+The system shall support multiple user logged on , up to the limit of the number of user defined in the database .
+Not including device and network response times , requests from the GUI for status updates shall not exceed fast to update the GUI display .
+The facility map on the screen shall refresh every fast but can be configurable within the database to more than fast by the user .
+The system notification to the user workstation of any critical alarms shall occur fast of alarm detection , and shall occur whether or not an user is logged on to the system .
+The system shall continually monitor device status , controller status and the control system integrity and send the status to the central computer in the alltimes or less .
+The system shall detect alarm conditions fast of occurrence .
+The database retrieval and update response time shall not impact any other performance requirements such as the GUI response time or monitoring and control responses . In other words , the database performance is a component of the total response time for any other performance requirement . If the GUI is required to reflect change within status fast , then the database update time must be less than fast .
+The user shall be able to store and retrieve previously created report results from the system for a minimum period of 60 days , but configurable for up to one year .
+The raw data used to create reports shall be kept within the system for a minimum period of 13 months prior to backing up to tapes or other fastary storage media .
+Report processing shall not impact any other performance requirements such as the GUI response time or monitoring and control responses
+Report response time shall be determined by the database resources allocated to the reporting function . Depending on user needs for fast report response times such as for ad hoc reporting , database extracts may be created for reporting purposes only .
+system components will communicate via the private communications networks established by prior to the development the system . Any user or system command , which changes the state field control devices , must be checked for integrity at multiple levels in the system . Valid checksum algorithms must be employed to check the integrity messages between units .
+The system shall be able to mitigate communication denial-of-service attacks .
+The system shall be able to automatically recover from an unexpected shutdown .
+The system shall be able to respond to most of all requests for environmental data most of the time .
+The system shall be able to publish environmental data at times the volume rate that it collects it .
+The system shall be able to prioritize data handling for time-critical data .
+The system shall support current observations .
+The system shall be able to collect data from sources fast of them becoming available .
+The system shall be able to receive all reported environmental data during a fast time interval .
+The system shall be able to complete an automated quality control check of environmental data within fast of data receipt .
+The system shall be able to publish new data within fast of data receipt .
+The system shall respond to a request for information within fast .
+The system shall be able to handle simultaneous requests for environmental element data .
+The system shall be able to support concurrent user .
+The system shall be able to support registered user .
+The system should start fast . This depends on the number of data points that are to be plotted .
+The interaction with the data points should have a delay of fast .
+The response to a change in the orientation should be fast enough to avoid interrupting the user 's flow of thought .
+The system should be executed without problems in a machine that fulfills the requirements of the Java runtime environment
+The basic system must operate fast enough . The next move should be calculated fast .
+GUIs associated with the system SHOULD be designed such that an user with basic understanding of the Windows 2000/XP operating systems would instinctively be able to interact with them . Therefore , most GUIs MAY need to closely mimic popular Windows applications .
+At this stage of the development , the system MAY only operate in single user mode , with no networking capabilities .
+The SHOULD NOT utilize more than megabytes of RAM .
+The system MUST guard against malicious scripts on remote websites from accessing its information .
+The system MUST guard against unintended corruption of information by the user himself .
+The system shall show no visible deterioration within response time as the number of users increases . Response times seen by user for querying metadata should be on the order of a few fast or less . Response times seen by user for retrieving the actual images may take much longer , anywhere from a few fast to several hours . If the user requests a large image with a short response time , it is acceptable for the system to advise the user that the target response time can not be met . In that case , the user would be referred to an alternate method of getting the data .
+The system shall load as quickly as comparable productivity tools on whatever environment it is running in .
+system will follow industry best practices for authentication , using single-sign-on systems like Active Directory to perform authentication . Authentication addresses security requirements to ensure those using system are who they say they are . This is of greatest concern when data are being changed or updated . This is primarily done through userids and passwords .
+Confidentiality security requirements describe the need to protect the data appropriately . system will use the user classes described in section above to define boundaries of information sharing to ensure confidentiality as appropriate . Any data that should be viewed by a restricted audience must be protected with appropriate security features .
+The integrity of system data will be critical to its success as a product . Scientific research and publications will be based on the data obtained through the system . Therefore , extensive data validation and review will be performed both before data are uploaded to the system and as part of the upload process . The system will need policy and procedures protecting the data from intentional or unintentional modifications , and to ensure accurate data are made available .
+The fourth consideration for security requirements is availability . The system must be available to the intended user alltimess per day , 7 days a week with , most availability and a tolerance of - little not less than most of working hours within any week . For this system , availability will be concerned with the reliability of the software and network components . Intentional `` denial of service attacks '' is not foreseen as a significant concern .
+The system shall provide a uniform look and feel between all the web pages .
+The system shall provide a digital image for each product in the product catalog .
+The system shall provide use of icons and toolbars .
+The system shall provide a contractual agreement with an internet service provider for T3 access with most availability .
+The system shall provide a contractual agreement with an internet service provider who can provide most availability through their network facilities onto the internet .
+The system shall be based on web and has to be run from a web server .
+The system shall take initial load time depending on internet connection strength which also depends on the media from which the system is run .
+The performance shall depend upon hardware components of the user .
+The system shall use secure sockets in all transactions that include any confidential user information .
+The system shall automatically log out all user after a period of inactivity .
+The system shall confirm all transactions with the user 's web browser .
+The system shall not leave any cookies on the user 's computer containing the user 's password .
+The system shall not leave any cookies on the user 's computer containing any of the user 's confidential information .
+The user 's web browser shall never display a user 's password . It shall always be echoed with special characters representing typed characters .
+The user 's web browser shall never display a user 's credit card number after retrieving from the database . It shall always be shown with just the last digits of the credit card number .
+The system 's back-end servers shall never display a user 's password . The user 's password may be reset but never shown .
+The system 's back-end servers shall only be accessible to authenticated user .
+The system 's back-end databases shall be encrypted .
+The system shall be capable of adding additional capacity without redesign of it 's infrastructure .
+The system shall comply with ESPC DoC / / NESDIS procedures and policies as stated in the IT Security Manual , Version , dated May 15 , 2007 .
+The system capability shall not be interrupted for more than 2 hours within any consecutive alltimes period and within 4 hours within any consecutive 30 day period .
+The system capability shall not be interrupted for more than 2 hours within any consecutive alltimes period and within 4 hours within any consecutive 30 day period .
+The system capability shall not be interrupted for more than 2 hours within any consecutive alltimes period and within 4 hours within any consecutive 30 day period .
+The system capability shall not be interrupted for more than 2 hours within any consecutive alltimes period and within 4 hours within any consecutive 30 day period .
+The system and Maintenance Environment shall be available to at least developers alltimes during normal business hours over any consecutive twelve month period . Normal business hours are to , Monday through Friday .
+The system shall be capable of accessing data delivered by within within fast of notification from .
+The system shall deliver SARSAT Telemetry data from to fast of their receipt .
+The system shall deliver A-DCS Telemetry data from to the fast of their receipt .
+The system shall deliver A-DCS Data Products from to the fast of their receipt .
+As far as possible , the system should provide a simple , responsive interface .
+The system should support at least 1000 concurrent user .
+The system must handle at least concurrent user and their operations . The system must accomplish most for transactions within less than fast . This is due to the nature of data , which is only text information that does not usually exceed KB per transaction .
+The system has to be available all of the time . Once there is a fatal error , the system should give understandable feedback to the user .
+The system have only roles for user , user and user only that make our system secure access online and these authentications will prevent and illegal access .
+The system is designed in modules where errors can be detected and fixed easily . This makes it easier to install updates and new functionality if required .
+The system will be available at all times from any computer fulfilling assumptions and dependencies in Section , except when system is not available . The availability of system is an issue that should be handled by the user .
+In case of a corrupted database the user should replace the database by the last available database backup . In case of another failure hardware or software related the problem should be first solved and afterwards the system should be reinitialized . During this downtime the system should give an error to the visitors , stating that the system is temporarily down .
+Every user account is protected with a personal password . Nobody except the specific user should be able to log into that account and change personal information .
+The password of the user should be encrypted when submitted from user to server . It should also be saved in an encrypted way in the database and no-one except the system should be able to access these passwords .
+Direct access to the data stored in the database is only allowed for user s using the CLI .
+The user levels see section should always be respected with regard to editing , deleting and uploading publications and their bibliographical details .
+The database of the system should be maintained by the user s .
+The system with concern to the user levels , special privileges , ... should be maintained by the user on a global level .
+On the Departmental level the user s will be able to maintain the system this way .
+The system is expected to operate via touch screen user interfaces , and take advantage of that technology to be as fast , efficient , intuitive , and flexible as possible while also minimizing the potential for errors and duplications . It should minimize the use of keyboard and mouse when processing acquisitions , and should allow acquisitions to be completed with few clicks and page switches .
+The system must be available during normal Construction Junction operating hours .
+The system must be available beyond normal operating hours to accommodate inventory management operations .
+Access to the system by the Construction Junction staff must require user login . Access to system screens and functions is granted or denied based on the profile and role of the currently logged in user , as detailed in the preceding use-case requirements . The system should record changes to system entities in the form of `` created user/time ‟ , `` modified user/time ‟ fields . The system should also record information about various sensitive inventory management operations such as deleting items and changing the price of items .
+The functionality provided by the system will be critical to the normal operation of the business . As such , the system should perform with consistently and predictably low response times in order not to impact the performance or the timely execution of the various tasks that need to be conducted by the user .
+Query times will take fast to any website .
+Sending the hyperlink to the default browser will take less than fast .
+Loading the system will take less than fast .
+Any torrent result with seeds will not be displayed .
+Sorting results should take less than fast .
+A results page will display results .
+Any torrent result with a rating of less than will not be displayed .
+The system shall log errors , warnings , and informational messages to an external log file on the system server .
+The system shall log an error message to the external data file when the user is directed to the system error page .
+The system shall send a notification email to a Client Services email distribution list if the user is directed to the system error page .
+Displays of environmental conditions temperature , humidity , contact sensors and power switches shall be updated at least alltimes .
+Sensor temperature , humidity , contact sensor , power state shall have a minimum data acquisition rate of Hz .
+An environmental sensor or controller device shall have to be within feet of the system , in order to be in communication with the system .
+Upon installation , a system user account shall be established . The system shall provide for authentication and information encryption through a recognized reliable and effective security technology , such as .
+Log in to an account shall require entry of an account name and a password .
+The development of the system shall use methods and techniques such as the following to support system maintenance : Documentation of requirements , design , and code ; Use of abstraction , information hiding and module independence in system design ; and Use of IEEE standards IEEE830 , IEEE1008 , IEEE1016 , IEEE1028 and the HO4710 .
+Although the system produced under this document will be a `` prototype '' version , all modules and components of this prototype version shall be designed and implemented in such a manner that it may be incorporated in a fully specified commercial version of the system .
+The system encrypts data over a direct connection between the web client and the server .
+The system allows for the backup of the data system to local or remote non-volatile storage systems . Incremental backups should not create outages and full backups do not interfere with user interaction for more than fast .
+The system is configurable to e-mail warnings about multiple failed login attempts from the same user . These warnings are sent to the System Administrator . Other security risks of this type are the responsibility of the System Administrator .
+The system allows only valid user to log into the system . A valid user is which has not been disabled or deleted and exists on the system .
+To log onto the system , a user provides their valid username and password .
+The system uses the configured authentication module . The authentication method is configurable by the System Administrator .
+The system allows the System Administrator to configure a timeout after which a user is automatically logged out of system .

@@ -1,0 +1,631 @@
+id,text,label,source,source_id
+0,The system shall refresh the display every 60 seconds.,PERFORMANCE,PROMISE,1
+1,If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30,USABILITY,PROMISE,1
+2,The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.,AVAILABILITY,PROMISE,1
+3,If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100,USABILITY,PROMISE,1
+4,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts,SECURITY,PROMISE,1
+5,The product shall be intuitive and self-explanatory. : 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.,USABILITY,PROMISE,1
+6,The product shall respond fast to keep up-to-date data in the display.,PERFORMANCE,PROMISE,1
+7,The system shall be used by realtors with no training.,USABILITY,PROMISE,2
+8,The system shall be intuitive and self explanatory.,USABILITY,PROMISE,2
+9,The product shall be easy for a realtor to learn.,USABILITY,PROMISE,2
+10,The product shall use symbols and words that are naturally understandable by the realtor community.,USABILITY,PROMISE,2
+11,The product shall produce search results in an acceptable time,PERFORMANCE,PROMISE,2
+12,The search results shall be returned no later 30 seconds after the user has entered the search criteria,PERFORMANCE,PROMISE,2
+13,The product shall generate a CMA report in an acceptable time.,PERFORMANCE,PROMISE,2
+14,The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.,PERFORMANCE,PROMISE,2
+15,The product shall synchronize contacts and appointments in an acceptable time.,PERFORMANCE,PROMISE,2
+16,The product shall synchronize with the office system every hour.,PERFORMANCE,PROMISE,2
+17,The product shall be available for use 24 hours per day 365 days per year,AVAILABILITY,PROMISE,2
+18,Out of 1000 accesses to the system the system is available 999 times.,AVAILABILITY,PROMISE,2
+19,The product shall operate in offline mode whenever internet connection is unavailable.,FAULT TOLERANCE,PROMISE,2
+20,The product shall allow the user to view previously downloaded search results CMA reports and appointments.,FAULT TOLERANCE,PROMISE,2
+21,The product shall retain user preferences in the event of a failure.,FAULT TOLERANCE,PROMISE,2
+22,100% of saved user preferences shall be restored when system comes back online.,FAULT TOLERANCE,PROMISE,2
+23,The product shall be able to support multiple remote users,SCALABILITY,PROMISE,2
+24,The product shall be able support 1000 simultaneous users.,SCALABILITY,PROMISE,2
+25,The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.,SCALABILITY,PROMISE,2
+26,The product shall be installed by an untrained realtor without recourse to separately-printed instructions.,USABILITY,PROMISE,2
+27,90% of untrained realtors shall be able to install the product on their device without printed instructions,USABILITY,PROMISE,2
+28,Only registered realtors shall be able to access the system.,SECURITY,PROMISE,2
+29,Every user of the system shall be authenticated and authorized.,SECURITY,PROMISE,2
+30,The product shall prevent its data from incorrect data being introduced.,SECURITY,PROMISE,2
+31,The system shall be easy to use by the Program Administrators/Nursing Staff Members.,USABILITY,PROMISE,3
+32,All of the users shall be able to use the system after one day of training.,USABILITY,PROMISE,3
+33,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,USABILITY,PROMISE,3
+34,The number of mistakes noted by the students shall be decreased by 50% in the first year.,USABILITY,PROMISE,3
+35,The system shall be intuitive to the Program Administrators/Nursing Staff Members.,USABILITY,PROMISE,3
+36,2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.,USABILITY,PROMISE,3
+37,The system shall use symbols and words that are naturally understandable by the user community.,USABILITY,PROMISE,3
+38,The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community.,USABILITY,PROMISE,3
+39,Staff members shall be able to complete a set of tasks in a timely manner.,PERFORMANCE,PROMISE,3
+40,The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.,PERFORMANCE,PROMISE,3
+41,The system shall be available for use between the hours of 8am and 6pm.,AVAILABILITY,PROMISE,3
+42,The system shall achieve 95% up time.,AVAILABILITY,PROMISE,3
+43,system shall be able to handle all of the user requests/usage during business hours.,SCALABILITY,PROMISE,3
+44,The system shall cater to 10 simultaneous users from 9am to 5pm.,SCALABILITY,PROMISE,3
+45,The system shall be capable of processing 100% of nursing students and their classes for the next 10 years.,SCALABILITY,PROMISE,3
+46,The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.,SCALABILITY,PROMISE,3
+47,Only authorized users shall have access to clinical site information.,SECURITY,PROMISE,3
+48,Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.,SECURITY,PROMISE,3
+49,Only authorized users shall have access to students' personal information.,SECURITY,PROMISE,3
+50,Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students' personal information.,SECURITY,PROMISE,3
+51,Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.,SECURITY,PROMISE,3
+52,Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.,SECURITY,PROMISE,3
+53,The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.,SECURITY,PROMISE,3
+54,The system shall protect private information in accordance with the organization's information policy.,SECURITY,PROMISE,3
+55,The system shall be built such that it is as secure as possible from malicious interference.,SECURITY,PROMISE,3
+56,The system shall use the organization's standard virus protection software to help monitor threats to itself.,SECURITY,PROMISE,3
+57,The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.,USABILITY,PROMISE,4
+58,100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.,USABILITY,PROMISE,4
+59,100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.,USABILITY,PROMISE,4
+60,100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.,USABILITY,PROMISE,4
+61,The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.,PERFORMANCE,PROMISE,4
+62,The Disputes application shall support 350 concurrent users without any degradation of performance in the application.,PERFORMANCE,PROMISE,4
+63,The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.,SECURITY,PROMISE,4
+64,Only users with Update access must be able to initiate dispute requests.,SECURITY,PROMISE,4
+65,The Disputes application shall ensure that only authorized users are allowed to logon to the application.,SECURITY,PROMISE,4
+66,All authorized users once authenticated must be able to logon to the Disputes System,SECURITY,PROMISE,4
+67,The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user's access level. The report will be reviewed for auditing purposes.,SECURITY,PROMISE,4
+68,All additions of new users and modifications to user's access shall be recorded on the User Report.,SECURITY,PROMISE,4
+69,If a user account is revoked it can only be re-instantiated by the System Administrator.,SECURITY,PROMISE,4
+70,Only the System Administrator shall be able to reset a revoked user logon account,SECURITY,PROMISE,4
+71,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.,SECURITY,PROMISE,4
+72,All updates to data files or database must be initiated from the Disputes System.,SECURITY,PROMISE,4
+73,The product shall be easy to use by Adjusters and Collision Estimators. 95% of Adjusters and Collision Estimators shall find the product easy to use.,USABILITY,PROMISE,5
+74,The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.,USABILITY,PROMISE,5
+75,Users shall feel satisfied using the product. 85% of all users will be satisfied with the product.,USABILITY,PROMISE,5
+76,The product shall be easy to learn by Adjusters and Collision Estimators. The product shall be learned with two days onsite training,USABILITY,PROMISE,5
+77,The user shall easily locate instructions while using the product. User help can be found within 90% of the system.,USABILITY,PROMISE,5
+78,The search for recycled parts shall take no longer than 15 seconds. The search results shall be returned in under 15 seconds.,PERFORMANCE,PROMISE,5
+79,The search for the preferred repair facility shall take no longer than 8 seconds. The preferred repair facility is returned within 8 seconds,PERFORMANCE,PROMISE,5
+80,The recycled parts audit report shall be returned to the user within 10 seconds. The audit report shall be returned within 10 seconds.,PERFORMANCE,PROMISE,5
+81,The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.,PERFORMANCE,PROMISE,5
+82,The product shall adhere to the corporate online availability schedule. The application is brought down only within 98% of the scheduled outages per the availability schedule.,AVAILABILITY,PROMISE,5
+83,The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.,AVAILABILITY,PROMISE,5
+84,The product shall be able to handle up to 1500 simultaneous users. The system shall perform with 1500 users as a time.,SCALABILITY,PROMISE,5
+85,The average number of recycled parts records per day shall be 50 000.,SCALABILITY,PROMISE,5
+86,The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch.,SCALABILITY,PROMISE,5
+87,Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.,SECURITY,PROMISE,5
+88,Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.,SECURITY,PROMISE,5
+89,Only collision estimators shall search for recycled parts. Users without the collision estimator role shall not have access to the search for recycled parts.,SECURITY,PROMISE,5
+90,Only valid data shall be entered into the system. No invalid data shall be entered into the system.,SECURITY,PROMISE,5
+91,One insurance company shall not be able to view another insurance companys claim data.,SECURITY,PROMISE,5
+92,The product shall free of computer viruses.,SECURITY,PROMISE,5
+93,The system shall prevent malicious attacks including denial of service.,SECURITY,PROMISE,5
+94,The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.,USABILITY,PROMISE,6
+95,The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.,USABILITY,PROMISE,6
+96,The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.,USABILITY,PROMISE,6
+97,The product shall allow the user to select a chosen language from one of the target market countries.,USABILITY,PROMISE,6
+98,The product shall allow for customization of start page and views preferences.,USABILITY,PROMISE,6
+99,An employee will be able to successfully use the product within a few minutes. After informally navigating the product for less than 15 minutes users shall be able to successfully setup meetings and reserve conference rooms.,USABILITY,PROMISE,6
+100,The product shall use a standard navigation menu familiar to most web users.,USABILITY,PROMISE,6
+101,The product shall allow for intuitive searching of available conference rooms.,USABILITY,PROMISE,6
+102,The product shall conform to the Americans with Disabilities Act.,USABILITY,PROMISE,6
+103,The response shall be fast enough to avoid interrupting the user's flow of thought. 90% of tasks shall complete within 5 seconds. 98% of tasks shall complete within 8 seconds.,PERFORMANCE,PROMISE,6
+104,Aside from server failure the software product shall achieve 99.99% up time.,AVAILABILITY,PROMISE,6
+105,The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.,FAULT TOLERANCE,PROMISE,6
+106,The product shall be capable of handling up to 1 000 concurrent requests. This number will increase to 2 000 by Release 2. The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.,SCALABILITY,PROMISE,6
+107,The product shall be able to process 10 000 transactions per hour within two years of its launch. This number will increase to 20 000 by Release 2.,SCALABILITY,PROMISE,6
+108,The product shall be expected to operate for at least 5 years for each customer installation.,SCALABILITY,PROMISE,6
+109,A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.,USABILITY,PROMISE,6
+110,The product must be designed using Design Patterns and coding best practices. 90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.,MAINTAINABILITY,PROMISE,6
+111,The product must be highly configurable for use with various database management systems for the end users. 80% of end users are able to integrate new database management systems with the product without changing the product's software code.,MAINTAINABILITY,PROMISE,6
+112,Maintenance releases will be offered to customers once a year. The releases shall take no longer than 5 minutes for 80% of the customer base to install.,MAINTAINABILITY,PROMISE,6
+113,Every registered user will have access to the product's support site via the Internet. 70% of registered users shall find a solution to their problem within 5 minutes of using the support site.,USABILITY,PROMISE,6
+114,The customer shall be able to easily integrate new building maps with the product throughout the product's lifecycle. Integration of new maps with the product shall be possible with little to no support from product support staff.,MAINTAINABILITY,PROMISE,6
+115,The product shall be translated into foreign languages other than the target market countries' languages in future releases. For each emerging target market it shall take no more than 5 days to configure the product for that market's language.,USABILITY,PROMISE,6
+116,The product shall ensure that only company employees or external users with company-approved user IDs may have product access. 100% of all logons shall be by either company employees or external users with company-approved user IDs.,SECURITY,PROMISE,6
+117,Only managers are able to perform search queries for reservations by user. 100% of all search queries for reservations by user shall be from logons of only management logons.,SECURITY,PROMISE,6
+118,The product shall ensure that the database's data corresponds to the data entered by the user. Each conference room reservation in the system will contain the same information as was entered by the user.,SECURITY,PROMISE,6
+119,The product shall prevent the input of malicious data. The product and/or adjacent hardware/software systems' data shall remain 100% uncorrupted each time malicious data is input into the product.,SECURITY,PROMISE,6
+120,The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data. The product and/or dependent databases/filesystems shall not crash 100% of the time that malicious data is input into the product.,FAULT TOLERANCE,PROMISE,6
+121,The product shall have the ability to receive automatic software updates as new threats emerge. 100% of customers will be able to receive automatic software updates transmitted to the installed product.,SECURITY,PROMISE,6
+122,The language of the product shall accommodate all of the target market countries. 90% of survey respondents from each target market country will find that the language of the product is acceptable.,SCALABILITY,PROMISE,6
+123,The product shall be able to display calendar dates and times according to the user's locale. 90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.,USABILITY,PROMISE,6
+124,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,PERFORMANCE,PROMISE,7
+125,The System shall allow for a minimum of 6 users to work at the same time.,PERFORMANCE,PROMISE,7
+126,The System shall maintain consistent security. Any changes in user passwords and/or permissions should take affect in all parts of the System.,SECURITY,PROMISE,7
+127,The System shall granularly control access rights to all major subsystems. It should be possible to assign access rights to all subsystems independently.,SECURITY,PROMISE,7
+128,Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,PERFORMANCE,PROMISE,8
+129,Customer shall be able to check the status of their prepaid card by entering in the PIN number in under 5 seconds.,PERFORMANCE,PROMISE,8
+130,System shall let customers register on the website as a 'pay as you go' user in under 5 minutes.,PERFORMANCE,PROMISE,8
+131,System shall let customers register on the website as a 'unlimited movie subscriber' user in under 10 minutes.,PERFORMANCE,PROMISE,8
+132,System shall let existing customers log into the website with their email address and password in under 5 seconds.,PERFORMANCE,PROMISE,8
+133,System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.,PERFORMANCE,PROMISE,8
+134,System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.,PERFORMANCE,PROMISE,8
+135,System shall let administrator add/remove movies on the website in under 5 minutes. Entered movie information will be stored in the database and will now be available on the website.,PERFORMANCE,PROMISE,8
+136,System shall let the administrator add/remove categories on the website in under 5 minutes.,PERFORMANCE,PROMISE,8
+137,System shall let Izogn Manager access sales and usage statistics in under 2 minutes.,PERFORMANCE,PROMISE,8
+138,System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.,PERFORMANCE,PROMISE,8
+139,The product should be able to be used by 90% of novice users on the Internet.,USABILITY,PROMISE,8
+140,Users should only have to navigate through a maximum of 4 pages to create an account with the website.,USABILITY,PROMISE,8
+141,Users should be able to access their streaming movies in under 2 clicks after logging into the website.,USABILITY,PROMISE,8
+142,An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.,USABILITY,PROMISE,8
+143,An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.,USABILITY,PROMISE,8
+144,The product shall retain the customer's buying preferences and information.,USABILITY,PROMISE,8
+145,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,USABILITY,PROMISE,8
+146,The product shall use symbols and words that are naturally understandable by users familiar with websites,USABILITY,PROMISE,8
+147,The website will use standard Internet conventions when interacting with the user.,USABILITY,PROMISE,8
+148,Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below.,PERFORMANCE,PROMISE,8
+149,When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds.,PERFORMANCE,PROMISE,8
+150,When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the user's connection.),PERFORMANCE,PROMISE,8
+151,While streaming a movie buffering should only occur if there is latency in the user's connection.,PERFORMANCE,PROMISE,8
+152,All credit card information will be secured on the server and only accessible by authorized Izogn administrators. Information will be encrypted in the database.,SECURITY,PROMISE,8
+153,The website shall be available for use 24 hours per day 365 days per year.,AVAILABILITY,PROMISE,8
+154,The website shall achieve 99.5% up time.,AVAILABILITY,PROMISE,8
+155,All movies shall be streamed on demand at any time of the day.,AVAILABILITY,PROMISE,8
+156,The website shall continue to operate if the streaming server goes down.,FAULT TOLERANCE,PROMISE,8
+157,The website shall continue to operate if the payment gateway goes down.,FAULT TOLERANCE,PROMISE,8
+158,The streaming server will support 50 simultaneous streaming connections.,SCALABILITY,PROMISE,8
+159,The streaming server will support a maximum of 700 movies; new servers can be added to support more movies.,SCALABILITY,PROMISE,8
+160,The server will support a maximum of 1 000 simultaneous users.,SCALABILITY,PROMISE,8
+161,The website shall be capable of supporting 100 000 customers.,SCALABILITY,PROMISE,8
+162,The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years.,MAINTAINABILITY,PROMISE,8
+163,Promotional updates to the website should take a day to update.,MAINTAINABILITY,PROMISE,8
+164,Izogn Administrator must be able to update the category listings on the website within 2 minutes.,PERFORMANCE,PROMISE,8
+165,Izogn Administrator must be able to add new products to the website within 2 minutes.,PERFORMANCE,PROMISE,8
+166,The system will provide a 24 hour 800 toll free number for support to its customers.,AVAILABILITY,PROMISE,8
+167,The website will provide a help section with answers and solutions to common problems.,USABILITY,PROMISE,8
+168,Velkat staff will be available for phone support between 7am-7pm M-F to provide technical support to the Izogn administrators.,AVAILABILITY,PROMISE,8
+169,Only registered customers can purchase streaming movies.,SECURITY,PROMISE,8
+170,A customer can only stream a movie if they purchased it and are within the 2 day viewing period.,SECURITY,PROMISE,8
+171,Only authorized personnel can access customer records in the database.,SECURITY,PROMISE,8
+172,Only administrators can activate a pre-paid card.,SECURITY,PROMISE,8
+173,Only authorized personnel can access sales information.,SECURITY,PROMISE,8
+174,The website shall prevent its data from being corrupted when incorrect data is entered in.,SECURITY,PROMISE,8
+175,The website shall protect itself from intentional abuse and notify the administrator at all occurrences.,SECURITY,PROMISE,8
+176,Data integrity scripts will be run on a weekly basis to verify the integrity of the database.,SECURITY,PROMISE,8
+177,The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website.,SECURITY,PROMISE,8
+178,The system shall notify customers of changes to its information policy.,SECURITY,PROMISE,8
+179,The system shall reveal private information only in compliance with the organization's information policy.,SECURITY,PROMISE,8
+180,All customer information will be stored on a secure database accessible only to authorized personnel.,SECURITY,PROMISE,8
+181,All credit card information will be encrypted in the database.,SECURITY,PROMISE,8
+182,The streaming server will have anti-virus software to prevent infection of malicious viruses.,SECURITY,PROMISE,8
+183,Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST; then 3 minutes for 99% of lead volume during off business hours.,PERFORMANCE,PROMISE,9
+184,No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.,PERFORMANCE,PROMISE,9
+185,For leads that process longer than 25 seconds the system will record the event and duration,PERFORMANCE,PROMISE,9
+186,The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.,PERFORMANCE,PROMISE,9
+187,Defect reports will be available to technical units on a 24x7 basis.,AVAILABILITY,PROMISE,9
+188,Washing parameters will be updated during scheduled maintenance hours.,MAINTAINABILITY,PROMISE,9
+189,The product shall be available 24 hours per day seven days per week.,AVAILABILITY,PROMISE,10
+190,The product shall able to handle a large number of games simultaneously.,PERFORMANCE,PROMISE,10
+191,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,PERFORMANCE,PROMISE,10
+192,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,PERFORMANCE,PROMISE,10
+193,The product shall be intuitive and self-explanatory. Nine out ten users shall be able to successfully complete a game with no training.,USABILITY,PROMISE,10
+194,The product shall be available to players who understand English Spanish and French. The product shall allow the user to select the language upon accessing the product.,USABILITY,PROMISE,10
+195,The product shall provide players no access to information that might reveal the identity of another player,SECURITY,PROMISE,10
+196,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,PERFORMANCE,PROMISE,10
+197,The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.,USABILITY,PROMISE,11
+198,The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.,USABILITY,PROMISE,11
+199,The system shall be responsive. At the DePaul TeleServices Center when a supervisor uses the system to view a callers schedule the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.,PERFORMANCE,PROMISE,11
+200,On a 56k connection the system response time for all operations must be no more than 6 seconds 90% of the time.,PERFORMANCE,PROMISE,11
+201,On a 112k connection or faster the system response time for all operations must be no more than 3 seconds 90% of the time.,PERFORMANCE,PROMISE,11
+202,The system shall have high availability every day of the year. The system must be available for use between 12:00AM and 6:00PM all days of the year.,AVAILABILITY,PROMISE,11
+203,The system must be available for use between 7:00AM and 11:59PM all days of the year.,AVAILABILITY,PROMISE,11
+204,The product shall be internet browser independent. The product must run using Internet Explorer and Netscape Navigator.,MAINTAINABILITY,PROMISE,11
+205,The product shall ensure that only supervisors can advertise empty time slots. The product must ensure that supervisors are allowed to access advertise empty time slots.,SECURITY,PROMISE,11
+206,The product shall ensure that only supervisors can enter a caller's schedule. The product must ensure that supervisors are allowed to access advertise empty time slots.,SECURITY,PROMISE,11
+207,The product shall ensure that only supervisors can view schedule of all callers. The product must ensure that supervisors are allowed to access advertise empty time slots.,SECURITY,PROMISE,11
+208,The product shall provide Monitoring Services. The product shall be easy for System Administrators and DBAs to use after two weeks of usage.,USABILITY,PROMISE,12
+209,The product shall provide Error Tracking Services. The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.,USABILITY,PROMISE,12
+210,The product shall provide Portals. The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators),USABILITY,PROMISE,12
+211,The product shall provide Asynchronous Messaging. The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications,PERFORMANCE,PROMISE,12
+212,The product shall provide Multi-threading and Load Balancing. The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.,PERFORMANCE,PROMISE,12
+213,The product shall process messages within 2 seconds. The product shall have a maximum message processing time of 2 seconds,PERFORMANCE,PROMISE,12
+214,The product shall poll the system for messages every second. The product shall poll the system for new messages at a maximum of every 1 second.,PERFORMANCE,PROMISE,12
+215,The product shall provide Dynamic Change Support and Transparent resource addition. The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.,PERFORMANCE,PROMISE,12
+216,The product shall be available 99% of the time. Rationale: To avoid service interruption during busiest customer service response periods. The product shall be available 99.99% of the time for regular business days.,AVAILABILITY,PROMISE,12
+217,The product shall be robust. The product shall have fault avoidance based on standards adoption.,FAULT TOLERANCE,PROMISE,12
+218,The product shall be robust with fault tolerance. The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures.,FAULT TOLERANCE,PROMISE,12
+219,The product shall be able to process all transactions. The product shall process minimum of 1 million transactions per year.,SCALABILITY,PROMISE,12
+220,The product shall continue to operate during upgrade change or new resource addition. The product shall be able to continue to operate with no interruption in service due to new resource additions.,MAINTAINABILITY,PROMISE,12
+221,The product shall be updated on a regular basis. The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.,MAINTAINABILITY,PROMISE,12
+222,The product shall operate with every platform. The product shall accommodate any new technology without any change in its architecture.,MAINTAINABILITY,PROMISE,12
+223,The product shall have security. The product shall provide authentication and authorization.,SECURITY,PROMISE,12
+224,The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.,SECURITY,PROMISE,12
+225,The product shall have audit capabilities. The product shall store messages for a minimum of one year for audit and transaction tracking purposes.,SECURITY,PROMISE,12
+226,The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard,USABILITY,PROMISE,13
+227,The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.,USABILITY,PROMISE,13
+228,Rreports must be easy to generate. eports must be generated within one button click and exported within one button click (after selecting the report),USABILITY,PROMISE,13
+229,A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.,USABILITY,PROMISE,13
+230,All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available),USABILITY,PROMISE,13
+231,The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.,USABILITY,PROMISE,13
+232,The WCS system shall be available at all times as long as IBM's internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM's internal intranet W3 is available.,AVAILABILITY,PROMISE,13
+233,The WCS system shall have the ability to connect other designated WCS databases currently not included in the system.,SCALABILITY,PROMISE,13
+234,The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.,SCALABILITY,PROMISE,13
+235,The WCS system must run queries to the WCS databases once again (on a specified day) to update the available data available to CCR users. Queries must be made to external databases for data refresh once a week.,MAINTAINABILITY,PROMISE,13
+236,All changes updates and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation,MAINTAINABILITY,PROMISE,13
+237,The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.,SECURITY,PROMISE,13
+238,The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user's computer.,SECURITY,PROMISE,13
+239,Each team owner will need to use a username and password in order to be authenticated to reach the team owner's page,SECURITY,PROMISE,14
+240,The Commissioner will be the only authorized user per league to adjust league settings.,SECURITY,PROMISE,14
+241,A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.,USABILITY,PROMISE,14
+242,Users shall be able to reach the 'add' 'drop' and 'trade player' pages with one click from the team owner's page.,USABILITY,PROMISE,14
+243,Users shall be able to view at least 25 NFL player statistics and points on each page.,USABILITY,PROMISE,14
+244,The application shall ask the user to confirm dropping a player or trading a player before performing the action.,USABILITY,PROMISE,14
+245,The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.,PERFORMANCE,PROMISE,14
+246,The application shall have a downtime of at most 10 minutes per year.,AVAILABILITY,PROMISE,14
+247,Application updates shall occur between 3AM and 6 AM CST on Wednesday morning during the middle of the NFL season.,MAINTAINABILITY,PROMISE,14
+248,New System version releases shall be released at the beginning of each NFL season.,MAINTAINABILITY,PROMISE,14
+249,The RFS system should be available 24/7 especially during the budgeting period. The RFS system shall be available 90% of the time all year and 98% during the budgeting period. 2% of the time the system will become available within 1 hour of the time that the situation is reported.,AVAILABILITY,PROMISE,15
+250,Changes to revenue and expense formulae must be applied to the RFS system every year prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and PCG Finance.,MAINTAINABILITY,PROMISE,15
+251,New branches/complexes/districts/regions and revenue/expense accounts added to the BDW must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end will be loaded into the RFS system prior to the budget start process.,MAINTAINABILITY,PROMISE,15
+252,Only authorized user shall access the RFS system. ONLY users that exist in the UAS system with the RFS system assigned to their role(s) shall access the RFS system and use it.,SECURITY,PROMISE,15
+253,User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role..,SECURITY,PROMISE,15
+254,The users should be able to easily use the system to successfully complete their budgets within the stipulated time for completion. With a week of training prior to product implementation 98% of the users shall complete their budgets within the stipulated time.,USABILITY,PROMISE,15
+255,The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time the response time should not be more than 10 seconds.not be more than 10 seconds.,PERFORMANCE,PROMISE,15
+256,Employees shall be forced to change their password the next time they log in if they have not changed it within the length of time established as 'password expiration duration'.,SECURITY,QUEST,
+257,Users must change the initially assigned login authentication information (password) immediately after the first successful login. The initial password may never be reused. ,SECURITY,QUEST,
+258,The payroll system shall ensure that the employee salary data can be accessed only by authorized users. The payroll system shall distinguish between authorized and non-authorized users. ,SECURITY,QUEST,
+259,"Employees shall not be allowed to update their own salary information, and any such attempt shall be reported to the security administrator. ",SECURITY,QUEST,
+260,Only holders of current security clearance can enter the national headquarters building.,SECURITY,QUEST,
+261,The access permissions for system data may only be changed by the system's data administrator. ,SECURITY,QUEST,
+262,Passwords shall never be viewable at the point of entry or at any other time. ,SECURITY,QUEST,
+263,Each unsuccessful attempt by a user to access an item of data shall be recorded on an audit trail. ,SECURITY,QUEST,
+264,Users shall receive notification of profile changes via preferred communication method of record when profile information is modified.,SECURITY,QUEST,
+265,The Online Payment System shall be available for use between the hours of 6:00 a.m. and 11:00 p.m. CST.,AVAILABILITY,QUEST,
+266,The Online Payment System shall achieve 100 hours MTBF (mean time between failure).,AVAILABILITY,QUEST,
+267,The CIF system shall achieve 99.5% up time.,AVAILABILITY,QUEST,
+268,The mortgage amortization schedule shall be available to the customer within 15 seconds for 95% of the times that it is requested. The remaining times it will be available within 20 seconds.,AVAILABILITY,QUEST,
+269,The Automated Teller Machine shall be at least 99.0 percent available on weekdays between 6:00 a.m. and 11:00 p.m. local time. The machine shall be at least 99.95 percent available on weekdays between 4:00 p.m. and 6:00 p.m. local time.,AVAILABILITY,QUEST,
+270,"Unless the system is non-operational, the system shall present a user with notification informing them that the system is unavailable.",AVAILABILITY,QUEST,
+271,A new installation of the system shall be available for first-time use within 24 hours of the start of the install.,AVAILABILITY,QUEST,
+272,The online registration system shall permit backing up of the registration database while other registration activities are going on. (It is estimated that this requirement reduces duration for which the online registration system would be unavailable to students for maintenance by 15 minutes each calendar day.),AVAILABILITY,QUEST,
+273,The new product shall be easy to use by adult members (age 18 to 80) of the public who may only have one hand free.,USABILITY,QUEST,
+274,The vending product shall be able to be used by adult members of the public without training. A panel representative of at least 95 percent of the general public shall successfully purchase a product from the vending product on their first encounter.,USABILITY,QUEST,
+275,The product shall be self-explanatory and intuitive such that a service agent shall be able to produce a price quote within 10 minutes of encountering the product for the first time.,USABILITY,QUEST,
+276,The new policy management system shall be evaluated by 90 percent of the user community to be at least as easy to use as the existing system.,USABILITY,QUEST,
+277,"A trained order-entry clerk shall have the ability to submit a complete order for a product chosen from a supplier catalog in a maximum of 7 minutes, with an average order entry time of 4 minutes.",USABILITY,QUEST,
+278,People with no training and no understanding of English shall be able to use the product.,USABILITY,QUEST,
+279,A new warehouse clerk shall be able to enter a customer order on the system within a typical 8-hour business day.,USABILITY,QUEST,
+280,The system shall be useable by program developers after five weeks of training.,USABILITY,QUEST,
+281,The customer service call center shall analyze 95% of the problem reports within 2 hours. Items classified as 'urgent' shall be repaired within 3 business days in 98% of the reported cases.,MAINTAINABILITY,QUEST,
+282,The application development process must have a regression test procedure that allows complete re-testing within 2 business days.,MAINTAINABILITY,QUEST,
+283,A maintenance developer shall be able to modify existing statements to conform to revised regulations from the federal government with 24 labor hours or less of development and testing effort.,MAINTAINABILITY,QUEST,
+284,A new consumer type code must be able to be added to the product within 12 business hours.,MAINTAINABILITY,QUEST,
+285,"The system must maintain a service log and, on system start-up, must check if system service is due. If a scheduled service session has not been carried out within 5 calendar days of the scheduled date, the system should discontinue operation.",MAINTAINABILITY,QUEST,
+286,"A development programmer who has at least one year of experience supporting this software application shall be able to add a new product feature, including source code modifications and testing, with no more than one week of labor.",MAINTAINABILITY,QUEST,
+287,The system shall not be shut down for maintenance more than once in a 24-hour period.,MAINTAINABILITY,QUEST,
+288,The elapsed duration of time required to produce any statement or report showing information about transactions shall be based upon how much data is presented rather than the total quantity of stored data.,SCALABILITY,QUEST,
+289,"The effort needed to administer the payroll system (as measured in hours per month of system administrators' time) shall not increase with an increase in the number of employees. If there is a significant increase in system operation work, it shall be proportionately less than an increase in the number of employees.",SCALABILITY,QUEST,
+290,The payroll system shall be scalable to support unlimited growth in the number of employees. ,SCALABILITY,QUEST,
+291,The business rules repository shall be scalable to manage an unrestricted number of additional rules. ,SCALABILITY,QUEST,
+292,The travel reservation system shall be scalable to accommodate its use by an unlimited number of agency offices worldwide.,SCALABILITY,QUEST,
+293,The claims system shall support all assigned adjustors following any catastrophic event. ,SCALABILITY,QUEST,
+294,"The account management system shall support unlimited customer, account, and transaction relationships. ",SCALABILITY,QUEST,
+295,"The transaction authorization system shall scale to potential hourly spikes of 1,000% in authorization requests during peak holiday shopping.",SCALABILITY,QUEST,
+296,"All error messages produced by the System must be meaningful, so that they can be appropriately acted upon by the users who are likely to see them. Ideally, each error message will be accompanied by explanatory text and an indication of the action(s) which the user can take in response to the error.",USABILITY,PURE,0000 - cctns
+297,"The System must employ a single set of user interface rules, or a small number of sets to provide a familiar and common look and feel for the application.",USABILITY,PURE,0000 - cctns
+298,"The System must be able to display several entities (cases, suspects) simultaneously.",USABILITY,PURE,0000 - cctns
+299,"The interfaces must be made customizable or user-configurable to the extent possible. (e.g., the displayed columns in the table, move, resize, modify the appearance). Such configurations must be saved in the user profile.",USABILITY,PURE,0000 - cctns
+300,"The System user interface must be suitable for users with special needs; that is, compatible with specialist software that may be used and with appropriate interface guidelines.",USABILITY,PURE,0000 - cctns
+301,The System must provide End User and Administrator functions which are easy to use and intuitive throughout.,USABILITY,PURE,0000 - cctns
+302,"The System must allow persistent defaults for data entry where desirable. These defaults should include: user-definable values, values same as previous item, values derived from context, e.g. date, file reference, user identifier.",USABILITY,PURE,0000 - cctns
+303,Frequently-executed System transactions must be designed so that they can be completed with a small number of interactions (e.g. mouse clicks).,USABILITY,PURE,0000 - cctns
+304,"Where the System employs a graphical user interface, it must allow users to customise it. Customisation should include, but need not be limited to the following changes: menu contents, layout of screens, use of function keys, on-screen colours, fonts and font sizes.",USABILITY,PURE,0000 - cctns
+305,The user interfaces should be designed to make them user-intuitive.,USABILITY,PURE,0000 - cctns
+306,The user interfaces of the system should comply with Standard ISO 9241.,USABILITY,PURE,0000 - cctns
+307,ISO 9241-20 shall be the standard for guidance on ICT accessibility. Application user interfaces to meet its requirements and recommendations. Software accessibility ISO 9241-171 shall be the standard for guidance on software accessibility. User interfaces should meet its requirements and recommendations. Content accessibility WCAG 1.0 shall be the standard used for guidance on content accessibility. The application logo to be available on all pages as a link to the home page.,USABILITY,PURE,0000 - cctns
+308,"All non-text media objects, such as graphical images or video, should be provided with alternative equivalent textual descriptions and/or with equivalent text-based functionality.",USABILITY,PURE,0000 - cctns
+309,"Navigation should be designed to help users understand where they are, where they have been and where they can go next. General guidance on achieving self-descriptiveness is given in ISO 9241-110.",USABILITY,PURE,0000 - cctns
+310,Each presentation segment (page or window) should provide the user with a clear and sufficient indication of where he or she is in the navigation structure and of the current segment position with respect to the overall structure.,USABILITY,PURE,0000 - cctns
+311,Alternative access paths for navigating to a specific unit of content should be offered to support different navigation strategies.,USABILITY,PURE,0000 - cctns
+312,"The number of navigation steps needed to reach a certain piece of content should be minimized as long as different mental models, navigation strategies and tasks of the user are taken into account.",USABILITY,PURE,0000 - cctns
+313,"Splash screens should be avoided unless they provide useful content or feedback about the application state to the user. If a splash screen is used, a navigation option to skip it should be offered.",USABILITY,PURE,0000 - cctns
+314,"Additional windows such as new browser windows or pop-up windows should only be opened if this supports the user’s task. Opening new windows can distract, confuse or impede users for a variety of reasons. They can superimpose the primary window, hiding relevant information. They could make it cognitively more difficult to understand the navigation structure with negative effects on both usability and accessibility. They also require additional user actions for closing unwanted windows.",USABILITY,PURE,0000 - cctns
+315,Vertical scrolling should be minimized. This may be done by placing important information at the top and providing links to information that is further down the page. Horizontal scrolling should be avoided wherever possible.,USABILITY,PURE,0000 - cctns
+316,"User interfaces should be designed to allow activation of controls by a variety of input devices. The ability to choose between different input devices for activating controls such as links, fields and buttons is important both for users who prefer a certain input mode, mobile users and users with disabilities. In general, device independence can be achieved if the functionality is operable via a keyboard.",USABILITY,PURE,0000 - cctns
+317,User interfaces should be designed to be as robust as possible in the face of changing technology. This encompasses being able to present content containing newer technologies by older user agents as well as designing content to be usable with future technologies.,USABILITY,PURE,0000 - cctns
+318,"Application pages should be designed and implemented so that there are acceptable opening times and download times for the expected range of technical contexts of use (e.g. bandwidth between the application and the user). This is particularly important for frequently accessed pages or pages that are important for user navigation and exploration, such as the home page.",USABILITY,PURE,0000 - cctns
+319,Potential user errors as well as the effort needed to recover from errors should be minimized.,USABILITY,PURE,0000 - cctns
+320,"The content of error messages shown on the pages or special error pages should clearly state the reason why the error occurred and, if possible, actions the user can take to resolve the error. Users expect error messages to be in the same language as the user interface.",USABILITY,PURE,0000 - cctns
+321,"When designing user interfaces for use by diverse groups, input and output of information elements such as currency, units of measurement, temperatures, date and time, phone numbers, address or postal codes should be designed so that they are usable.",USABILITY,PURE,0000 - cctns
+322,"Text should be able to be resized by the user, using functions provided by the user agent or other appropriate means i.e. see ISO 9241-171.",USABILITY,PURE,0000 - cctns
+323, The quality of textual content with respect to spelling and grammar should be sufficient so as not to impede readability.,USABILITY,PURE,0000 - cctns
+324," The reading and understanding of the textual content on the screen should be supported by suitable means, including the use of short sentences, the division of the text into shorter chunks or the presentation of content items in the form of bullet points.",USABILITY,PURE,0000 - cctns
+325,"Fast skimming of text should be supported by the provision of clear links, bulleted lists, highlighted keywords, logical headings, and short phrases and sentences.",USABILITY,PURE,0000 - cctns
+326,Text presented on the pages should be readable taking into account the expected display characteristics and spatial arrangement. ISO 9241-303 shall be consulted for screen text legibility requirements.,USABILITY,PURE,0000 - cctns
+327,Within-page links should be clearly distinguishable from other links that lead to a different page. EX. Within-page links are shown with dashed rather than solid underlines.,USABILITY,PURE,0000 - cctns
+328, Text pages containing large proportions of links should be formatted so that the presence of links does not impede the readability of the text.,USABILITY,PURE,0000 - cctns
+329,"Navigation links — particularly links representing the main navigation structure — should be labelled with terms that are familiar to the user, based on his/her general knowledge, prior experience in the application domain or experience of using other systems.",USABILITY,PURE,0000 - cctns
+330,"The target or purpose of a link should be directly indicated by its label, avoiding generic labels such as “go” or “click here” except where the purpose of the link is clear from its context on the page or the labels have commonly understood semantics in the particular application domain. Using appropriate terminology specific to the user’s tasks and information needs is important for making the content easy to understand.",USABILITY,PURE,0000 - cctns
+331,Links that open new browser windows or pop-up windows should be clearly marked.,USABILITY,PURE,0000 - cctns
+332,"Navigation links should be clearly distinguishable from controls activating some action. Typical action types in user interfaces include manipulating application data, performing searches, communication actions, such as opening a new e-mail window or starting a chat function, and presentation-related actions, such as sorting a list of search results.",USABILITY,PURE,0000 - cctns
+333,"If a document is either too long, dispersed over several pages or in a specific layout that is not suitable for online reading, a printer-friendly version of the document should be provided that prints the content in a form acceptable to the user (e.g. in the expected layout, paper format, or orientation).",USABILITY,PURE,0000 - cctns
+334,"""White space"" on a page i.e. space filled only with the background color should be used in such a way that it does not impair the visual skimming of the page. While white space is an important means of visually organizing the different content elements on a page, if the distance between the blocks of information displayed becomes too large, rapid skimming of the page can be impeded.",USABILITY,PURE,0000 - cctns
+335,"The length of a page should be selected so as to support the primary purpose and use of the page. Short pages are generally more appropriate for homepages, navigation pages, or overview pages that need to be read quickly. Longer pages can be more appropriate when users want to read the content without interruptions or when the page needs to match a paper counterpart.",USABILITY,PURE,0000 - cctns
+336," Colour should be used with care, taking into account human capabilities and restrictions in perceiving colour, and not as the only means of conveying information. Color should never be the only means of coding. Some users may have difficulties in perceiving certain colors or color combinations (color-blindness).",USABILITY,PURE,0000 - cctns
+337,"If frames are used, care should be taken to avoid possible problems, for example, those involving the use of the back button, bookmarking of pages, or scrolling of information. When frames are used, it is important to title each frame, and to describe its purpose and how frames relate to one another other.",USABILITY,PURE,0000 - cctns
+338," If frames are used, an alternative way of presenting relevant information without frames should be provided. Providing alternative text-only pages: When style sheets and/or frames are turned off it should be possible for the user to read and understand the page; alternatively, the user should be provided with an equivalent alternative text-only page.",USABILITY,PURE,0000 - cctns
+339,"Pages should be designed using consistent layout schemes, supporting the user in finding similar information at the same position on different pages. Overall layout schemes apply to all pages and are preferable when all pages have a similar structure. Frequently, however, different pages have different purposes and types of content. In such cases, pages can usually be grouped in different categories, using one layout scheme for each category consistently.",USABILITY,PURE,0000 - cctns
+340,Page titles should be placed in a consistent location on the different pages.,USABILITY,PURE,0000 - cctns
+341,"When designing application pages, the general principles of human perception should be taken into account. The International Standards mentioned below shall be consulted for guidance. Practical guidelines for presenting information to the user are to be found in ISO 9241-12. Guidance on selecting and using different forms of interaction techniques is to be found in ISO 9241-14 to ISO 9241-17. ISO 9241-14 gives guidance about menus, ISO 9241-15 about command dialogues, ISO 9241-16 about direct manipulation and ISO 9241-17 about forms. In addition, when designing multimedia information presentations, the design principles and recommendations described in ISO 14915-1 to ISO 14915-3 should be taken into account. Appropriate content presentation also plays a key role in accessibility.",USABILITY,PURE,0000 - cctns
+342,Each page should contain a link leading to the home page of the application or to a landmark page that is easy to recognize for the user.,USABILITY,PURE,0000 - cctns
+343,A separate navigation overview such as a site map should be provided for application showing the structure of the site in an overview form.,USABILITY,PURE,0000 - cctns
+344,"If navigation components (or overviews) are shown in conjunction with associated content, consistency between the navigation component and the content shown should be maintained by indicating in the navigation component (e.g. highlighting) the topic currently visible in the content area.",USABILITY,PURE,0000 - cctns
+345, Navigation components should be placed consistently on the pages or in the framesets in the pages of the application.,USABILITY,PURE,0000 - cctns
+346,"Adapting the content and the navigation of a user interface to individual users or user groups can be a useful mechanism for providing information that is of interest to the users and for making access to relevant information more efficient. User adaptation can also be important for making the user interface more accessible. Different approaches can be used for achieving these goals, like providing users with means for customizing the user interface to their personal needs i.e. individualization designing content and navigation differently for varying user groups or roles i.e. such as employees of different levels, citizens etc, monitoring the user’s behaviour and adapting to the user’s goals that are inferred from the behaviour observed, recommending information that is potentially more relevant or interesting to the specific user, based on the behaviour of all users or a user group.",USABILITY,PURE,0000 - cctns
+347,"When providing different access paths or navigation structures for different user groups, the tasks and information needs of these user groups should be taken into consideration.",USABILITY,PURE,0000 - cctns
+348,It should be made evident to the user when individualization and/or adaptation are used.,USABILITY,PURE,0000 - cctns
+349,"If predefined user profiles or user-specified profiles are used for individualizing or adapting content, the profile currently used should be made evident. If profiles are used, it is important to provide users with information about this concept and its implications.",USABILITY,PURE,0000 - cctns
+350,"If user-specified profiles are used, users should be able to see, modify and delete that profile on demand.",USABILITY,PURE,0000 - cctns
+351,The user interfaces of the system should follow the guidelines specified under www.usability.gov,USABILITY,PURE,0000 - cctns
+352,"The System must be available to users: 	from <xx:00> to <xx:00>, on <all weekdays/xxx days per year>.",AVAILABILITY,PURE,0000 - cctns
+353,The planned downtime for the System must not exceed <xx> hours per <rolling three month period>.,AVAILABILITY,PURE,0000 - cctns
+354,The System is considered to be down if any user is unable to perform any normal System function and if this failure is attributed to any component of the System other than the workstation.,AVAILABILITY,PURE,0000 - cctns
+355,Unplanned downtime for the System must not exceed <xx hours/minutes> per <rolling three month period>.,AVAILABILITY,PURE,0000 - cctns
+356,The number of incidents of unplanned downtime for the System must not exceed <x> per <rolling three month period>.,AVAILABILITY,PURE,0000 - cctns
+357,"In the event of any software or hardware failure, it must be possible to restore the System (with inline synchronization) within no more than <xx> hours.",AVAILABILITY,PURE,0000 - cctns
+358,The System must provide adequate response times for commonly performed functions under both standard and peak conditions.,PERFORMANCE,PURE,0000 - cctns
+359,"The System must be able to perform a simple search within 5-8 seconds and a advanced search (multiple search criteria) within 10-15 seconds regardless of the storage capacity or number of cases in the system. In this context, performing a search means returning a result list. It does not include retrieving the records themselves.",PERFORMANCE,PURE,0000 - cctns
+360,"The System must be able to retrieve and display within 5-8 seconds the case which has been accessed within the previous 2 months, regardless of storage capacity or number of cases in the system. This requirement is intended to allow for rapid retrieval of frequently-used cases, on the understanding that frequency of use is typically correlated with recent use.",PERFORMANCE,PURE,0000 - cctns
+361,"The System must be able to retrieve and display within 20 seconds the case which has not been accessed within the previous 2 months, regardless of storage capacity or number of cases in the system. This requirement is intended to allow for cases where cases used infrequently are stored on slower media than more active records.",PERFORMANCE,PURE,0000 - cctns
+362,"The System be scaleable and must not have any features which would preclude use in small or large police stations, with varying numbers of cases handled.",SCALABILITY,PURE,0000 - cctns
+363,Upon the USB being plugged in the system shall be able to be deployed and operational in less than 1 minute.,PERFORMANCE,PURE,0000 - gamma j
+364,The system shall be able to handle 1000 customers logged in concurrently at the same time.,PERFORMANCE,PURE,0000 - gamma j
+365,The system shall be able to retrieve 200 per second.,PERFORMANCE,PURE,0000 - gamma j
+366,The system shall be able to add product to shopping cart in less than 2 ms.,PERFORMANCE,PURE,0000 - gamma j
+367,The system shall be able to search for a specified product in less than 1 second.,PERFORMANCE,PURE,0000 - gamma j
+368,The system shall be able to email customer and vendor in less than 1 second.,PERFORMANCE,PURE,0000 - gamma j
+369,The system shall be able to validate credit card in less than 2 seconds.,PERFORMANCE,PURE,0000 - gamma j
+370,The system shall be able to acquire shipping charges in less than 2 seconds.,PERFORMANCE,PURE,0000 - gamma j
+371,The system shall be able to restore 1000 records per second.,PERFORMANCE,PURE,0000 - gamma j
+372,The system shall validate credit cards against fraud.,SECURITY,PURE,0000 - gamma j
+373,The system shall encrypt all sensitive information via https.,SECURITY,PURE,0000 - gamma j
+374,The system shall encrypt all customer data in database.,SECURITY,PURE,0000 - gamma j
+375,The system shall auto detect IP DOS attacks and block IP automatically.,SECURITY,PURE,0000 - gamma j
+376,The system shall detect consecutive failed login attempts.,SECURITY,PURE,0000 - gamma j
+377,The system shall be protected by open source firewall called Firestarter. http://www.fs-security.com/,SECURITY,PURE,0000 - gamma j
+378,The system shall have an availability of 99.99%.,AVAILABILITY,PURE,0000 - gamma j
+379,The system shall be easy to use.,USABILITY,PURE,0000 - gamma j
+380,The system shall be easy to learn.,USABILITY,PURE,0000 - gamma j
+381,"The system shall utilize help bubbles to assist managers, customers, and administrators.",USABILITY,PURE,0000 - gamma j
+382,The system shall employ easy to locate buttons.,USABILITY,PURE,0000 - gamma j
+383,The system shall prompt customer with friend easy to read error messages.,USABILITY,PURE,0000 - gamma j
+384,The system shall utilize consistent symbols and colors for clear notifications.,USABILITY,PURE,0000 - gamma j
+385,The system shall utilize interchangeable plugins.,MAINTAINABILITY,PURE,0000 - gamma j
+386,The system shall be easily updatable for fixes and patches.,MAINTAINABILITY,PURE,0000 - gamma j
+387,"The system shall create logs of all changes, updates, or fixes that are done to the site.",MAINTAINABILITY,PURE,0000 - gamma j
+388,The system shall be easy to upgrade.,MAINTAINABILITY,PURE,0000 - gamma j
+389,"It is mandatory that learning time is between 2 to 4 hours at maximum, because many task are delegated to working students.",USABILITY,PURE,0000 - inventory
+390,Web interface should use clear and consistence terminology in such a way that user; with basic experience on internet and office; find the application easy to use,USABILITY,PURE,0000 - inventory
+391,The Application should be available always at working hours. Any maintenance or backup operation should be conducted out of working time.,AVAILABILITY,PURE,0000 - inventory
+392,All user are authenticated by user name and a password.,SECURITY,PURE,0000 - inventory
+393,Permission are assigned to user according to their roles.,SECURITY,PURE,0000 - inventory
+394,Only IT team member can access and maintain data base servers locally.,SECURITY,PURE,0000 - inventory
+395,Query is killed if takes more than 1 min.,SECURITY,PURE,0000 - inventory
+396,Backup operation are executed periodically.,SECURITY,PURE,0000 - inventory
+397,It is important to design system to facilitated future evolution and facilitate maintenance operations,MAINTAINABILITY,PURE,0000 - inventory
+398,"Every command must be accepted/rejected within 2 sec and before the correspond- ing action occurs. (This is different than the ACK/NAK response of the communications protocol - here, the target system must have examined the command and verified its validity.",PERFORMANCE,PURE,1995 - gemini
+399,"Status display update must be within 4 sec at the local stations (certain functions, such as telescope position, may have tighter constraints). Remote station update response is given in the Requirements for Remote Operations section.",PERFORMANCE,PURE,1995 - gemini
+400,Requests of subsystems for status information must be answered within 5 sec and be possible in maintenance level operation.,PERFORMANCE,PURE,1995 - gemini
+401,All software bugs should be logged and then fixed as soon as possible after detection. The goal is to have restart conditions occur only on hardware failure.,AVAILABILITY,PURE,1995 - gemini
+402,"Fault recovery, exception handling, fail-safe checks, etc. should be used to improve reliability.",AVAILABILITY,PURE,1995 - gemini
+403,"Should a subsystem fail (e.g. one detector, one instrument) predefined procedures must exist to redefine the environment in such a way that operation can restart with the remaining equipment.",FAULT TOLERANCE,PURE,1995 - gemini
+404,"In case of computer hardware failure concerning the user station equipment, it shall be possible to transfer control from one user station to another via a simple software reconfiguration procedure.",FAULT TOLERANCE,PURE,1995 - gemini
+405,"In the case of IOC failure, no transfer of control to another IOC will be possible, due to the local connections and interfaces to the control electronics. In this case there shall be a procedure to replace faulty cards and/or assemblies. If it is possible to observe with that particular IOC in a failed state (in general, this is limited to IOCs that are associated with individual scientific instruments) then it must be possible to reconfigure the system to do so.",FAULT TOLERANCE,PURE,1995 - gemini
+406,"The [GSR] sets as a requirement 2% and a goal 1% for total system (mechanical, electrical, and software) downtime due to failures - this translates to a maximum of 15 minutes per night or 1 night per month of downtime. This in turn sets quite stringent requirements on both MTBF and MTTR for the software and controls.",AVAILABILITY,PURE,1995 - gemini
+407,"To guarantee maximum availability of the control system, retry procedures must be embodied in the software in case of error or failure (e.g. time-out, hardware failure) to achieve recovery on-line whenever possible.",AVAILABILITY,PURE,1995 - gemini
+408,Maintenance requirements including an estimate of required resources.,MAINTAINABILITY,PURE,1995 - gemini
+409,The method of upgrading the system to add capabilities and performance. Areas where upgrades are anticipated should be identified with an estimate of the required effort and resources.,MAINTAINABILITY,PURE,1995 - gemini
+410,"A system that is operating in Engineering/Maintenance mode must ignore directives from other systems, though status information should still be provided for use by other systems.",SECURITY,PURE,1995 - gemini
+411,"There should be security preventing the intrusion into the system by unauthorized users, or users at unauthorized access levels.",SECURITY,PURE,1995 - gemini
+412,All hazards capable of causing death and/or loss of irreplacable equipment shall be passively interlocked.,SECURITY,PURE,1995 - gemini
+413,All hazards capable of causing injury and/or severe damage to equipment shall be actively interlocked (severe damage implies that repairs are not repairable at the depot level.,SECURITY,PURE,1995 - gemini
+414,All other hazards may be interlocked via software.,SECURITY,PURE,1995 - gemini
+415,"The TCS is an Automated Information System (AIS). Therefore, as per DoD Regulation 5000.2-R, dated March 15, 1996, the TCS shall meet security requirements in accordance with DoD Directive 5200.28(D), “Security Requirements for Automated Information Systems” dated March 21, 1988",SECURITY,PURE,1999 - tcs
+416,The TCS shall be accredited by the Designated Approving Authority prior to processing classified as well as sensitive unclassified data.,SECURITY,PURE,1999 - tcs
+417,The TCS shall have sufficient throughput to support the processing requirements of the selected data link.,PERFORMANCE,PURE,1999 - tcs
+418,The TCS maintainability will be considered in every phase of the design and development process and shall achieve a system maintainability (Mean Time To Repair MTTR) equal to or greater than that which is specified in the Predator and Outrider ORDs.,MAINTAINABILITY,PURE,1999 - tcs
+419,"The TCS equipment shall achieve an availability as defined below, equal to or greater than that which is specified in the Predator and Outrider ORDs.",AVAILABILITY,PURE,1999 - tcs
+420,"The HATS-GUI shall display and SDT with 10,000 nodes in five seconds or less.",PERFORMANCE,PURE,2001 - hats
+421,"The HATS-GUI shall display 1,000,000 node SDTs in the same amount of time, plus or minus two seconds, as it takes to display a 10,000 node SDT.",PERFORMANCE,PURE,2001 - hats
+422,The HATS-GUI shall allow a user to request transformations while HATS-SML is performing transformations or parsing.,PERFORMANCE,PURE,2001 - hats
+423,"The HATS-GUI shall allow a user to navigate through the display of an SDT with 10,000 nodes so that scrolling a screen width with any portion of the SDT displayed takes less than 3 seconds.",PERFORMANCE,PURE,2001 - hats
+424,The complexity of the text search algorithm shall not exceed O(n2) for n nodes.,PERFORMANCE,PURE,2001 - hats
+425,The complexity of the tree search algorithm shall not exceed O(n2) for n nodes.,PERFORMANCE,PURE,2001 - hats
+426,The complexity of the scrolling algorithms for text and displayed graphs shall not exceed O(n2) for n displayed nodes.,PERFORMANCE,PURE,2001 - hats
+427,The user shall not be required to log in or authenticate his/her identity when using the system.,SECURITY,PURE,2001 - hats
+428,The maximum response time for the submission of a job will be 1 minute.,PERFORMANCE,PURE,2001 - libra
+429,The maximum number of jobs schedulable is limited only by the capacity of the nodes to fulfill the jobs’ deadlines; there is no upper limit inherent in the Libra scheduler as such.,PERFORMANCE,PURE,2001 - libra
+430,"Assuming submitted statistics for jobs are accurate, the Libra scheduler will ensure that all jobs are completed with a 10% error allowance.",PERFORMANCE,PURE,2001 - libra
+431,"Under all circumstances, the maximum cost payable as submitted by the user will be the maximum cost charged to the user.",PERFORMANCE,PURE,2001 - libra
+432,The product will be as secure as the web browser that will run the product.,SECURITY,PURE,2001 - space fractions
+433,The product will be available over the Internet via the S2S website.,AVAILABILITY,PURE,2001 - space fractions
+434,"Maintainability is a primary goal for this project. For example, using appropriate sub-scenes in the main Flash game to split up the code will allow for easy alteration at a later date.",MAINTAINABILITY,PURE,2001 - space fractions
+435,"The Backend System shall maintain input data fidelity and dynamic range across all processing, manipulation and I/O functions.",PERFORMANCE,PURE,2002 - evla back
+436,"The system shall be capable of flagging and marking corrupted data segments and proceeding without interruption or effect on other data. This includes, but is not limited to, partial data, zero data, underflows, overflows, infinities, and NaN’s whether obtained on input or arising during processing.",PERFORMANCE,PURE,2002 - evla back
+437,"The Backend System shall be self-monitoring. It will be capable of detecting, reporting on and automatically taking action to remedy or lessen the impact of, at a minimum, the following types of abnormal conditions: processor hardware failure, operating system hangs or crashes, computational performance below minimum specifications, computational error rates above maximum specification, internal communications failures, and external (with the Correlator and E2E) communications disruptions.",AVAILABILITY,PURE,2002 - evla back
+438,The software part of the system shall be able to perform without total system restart due to internal failure between array maintenance windows.,AVAILABILITY,PURE,2002 - evla back
+439,"The hardware part of the system shall be able to perform indefinitely without complete loss of service, except in the event of total failure of primary and backup power.",AVAILABILITY,PURE,2002 - evla back
+440,The system shall be capable of responding in a loss-less manner to I/O and processing changes arising from Correlator mode changes.,AVAILABILITY,PURE,2002 - evla back
+441,The system shall continue to operate in a loss-less manner in the event of a temporary (time duration TBD) loss of availability of the e2e System.,AVAILABILITY,PURE,2002 - evla back
+442,"The system shall be able to complete processing of all onboard data, deliver the results to the End-to-End System and maintain availability for immediate resumption of operations once Correlator access is restored.",AVAILABILITY,PURE,2002 - evla back
+443,The system shall continue to operate during the absence of the M&C System until the first encounter of unavailable critical auxiliary data. The system will cache a predetermined amount (TBD) of correlator data after the first encounter of unavailable critical data and complete all requested operations on cached data once the unavailable critical data is obtained. ,AVAILABILITY,PURE,2002 - evla back
+444,The system shall be able to sit at idle and resume operations with minimal (amount TBD) delay.,AVAILABILITY,PURE,2002 - evla back
+445,Software tools and pre-built applications that do not have source code available shall come with a complete diagnostic package and customer support.,MAINTAINABILITY,PURE,2002 - evla back
+446,Operating system software shall either have source code available or come with sufficient diagnostics and customer support.,MAINTAINABILITY,PURE,2002 - evla back
+447,"I/O, communications, and processing hardware shall be easily expandable, reconfigureable, augmentable and replaceable to meet increasing data transfer and processing demands imposed by EVLA science, Correlator changes, and availability of new hardware.",SCALABILITY,PURE,2002 - evla back
+448,"3.7.1, above, shall be accomplished in manner that is transparent to processing, communications and I/O software functions with the possible exception of recompilation of executables.",SCALABILITY,PURE,2002 - evla back
+449,"3.7.1, above, shall be accomplished in a manner that is seamless, in that it does not affect hardware modules or software functionality that it meets at interfaces.",SCALABILITY,PURE,2002 - evla back
+450,The Backend system shall ultimately be scaleable to an extent that it will be capable of handling up to two Gbytes per second per Correlator output channel in real-time.,SCALABILITY,PURE,2002 - evla back
+451,"All users of the system shall login using some form of unique identification. (e.g., username and password)",SECURITY,PURE,2002 - evla back
+452,"All login attempts shall be done in a secure manner. (e.g., encrypted passwords)",SECURITY,PURE,2002 - evla back
+453,A system administrator shall have unrestricted access to all aspects of the system.,SECURITY,PURE,2002 - evla back
+454,"Each user shall have a set of system access properties that defines the user’s privileges within the system. (e.g., the subsystems a user may control or system tools the user may access).",SECURITY,PURE,2002 - evla back
+455,The administrator shall have the ability to create and add a new user to the system.,SECURITY,PURE,2002 - evla back
+456,The administrator shall have the ability to remove a user from the system.,SECURITY,PURE,2002 - evla back
+457,The administrator shall have the ability to edit a user’s system access properties.,SECURITY,PURE,2002 - evla back
+458,The administrator shall have the ability to block all access to the system for all users or selectively by user. (All blocked users with active sessions shall automatically be logged off.),SECURITY,PURE,2002 - evla back
+459,The CMCS processors shall be capable of meeting all data processing deadlines and anticipated future requirements,PERFORMANCE,PURE,2002 - evla corr
+460,"The CMCS processors shall be capable of responding to correlator hardware inputs (interrupts) in a deterministic fashion with sufficient performance to avoid data loss, corruption or overflows.",PERFORMANCE,PURE,2002 - evla corr
+461,"All lower system error and debug messages shall be present at the MCCC layer. Aside from a networking or CPU failure, It should never be necessary to directly access a CPU to display error messages.",PERFORMANCE,PURE,2002 - evla corr
+462,"All system error and debug messages shall be categorized in a logical fashion such that message traffic can be filtered as to content, detail, and message rate. Personnel interested in error messages should be able to easily filter the error message stream.",PERFORMANCE,PURE,2002 - evla corr
+463,"All messages passed between CMCS system layers shall have both UTC and wall clock time stamp information appropriate for the message type. Error messages will be stamped with their discovery time, control messages will be stamped with their generation time. Other message internal time stamps can be used as monitor/control parameters as deemed necessary.",PERFORMANCE,PURE,2002 - evla corr
+464,"Software shall be provided that allows an authorized user full access to all messaging, monitor, and control traffic throughout the CMCS. This software will provide full system access for testing, debugging, and control while the correlator is off line or under the control of the EVLA M&C system.",PERFORMANCE,PURE,2002 - evla corr
+465,A Graphical User Interface shall be provided as an interface to the CMCS test software that allows for a convenient and configurable tool to access the CMCS remotely through the VCI.,PERFORMANCE,PURE,2002 - evla corr
+466,"The CMCS shall be self-monitoring. It will be capable of detecting, reporting on and automatically taking action to remedy or lessen the impact of, at a minimum, the following types of abnormal conditions: processor hardware failure, operating system hangs or crashes, temperature or voltage deviations, computational performance below minimum specifications, computational error rates above maximum specification, internal communications failures, and external (with the EVLA M&C) communications disruptions.",AVAILABILITY,PURE,2002 - evla corr
+467,The software part of the system shall be able to perform without total system restart due to internal failure between system maintenance windows.,AVAILABILITY,PURE,2002 - evla corr
+468,"The hardware part of the system shall be able to perform indefinitely without complete loss of service, except in the event of total failure of primary and backup power.",AVAILABILITY,PURE,2002 - evla corr
+469,The system shall be able to continue processing of all correlator configuration/control events until the queues of parameters are exhausted and external communications are restored,AVAILABILITY,PURE,2002 - evla corr
+470,The system shall be able to sit at idle and resume operations with minimal (amount TBD) delay.,AVAILABILITY,PURE,2002 - evla corr
+471,Software tools and pre-built applications that do not have source code available shall come with a complete diagnostic package and customer support.,MAINTAINABILITY,PURE,2002 - evla corr
+472,Operating system software shall either have source code available or come with sufficient diagnostics and customer support.,MAINTAINABILITY,PURE,2002 - evla corr
+473,"I/O, communications, and processing hardware shall be easily expandable, reconfigurable, augmentable and replaceable to meet increasing data traffic and processing demands imposed by EVLA science, Correlator changes, and availability of new hardware.",SCALABILITY,PURE,2002 - evla corr
+474,"3.7.1, above, shall be accomplished in manner that is transparent to processing, communications and I/O software functions with the possible exception of recompilation of executables.",SCALABILITY,PURE,2002 - evla corr
+475,"3.7.1, above, shall be accomplished in a manner that is seamless, in that it does not affect hardware modules or software functionality that it meets at interfaces.",SCALABILITY,PURE,2002 - evla corr
+476,"All users of the system shall login using some form of unique identification. (e.g., username and password)",SECURITY,PURE,2002 - evla corr
+477,"All login attempts shall be done in a secure manner. (e.g., encrypted passwords)",SECURITY,PURE,2002 - evla corr
+478,A system administrator shall have unrestricted access to all aspects of the system.,SECURITY,PURE,2002 - evla corr
+479,"Each user shall have a set of system access properties that defines the user’s privileges within the system. (e.g., the subsystems a user may control or system tools the user may access).",SECURITY,PURE,2002 - evla corr
+480,The administrator shall have the ability to create and add a new user to the system.,SECURITY,PURE,2002 - evla corr
+481,The administrator shall have the ability to remove a user from the system.,SECURITY,PURE,2002 - evla corr
+482,The administrator shall have the ability to edit a user’s system access properties.,SECURITY,PURE,2002 - evla corr
+483,The administrator shall have the ability to block all access to the system for all users or selectively by user. (All blocked users with active sessions shall automatically be logged off.),SECURITY,PURE,2002 - evla corr
+484,agentMom shall support the ability to encrypt unicast message.,SECURITY,PURE,2003 - agentmom
+485,agentMom shall support the ability to decrypt unicast message.,SECURITY,PURE,2003 - agentmom
+486,agentMom shall allow an agent to decide whether or not to encrypt a message.,SECURITY,PURE,2003 - agentmom
+487,agentMom shall automatically decrypt encrypted message.,SECURITY,PURE,2003 - agentmom
+488,agentMom shall support the ability to encrypt multicast message.,SECURITY,PURE,2003 - agentmom
+489,agentMom shall support the ability to decrypt multicast message.,SECURITY,PURE,2003 - agentmom
+490,"The area on the main, systems, and condition windows sensitive to the users selection device, typically the mouse, shall include the line surrounding the item of interest over the entire width of the window. This includes the diagnostic indicators.",USABILITY,PURE,2003 - pnnl
+491,"The windows listing diagnostic results shall increase in height as needed to display entries up to a maximum of ten entries. Once the window has reached maximum size and there are additional items to display, the window shall deploy a scroll bar to permit the user to scroll through the additional entries. In this event, a summary set of diagnostic indicators shall appear above (below) the top (bottom) entry in the display. This set(s) of indicators shall summarize diagnostic indicators not currently appearing on the list above (below) it. An indicator in the summary set shall be active if any similar indicator not appearing above (or below) it is active. The summary set indicators comply with the same specification for activation as other indicators (see 3.5.1.39).",USABILITY,PURE,2003 - pnnl
+492,"The building, subsystems, and condition windows shall display the current time if the diagnostic tool is operating in real time. If the tool is operating in batch mode, the time displayed will be the time associated with the entry currently being processed in the batched input.",USABILITY,PURE,2003 - pnnl
+493,"If only a single building is defined, the subsystems window shall become the main window of the application and shall have all the functionality of the main window as described in these specifications.",USABILITY,PURE,2003 - pnnl
+494,"Each window of the diagnostic tool shall display an animated graphical feature indicating the status, whether active or not, of the diagnostic processing.",USABILITY,PURE,2003 - pnnl
+495,"The subsystem window shall be modal to the building window, the condition window modal to the subsystem window, and the diagnostic history and diagnostic information windows shall be modal to the condition window.",USABILITY,PURE,2003 - pnnl
+496,The system must guide users through an interface based on end user concepts.,USABILITY,PURE,2003 - tachonet
+497,The system must be easy to learn and does not obstruct the thematic understanding of the users.,USABILITY,PURE,2003 - tachonet
+498,The system must make it easy to correct mistakes.,USABILITY,PURE,2003 - tachonet
+499,There will be no restriction in time or place for the use of the software built from the specifications produced under this contract.,PERFORMANCE,PURE,2003 - tachonet
+500,The system must be able to establish and keep the dialog with the Members systems despite the various technical environments and technologies used on their sites.,PERFORMANCE,PURE,2003 - tachonet
+501,The system will be designed so that background tasks can continue while the user performs foreground tasks.,PERFORMANCE,PURE,2003 - tachonet
+502,The system will be used 24x7 by operators under pressure to produce results rapidly. The system must respond rapidly to user requests irrespective of any background tasks. Such high- availability (24x7) is also required from the Member States systems to ensure acceptable response time (less than 1 minute) to enforcement authorities requests.,PERFORMANCE,PURE,2003 - tachonet
+503,Color searches among the various collections defined by ABC Paint will be processed in sub- second time on the server.,PERFORMANCE,PURE,2004 - colorcast
+504,"Changes to Paint and collection information will occur in Real-time, although the actual processing time will vary with respect to the amount of information to be updated, added, or deleted on the server.",PERFORMANCE,PURE,2004 - colorcast
+505,"While performance requirements are transparently defined at the server, ColorKast makes no guarantees as to the speed, completeness, or timeliness of service over the greater internet. Performance of the application will vary on the speed and type of internet access to which the client computer has access.",PERFORMANCE,PURE,2004 - colorcast
+506,"To verify the performance of the application, ColorKast will show the amount of time the server takes to process a request. The time shown will not take into account the transit time of the information over various computer networks.",PERFORMANCE,PURE,2004 - colorcast
+507,"Due to the nature of the product, the data stored in repositories of the product is generally public information consisting of paint names and color values not easily secured or obfuscated and always recoverable by a sophisticated end user. No attempts will be made to secure this information.",SECURITY,PURE,2004 - colorcast
+508,"Information that the product will collect or store, which need access protections include user specified color palettes and their store of access permissions. Access to this information must be private. Most important, the store of access permissions to administrative features and access permissions must be secure.",SECURITY,PURE,2004 - colorcast
+509,Implementations of Privacy and security must be on par with industry standards.,SECURITY,PURE,2004 - colorcast
+510,The external server data store containing RLCS status for use by external systems shall be updated once per minute.,PERFORMANCE,PURE,2004 - rlcs.pdf
+511,"The field device status information logging to the database shall be 2 seconds, but can be configurable within the database to more than 2 seconds by the user.",PERFORMANCE,PURE,2004 - rlcs.pdf
+512,"The field device status information display update frequency shall be 2 seconds, but can be configurable within the database to more than 2 seconds by the user.",PERFORMANCE,PURE,2004 - rlcs.pdf
+513,The RLCS shall receive device status information from devices sensors within 2 seconds of the status information being issued by the device sensor.,PERFORMANCE,PURE,2004 - rlcs.pdf
+514,Field devices shall receive respond to commands from the RLCS within 12 seconds of the command confirmation being issued by the operator using a keyboard (or other input device).,PERFORMANCE,PURE,2004 - rlcs.pdf
+515,"The RLCS shall support multiple users logged on, up to the limit of the number of users defined in the database.",PERFORMANCE,PURE,2004 - rlcs.pdf
+516,"Not including device and network response times, requests from the GUI for status updates shall not exceed 2 seconds to update the GUI display.",PERFORMANCE,PURE,2004 - rlcs.pdf
+517,The facility map on the screen shall refresh every 2 seconds but can be configurable within the database to more than 2 seconds by the user.,PERFORMANCE,PURE,2004 - rlcs.pdf
+518,"The RLCS notification to the operator workstation of any critical alarms shall occur within 2 seconds of alarm detection, and shall occur whether or not an operator is logged on to the system.",PERFORMANCE,PURE,2004 - rlcs.pdf
+519,"The field units (controllers) shall continually monitor device status, controller status and the control system integrity and send the status to the central computer in the TMC every 2 seconds or less.",PERFORMANCE,PURE,2004 - rlcs.pdf
+520,The RLCS shall detect alarm conditions within 2 seconds of occurrence.,PERFORMANCE,PURE,2004 - rlcs.pdf
+521,"The database retrieval and update response time shall not impact any other performance requirements such as the GUI response time or monitoring and control responses. In other words, the database performance is a component of the total response time for any other performance requirement. If the GUI is required to reflect change in status within 2 seconds, then the database update time must be less than 2 seconds.",PERFORMANCE,PURE,2004 - rlcs.pdf
+522,"The operator shall be able to store and retrieve previously created report results from the RLCS for a minimum period of 60 days, but configurable for up to one year.",PERFORMANCE,PURE,2004 - rlcs.pdf
+523,The raw data used to create reports shall be kept in the RLCS for a minimum period of 13 months prior to backing up to tapes or other secondary storage media.,PERFORMANCE,PURE,2004 - rlcs.pdf
+524,Report processing shall not impact any other performance requirements such as the GUI response time or monitoring and control responses,PERFORMANCE,PURE,2004 - rlcs.pdf
+525,"Report response time shall be determined by the database resources allocated to the reporting function. Depending on user needs for fast report response times (such as for ad hoc reporting), database extracts may be created for reporting purposes only.",PERFORMANCE,PURE,2004 - rlcs.pdf
+526,"RLCS system components will communicate via the private communications networks established by Department of Transportation District 11 prior to the development of the RLCS. Any operator or system command, which changes the state of field control devices, must be checked for integrity at multiple levels in the system. Valid checksum algorithms must be employed to check the integrity of messages between units.",PERFORMANCE,PURE,2004 - rlcs.pdf
+527,The Clarus system shall be able to mitigate communication denial-of-service attacks.,SECURITY,PURE,2005 - clarus high
+528,The Clarus system shall be able to automatically recover from an unexpected shutdown.,FAULT TOLERANCE,PURE,2005 - clarus high
+529,The Clarus system shall be able to respond to 95% of all requests for environmental data 95% of the time.,AVAILABILITY,PURE,2005 - clarus high
+530,The Clarus system shall be able to publish environmental data at three times the volume rate that it collects it.,PERFORMANCE,PURE,2005 - clarus high
+531,The Clarus system shall be able to prioritize data handling for time-critical data.,PERFORMANCE,PURE,2005 - clarus high
+532,The Clarus system shall support 470 million current observations.,PERFORMANCE,PURE,2005 - clarus high
+533,The Clarus system shall be able to collect data from sources within 5 minutes of them becoming available.,PERFORMANCE,PURE,2005 - clarus high
+534,The Clarus system shall be able to receive all reported environmental data during a fifteen minute time interval.,PERFORMANCE,PURE,2005 - clarus high
+535,The Clarus system shall be able to complete an automated quality control check of environmental data within ten seconds of data receipt.,PERFORMANCE,PURE,2005 - clarus high
+536,The Clarus system shall be able to publish new data within twenty minutes of data receipt.,PERFORMANCE,PURE,2005 - clarus high
+537,The Clarus system shall respond to a request for information within one minute.,PERFORMANCE,PURE,2005 - clarus high
+538,The Clarus system shall be able to handle three hundred simultaneous requests for environmental element data.,PERFORMANCE,PURE,2005 - clarus high
+539,The Clarus system shall be able to support six hundred concurrent users.,PERFORMANCE,PURE,2005 - clarus high
+540,The Clarus system shall be able to support six thousand registered users.,PERFORMANCE,PURE,2005 - clarus high
+541,The program should start within 30 seconds. This depends on the number of data points that are to be plotted.,PERFORMANCE,PURE,2005 - grid 3D
+542,The interaction with the data points should have a delay of no longer than 2 seconds.,PERFORMANCE,PURE,2005 - grid 3D
+543,The response to a change in the orientation should be fast enough to avoid interrupting the user's flow of thought.,PERFORMANCE,PURE,2005 - grid 3D
+544,The system should be executed without problems in a machine that fulfills the requirements of the Java runtime environment,PERFORMANCE,PURE,2005 - triangle
+545,The basic artificial intelligence must operate fast enough. The next move should be calculated within 10 seconds.,PERFORMANCE,PURE,2005 - triangle
+546,"GUIs associated with the Framework SHOULD be designed such that an user with basic understanding of the Windows 2000/XP operating systems would instinctively be able to interact with them. Therefore, most GUIs MAY need to closely mimic popular Windows applications.",USABILITY,PURE,2005 - znix
+547,"At this stage of the development, the Framework MAY only operate in single user mode, with no networking capabilities.",PERFORMANCE,PURE,2005 - znix
+548,The Framework Shell SHOULD NOT utilize more than 40 megabytes of RAM.,PERFORMANCE,PURE,2005 - znix
+549,The Framework MUST guard against malicious scripts on remote websites from accessing its information.,SECURITY,PURE,2005 - znix
+550,The Framework MUST guard against unintended corruption of information by the user himself.,SECURITY,PURE,2005 - znix
+551,"The data system shall show no visible deterioration in response time as the number of persons increases. Response times seen by end users for querying metadata should be on the order of a few seconds or less. Response times seen by end users for retrieving the actual images may take much longer, anywhere from a few minutes to several hours. If the user requests a large image with a short response time, it is acceptable for the ARS data system to advise the user that the target response time cannot be met. In that case, the person would be referred to an alternate method of getting the data.",PERFORMANCE,PURE,2006 - stewards
+552,The data system shall load as quickly as comparable productivity tools on whatever environment it is running in.,PERFORMANCE,PURE,2006 - stewards
+553,"STEWARDS will follow industry best practices for authentication, using single-sign-on systems like Microsoft Active Directory to perform authentication. Authentication addresses security requirements to ensure those using system are who they say they are. This is of greatest concern when data are being changed or updated. This is primarily done through userids and passwords.",SECURITY,PURE,2006 - stewards
+554,Confidentiality security requirements describe the need to protect the data appropriately. STEWARDS will use the user classes described in section 2.3 above to define boundaries of information sharing to ensure confidentiality as appropriate. Any data that should be viewed by a restricted audience must be protected with appropriate security features.,SECURITY,PURE,2006 - stewards
+555,"The integrity of STEWARDS data will be critical to its success as a product. Scientific research and publications will be based on the data obtained through the system. Therefore, extensive data validation and review will be performed both before data are uploaded to the system and as part of the upload process. The system will need policy and procedures protecting the data from intentional or unintentional modifications, and to ensure accurate data are made available.",SECURITY,PURE,2006 - stewards
+556,"The fourth consideration for security requirements is availability. The system must be available to the intended audience 24 hours per day, 7 days a week with, 99% availability and a tolerance of -5% (not less than 50% of working hours in any week). For this system, availability will be concerned with the reliability of the software and network components. Intentional “denial of service attacks” is not foreseen as a significant concern.",AVAILABILITY,PURE,2006 - stewards
+557,The system shall provide a uniform look and feel between all the web pages.,USABILITY,PURE,2007 - e-store
+558,The system shall provide a digital image for each product in the product catalog.,USABILITY,PURE,2007 - e-store
+559,The system shall provide use of icons and toolbars.,USABILITY,PURE,2007 - e-store
+560,The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.,AVAILABILITY,PURE,2007 - e-store
+561,The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.,AVAILABILITY,PURE,2007 - e-store
+562,The product shall be based on web and has to be run from a web server.,PERFORMANCE,PURE,2007 - e-store
+563,The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.,PERFORMANCE,PURE,2007 - e-store
+564,The performance shall depend upon hardware components of the client/customer. ,PERFORMANCE,PURE,2007 - e-store
+565,The system shall use secure sockets in all transactions that include any confidential customer information.,SECURITY,PURE,2007 - e-store
+566,The system shall automatically log out all customers after a period of inactivity.,SECURITY,PURE,2007 - e-store
+567,The system shall confirm all transactions with the customer’s web browser.,SECURITY,PURE,2007 - e-store
+568,The system shall not leave any cookies on the customer’s computer containing the user’s password.,SECURITY,PURE,2007 - e-store
+569,The system shall not leave any cookies on the customer’s computer containing any of the user’s confidential information.,SECURITY,PURE,2007 - e-store
+570,The customer’s web browser shall never display a customer’s password.  It shall always be echoed with special characters representing typed characters.,SECURITY,PURE,2007 - e-store
+571,The customer’s web browser shall never display a customer’s credit card number after retrieving from the database.  It shall always be shown with just the last 4 digits of the credit card number.,SECURITY,PURE,2007 - e-store
+572,The system’s back-end servers shall never display a customer’s password.  The customer’s password may be reset but never shown.,SECURITY,PURE,2007 - e-store
+573,The system’s back-end servers shall only be accessible to authenticated administrators.,SECURITY,PURE,2007 - e-store
+574,The system’s back-end databases shall be encrypted.,SECURITY,PURE,2007 - e-store
+575,The System shall be capable of adding additional capacity without redesign of it's infrastructure.,SCALABILITY,PURE,2007 - nde
+576,"The System shall comply with ESPC (DoC/NOAA/NESDIS) procedures and policies as stated in the NOAA IT Security Manual 212-1300, Version 3.3, dated May 15, 2007.",SECURITY,PURE,2007 - nde
+577,The NDE Ingest capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period and no more than 4 hours in any consecutive 30 day period.,AVAILABILITY,PURE,2007 - nde
+578,The NDE Product Generation capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period and no more than 4 hours in any consecutive 30 day period.,AVAILABILITY,PURE,2007 - nde
+579,The NDE Distribution capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period and no more than 4 hours in any consecutive 30 day period.,AVAILABILITY,PURE,2007 - nde
+580,The NDE Operations Monitoring capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period and no more than 4 hours in any consecutive 30 day period.,AVAILABILITY,PURE,2007 - nde
+581,"The Development and Maintenance Environment shall be available to at least 25 developers 85% of the time during normal business hours over any consecutive twelve month period. Normal business hours are 8am to 4pm Eastern Time, Monday through Friday.",AVAILABILITY,PURE,2007 - nde
+582,The System shall be capable of accessing data delivered by IDPS within no more than ten seconds of notification from IDPS.,PERFORMANCE,PURE,2007 - nde
+583,The System shall deliver SARSAT Telemetry data from IDPS to US Mission Control Center (USMCC) within 1 minute of their receipt.,PERFORMANCE,PURE,2007 - nde
+584,The System shall deliver A-DCS Telemetry data from IDPS to the US Global Processing Center within 1 minute of their receipt.,PERFORMANCE,PURE,2007 - nde
+585,The System shall deliver A-DCS Data Products from IDPS to the US Global Processing Center within 1 minute of their receipt.,PERFORMANCE,PURE,2007 - nde
+586,"As far as possible, the system should provide a simple, responsive interface.",USABILITY,PURE,2007 - puget sound
+587,The system should support at least 1000 concurrent users.,PERFORMANCE,PURE,2007 - puget sound
+588,"The system must handle at least 100 concurrent users and their operations. The system must accomplish 90% for transactions in less than 1 second. This is due to the nature of data, which is only text information that does not usually exceed 50 KB per transaction.",PERFORMANCE,PURE,2008 - viper
+589,"The system has to be available 100% of the time. Once there is a fatal error, the system should give understandable feedback to the user.",AVAILABILITY,PURE,2008 - viper
+590,"The system have only three roles for coordinators , suppliers and customers only that make our system secure access online and these authentications will prevent and illegal access.",SECURITY,PURE,2008 - viper
+591,The system is designed in modules where errors can be detected and fixed easily. This makes it easier to install updates and new functionality if required.,MAINTAINABILITY,PURE,2008 - viper
+592,"The PMS will be available at all times from any computer ( fulfilling assumptions and dependencies in Section 2.6 ), except when Wilma is not available. The availability of Wilma is an issue that should be handled by the customer.",AVAILABILITY,PURE,2008 - vub
+593,"In case of a corrupted database the Administrator should replace the database by the last available database backup. In case of another failure (hardware or software related) the problem should be first solved and afterwards the PMS should be reinitialized. During this downtime the PMS should give an error to the visitors , stating that the PMS is temporarily down.",AVAILABILITY,PURE,2008 - vub
+594,Every user account is protected with a personal password. Nobody except the specific user should be able to log into that account and change personal information.,SECURITY,PURE,2008 - vub
+595,The password of the user should be encrypted when submitted from user to server. It should also be saved in an encrypted way in the database and no-one except the PMS should be able to access these passwords.,SECURITY,PURE,2008 - vub
+596,Direct access to the data stored in the database is only allowed for Administrator(s) using the CLI.,SECURITY,PURE,2008 - vub
+597,"The user levels (see section 2.3) should always be respected with regard to editing, deleting and uploading publications (and their bibliographical details) .",SECURITY,PURE,2008 - vub
+598,The database of the PMS should be maintained by the Administrator(s).,MAINTAINABILITY,PURE,2008 - vub
+599,"The PMS (with concern to the user levels, special privileges,... ) should be maintained by the Administrators on a global level.",MAINTAINABILITY,PURE,2008 - vub
+600,On the Departmental level the Moderator(s) will be able to maintain the PMS this way.,MAINTAINABILITY,PURE,2008 - vub
+601,"The application is expected to operate via touch screen user interfaces, and take advantage of that technology to be as fast, efficient, intuitive, and flexible as possible while also minimizing the potential for errors and duplications. It should minimize the use of keyboard and mouse when processing acquisitions, and should allow acquisitions to be completed with few clicks and page switches.",USABILITY,PURE,2009 - inventory 2.0
+602,The system must be available during normal Construction Junction operating hours.,AVAILABILITY,PURE,2009 - inventory 2.1
+603,The system must be available beyond normal operating hours to accommodate inventory management operations.,AVAILABILITY,PURE,2009 - inventory 2.2
+604,"Access to the application by the Construction Junction staff must require user login. Access to application screens and functions is granted or denied based on the profile and role of the currently logged in user, as detailed in the preceding use-case requirements. The system should record changes to application entities in the form of „created user/time‟, „modified user/time‟ fields. The system should also record information about various sensitive inventory management operations such as deleting items and changing the price of items.",SECURITY,PURE,2009 - inventory 2.3
+605,"The functionality provided by the Inventory Management System will be critical to the normal operation of the Construction Junction business. As such, the system should perform with consistently and predictably low response times in order not to impact the performance or the timely execution of the various tasks that need to be conducted by the Construction Junction staff.",PERFORMANCE,PURE,2009 - inventory 2.4
+606,Query times will take no longer than 5 seconds to any website.,PERFORMANCE,PURE,2009 - video search
+607,Sending the hyperlink to the default browser will take less than 1 second.,PERFORMANCE,PURE,2009 - video search
+608,Loading the program will take less than 10 seconds.,PERFORMANCE,PURE,2009 - video search
+609,Any torrent result with 0 seeds will not be displayed.,PERFORMANCE,PURE,2009 - video search
+610,Sorting results should take less than 0.1 seconds.,PERFORMANCE,PURE,2009 - video search
+611,A results page will display 100 results.,PERFORMANCE,PURE,2009 - video search
+612,Any torrent result with a rating of less than 1 will not be displayed.,PERFORMANCE,PURE,2009 - video search
+613,"The system shall log errors, warnings, and informational messages to an external log file on the application server.",MAINTAINABILITY,PURE,2010 - blit draft
+614,The system shall log an error message to the external data file when the user is directed to the system error page.,MAINTAINABILITY,PURE,2010 - blit draft
+615,The system shall send a notification email to a Client Services email distribution list if the user is directed to the xxx error page.,MAINTAINABILITY,PURE,2010 - blit draft
+616,"Displays of environmental conditions (temperature, humidity, contact sensors and power switches) shall be updated at least every two seconds.",PERFORMANCE,PURE,2010 - home 1.3
+617,"Sensor (temperature, humidity, contact sensor, power state) shall have a minimum data acquisition rate of 10 Hz.",PERFORMANCE,PURE,2010 - home 1.4
+618,"An environmental sensor or controller device shall have to be within 1000 feet of the master control device, in order to be in communication with the system.",PERFORMANCE,PURE,2010 - home 1.5
+619,"Upon installation, a DigitalHome user account shall be established. The DigitalHome web system shall provide for authentication and information encryption through a recognized reliable and effective security technology, such as Transport Layer Security.",SECURITY,PURE,2010 - home 1.6
+620,Log in to an account shall require entry of an account name and a password.,SECURITY,PURE,2010 - home 1.7
+621,"The development of the DH system shall use methods and techniques such as the following to support system maintenance: Documentation of requirements, design, and code; Use of abstraction, information hiding and module independence in system design; and Use of IEEE standards [IEEE830, IEEE1008, IEEE1016, IEEE1028] and the HomeOwner Coding Standard [HO4710].",MAINTAINABILITY,PURE,2010 - home 1.8
+622,"Although the product produced under this document will be a “prototype” version, all modules and components of this prototype version shall be designed and implemented in such a manner that it may be incorporated in a fully specified commercial version of the DigitalHome System.",MAINTAINABILITY,PURE,2010 - home 1.9
+623,The system encrypts data over a direct connection between the web client and the server. ,SECURITY,PURE,2010 - mashboot
+624,The system allows for the backup of the data system to local or remote non-volatile storage systems. Incremental backups should not create outages and full backups do not interfere with user interaction for more than 10 minutes.,SECURITY,PURE,2010 - mashboot
+625,The system is configurable to e-mail warnings about multiple failed login attempts from the same user. These warnings are sent to the System Administrator. Other security risks of this type are the responsibility of the System Administrator.,SECURITY,PURE,2010 - mashboot
+626,The system allows only valid users to log into the system. A valid user is one which has not been disabled or deleted and exists on the system.,SECURITY,PURE,2010 - mashboot
+627,"To log onto the system, a user provides their valid username and password.",SECURITY,PURE,2010 - mashboot
+628,The system uses the configured authentication module. The authentication method is configurable by the System Administrator.,SECURITY,PURE,2010 - mashboot
+629,The system allows the System Administrator to configure a timeout after which a user is automatically logged out of Mashbot.,SECURITY,PURE,2010 - mashboot
