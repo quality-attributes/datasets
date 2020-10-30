@@ -1,0 +1,52 @@
+{
+  "data": {
+    "repository": {
+      "createdAt": "2015-03-06T22:54:58Z",
+      "databaseId": 31792824,
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond.",
+      "forkCount": 13080,
+      "issues": {
+        "totalCount": 39439
+      },
+      "watchers": {
+        "totalCount": 2864
+      },
+      "languages": {
+        "totalCount": 16,
+        "totalSize": 34170048,
+        "nodes": [
+          {
+            "name": "Dart",
+            "percentage": 99.2
+          },
+          {
+            "name": "Java",
+            "percentage": 0.2
+          },
+          {
+            "name": "Objective-C",
+            "percentage": 0.2
+          },
+          {
+            "name": "Shell",
+            "percentage": 0.2
+          },
+          {
+            "name": "Ruby",
+            "percentage": 0.1
+          },
+          {
+            "name": "C++",
+            "percentage": 0.1
+          }
+        ]
+      },
+      "pullRequests": {
+        "totalCount": 20863
+      },
+      "commitComments": {
+        "totalCount": 377
+      }
+    }
+  }
+}

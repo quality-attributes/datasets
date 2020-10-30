@@ -1,0 +1,52 @@
+{
+  "data": {
+    "repository": {
+      "createdAt": "2012-03-06T14:58:02Z",
+      "databaseId": 3638964,
+      "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications — automate in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com/ansible/",
+      "forkCount": 19251,
+      "issues": {
+        "totalCount": 27514
+      },
+      "watchers": {
+        "totalCount": 2020
+      },
+      "languages": {
+        "totalCount": 11,
+        "totalSize": 11657067,
+        "nodes": [
+          {
+            "name": "Python",
+            "percentage": 89.7
+          },
+          {
+            "name": "PowerShell",
+            "percentage": 6.8
+          },
+          {
+            "name": "C#",
+            "percentage": 1.8
+          },
+          {
+            "name": "Shell",
+            "percentage": 1.6
+          },
+          {
+            "name": "Makefile",
+            "percentage": 0.1
+          },
+          {
+            "name": "Tcl",
+            "percentage": 0.0
+          }
+        ]
+      },
+      "pullRequests": {
+        "totalCount": 42636
+      },
+      "commitComments": {
+        "totalCount": 804
+      }
+    }
+  }
+}

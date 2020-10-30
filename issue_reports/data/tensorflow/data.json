@@ -1,0 +1,52 @@
+{
+  "data": {
+    "repository": {
+      "createdAt": "2015-11-07T01:19:20Z",
+      "databaseId": 45717250,
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "forkCount": 81816,
+      "issues": {
+        "totalCount": 25982
+      },
+      "watchers": {
+        "totalCount": 8361
+      },
+      "languages": {
+        "totalCount": 30,
+        "totalSize": 150675462,
+        "nodes": [
+          {
+            "name": "C++",
+            "percentage": 60.9
+          },
+          {
+            "name": "Python",
+            "percentage": 26.7
+          },
+          {
+            "name": "HTML",
+            "percentage": 3.1
+          },
+          {
+            "name": "Starlark",
+            "percentage": 2.7
+          },
+          {
+            "name": "MLIR",
+            "percentage": 2.2
+          },
+          {
+            "name": "Go",
+            "percentage": 1.3
+          }
+        ]
+      },
+      "pullRequests": {
+        "totalCount": 14690
+      },
+      "commitComments": {
+        "totalCount": 590
+      }
+    }
+  }
+}

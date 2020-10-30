@@ -1,0 +1,52 @@
+{
+  "data": {
+    "repository": {
+      "createdAt": "2014-06-06T22:56:04Z",
+      "databaseId": 20580498,
+      "description": "Production-Grade Container Scheduling and Management",
+      "forkCount": 24254,
+      "issues": {
+        "totalCount": 35228
+      },
+      "watchers": {
+        "totalCount": 3196
+      },
+      "languages": {
+        "totalCount": 12,
+        "totalSize": 57163071,
+        "nodes": [
+          {
+            "name": "Go",
+            "percentage": 89.9
+          },
+          {
+            "name": "Starlark",
+            "percentage": 6.8
+          },
+          {
+            "name": "Shell",
+            "percentage": 2.9
+          },
+          {
+            "name": "PowerShell",
+            "percentage": 0.2
+          },
+          {
+            "name": "Makefile",
+            "percentage": 0.1
+          },
+          {
+            "name": "Dockerfile",
+            "percentage": 0.1
+          }
+        ]
+      },
+      "pullRequests": {
+        "totalCount": 57313
+      },
+      "commitComments": {
+        "totalCount": 21392
+      }
+    }
+  }
+}

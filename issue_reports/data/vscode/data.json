@@ -1,0 +1,52 @@
+{
+  "data": {
+    "repository": {
+      "createdAt": "2015-09-03T20:23:38Z",
+      "databaseId": 41881900,
+      "description": "Visual Studio Code",
+      "forkCount": 15525,
+      "issues": {
+        "totalCount": 92220
+      },
+      "watchers": {
+        "totalCount": 2906
+      },
+      "languages": {
+        "totalCount": 35,
+        "totalSize": 31436617,
+        "nodes": [
+          {
+            "name": "TypeScript",
+            "percentage": 93.6
+          },
+          {
+            "name": "JavaScript",
+            "percentage": 3.4
+          },
+          {
+            "name": "CSS",
+            "percentage": 1.5
+          },
+          {
+            "name": "Inno Setup",
+            "percentage": 0.8
+          },
+          {
+            "name": "HTML",
+            "percentage": 0.6
+          },
+          {
+            "name": "Shell",
+            "percentage": 0.1
+          }
+        ]
+      },
+      "pullRequests": {
+        "totalCount": 7479
+      },
+      "commitComments": {
+        "totalCount": 2238
+      }
+    }
+  }
+}
