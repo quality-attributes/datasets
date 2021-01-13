@@ -1,0 +1,1778 @@
+,Unnamed: 0,author,closedAt,number,publishedAt,resourcePath,source,state,text,label
+3,3,{'login': 'zerkms'},2015-05-04T23:42:47Z,10915,2015-05-04T23:39:55Z,/ansible/ansible/issues/10915,ansible,CLOSED,"SSH connection is established for every command
+Here is the log of the run
+The deply.yml is as simple as
+followed by 2 tasks to install packages via apt-get.
+The OS on both machines is ubuntu trusty, the requiretty does not exist in sudoers (on the target machine) and setting Defaults !requiretty does not change anything.
+In the ansible config I have made only these 2 changes:
+uncommented
+ssh_args = -o ControlMaster=auto -o ControlPersist=60s
+enabled
+pipelining = True
+It's for ansible 1.9.1 installed from the PPA.
+What am I doing wrong?",SECURITY
+5,5,{'login': 'ansible-bug-reporter'},2017-05-12T00:45:18Z,24460,2017-05-10T19:03:23Z,/ansible/ansible/issues/24460,ansible,CLOSED,"Force_handlers with_items does not execute handlers
+Bug Report
+Force handlers with_items
+ansible 2.3.0.0
+config file = /etc/ansible/ansible.cfg
+configured module search path = configured module search path = Default w/o overrides
+python version = 2.7.10 (default, May 1 2017, 19:24:18) [GCC 4.4.7 20120313 (Red Hat 4.4.7-16)]
+We expect handlers to run when at least one item is changed when using with_items and force_handlers.
+PLAY [localhost] **************************************************************************************************************************************************************************************************************************************************************
+TASK [command] ****************************************************************************************************************************************************************************************************************************************************************
+changed: [localhost] => (item=ls)
+changed: [localhost] => (item=pwd)
+failed: [localhost] (item=asdf) => {""changed"": true, ""cmd"": ""asdf"", ""delta"": ""0:00:00.001902"", ""end"": ""2017-05-10 13:59:28.650743"", ""failed"": true, ""item"": ""asdf"", ""rc"": 127, ""start"": ""2017-05-10 13:59:28.648841"", ""stderr"": ""/bin/sh: asdf: command not found"", ""stderr_lines"": [""/bin/sh: asdf: command not found""], ""stdout"": """", ""stdout_lines"": []}
+RUNNING HANDLER [hello_world] *************************************************************************************************************************************************************************************************************************************************
+ok: [localhost] => {
+""changed"": false,
+""msg"": ""Hello world!""
+}
+PLAY RECAP ********************************************************************************************************************************************************************************************************************************************************************
+localhost : ok=1 changed=1 unreachable=0 failed=1
+PLAY [localhost] **************************************************************************************************************************************************************************************************************************************************************
+TASK [command] ****************************************************************************************************************************************************************************************************************************************************************
+changed: [localhost] => (item=ls)
+changed: [localhost] => (item=pwd)
+failed: [localhost] (item=asdf) => {""changed"": true, ""cmd"": ""asdf"", ""delta"": ""0:00:00.001916"", ""end"": ""2017-05-10 14:00:00.284031"", ""failed"": true, ""item"": ""asdf"", ""rc"": 127, ""start"": ""2017-05-10 14:00:00.282115"", ""stderr"": ""/bin/sh: asdf: command not found"", ""stderr_lines"": [""/bin/sh: asdf: command not found""], ""stdout"": """", ""stdout_lines"": []}
+PLAY RECAP ********************************************************************************************************************************************************************************************************************************************************************
+localhost : ok=0 changed=0 unreachable=0 failed=1",FAULT TOLERANCE
+7,7,{'login': 'jlec'},2017-02-27T15:14:03Z,15326,2016-04-07T15:55:25Z,/ansible/ansible/issues/15326,ansible,CLOSED,"password_hash/get_encrypted_password uses passlib default of rounds=656000 which is 131 times glibc default
+In the password_hash filter function the underlying passlib call uses the default rounds parameter.
+The default for glibc is 5000, the passlib default for sha512 is 656000. This means on a login in a linux account the hash calculation will take significantly longer.
+Actually you get basically no rounds parameter when setting it to 5000
+Could a simple parameter be added to get_encrypted_password to set the value which has a preferable default what glibc does?",PERFORMANCE
+10,10,{'login': 'blakfeld'},2016-03-01T04:18:53Z,14659,2016-02-25T15:39:17Z,/ansible/ansible/issues/14659,ansible,CLOSED,"--diff Flag crashes on win_copy
+Issue Type:
+Bug Report
+Ansible Version:
+Ansible Configuration:
+Stock
+Environment:
+Running from: Ubuntu 14.04
+Targeting: Windows 2k12
+Summary:
+The --diff flag fails when using the win_copy module.
+Steps To Reproduce:
+Run any playbook that contains the win_copy module while using the --diff flag against a Windows box.
+Expected Results:
+I expect to see a diff between the file that was already on disk, and the one I just copied over.
+Actual Results:
+Here's the entire output
+https://gist.github.com/blakfeld/542b191c85f4385e50bf
+Here's the relevant output
+The problem appears to be because the --diff command is relying upon the existence of a 'state' key in the returned JSON. This appears to be a key added in the module_utils.basic Python module, specifically the add_path_info method, which seems to be called by load_common_file_arguments. I was going to just hack this into win_copy, but it seems to me that the most reasonable solution would be to add load_common_file_arguments to powershell_common.ps1. I'm more than happy to start work on that if the community agrees that is the best answer.",FAULT TOLERANCE
+11,11,{'login': 'sebi-hgdata'},2015-08-12T14:50:19Z,11881,2015-08-06T19:53:25Z,/ansible/ansible/issues/11881,ansible,CLOSED,"Variable overding during nested includes issue
+It seems variables are not overridden when using nested includes (this works ok in v1 ) .This might be related to #11353 . To reproduce the issue you can follow the steps from #11353 ...
+In build.yml I have a variable docker_tags what is overriden in tasks/docker/base_build.yml... instead of printing the overridden value it prints the value from build.yml. See debug statements after running 'ansible-playbook -v build_admin_ui.yml -i inventories/local/hosts --extra-vars ""admin_ui_version=1234""'",MAINTAINABILITY
+12,12,{'login': 'BenMo158'},2016-04-29T00:13:51Z,13390,2015-12-02T06:13:11Z,/ansible/ansible/issues/13390,ansible,CLOSED,"[v2] ""win_iis_webbinding"" module require additional parameters to run?
+I was run
+I need run this,it's work
+",MAINTAINABILITY
+13,13,{'login': 'jpcarey'},2015-06-24T18:42:38Z,11362,2015-06-23T23:33:17Z,/ansible/ansible/issues/11362,ansible,CLOSED,"ec2 dynamic_inventory tag issue
+The special characters escape to underscores in ec2.py does not appear to work poperly.
+I have the following tag for an ec2 instance:
+aws:cloudformation:stack-name => imdev-flask-3-2-298-l1FiTlA
+Per the docs, this should translate to an underscore between stack and name: 'ec2_tag_aws_cloudformation_stack_name'
+This does not work, and produced the following var undefined error:
+One or more undefined variables: 'ec2_tag_aws_cloudformation_stack_name' is undefined
+running ec2.py, the actual output is ""ec2_tag_aws_cloudformation_stack-name"": ""imdev-flask-3-2-298-l1FiTlA""
+If I try to use in the ec2.py form, ansible will throw an error for the invalid character:
+Failed to template msg=""{{ ec2_tag_aws_cloudformation_stack-name == removed_version }}"": Unable to look up a name or access an attribute in template string. Make sure your variable name does not contain invalid characters like '-'.
+However, accessing through the hostvars allows reference to the item with the ""-"". Ex:
+""{{ hostvars[inventory_hostname]['ec2_tag_aws_cloudformation_stack-name'] }}""",FAULT TOLERANCE
+14,14,{'login': 'tartansandal'},2013-10-22T16:01:21Z,4608,2013-10-20T23:05:27Z,/ansible/ansible/issues/4608,ansible,CLOSED,"documented used of 'lookup' now generates variable undefined error 
+The following documented use of the lookup plugin
+now generates the following error:
+I've traced this back to commit 5031104.",FAULT TOLERANCE
+15,15,{'login': 'evgkrsk'},2019-01-25T16:25:15Z,13175,2015-11-16T01:06:20Z,/ansible/ansible/issues/13175,ansible,CLOSED,"Wrong diagnostics in ansible-galaxy on certificate issues
+Issue Type:
+Bug Report
+Component Name
+ansible-galaxy
+Ansible Version:
+Ansible Configuration:
+Clean out-of-box configuration (on SOME OS).
+Environment:
+N/A. Generic, non-mainstream OS. In my case, ALT Linux Sisypus (unstable branch).
+Summary:
+On non-mainstream OS with non-standard SSL/TLS CA certificate paths (not in '/etc/ssl/certs', '/etc/pki/ca-trust/extracted/pem', '/etc/pki/tls/certs', '/usr/share/ca-certificates/cacert.org', '/etc/ansible' in my case) diagnostics on any problem with certificate check in ansible-galaxy is just plain wrong (ERROR! Failed to get data from the API server (https://galaxy.ansible.com/api/): HTTP Error 401: UNAUTHORIZED).
+Steps To Reproduce:
+Try to install any galaxy role just after clean ansible install (ansible-galaxy will fail to check correct SSL/TLS certificate of galaxy.ansible.com with wrong error message).
+Expected Results:
+Actual Results:
+Sanity check:
+Workarounds:
+None. Old workaround for ansible-1.9.x NOT working anymore:
+",SECURITY
+16,16,,,22531,2017-03-11T19:19:29Z,/ansible/ansible/issues/22531,ansible,OPEN,"Trailing new lines aren't kept by default by template module
+Bug Report
+Jinja
+(referring to commit 1998edd)
+When trying to wrap a conditional inside a template in an one liner, the line break will be skipped if there's no trailing character (e.g. like a whitespace to workaround this issue)
+Create a template like this:
+",FAULT TOLERANCE
+18,18,{'login': 'dp4qb'},2016-06-01T18:46:20Z,10828,2015-04-24T09:18:17Z,/ansible/ansible/issues/10828,ansible,CLOSED,"Issue with 'include' statements and role path
+My ansible's 'include' statement was working fine, but recently after including ymls in subfolder, it somehow brokes the role's path.
+Here's the tree of my project:
+site.yml:
+roles/webservers/tasks/main.yml:
+Prior to this point, it works just fine. But the next step, after including the ""profile""/main.yml, brokes the role's path.
+roles/webservers/tasks/dev/main.yml:
+results an error:
+So, after this 'include', it somehow thinks that role's root is located in 'webservers/tasks/', instead of 'webservers/'. But in the same time, it sees the variables in 'webservers/vars/' path.
+Moreover, it was working fine and recently just broke. I haven't updated ansible, nor edited it's parameters, just updated the playbook.
+If I specify the 'src=../../templates/httpd_conf.j2' it works fine, but since this behaviour just appeared like from nowhere, I can't rely on this path.
+I've managed to use this workaround: template: src=""{{ role_path }}/templates/httpd_conf.j2"" dest=/etc/httpd/conf/httpd.conf But that's a workaround. The reason of auto-pathing is broke is still undiscovered.
+Ansilbe's version: 1.9.0.1",FAULT TOLERANCE
+19,19,{'login': 'ankitmth'},2016-11-16T09:21:57Z,14151,2016-01-27T11:08:52Z,/ansible/ansible/issues/14151,ansible,CLOSED,"Ansible 2.0.0.2 : ""ERROR! file or module does not exist"" while running a playbook with script module
+After installing ansible 2.0.0.2 from rpm:
+I get the below error on running the playbook which uses the script module:
+The Playbook in question: -
+",FAULT TOLERANCE
+21,21,{'login': 'basictheprogram'},2017-04-04T17:31:07Z,23249,2017-04-04T02:23:33Z,/ansible/ansible/issues/23249,ansible,CLOSED,"win_chocolatey installing powershell when powershell4 is installed and state: latest
+Bug Report
+win_chocolatey
+Ansible configuration from git clone
+Control host macOS 10.12.3
+Managed host Windows 7
+Attempting to upgrade powershell4 to powershell5 using the win_chocolatey module with state: latest
+Might be related to #21873
+Related to #22892
+Have chocolatey installed
+Install powershell4
+Powershell4 would be upgraded to Powershell5
+https://gist.github.com/basictheprogram/74b48320e386d308a69f82f7c90019b5
+choco_summary.log
+https://gist.github.com/basictheprogram/de146516fe292a43630c10e7df205f38
+chocolatey.log
+https://gist.github.com/basictheprogram/5cc240c1f89fba6ef7ac769ff5e41a01",MAINTAINABILITY
+22,22,{'login': 'michalzubkowicz'},2016-05-30T15:43:10Z,16045,2016-05-30T08:07:08Z,/ansible/ansible/issues/16045,ansible,CLOSED,"Docker module: argument memory_limit is of type <type 'str'> and we were unable to convert to int"" on Ansible 2.0.2.0-1.el7
+Bug Report
+Centos 7
+After upgrade to ansible 2.0.2.0 it's not possible to enter memory_limit as human readable string (ie. 265MB) only bytes are accepted.
+try set memory_limit: 256MB
+Should accept string as early versions
+Is showing error
+argument memory_limit is of type <type 'str'> and we were unable to convert to int",USABILITY
+25,25,{'login': 'svpace'},2016-05-16T23:18:13Z,15864,2016-05-15T16:19:55Z,/ansible/ansible/issues/15864,ansible,CLOSED,"[modules-core: file] Allow for ""directory"" or ""link"" in place of ""file"" with state 
+Feature Idea
+using ""file"" to check for directories (or links) is not very intuitive.
+It would be great if
+could be used as an alias for
+",USABILITY
+26,26,{'login': 'psi-4ward'},2017-11-22T00:36:04Z,13887,2016-01-14T13:32:19Z,/ansible/ansible/issues/13887,ansible,CLOSED,"GATHERING FACTS fails
+Guest is CentOS 7 Vagrant BOX
+When i run vagrant provision or ansible-playbook ... gathering facts fails MOST time:
+anyone konws why?
+For me the output looks like incomplete JSON",FAULT TOLERANCE
+27,27,{'login': 'philltomlinson'},2015-11-11T12:00:28Z,13062,2015-11-06T16:24:37Z,/ansible/ansible/issues/13062,ansible,CLOSED,"Shell with_items Prompts for ssh key password on second command
+I have seen something when running the shell module along with a with_items where it now prompts for a key pass phrase. It runs the first command with no password prompt but then on the second one it prompts for a key password and fails the task:
+When running the playbook you get prompted for a key passphrase:
+This previously worked on the v2.0.0-0.3.beta1 tag but no longer works on later tags and on the dev branch.",SECURITY
+28,28,{'login': 'gholms'},2014-02-13T20:42:30Z,3978,2013-08-30T23:20:12Z,/ansible/ansible/issues/3978,ansible,CLOSED,"Add a way to make boto not verify SSL certs
+Starting a year ago with version 2.6.0, boto began verifying servers' SSL certificates by default. Since most Eucalyptus and Nova installs have self-signed certs, this breaks Ansible's AWS-related modules when they're pointed at one of those clouds using a relatively current version of boto.
+They added a validate_certs=False arg to calls like boto.connect_ec2_endpoint one can use to disable this behavior, but right now Ansible doesn't have a way to trigger that. Modules like ec2, ec2_elb, and so on would benefit from a parameter that lets one turn cert verification off when they need to talk to services with self-signed certs.
+EPEL bug that triggered this report: https://bugzilla.redhat.com/show_bug.cgi?id=1003105",SECURITY
+30,30,{'login': 'bobrik'},2015-04-13T17:38:43Z,10673,2015-04-13T10:01:05Z,/ansible/ansible/issues/10673,ansible,CLOSED,"JSON output gets truncated on spaces
+Issue Type:
+Bug report
+Ansible Version:
+and
+Environment:
+N/A
+Summary:
+copy: content=""{{ some_data|to_json }}\n"" dest=/tmp/wtf.yaml results in truncated json.
+Steps To Reproduce:
+Example playbook:
+Resulting file:
+Expected Results:
+File should not be truncated.
+Actual Results:
+File gets truncated.",FAULT TOLERANCE
+31,31,{'login': 'omame'},2017-04-12T07:10:59Z,14148,2016-01-27T09:50:24Z,/ansible/ansible/issues/14148,ansible,CLOSED,"Misleading error when a file isn't found in a role
+Issue Type:
+Bug Report
+Ansible Version:
+ansible 2.0.0.2
+config file = /home/user/ansible/ansible.cfg
+configured module search path = Default w/o overrides
+Ansible Configuration:
+Clean.
+Environment:
+Ubuntu 14.04.
+Summary:
+When a copy or assemble operation can't access the src file in a role a misleading error suggests to look at the playbooks directory.
+Steps To Reproduce:
+Expected Results:
+Actual Results:
+",USABILITY
+32,32,{'login': 'profhase'},2017-04-25T14:49:20Z,23955,2017-04-25T09:35:05Z,/ansible/ansible/issues/23955,ansible,CLOSED,"Copy module shows 'changed' in check mode
+Bug Report
+copy
+NA
+NA
+When using the copy module to copy a file into a directory on the target system, the check mode yields changed though there is no change on the target system. The problem only occurs if the path
+is given without trailing slash.
+Call in check mode after file exists:
+changed: false
+changed: true
+This effect does not occur if dest is given with a trailing slash:
+",MAINTAINABILITY
+33,33,{'login': 'sascha-egerer'},2015-09-17T15:13:35Z,12412,2015-09-17T08:42:11Z,/ansible/ansible/issues/12412,ansible,CLOSED,"Ansible fails to load Yaml file with equal-sign as value
+Ansible fails when loading a Yaml file like this:
+The Yaml file is valid (see http://www.yamllint.com/) but ansible fails with ERROR: Syntax Error while loading YAML script ...
+Putting quotes around the equal-sign works but i can't do that in my case as this file will be generated by a Yaml parser. So using a workaround is not an option.",FAULT TOLERANCE
+34,34,{'login': 'fulminemizzega'},2018-09-25T20:09:44Z,22320,2017-03-06T16:06:43Z,/ansible/ansible/issues/22320,ansible,CLOSED,"fedora 25 dnf installed packages not marked as user installed
+Bug Report
+dnf
+ansible.cfg
+Fedora 25
+When running the playbook below not every package is marked as user installed, this means for example that running ""dnf autoremove"" afterwards will remove packages installed by the playbook.
+Run the following playbook, then run ""dnf history userinstalled"":
+dnf history userinstalled output:
+All the packages in the playbook should be listed as user installed, so that 'dnf autoremove' will not remove them. A possible workaround is running 'dnf mark '.
+Plus, if you support also dnf autoremove #20333, then interesting things will happen.",MAINTAINABILITY
+38,38,{'login': 'mmoya'},2013-03-04T04:39:39Z,2290,2013-03-03T20:48:14Z,/ansible/ansible/issues/2290,ansible,CLOSED,"include fails to expand host variables
+The playbook:
+this works as long as othertasks is defined inline.
+When othertasks is removed from playbook and defined in the inventory file or in host_vars, debug continues working but include fails.
+Error is ERROR: file not found: ./tasks/$othertasks.yml.",FAULT TOLERANCE
+40,40,{'login': 'zshamrock'},2017-11-22T00:36:51Z,13674,2015-12-26T12:50:57Z,/ansible/ansible/issues/13674,ansible,CLOSED,"tags are not inherented by multiple include levels
+Issue Type:
+Bug Report (or feature request, depends on how you see it)
+Ansible Version:
+1.9.4
+Ansible Configuration:
+Default
+Environment:
+Debian 8.2 (jessie)
+Summary:
+See the project structure below
+Steps To Reproduce:
+I have the following project structure:
+[1] main.yml has content:
+- include: media/main.yml tags=media
+[2] main.yml has content:
+Expected Results:
+I expect all tasks from media/main.yml will inherit all tags specified in tasks/main.yml. So, if I run ansible-playbook -i hosts site.yml --tags media, it will run all tasks specified in media/main.yml, and $ ansible-playbook --list-tags -i hosts site.yml reports this tag as well
+Actual Results:
+It fails with the following error:
+P.S.1: The whole source code of the project is available here https://github.com/zshamrock/ididitagain
+P.S.2: As a workaround (or the right way to do?), move specific subdirectories, like media, dev, dot-files, etc, in its own roles, and assign tags with role instead, as mentioned here http://docs.ansible.com/ansible/playbooks_tags.html in my site.yml?
+",FAULT TOLERANCE
+42,42,{'login': 'jkramarz'},2014-03-19T15:35:49Z,6314,2014-03-06T15:15:34Z,/ansible/ansible/issues/6314,ansible,CLOSED,"Playbooks are runned over other group of hosts than listed by list-hosts
+Issue Type:
+Bug report
+Ansible Version:
+starting from commit ae9843f
+ansible 1.5 is affected
+Environment:
+at last Debian 6
+Summary:
+Please summarize your request in this space. You will earn bonus points for being succinct, but please add enough detail so we can understand the request.
+Steps To Reproduce:
+run
+ansible-playbook -C site.yml -i hosts --list-hosts
+ansible-playbook -C site.yml -i hosts
+using files
+hosts:
+site.yml:
+Expected Results:
+Groups not declared as children of group 'physical' should not be involved.
+Actual Results:
+Hosts from groups named after hosts included in group 'physical' (not declared as group's children) are involved by play.
+",MAINTAINABILITY
+49,49,{'login': 'tonk'},2012-11-13T12:46:00Z,1610,2012-11-13T10:38:54Z,/ansible/ansible/issues/1610,ansible,CLOSED,"Template variable stuff broken
+Yesterday everything was working fine, but after a git pull; make install my run borked big time.
+I got:
+Investigating this pointed me to my issue playbook, containing
+And the template containing
+When I roll back to the code of yesterday, things work again.
+It does look as if an undefined variable is used things break. But that's what the is defined is for, so there seems to be a bug in the template stuff of last night.
+Could you look into that, please?",MAINTAINABILITY
+53,53,{'login': 'jyrkiput'},2016-11-01T16:20:21Z,10975,2015-05-11T09:52:19Z,/ansible/ansible/issues/10975,ansible,CLOSED,"SSH connection got stuck when IP and host have different keys in known_hosts
+In following situatation, I'd like to have some kind of error report, but now the connection just got stuck.
+I reinstalled one machine, and tried to use same IP and host after installation. The initial ansible connection reported nicely
+fatal: [node2-jenkins-slave.dev.sysart.fi] => Using a SSH password instead of a key is not possible because Host Key checking is enabled and sshpass does not support this. Please add this host's fingerprint to your known_hosts file to manage this host.
+After adding doing this and trying to connect, the connection got stuck
+ansible -i hosts node2-jenkins-slave.dev.sysart.fi -m ping -u root -k -vvvv
+SSH password:
+<node2-jenkins-slave.dev.sysart.fi> ESTABLISH CONNECTION FOR USER: root
+<node2-jenkins-slave.dev.sysart.fi> REMOTE_MODULE ping
+<node2-jenkins-slave.dev.sysart.fi> EXEC sshpass -d6 ssh -C -tt -vvv -o ControlMaster=auto -o ControlPersist=60s -o ControlPath=""/home/jyrki/.ansible/cp/ansible-ssh-%h-%p-%r"" -o GSSAPIAuthentication=no -o PubkeyAuthentication=no -o User=root -o ConnectTimeout=10 node2-jenkins-slave.dev.sysart.fi /bin/sh -c 'mkdir -p $HOME/.ansible/tmp/ansible-tmp-1431337315.21-244074993784678 && echo $HOME/.ansible/tmp/ansible-tmp-1431337315.21-244074993784678'
+I think that the reason for this had something to do with the warning I got with ssh
+ssh node2-jenkins-slave.dev.sysart.fi
+Warning: the ECDSA host key for 'node2-jenkins-slave.dev.sysart.fi' differs from the key for the IP >address '192.168.179.43'
+Offending key for IP in /home/jyrki/.ssh/known_hosts:107
+Matching host key in /home/jyrki/.ssh/known_hosts:133
+After removing both keys and adding the host to known_hosts, everything worked.",SECURITY
+58,58,{'login': 'maxalbert'},2015-08-07T04:10:04Z,10403,2015-03-06T21:03:46Z,/ansible/ansible/issues/10403,ansible,CLOSED,"New keyword for 'with_sequence' in order to skip task if count < 0 or start > end
+Issue Type: Feature request
+Ansible Version: 1.8.4
+Environment: N/A
+Summary:
+When using with_sequence ""programmatically"" (i.e., in combination with variables), it would be useful to allow a negative value for the count argument, or a start value that is larger than end. Currently this results in an error (""can't count backwards""), but it could be useful to simply skip the task if the range is empty. This could be achieved by adding an extra keyword, e.g. skip_with_emtpy_range (although it should probably be less verbose), which would be False by default for backwards compatibility.
+Example:
+Expected Results:
+The task should be skipped because skip_with_empty_range is True:
+Actual Results:
+Currently the task fails with the error message ""can't count backwards"" (of course, skip_with_emtpy_range needs to be omitted when running the example above because it is not supported yet).
+",FAULT TOLERANCE
+59,59,{'login': 'kustodian'},2016-09-20T13:57:33Z,16365,2016-06-20T07:33:58Z,/ansible/ansible/issues/16365,ansible,CLOSED,"Could not create retry file '*.retry'. [Errno 2] No such file or directory: ''
+Bug Report
+N/A
+Ubuntu
+If retry_files_save_path isn't set in ansible.cfg, when a playbook fails, a retry files tries to be created in an empty directory.
+Make any playbook fail.
+A try file should be created in the user home directory.
+A warning message is printed and a retry file is not created:
+It looks like the default value for the retry files isn't set to be ~/ like it's mentioned in the documentation.",MAINTAINABILITY
+61,61,{'login': 'muffl0n'},2015-09-23T12:29:45Z,12473,2015-09-22T14:45:14Z,/ansible/ansible/issues/12473,ansible,CLOSED,"--limit isn't honored at all
+Issue Type:
+Bug Report
+Ansible Version:
+Ansible Configuration:
+n/a
+Environment:
+n/a
+Summary:
+I have a simple inventory with four hosts (master1, master2, slave1, slave2) in two different groups (app-server, app-slave). When I use a host-pattern to select one group (e.g. app-server) and specify a host with --limit, ansible just selects all hosts. It does not matter if the host is contained in the selected group.
+Steps To Reproduce:
+hosts:
+Run some module with this inventory, use a host-pattern and limit it with a host. E.g:
+ansible -i hosts -m debug -a ""msg=foo"" app-slave -l master1
+ansible -i hosts -m debug -a ""msg=foo"" app-slave -l slave1
+Expected Results:
+Actual Results:
+",PERFORMANCE
+62,62,{'login': 'sivel'},2019-02-08T17:26:45Z,21028,2017-02-03T22:06:56Z,/ansible/ansible/issues/21028,ansible,CLOSED,"Update, remove or migrate CODING_GUIDELINES.md
+Documentation Report
+CODING_GUIDELINES.md
+N/A
+N/A
+The CODING_GUIDELINES.md file is extremely out of date. It contains information about coding style, tests, etc.
+I bean looking into this document, but found the amount of information needing updating a bit daunting for me to undertake at the moment.
+This file should either be updated, removed and potentially migrated into the docsite.
+N/A
+N/A
+N/A",MAINTAINABILITY
+64,64,{'login': 'maedox'},2017-01-23T17:41:47Z,9966,2015-01-09T14:12:53Z,/ansible/ansible/issues/9966,ansible,CLOSED,"apt_repository: Failed to validate the SSL certificate for launchpad.net:443
+Issue Type:
+Bug Report
+Ansible Version:
+ansible 1.8.2
+configured module search path = /usr/share/ansible
+Environment:
+Running from: Linux Mint 17.1 (based on Ubuntu 14.04)
+Managing: Ubuntu 10.04, 12.04
+Summary:
+Adding a PPA with the apt_repository module fails with certificate validation problems.
+Manually running add-apt-repository on the host works.
+Steps To Reproduce:
+Expected Results:
+PPA added under /etc/apt/sources.list.d/
+Actual Results:
+",SECURITY
+65,65,{'login': 'Brian-Williams'},2016-03-28T15:16:47Z,14668,2016-02-25T21:03:52Z,/ansible/ansible/issues/14668,ansible,CLOSED,"scp_if_ssh parameter ignored in ansible 2.0.1.0
+Issue Type:
+Bug Report
+Ansible Version:
+ansible 2.0.1.0
+config file = /etc/ansible/ansible.cfg
+configured module search path = /home/share/library
+Ansible Configuration:
+$ cat /etc/ansible/ansible.cfg | grep scp
+if True, make ansible use scp if the connection type is ssh
+scp_if_ssh = True
+Environment:
+N/A
+Summary:
+Parameter scp_if_ssh is set to True in ansible.cfg. It fails to connect to host with error message ""unable to open an sftp connection"". It shouldn't be attempting an sftp connection.
+Steps To Reproduce:
+Run the following on a system that rejects sftp connections:
+ansible -m setup
+When I uninstall ansible and reinstall 1.9.4 with no configuration changes setup works.
+Expected Results:
+It uses scp to succeed.
+Actual Results:
+It attempts to connect with SFTP.
+",SECURITY
+66,66,{'login': 'bcoca'},2017-07-28T19:26:17Z,13243,2015-11-20T23:59:27Z,/ansible/ansible/issues/13243,ansible,CLOSED,"Allow multiple vault passwords/files
+vault password could keep prompting until empty password is supplied, vault file could take a list of files
+This allows for having multiple vault files with different keys, good for ops team having access to all vaults but qa or dev having access only to specific ones",SECURITY
+68,68,{'login': 'luiseterc'},2015-03-18T00:50:54Z,10471,2015-03-16T12:10:10Z,/ansible/ansible/issues/10471,ansible,CLOSED,"Apt module does not work well when specifying version along with with_items loop
+When trying to install several packages with this task:
+Only package2 (last one in the loop) is forced to install with 1.0 version. Package1 is installed with the latest version found on the repository. Running the playbook with ""-vvvv"" I can se how the command is eventually executed:
+REMOTE_MODULE apt name=package1,package2=1.0* update_cache=yes state=present force=yes
+I got it working by rewriting the task as following:
+",MAINTAINABILITY
+69,69,{'login': 'agaffney'},2015-11-13T22:39:54Z,13161,2015-11-13T19:35:36Z,/ansible/ansible/issues/13161,ansible,CLOSED,"Debug task is run even though dependent task is skipped
+I found a case in ansible 1.9.4 (also present in 1.9.2) where a debug task with when: whatever|success runs even though the task that registers whatever was skipped.
+I was able to reproduce with this playbook:
+which results in the following output:
+",FAULT TOLERANCE
+70,70,{'login': 'wgj'},2012-07-02T22:55:18Z,527,2012-07-02T21:43:58Z,/ansible/ansible/issues/527,ansible,CLOSED,"yum: ansible not able to find package
+ansible-playbook/yum module isn't able to find a package that I can find manually. This issue 'goes away' if I install the package manually.
+[wes@mgmt001 ~]$ ssh root@host.domain yum clean all
+Loaded plugins: fastestmirror
+Cleaning up Everything
+Cleaning up list of fastest mirrors
+[wes@mgmt001 ~]$ ssh root@host.domain yum list epel-release
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+Available Packages
+epel-release.noarch 5-4 private-repository
+[wes@mgmt001 ~]$ ansible-playbook -i /tmp/all_hosts_badtz -f 30 ~/ansible/playbooks/company/company.yml
+TASK: [yum: install epel-release] *********************
+failed: [host.domain] => {""changed"": false, ""failed"": true, ""msg"": ""No Package matching 'epel-release' found available, installed or updated""}
+From playbook:
+name: ""yum: install epel-release""
+action: yum pkg=epel-release state=latest
+",MAINTAINABILITY
+78,78,{'login': 'ruimcfreitas'},2017-02-21T16:38:23Z,21725,2017-02-21T16:13:01Z,/ansible/ansible/issues/21725,ansible,CLOSED,"Unable to manage windows server after binding an IIS https site with option ""Require Server Name Identification""
+Bug Report
+inventory = ./hosts
+running Ansible from: Linux ubuntu16_Ansible 4.4.0-59-generic
+managing: Windows 2016 with IIS
+Unable to manage windows server after binding an IIS https site with option ""Require Server Name Identification""
+On the Windows 2016 machine there is a IIS web site with binding for https on port 443 using a certificate.
+The ansible commands and playbooks are able to manage this machine.
+After I change the binding and select the option ""Require Server Name Identification"" (required to use a single IP address to service multiple sites with certificates using ""host name"") ansible stops communication with server.
+I can only restore communication after I remove the binding and restart the windows server.
+win2016gui2 | SUCCESS => {
+""changed"": false,
+""ping"": ""pong""
+}
+",FAULT TOLERANCE
+79,79,{'login': 'defionscode'},2014-07-10T18:29:55Z,8035,2014-07-03T18:22:59Z,/ansible/ansible/issues/8035,ansible,CLOSED,"ansible_memfree_mb fact combines disk-cache use of memory
+Issue Type: Bug Report
+Ansible Version: ansible 1.6.3
+Environment: N/A
+Summary:
+I setup a play to alert whenever memory utilization is dangerously high. I immediately received a handful of alerts and was a bit concerned until I realized it takes into account memory being used by the disk cache and not 'real' memory utilization.
+Steps To Reproduce:
+To reproduce just compare the ansible_memfree_mb fact, which in my example is
+with the return value of running
+Expected Results: I expected 'real' memory available
+Actual Results:
+In my case returns
+As you can see, the ansible_facts are correct but misleading, in this case saying only 10gb are free when in fact I have 13gb that are useable.
+Perhaps this could be added as a ansible_nocache_memfree_mb fact?",PERFORMANCE
+82,82,{'login': 'willthames'},2017-03-13T21:41:26Z,6545,2014-03-18T06:42:32Z,/ansible/ansible/issues/6545,ansible,CLOSED,"Ansible inventory allows groups to have same name as hosts
+Issue Type
+Bug Report
+Ansible Version:
+ansible 1.6 (devel 9da26da) last updated 2014/03/18 11:15:04 (GMT +1000)
+Environment:
+N/A
+Summary:
+If you define a group containing another group without the :children, then the intended group is a host, but will also become a group when defining its contents.
+The net result is that the host that should inherit characteristics of several layers of parents will not inherit those characteristics as the definitions will be:
+grandparent -> parent(host)
+parent(group) -> host
+rather than
+grandparent -> parent -> host
+I believe that it should not be possible to define a group with the same name as a host (or at least a warning suggesting it might not be what you want should happen)
+Steps To Reproduce:
+See https://gist.github.com/willthames/9614054
+Expected Results:
+See https://gist.github.com/willthames/9614054
+Actual Results:
+See https://gist.github.com/willthames/9614054",FAULT TOLERANCE
+83,83,{'login': 'rhaido'},2014-03-16T15:50:13Z,5994,2014-02-13T13:33:10Z,/ansible/ansible/issues/5994,ansible,CLOSED,"Inconsistent expansion of the variables in the lookup 'with_items'
+Issue Type:
+Bug Report
+Ansible Version:
+Production:
+Fresh clone (13.02.2014)
+Environment:
+Summary:
+Dear Ansible Dev Team,
+While migrating code from old ${...} variable expansion to new Jinja2 style {{...}}, I've noticed some incompatibilities with the previous syntax, while I would expect {{...}} be a full equivalent of ${...}, i.e the following case should work just fine:
+where jdk_next is a list of values:
+Unfortunately, it does not work.
+Steps To Reproduce:
+Create the playbook, which uses roles, for example server.yml:
+And put the mentioned vars in role's ""base"" vars/ and mentioned task in role's ""base"" tasks/, as it should be.
+Execute ansible playbook.
+Expected Results:
+With previous syntax:
+- the result is just fine:
+Actual Results:
+With the code written in Jinja2 style, I've received with the bad result:
+Then, even more interesting: I found, that it's not possible anymore specify variable enclosed in {{..}} as a first member of iteration sequence like this:
+The result is a syntax error:
+While the old syntax was ok:
+Quick debug & hacking showed the following things:
+if you use original anisble syntax, the file expansion string, which arrives in the variable varname of the template() function of utils/template.py, is [u'jdk1.7.0_45 jdk1.6.0_43 jdk1.7.0_45 jdk1.7.0_45'], which is correct
+if you use jinja2 syntax, the final expansion string, which arrives in the variable varname of the template() function of utils/template.py is [u""jdk1.7.0_45 jdk1.6.0_43 jdk1.7.0_45 ['jdk1.7.0_45']""] which is incorrect.
+I do not have comments about SyntaxError I've provided earlier as I have no time to debug it :(
+Workaround
+This hack is acceptable but still ugly - the idea is to use the join() Jinja2 filter, i.e. the following code:
+works:
+",MAINTAINABILITY
+84,84,{'login': 'dagwieers'},2012-11-23T16:15:23Z,1657,2012-11-22T02:48:47Z,/ansible/ansible/issues/1657,ansible,CLOSED,"Implement RHEL5 python-dmidecode support
+For older systems lacking sysfs I plan to implement python-dmidecode support in setup as a backup.",SCALABILITY
+85,85,{'login': 'maxwo'},2018-04-26T21:44:39Z,24373,2017-05-08T13:23:49Z,/ansible/ansible/issues/24373,ansible,CLOSED,"include_once is skipped when required roles are partially skipped
+I use an include_role task in a role, but it is skipped when I use a conditional depency role.
+I tried to find more infos in the documentation, but there is nothing I can find to explain it if I do anything wrong...
+Bug Report
+include_role or meta/dependencies
+Default configuration
+Mac OS X / Debian
+I use a include_role task which is skipped because I use conditional required roles.
+roles/shell/meta/main.yml
+roles/shell/tasks/main.yml
+In the dotfiles role, nothing special, no required role, just some unconditional tasks:
+roles/dotfiles/tasks/main.yml
+The last include_role should be played.
+The last include_role is skipped, whether it is played on a Debian machine or a Mac OS machine.
+When I remove the role dependencies, everything is fine.
+",MAINTAINABILITY
+86,86,{'login': 'dan-mcdonald'},2014-09-29T20:21:30Z,8547,2014-08-11T16:44:19Z,/ansible/ansible/issues/8547,ansible,CLOSED,"`postgres_user` module doesn't work with AWS RDS databases
+Issue Type:
+Bug report
+Ansible Version:
+ansible 1.7.0
+Environment:
+OSX Mavericks 10.9.4
+Summary:
+When running against an AWS RDS Postgresql instance, the postgres_user module can't set up new users.
+Steps To Reproduce:
+Run this task:
+Expected Results:
+Actual Results:
+Apparently the pg_authid relation is not available in RDS.
+Possible workaround: if access denied for pg_authid, then always set the password.",MAINTAINABILITY
+87,87,{'login': 'walterdolce'},2018-01-18T21:08:34Z,22411,2017-03-08T15:08:36Z,/ansible/ansible/issues/22411,ansible,CLOSED,"letsencrypt module does not create any cert when using DNS-based validation
+Bug Report
+letsencrypt
+Ansible version is 2.2.1.0
+It looks like the Let's Encrypt Ansible module doesn't create any cert when running with the DNS-based validation.
+No errors are being thrown or anything, it provisions just fine
+There should be a cert generated",SECURITY
+88,88,{'login': 'hyperized'},2017-05-11T21:33:17Z,23579,2017-04-13T15:14:48Z,/ansible/ansible/issues/23579,ansible,CLOSED,"Memory load increased in 2.3.0 compared to 2.2.0.1 (high memory use, high ram use)
+Bug Report
+Ansible
+Ubuntu 14.04.5 (exclusively) hosts & clients
+Increased memory usage when 2.3.0 is rolled out: http://imgur.com/a/ZgUCe
+Recovery takes place when 2.2.0.1 is reverted.
+Install Ansible 2.3.0
+Run regular job schedule (6x a day a full run of ~100 roles, several irregular jobs like backups), started from the Rundeck job scheduler over regular SSH.
+Similar memory usage.
+http://imgur.com/a/ZgUCe",PERFORMANCE
+89,89,{'login': 'dghubble'},2014-04-02T20:09:20Z,6694,2014-03-26T07:39:51Z,/ansible/ansible/issues/6694,ansible,CLOSED,"Homebrew module fails silently after fresh Homebrew installs
+Reproduce (done on a fresh OSX Mavericks install + Command line tools)
+Run the homebrew installer script.
+ruby -e ""$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)""
+Completes. Run brew doctor. Everything looks good.
+Note that the installer does not (and should not) create /usr/local/Cellar, this is created when the first brew package is installed. So right now no Cellar exists.
+Try running a simple playbook with localhost inventory:
+ansible-playbook myplaybook -i localhost_inventory
+PLAY [My playbook] ******************************************************
+GATHERING FACTS ***************************************************************
+ok: [localhost]
+TASK: [Install brew packages] *********************************************
+ok: [localhost]
+PLAY RECAP ********************************************************************
+localhost : ok=2 changed=0 unreachable=0 failed=0
+You'll get something that completes instantly, seems to indicate ack was installed(ok), but it wasn't. No Cellar exists. ack is seriously not installed.
+Now go ahead and make the /usr/local/Cellar directory. Run the config again. Boom, suddenly it actually works. There is a noticeable delay as ack is installed and ack immediately works after the playbook completes.
+Try deleting the Cellar completely and you're back to the original broken behavior.
+A clean install seems like a pretty simple edge case that should be supported. What's up with this? Lemme know if I'm going crazy.",MAINTAINABILITY
+92,92,{'login': 'greg-hellings'},2017-08-29T00:58:58Z,26199,2017-06-28T20:53:31Z,/ansible/ansible/issues/26199,ansible,CLOSED,"jenkins_plugin - incorrect ""changed"" and silent install failures
+Bug Report
+jenkins_plugin
+default configuration
+This seems independent of versions, but I see it when running from Fedora while controlling Fedora, CentOS 7, and RHEL 7 machines with Jenkins 1.651.3 running on them.
+Some plugins, after being installed, are either not installed to the latest version (despite no value being specified for the version) or are not installed at all, despite the module reporting success. On subsequent runs, these same plugins continue to report a changed/updated edition despite there being no change in the version being installed.
+An example of some plugins where this behavior has been noticed:
+antisamy-markup-formatter (version 1.1 installed, despite 1.5 being available)
+scriptler (reports installed, but the plugin fails to be installed)
+dynamic-parameter (same as scriptler)
+And many others. However, the behavior does not affect all plugins.
+On clean CentOS system, run the following playbook: https://gist.github.com/greg-hellings/14f58eb19a4992b910f27e53f63573b4
+Plugins are installed to the latest version if version is specified as latest.
+Spurious ""changed"" values are not reported from the module when nothing gets updated.
+The module errors when a plugin install error occurs.
+No version specified results in both plugins reporting back ""changed"" when neither the version updates (antisamy-markup-formatter) or the plugin is not installed at all (scriptler).
+With the line version: latest added to that final task in the sample file, the scriptler install fails while the antisamy-markup-formatter still reports ""changed"" without actually updating anything.",MAINTAINABILITY
+93,93,{'login': 'brandond'},2017-08-22T15:11:38Z,22471,2017-03-10T00:47:19Z,/ansible/ansible/issues/22471,ansible,CLOSED,"ec2_group: add tags
+From @jbrockett on December 4, 2014 15:15
+Issue Type:
+Feature Idea
+Component name:
+ec2_group
+Ansible Version:
+ansible 2.3
+Environment:
+N/A
+Summary:
+Please add the ability to create and modify tags associated with the security group. At least being able to set the Name tag would be helpful.",SECURITY
+99,99,{'login': 'berlic'},2017-03-29T23:11:20Z,22988,2017-03-27T07:49:11Z,/ansible/ansible/issues/22988,ansible,CLOSED,"sequence lookup shortcut syntax doesn't work and wrong docs
+Bug Report
+Documentation Report
+sequence lookup plugin
+2.1, 2.3 and 2.4 have the same bug.
+Standard config
+N/A
+with_sequence shortcut syntax [start-]end[/stride][:format] is not honoured.
+Loop over [5,6]:
+Parameter error:
+Also there is wrong parameters passing in the docs:
+Parameters can be passed to with_sequence only as string, not as list or dict.",FAULT TOLERANCE
+100,100,{'login': 'VeryVito'},,14452,2018-02-03T20:48:49Z,/flutter/flutter/issues/14452,flutter,OPEN,"Dragging a list that is currently handling an animateTo animation throws exception
+The end goal is to create a scrolling list that automatically ""snaps"" to a given location based on the actual scroll position at which the user stops scrolling. This may not be the best solution (I'm new to Flutter), but here's the process by which I get the crash:
+Wrap a ListView within a NotificationListener. Upon receiving a UserScrollNotification with ScrollDirection.idle, call the ScrollController's animateTo() method to scroll to another location (in the example here, I arbitrarily scroll to 10000.0 pixels).
+Sample code
+It works great as long as the user only interacts with the ListView when it is idle, but if the user attempts to scroll/drag/touch the list during the animateTo() process, the following exception is raised within the Flutter Scrollable package:
+After this, the ListView becomes unresponsive.
+I'm sure there's a better way to achieve what I'm trying to do, but the platform itself doesn't seem to recover from this. Figured I'd make a note of it.
+Thanks!
+Run your application with flutter run and attach all the log output.
+Run flutter analyze and attach any output of that command also.
+Flutter Doctor
+Hope this helps! Thanks!",FAULT TOLERANCE
+101,101,{'login': 'sethladd'},2017-03-03T00:28:44Z,6651,2016-11-02T17:03:45Z,/flutter/flutter/issues/6651,flutter,CLOSED,"Request for a ""Thinking in Flutter"" doc
+We seem to have a documentation gap, between ""Getting Started"" and ""Tour of the Widget Framework"". In a recent UX study, we noticed that the high-level concepts and the unique bits of Flutter aren't clearly called out, which made it more challenging for a new user to wrap their heads around what Flutter is and how it thinks.
+Initial thoughts on this doc:
+Audience is brand new users for Flutter
+Intended for the ""ok, what's this flutter thing? what's different?""
+Intended to be the next doc you read, after getting started, and before you start diving in
+Fairly short, high level
+Initial thoughts on table of contents:
+What is Flutter?
+what problem(s) does it solve
+who is it for
+what's special?
+Functional-reactive framework
+widget lifecycle
+setState
+Only rebuilding what needs to be rebuilt (efficient)
+Customizable/extensible
+Material design
+full set of widgets out of the box
+Dev cycle
+Hot reload
+Fast restart
+Tooling
+CLI
+IntelliJ
+Plugins/interop
+coming soon!
+Once a new user scans through this doc, they should know
+What's special about flutter?
+What does functional-reactive mean, for Flutter?
+setState is a thing, and why not to be scared of it
+How to dev cycle
+Where to find additional info on widgets, layout, plugins, etc
+Thanks!
+(this came up in a recent UX study)",USABILITY
+113,113,{'login': 'vy0592'},2017-01-23T22:52:33Z,7203,2016-12-08T19:13:31Z,/flutter/flutter/issues/7203,flutter,CLOSED,"Calling popAndPushNamed throws exception
+If there's more than one route in the current stack and when popAndPushNamed is called(or calling pop and then push), the following exception will be thrown:
+",FAULT TOLERANCE
+115,115,{'login': 'goderbauer'},2017-10-27T19:47:24Z,11204,2017-07-13T18:45:27Z,/flutter/flutter/issues/11204,flutter,CLOSED,"a11y: Semantics Tree doesn't update fast enough for scrolling
+On the Gallery App homepage in Android, select an item in the list of demos and start swiping right multiple times really fast. Continue swiping right when the end of the list is reached. Android will scroll and attempt to focus the next item in the list. However, the Semantics Tree has not been updated yet, focusing the next item fails (because from Android's a11y perspective there is no element) and the boing sound is played. After a couple of swipes, the semantic tree has been updated and everything works as expected.",PERFORMANCE
+116,116,{'login': 'xster'},2019-10-25T00:46:33Z,32946,2019-05-18T00:04:41Z,/flutter/flutter/issues/32946,flutter,CLOSED,"Offer options that balances embeddable Flutter load time with resource consumption
+We should identify the right balance point between loading the embedding / vm / isolate / framework / userland element tree / resources in the tree based on each part’s load time vs its memory use.
+This involves #32945 to audit cold init time and also auditing memory consumption.
+Our recommended embedding strategy + default behaviors from APIs should be reasonably balanced between fast loading and memory usage.
+Document alterations users can make given those APIs such as prewarming/keeping the vm only, prewarming/keeping the isolate. Flutter side APIs to flush parts of the tree when window is not visible.",PERFORMANCE
+124,124,{'login': 'Hixie'},,1147,2016-01-08T19:22:07Z,/flutter/flutter/issues/1147,flutter,OPEN,"MaterialApp should have a debugShowKeylines mode
+We should have a mode where we show the keylines from this picture, exactly the way they're shown in this picture:
+https://www.google.com/design/spec/layout/metrics-keylines.html#metrics-keylines-ratio-keylines",MAINTAINABILITY
+125,125,{'login': 'pcomans'},2017-08-29T18:56:26Z,11760,2017-08-23T18:07:01Z,/flutter/flutter/issues/11760,flutter,CLOSED,"firebase_database: FirebaseAnimatedList should expose index to itemBuilder
+This is regarding firebase_database 0.0.14
+I noticed that the itemBuilder for FirebaseAnimatedList has the following typedef:
+The itemBuilder of AnimatedList has the following typedef:
+The index of the current element being rendered is essentially being hidden by FirebaseAnimatedList. It would be very useful for creating numbered lists / striped lists etc.
+Is this omission by design? Can we add index to FirebaseAnimatedListItemBuilder?
+I am aware that this is a breaking change so I'm open to feedback.",MAINTAINABILITY
+126,126,{'login': 'cbracken'},,32156,2019-05-06T19:01:22Z,/flutter/flutter/issues/32156,flutter,OPEN,"Improve Flutter's memory consumption
+This is a tracking bug for the collection of sub-issues around improving Flutter's memory consumption, and offering developers more flexibility in choosing where to set the dial on the time performance vs memory consumption spectrum.
+Related issues:
+ #13493: Flutter should provide more control over image caching
+ #26187: Flutter should be smarter about memory limits for images
+ #16995: Free resources after a Flutter view is disposed
+ #19358: Unmount everything and dispose states when host activity dies
+ #23231: Memory leaks on iOS
+ #20690: More deterministic measurement of memory consumption.
+ #26081: Disable in-memory decoded frame cache by default
+ #26443: Consider mipmapping ui.Images generated by the engine
+ #15479: OnMemoryPressure is unreliable on Android
+ #25155: Raster cache images may be much bigger than the visible/clipped area
+ #19558: IO thread GrContext memory needs to be cleaned up
+ #44013: Persist the memory profile timeline
+",PERFORMANCE
+133,133,{'login': 'zhanghao19920218'},2018-08-20T15:54:38Z,18746,2018-06-23T05:35:57Z,/flutter/flutter/issues/18746,flutter,CLOSED,"Running flutter create myapp by VSCode always have problems
+When I try to create a flutter project by visual studio code, lib and test file always get a red signal and it stay in creating Running ""flutter packages get"" in myapp... status",FAULT TOLERANCE
+135,135,{'login': 'sarah-fernandez'},2019-03-08T00:39:54Z,28984,2019-03-07T08:38:44Z,/flutter/flutter/issues/28984,flutter,CLOSED,"InputEventReceiver exception dispatching input event with Flutter 1.2.1 and Android JellyBean 4.1.2
+Using Android Studio. I have two different applications (one is a game, and the other is a set of widgets to better manage the space in tablets).
+They were running smoothly in flutter 1.1.2 beta for devices from API 16 up to API 27, and emulators from API 21 up to API 28.
+After flutter upgrade to flutter 1.2.1 beta, both applications in my device with API 16 fails at the moment of touching anything inside the application with the same error.
+Then the application dies and a dialog that reads Unfortunately, <application_name> has stopped and an exception is thrown through the log file.
+Both applications works fine in a Samsung Galaxy Nexus API 17 Jelly Bean MR1 and up to a Moto G5 Plus API 27, so this is a problem only in Jelly Bean API 16.
+Both applications start fine. But touching anything in the screen we get the following log error:
+flutter analyze results:
+flutter doctor -v:
+",FAULT TOLERANCE
+138,138,{'login': 'sethladd'},2017-02-02T14:45:46Z,5385,2016-08-15T16:22:21Z,/flutter/flutter/issues/5385,flutter,CLOSED,"google_sign_in: auto-publish API docs
+We should probably update http://flutter.github.io/google_sign_in/ manually. It would be super cool to automate the publishing of that site.
+Our users are finding these sites and asking questions about them :)",USABILITY
+139,139,{'login': 'jonahwilliams'},2018-07-30T17:45:25Z,19963,2018-07-29T22:13:10Z,/flutter/flutter/issues/19963,flutter,CLOSED,"DataTable checkbox tap target is too small
+The checkbox is only given the minimum possible width, currently 18. it should be at least 48 by 48.",USABILITY
+140,140,{'login': 'wmleler'},2018-12-17T14:59:35Z,10159,2017-05-18T00:49:09Z,/flutter/flutter/issues/10159,flutter,CLOSED,"Documentation for keytool
+On https://flutter.io/android-release/ we should add some documentation that explains what keytool does and especially say where it leaves the key.jks file. It wasn't in the current directory, nor in the app directory. I had to search and finally found it in my home directory (ick!).",USABILITY
+144,144,{'login': 'eseidelGoogle'},,5232,2016-08-04T21:43:18Z,/flutter/flutter/issues/5232,flutter,OPEN,"AppBar Hero Transition could crossfade 
+https://youtu.be/KbyuPMZ-9_A
+@abarth says we should fix this, but to do so would require re-writing the Hero system (which has to happen for other reasons). Just noting down one example of where being able to fade/animate-color would be nice.
+",MAINTAINABILITY
+145,145,{'login': 'Sun3'},,16474,2018-04-11T20:55:35Z,/flutter/flutter/issues/16474,flutter,OPEN,"New Feature Request - TabController disable Slide Transition
+New Feature - TabController disable Slide Transition
+Ability to Disable or change the Horizontal Slide Transition when changing Tabs. I would like to switch pages by Fading instead of sliding left or right.
+Thank you.",MAINTAINABILITY
+156,156,{'login': 'Hixie'},2020-01-06T20:13:25Z,17360,2018-05-07T22:04:41Z,/flutter/flutter/issues/17360,flutter,CLOSED,"When generating golden files, catch the case of orphan files
+Sometimes when writing a test you change your mind about what file names to use, but you do so after having run it with the old names, and then check in the unused files. We should be able to catch that case since when generating goldens we know every test we run and know every file it generated.
+This might require that we put files from tests in a directory specific to the test.
+cc @tvolkert",MAINTAINABILITY
+162,162,{'login': 'daniel-v'},2018-12-10T15:39:39Z,16421,2018-04-10T17:36:28Z,/flutter/flutter/issues/16421,flutter,CLOSED,"Request: firebase_storage to support metadata
+I could use support reading/writing metadata, especially custom metadata field.",MAINTAINABILITY
+174,174,{'login': 'jonahwilliams'},2019-03-13T07:32:18Z,27446,2019-02-02T22:52:12Z,/flutter/flutter/issues/27446,flutter,CLOSED,"Update DevFS to use a Watcher
+Instead of scanning the project directory on hot reload, setup a Directory watcher to report updated dart files. When hot reloading, grab the current set and pass them to the resident compiler.
+Since we no longer need to sync source files to the device, the extra work we're doing to setup the devfs for each potential entry is wasted. We only need to sync the dill file and assets.
+Additionally, including build_runner will drastically increase the number of files that will be scanned with the current approach - while there is no issue with a watcher based approach.",PERFORMANCE
+175,175,{'login': 'danrubel'},2016-09-08T21:37:39Z,5674,2016-08-31T14:55:47Z,/flutter/flutter/issues/5674,flutter,CLOSED,"flutter tool provide hint when/how to install iOS simulator
+Clean install (no iOS simulator)
+flutter create test-ios
+flutter run
+At this point it responds with No connected devices. which is correct but unhelpful. I would like it to hint that I could install the iOS simulator and point to docs explaining how to do so. Maybe flutter doctor should indicate that it is not installed / configured as well.
+Flutter Doctor
+",USABILITY
+177,177,{'login': 'Hixie'},2017-09-08T00:02:03Z,11380,2017-07-24T21:44:15Z,/flutter/flutter/issues/11380,flutter,CLOSED,"TextAlign RTL
+We probably need to create an RTL-aware version of TextAlign that is used by TextPainter, then use that in RenderParagraph, RichText, and Text so that you can align start/end as well as left/right. Also ""justify"" needs to define the justification of the last line.",MAINTAINABILITY
+191,191,{'login': 'DaveShuckerow'},2018-05-08T23:50:23Z,6728,2016-11-07T05:17:16Z,/flutter/flutter/issues/6728,flutter,CLOSED,"Installation fails on Android emulators without Google APIs without a clear indication of the cause
+Tried setting up a flutter app on my personal linux laptop, flutter run failed to start the app on this Android 24 emulator:
+Changing the architecture to use Google APIs resolved this issue, but it was unclear from the errors I got that that was an appropriate resolution. Flutter run provided no indication of the error, and I get the following cryptic output from ADB logcat:
+11-06 20:45:43.000 1246 1246 W art : Unexpected CPU variant for X86 using defaults: x86
+Full ADB output:
+http://pastebin.com/CEghLXgj
+Note: this is unrelated to leafy, I'm just trying out the third party workflow.",USABILITY
+192,192,{'login': 'RedBrogdon'},2018-04-10T22:56:23Z,16440,2018-04-10T20:31:59Z,/flutter/flutter/issues/16440,flutter,CLOSED,"Compiler crash when ""new"" keyword removed from default app
+I accidentally left the ""new"" keyword out of a line of code while working on an app, and when I rebuilt it, the compiler crashed. I then created a brand new project in IntelliJ, and verified the issue still occurred.
+Steps to reproduce:
+Create a new IntelliJ Flutter project
+IntelliJ spits out the ""increment counter"" app.
+Remove the new keyword from line 67:
+Trigger a hot reload.
+The compiler crashes with the message included below.
+Interestingly, the compiler does not crash if you leave line 67 alone and instead remove the ""new"" keyword from line 68. Line 67 is creating the instance that's used as the return value of the method, if that matters.
+Flutter Doctor
+",FAULT TOLERANCE
+200,200,{'login': 'saad-ali'},2015-09-24T23:53:49Z,13565,2015-09-03T18:33:31Z,/kubernetes/kubernetes/issues/13565,kubernetes,CLOSED,"Indirect dependency on golang test code introduced unintended CLI flags in Kubernetes binaries
+From @eparis's comment in the Cinder PR: #13367 (comment)
+PR #13367, Cinder Volume Plugin introduced a dependency on
+github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumes
+github.com/rackspace/gophercloud/openstack/compute/v2/extensions/volumeattach
+which in turn has a dependency on github.com/golang/go/src/testing
+which declares a bunch of command line args (see https://github.com/golang/go/blob/master/src/testing/testing.go#L187).
+Which means that kubernetes binaries, like kubelet now have flags for golang test code like --test.memprofilerate, --chatty, etc.",SCALABILITY
+201,201,{'login': 'jingxu97'},2016-06-30T23:32:49Z,28318,2016-06-30T23:07:35Z,/kubernetes/kubernetes/issues/28318,kubernetes,CLOSED,"Kubelet on a node dead right before pod is created and assigned to that node cause pod disappear on apiserver
+The steps to reproduce the issue, on a working gce cluster
+Choose a node, edit /usr/sbin/kubelet-checker.sh, change sleep time to a large number (600s)
+Create a pod and make sure it is assigned to the node you chose in step 1
+kill kubelet process (kubelet process will be restarted automatically after > 5mins )
+Check pod status, at the beginning, it is ContainerCreating/(or pending), after a few mins, it disappears (kubectl get pods no long shows it)
+",SCALABILITY
+202,202,{'login': 'dchen1107'},2015-03-28T03:33:53Z,4128,2015-02-04T21:19:13Z,/kubernetes/kubernetes/issues/4128,kubernetes,CLOSED,"Configure master node same as slave node
+This is pre-requirement for running all master components in a pod. #3853 was filed to run etcd as a pod. To make sure we really run etcd as a pod using Kubernete network model without specifying HostPort from spec, we need config the master node:
+create networking bridge called cbr0
+config docker run with ""--bridge cbr0 --iptables=false""
+add default route for master node (on GCE). Need to figure out other cloud providers.
+",SCALABILITY
+203,203,,2016-03-31T16:58:16Z,23062,2016-03-16T17:18:51Z,/kubernetes/kubernetes/issues/23062,kubernetes,CLOSED,"Alert someone when kubernetes-test-history stops running, and add report date
+The software that generates http://storage.googleapis.com/kubernetes-test-history/static/tests-e2e.html has crashed/stopped running a few times, and nobody knew. Please add an alert.
+Also, the above report does not indicate what date the report pertains to, which makes it very confusing, and difficult to tell whether the report is up to date (e.g. I looked today, and it was a week old, although this was entirely non-obvious).",AVAILABILITY
+206,206,{'login': 'ihmccreery'},2016-02-05T17:31:19Z,15116,2015-10-05T22:10:48Z,/kubernetes/kubernetes/issues/15116,kubernetes,CLOSED,"What do we do with 1.0 tests that fail when run against 1.1?
+This is a problem we're going to run into as we're running 1.0 e2e tests against 1.1 clusters, (which we do because we need to make sure that 1.1 clusters still operate the way 1.0 clusters did). If a test fails, but the failure is due to a bad test rather than a problem in 1.1, what do we do?
+For example, Services/Nodeport e2es are failing on upgrade due to change in error message. They fail when running 1.0 e2es against a HEAD master (in jobs kubernetes-upgrade-gke-step3-e2e-old and kubernetes-upgrade-gke-step5-e2e-old):
+Kubernetes e2e suite.Services should check NodePort out-of-range
+Kubernetes e2e suite.Services should prevent NodePort collisions
+@ixdy @quinton-hoole Any ideas about how to fix this? This definitely isn't a regression, but it's probably not a good idea to just disable these tests. My best thought is to cherry-pick the 1.1 test changes into 1.0, and somehow pull these tests HEAD of the 1.0 branch. That's a lot of mucking around though, and I'm not sure it's worth it.
+For now, I think we should punt on these specific tests until we have a better idea of how widespread this kind of version-skew problem is going to be.",FAULT TOLERANCE
+207,207,{'login': 'kelbongoo'},2015-09-20T07:58:48Z,14237,2015-09-19T23:38:32Z,/kubernetes/kubernetes/issues/14237,kubernetes,CLOSED,"GKE cluster running nginx seems to break nodePort
+Setting up a cluster on GKE via the gcloud cli tool, and then following this tutorial https://cloud.google.com/container-engine/docs/tutorials/http-balancer, I came across two issues - the first is here #13073.
+In the tutorial we set up the nginx service with a nodePort like so
+Of all the nodes in the cluster (I tried 3 and 4 node clusters), the only one who responded to
+was the node where the nginx container was actually hosted. The other nodes all showed TCP open at the nodePort in nmap but dropped the connection right away and nothing ever got through to nginx.
+Not sure if this is expected behaviour ? From the tutorial it seems like all nodes should return nginx responses
+",FAULT TOLERANCE
+209,209,{'login': 'gouyang'},2015-08-17T04:09:32Z,11732,2015-07-23T03:03:54Z,/kubernetes/kubernetes/issues/11732,kubernetes,CLOSED,"Check local copy of the golang docker image is always failed.
+The golang docker image is existed
+But it always say ""You don't have a local copy of the golang docker image"".
+#11284 fixes this.",MAINTAINABILITY
+211,211,{'login': 'mikesimons'},2015-02-21T14:17:32Z,4695,2015-02-21T11:28:13Z,/kubernetes/kubernetes/issues/4695,kubernetes,CLOSED,"Services with the same name in different namespaces cause kube-proxy to bug out
+Should it be possible to have services with the same name in different namespaces? Nothing prevents it and I suspect that it should be possible but there are assumptions in code that cause this not to function correctly.
+Here are some failing tests: https://github.com/mikesimons/kubernetes/compare/proxy_namespace_clash
+And here is what lead me to investigate:
+The Accept failed: use of closed network connection is spat out indefinitely at a very high rate. All services cease to function (but timeout rather than refuse connection).
+The thing of note in the logs is that in the ""Setting services"" message both redis instances are present where-as in the ""Recieved update"" message, only the project2 instance is present.
+I believe that this is due to the fact that several places in pkg/proxy/config/config.go create maps keyed on service name only. Here is an example https://github.com/mikesimons/kubernetes/blob/master/pkg/proxy/config/config.go#L214
+Assuming I am correct, what would be the best way to fix this? It doesn't look like the keys of the maps are used anywhere so does this need to be a map at all?",MAINTAINABILITY
+212,212,{'login': 'erictune'},2015-06-26T22:00:00Z,7047,2015-04-20T15:26:39Z,/kubernetes/kubernetes/issues/7047,kubernetes,CLOSED,"Want create-or-update command for kubectl
+If you want to build a shell script to reconcile a config file with the state on the apiserver, it is convenient to be able to do ""create or update"" in a single command.",USABILITY
+215,215,{'login': 'erictune'},2015-10-05T23:17:31Z,14528,2015-09-24T23:17:52Z,/kubernetes/kubernetes/issues/14528,kubernetes,CLOSED,"Too many daemons created by DaemonSet
+I created a DaemonSet a few days ago on my 4 node cluster. I noticed today that I have 6596 Pending pods, and 4 running pods.
+This is not expected.
+The running pods are on nodes that have existed for 3 or 4 days.
+The pending pods all have unset nodeName. I would not have expected the DaemonSet controller to ever create a pod with this value unset. I assume they are pending due to port conflicts with the existing pods, as they use a hostPort.",PERFORMANCE
+217,217,{'login': 'DazWilkin'},2016-05-06T16:39:54Z,21635,2016-02-20T22:38:38Z,/kubernetes/kubernetes/issues/21635,kubernetes,CLOSED,"Please provide a feedback mechanism on kubernetes.io --> github.com/kubernetes/kubernetes
+I may be missing something (!) but, when I wish to file bugs against kubernetes.io, instead of a ""Click here to submit feedback"", I'm resorting to Googling a section of text on the kubernetes.io to find the relevant page on github in order to reference the github content for github issues!
+E.g.
+From here:
+http://kubernetes.io/v1.1/docs/user-guide/connecting-applications.html#securing-the-service
+Must Google to help find this:
+https://github.com/kubernetes/kubernetes/blob/release-1.1/docs/user-guide/connecting-applications.md#securing-the-service
+From here:
+http://kubernetes.io/v1.1/examples/https-nginx/README.html
+Must Google to help find this:
+https://github.com/kubernetes/kubernetes/blob/release-1.1/examples/https-nginx/README.md
+Recommend providing a feedback feature that facilitates submitting bugs against kubenetes.io pages by either auto-referencing or facilitating finding the reference on the github page.
+Alternatively, do you just accept kubernetes.io references in github issues?",USABILITY
+222,222,{'login': 'justinsb'},,30338,2016-08-10T03:17:48Z,/kubernetes/kubernetes/issues/30338,kubernetes,OPEN,"Document / rationalize CNI plugin distribution
+I believe the correct place to download the CNI plugins is https://storage.googleapis.com/kubernetes-release/network-plugins/cni-c864f0e1ea73719b8f4582402b0847064f9883b0.tar.gz
+A few challenges with that:
+It's not clear which version is the latest of the handful in that directory (they all the same date, and the hash doesn't give any clues)
+We should probably bundle it instead with the k8s version with which that k8s version is tested
+I'm not entirely sure how this tar file was built
+It would be nice if they were available as individual files also (i.e. expanded form), just like we distribute the key k8s binaries in expanded form and in the the kubernetes.tar.gz file. On that note they appear to actually depend on each other though, so perhaps they can't be split.",AVAILABILITY
+224,224,{'login': 'lavalamp'},2015-12-05T00:45:06Z,3338,2015-01-08T22:15:00Z,/kubernetes/kubernetes/issues/3338,kubernetes,CLOSED,"Investigate alternative JSON parsers
+e.g., I saw this on reddit: http://ugorji.net/blog/go-codecgen
+The primary reason why this would be worth our time at the moment is to get better error messages when people do things like pass a string to an array, or misspell a field name. Performance will eventually become important as we scale up, but serialization performance is a very tiny issue compared with e.g. the serial health checking when you list minions.",PERFORMANCE
+225,225,{'login': 'k8s-github-robot'},2016-09-08T18:53:37Z,32237,2016-09-07T22:18:14Z,/kubernetes/kubernetes/issues/32237,kubernetes,CLOSED,"ThirdParty resources Simple Third Party creating/deleting thirdparty objects works [Conformance] {Kubernetes e2e suite}
+https://k8s-gubernator.appspot.com/build/kubernetes-jenkins/logs/kubernetes-e2e-gke/15018/
+Failed: ThirdParty resources Simple Third Party creating/deleting thirdparty objects works [Conformance] {Kubernetes e2e suite}
+",FAULT TOLERANCE
+226,226,{'login': 'stephenR'},2015-05-12T23:26:02Z,7965,2015-05-08T16:58:17Z,/kubernetes/kubernetes/issues/7965,kubernetes,CLOSED,"Secure kubelet port 10250
+The kubelet exposes an unauthenticated endpoint on port 10250. The issues with this:
+there are the debug handlers /exec/ and /run/ that run code in any container on the host
+these debug handlers are enabled by default
+the code run in the container runs with full root capabilities (compared to docker's root with a capability bounding set)
+",SECURITY
+227,227,{'login': 'MrHohn'},2016-10-25T20:23:51Z,33289,2016-09-22T16:34:52Z,/kubernetes/kubernetes/issues/33289,kubernetes,CLOSED,"Rescheduler e2e should not scale kube-dns pods.
+In rescheduler e2e test, for It(""should ensure that critical pod is scheduled in case there is no resources available""), kube-dns is used as the critical pod target and being scaled out and in.
+However, we plan to enable the dns horizontal autoscaling feature in the near future, such as this WIP. If this feature is turned on, the corresponding autoscaler will fight with this rescheduler e2e and maintain the desired number of replicas. Hence this test will be very likely to fail.
+So probably we should use another critical pod here, or either create a new critical pod that does not exist before in order to protect the ongoing functionalities.
+@piosz @thockin",PERFORMANCE
+228,228,{'login': 'jayunit100'},2016-03-17T22:54:23Z,7989,2015-05-08T21:03:33Z,/kubernetes/kubernetes/issues/7989,kubernetes,CLOSED,"E2E: Audit density.go iterator and other timeout iterators 
+In my last PR @brendanburns duly noted that you can do declarative style of timeout iteration, which is an important part of the e2e's, rather than a for loop.
+lets use the style of iteration in soak_k8petstore.go (pending merge now) with switch -> case statements in density.go as well, and possibly other places. There are also other examples of this online, (i.e. https://code.google.com/p/go-wiki/wiki/Timeouts)
+while we're at it lets audit util.go and see if it is being used wherever possible in tests to maximize code reuse. there are now a lot of new utils in it (like RunRC and createNS so on) which weren't there when e2e's were originally created
+",MAINTAINABILITY
+231,231,{'login': 'piosz'},2015-03-31T16:27:02Z,5184,2015-03-09T15:47:01Z,/kubernetes/kubernetes/issues/5184,kubernetes,CLOSED,"Missing service environment variables while starting pod
+While debugging #5091 I noticed that when I'm creating guestbook application by running ./cluster/kubectl.sh create -f examples/guestbook there is a chance that frontend pods come up before information about environment variables of redis is propagated. In such case frontend can't connect to database during its whole life.
+It's actually more general problem, since most of complex application might be affected by this. Also I think create a set of resource (especially by specifying the directory of their config files) should just work no matter of the order of creation.
+I can see few solutions of such problem:
+Get rid off HOST:PORT stuff and start using DNS service instead.
+Add ability to wait for such information being propagated.
+Injecting environment variables to container somehow(?).
+",PERFORMANCE
+233,233,{'login': 'timstclair'},2019-01-12T01:42:21Z,24614,2016-04-21T19:12:44Z,/kubernetes/kubernetes/issues/24614,kubernetes,CLOSED,"Add a `shellcheck` based pre-submit
+shellcheck is a bash script linter which could help catch common problems in our (numerous) bash scripts. I know we'd like to reduce our use of bash scripts, but until then I think being stricter about script quality would be helpful.
+/cc @zmerlynn",MAINTAINABILITY
+236,236,{'login': 'derekwaynecarr'},2015-08-28T18:31:50Z,12053,2015-07-30T23:33:03Z,/kubernetes/kubernetes/issues/12053,kubernetes,CLOSED,"Merge NamespaceExists and NamespaceLifecycle admission controllers
+We should have a single NamespaceLifecycle plugin that enforces the Namespace rules now that all providers are off NamespaceAutoProvision.
+We may also want to make this no longer a user choice to configure and hard-wire the server to always run this check first to simplify configuration errors.
+For an example
+#12039",MAINTAINABILITY
+237,237,{'login': 'lavalamp'},2015-01-23T23:21:43Z,3345,2015-01-08T23:46:41Z,/kubernetes/kubernetes/issues/3345,kubernetes,CLOSED,"Scaling clusters: 1000's of services in env vars
+Clearly you ought to be able to make more services in a k8s cluster than it is reasonable to pass to pods in env vars.
+Possible solutions:
+Segment by namespace
+Require predeclarations
+@bgrant0607 I know you hate env vars; do you have a preferred solution for this?",SCALABILITY
+238,238,{'login': 'satnam6502'},2014-11-18T05:42:43Z,2385,2014-11-14T20:33:03Z,/kubernetes/kubernetes/issues/2385,kubernetes,CLOSED,"Pod dependencies on services
+One thing that is a bad experience at the moment is the bring-up behaviour of one pod that depends on another the services of another pod. For example, in my logging work the Kibana viewer (pod, service) depends on the Elasticsearch (pod, service). When I try and bring them up together from my Makefile I have an intermediate sate like this for quite a while:
+i.e. the Kibana viewer fails to start up because Elasticsearch is not ready yet. Eventually things start to look better:
+but even though the pods are marked as Running they are still not quite ready yet and it takes another five minutes or so before one can make queries to Elasticsearch and see log output in Kibana.
+It would be nice to describe in a pod declaration its dependencies on other services so this can be taken into account during scheudling. For example:
+This would delay the scheduling of this pod until the pod(s) identified by the elasticsearch service are all in the running state.",PERFORMANCE
+244,244,{'login': 'msaffitz'},2016-03-18T19:46:02Z,23170,2016-03-18T01:14:36Z,/kubernetes/kubernetes/issues/23170,kubernetes,CLOSED,"Pods Killed Every 5 Minutes After Upgrading to 1.2
+We've successfully been running 1.1.7 on AWS for several months. After upgrading to 1.2 today nearly all of our pods are killed every 5 minutes. In the logs we see Killing container with docker id 661a6ded11b9: Need to kill pod., but beyond that there doesn't seem to be a clear cause. I'm at a bit of loss for where to look next and how to debug this, and love any suggestions / recommendations.",SCALABILITY
+246,246,{'login': 'bgrant0607'},2015-09-08T17:32:48Z,12828,2015-08-17T21:29:00Z,/kubernetes/kubernetes/issues/12828,kubernetes,CLOSED,"Support setting env vars in kubectl run
+Something like kubectl run --env=""VAR=value"" image. Multiple --env flags should be accepted. Comma-separate values would get into an escape rathole, so I'd like to avoid that.",USABILITY
+247,247,{'login': 'pwittrock'},2018-02-13T17:54:12Z,26220,2016-05-24T22:19:06Z,/kubernetes/kubernetes/issues/26220,kubernetes,CLOSED,"Node e2e reporting
+It would be useful to have daily or per-pr reports about the health of each distro and publish it to a dashboard somewhere",USABILITY
+249,249,{'login': 'thockin'},,6132,2015-03-28T03:18:16Z,/kubernetes/kubernetes/issues/6132,kubernetes,OPEN,"kubectl should return more information on failure
+After making a kubectl create call with bad JSON, kubectl would read-back the master's understanding of what I wrote and show me a diff. Something like that",USABILITY
+253,253,{'login': 'fgrzadkowski'},2016-03-01T19:42:50Z,4235,2015-02-07T05:41:36Z,/kubernetes/kubernetes/issues/4235,kubernetes,CLOSED,"Kubernetes should support cross-zone cluster
+Most applications should be running in multiple zones to increase availability. Kubernetes should support it. I imagine this to work in the following way:
+User sets up cluster in a region in a way that minions are spread evenly across all available zones
+User creates replication controller for the application with size > 1
+Scheduler spreads pods within the same replication controller across available zones
+That way user gets regional availability for free.
+AFAIU this will mostly require changes in how we create cluster and how we schedule pods.
+cc @wojtek-t",AVAILABILITY
+255,255,{'login': 'bgrant0607'},2019-05-07T15:53:05Z,24343,2016-04-15T18:23:06Z,/kubernetes/kubernetes/issues/24343,kubernetes,CLOSED,"Figure out how to handle code in multiple repos
+A large monorepo works for Google, but not on github.
+We hit the ceiling of achievable velocity of a single github repo in early 2015:
+https://github.com/kubernetes/kubernetes/graphs/contributors
+There are many reasons: ACLs, notification management, issue triage, PR reviews, sequentialized submit testing, merge conflicts, etc.
+We're chipping away at these issues, but we need more than incremental improvement.
+We've discussed moving a number of things to other repos:
+Kubelet: #444
+Generic API infrastructure: #2742
+Client libraries: #5660
+Misc. utilities: #24156
+kubectl
+scheduler
+examples
+cloud providers + cluster code + ""getting-started guides""
+auth plugins
+network and storage plugins?
+e2e tests
+contributor documentation
+We need to seriously think about how to do this.
+Known issues that need to be addressed:
+We need to get sprawl and package dependencies under control: #4851
+We need to make most components ordinary clients of the API: #20193
+We need to figure out dependency management and integration testing
+An example of a Go project on github with good repo hygiene:
+https://github.com/deis
+I have no illusions that breaking the project into separate repos will be a silver bullet: it's necessary, but not sufficient. I also know that it will cause some pain. But that pain already exists: cadvisor, heapster, dashboard, contrib, docs, ....
+Speaking of contrib, it needs to be broken up, too: kubernetes-retired/contrib#762
+@thockin @smarterclayton @lavalamp @mikedanese @dchen1107 @davidopp @ixdy",MAINTAINABILITY
+256,256,{'login': 'saad-ali'},2017-06-16T00:28:51Z,20885,2016-02-09T04:34:17Z,/kubernetes/kubernetes/issues/20885,kubernetes,CLOSED,"Modify E2E tests to use the GCE API instead of gcloud exec
+PR #17747 laid the ground work to enable E2E tests to use the GCE API instead of gcloud exec. That PR only modified the PD tests to do so.
+In order to make E2E more robust, we should switch over all other instances of gcloud exec in E2E tests to use the GCE API instead.",MAINTAINABILITY
+258,258,{'login': 'euank'},2017-12-27T17:55:47Z,26816,2016-06-03T21:36:56Z,/kubernetes/kubernetes/issues/26816,kubernetes,CLOSED,"rkt: hostPath mounts to non-existent directories fail
+A pod referencing a nonexistent host path, such as the one below, does not run under the rkt container runtime.. However, it runs just fine under docker (which, by default, creates nonexistent paths as empty directories when a mount references them).
+The pod also does not show up in kubectl get pods in any state, though it can still be deleted.
+The latter is definitely something that should be fixed; the former is an intentional behavioural difference between rkt and docker and might be up to debate.
+Should the pod fail? Do we need consistent behavior with docker here? Do we think that blindly creating directories on the host masks typos and is surprising?
+1b) Should rkt change to this behavior, or should we create the directory before referencing it in a bindmount? (e.g. an ExecStartPre=mkdir -p <host directories>)
+Pods that fail like this should still be visible in get pods; I think this is jut that rkt failed during stage1 and there's some over-aggressive error handling in our code that masks this pod, but I haven't dived very deeply there yet.
+Example failing pod
+cc @yifan-gu @tmrts",FAULT TOLERANCE
+262,262,{'login': 'thockin'},2015-07-09T05:31:56Z,1988,2014-10-24T17:11:26Z,/kubernetes/kubernetes/issues/1988,kubernetes,CLOSED,"Add an optional ""why"" clause to ValidationError
+I find myself wanting to explain WHY a validation error failed, and there's just no way to pass that down to users.",USABILITY
+265,265,{'login': 'roberthbailey'},2018-03-12T05:16:33Z,20820,2016-02-08T16:27:53Z,/kubernetes/kubernetes/issues/20820,kubernetes,CLOSED,"[docker 1.10] create syscall filters for k8s-supplied components
+With docker 1.10, you can create a filter for syscalls that the container is allowed to execute, mainly to reduce the kernel attack surface and make it harder to use a privilege escalation vulnerability in the kernel code.
+For containers that we provide (master components, add-ons) where we know the expected syscall surface we should explore locking them down by limiting the system calls that they can make.
+/cc @stephenR",SECURITY
+266,266,{'login': 'skwokmag'},2015-05-02T15:26:10Z,7493,2015-04-29T04:26:11Z,/kubernetes/kubernetes/issues/7493,kubernetes,CLOSED,"What kind of aws roles do I need to prepare for kubernetes
+Hi,
+iam has a few roles. Is it ""Grant API access to SAML providers""?
+Thank you.
+skwok",SECURITY
+269,269,{'login': 'derekwaynecarr'},2015-05-08T14:37:18Z,7906,2015-05-07T19:23:26Z,/kubernetes/kubernetes/issues/7906,kubernetes,CLOSED,"Kubelet is reporting Node cpu capacity as negative value
+I have some reports of a Node reporting a a resource capacity for cpu as a negative value.
+Any idea why cpu could report as a negative value? Is this an expected normal outcome? In its current state, it prevents any pods from being scheduled to that Node. Tips on how to debug further are appreciated.
+@dchen1107 @vmarmol - any ideas?",PERFORMANCE
+272,272,{'login': 'xiaochunyn'},2017-05-31T18:23:30Z,26513,2016-05-30T08:47:09Z,/kubernetes/kubernetes/issues/26513,kubernetes,CLOSED,"How Webhook works, where can find the details? thanks
+1 Is webhook plugin stable?
+2 How webhook works?
+3 How can I use webhook and where can find detailed information.
+Thank you very much!",USABILITY
+275,275,{'login': 'proppy'},2014-07-14T23:58:27Z,424,2014-07-12T05:34:50Z,/kubernetes/kubernetes/issues/424,kubernetes,CLOSED,"support for docker links env variables format
+When exposing services through environments variable to running containers, we should support the standard docker format used by links (see below). So developers don't have to modify their discovery code to connect to a service.
+The code writing the env var from service definition is here:
+https://github.com/GoogleCloudPlatform/kubernetes/blob/779cb84625fda1ffd0b87437c2cc002033b2d2fe/pkg/registry/service_registry.go#L46
+I believe it could be easily adapted to follow the same standard defined by docker.",USABILITY
+277,277,{'login': 'deads2k'},2015-11-04T16:48:39Z,3800,2015-01-26T15:20:50Z,/kubernetes/kubernetes/issues/3800,kubernetes,CLOSED,"Remove --auth-path from kubectl
+Since the .kubeconfig file was introduced, there is a new way to describe the information contained inside of the existing .kubernetes_auth format. .kubernetes_auth combined information that described how to recognize the api-server with information about how to authenticate the user to the api-server. .kubeconfig separates those two concepts into discretely re-useable chunks, but --auth-path was kept for backwards compatibility.
+If .kubernetes_auth is eliminated, there will be one way to express that information and that will simplify the explanation of how the information is built. Right now, allowing references to .kuberentes_auth and defaulting to looking at the ~/.kubernetes_auth makes it harder to describe exactly where authentication information is coming from.
+This would be a breaking change that has ripples affecting e2e tests, so I'd like to be sure there is agreement to the concept before starting a change.
+/cc @jlowdermilk @smarterclayton @liggitt",SECURITY
+283,283,{'login': 'caesarxuchao'},2015-11-12T07:52:38Z,16626,2015-10-30T22:26:43Z,/kubernetes/kubernetes/issues/16626,kubernetes,CLOSED,"Document how to add a new API group
+AFAIK, we don't have a documentation on how to add a new API group. Currently we have #16621 and #13146 that try to add a new API group. I will draft a guide to ease the future endeavor of adding groups. And probably by writing this guide, I will see how can we make the API group machinery easier to use.
+cc @mikedanese @timstclair @lavalamp",USABILITY
+284,284,{'login': 'nikhiljindal'},2015-10-28T22:25:51Z,16124,2015-10-22T20:27:08Z,/kubernetes/kubernetes/issues/16124,kubernetes,CLOSED,"Add a user guide readme for deployments
+",USABILITY
+287,287,{'login': 'zmerlynn'},2015-04-20T20:22:38Z,5946,2015-03-25T20:19:16Z,/kubernetes/kubernetes/issues/5946,kubernetes,CLOSED,"`validate-cluster.sh` should be using `/validate`: wants `kubectl healthy`?
+We have a /validate endpoint that GKE has been using to validate the health of running clusters after the API server is available, similar to the kube-up.sh flow of validate-cluster.sh. There's no reason that validate-cluster.sh should actually do this work manually anymore - we should just go through common source. We should probably introduce a kubectl healthy or kubectl healthcheck?",MAINTAINABILITY
+295,295,{'login': 'LihuaWu'},2017-07-28T02:44:02Z,32991,2016-09-18T08:53:59Z,/kubernetes/kubernetes/issues/32991,kubernetes,CLOSED,"when using client-go library to communicate with master, client list pods with watch hang forever
+Problem: the following codes just hang and never returns
+while codes like:
+work as expected.
+IMHO, the first use is kind of misleading.
+Is this a request for help? (If yes, you should use our troubleshooting guide and community support channels, see http://kubernetes.io/docs/troubleshooting/.):
+What keywords did you search in Kubernetes issues before filing this one? (If you have found any duplicates, you should instead reply there.):
+Is this a BUG REPORT or FEATURE REQUEST? (choose one):
+Kubernetes version (use kubectl version):
+Environment:
+OS (e.g. from /etc/os-release):
+Kernel (e.g. uname -a):
+What happened:
+What you expected to happen:
+How to reproduce it (as minimally and precisely as possible):
+Anything else do we need to know:",MAINTAINABILITY
+297,297,{'login': 'feiskyer'},2016-03-13T01:33:14Z,22842,2016-03-11T06:46:45Z,/kubernetes/kubernetes/issues/22842,kubernetes,CLOSED,"Cluster failed to initialize on GCE
+I tried to setup a trusty cluster on GCE, but it failed with Cluster failed to initialize within 300 seconds.
+Here is my environment setting:
+Am I missing something? CC @dchen1107
+By the way, this problem has also been confirmed by @Random-Liu .",FAULT TOLERANCE
+298,298,{'login': 'erictune'},2015-09-24T21:25:22Z,14385,2015-09-22T22:36:40Z,/kubernetes/kubernetes/issues/14385,kubernetes,CLOSED,"Default Job Parallelism from Completions
+Currently a job's .spec.parallelism defaults to 2. @bgrant0607 suggested defaulting .spec.parallelism to .spec.completions. This will allow users to leave it unspecified in most cases, and it will do something intuitive. (Maybe this was how it was in @soltysh original PR, can't recall if it was that or 1).
+The current default of 2 I liked because it encourages users to think about making their containers concurrency-safe. But so does setting it from .spec.completions. And people will ask why it was
+I don't like defaulting to 1 as much because I think people will usually want to override it when they have multiple completions.",USABILITY
+299,299,{'login': 'hhy5861'},2016-06-29T18:57:21Z,28144,2016-06-28T06:31:07Z,/kubernetes/kubernetes/issues/28144,kubernetes,CLOSED,"About redis from the main issue, I can not connect master service ip connection pod slave
+I am from official instances did a redis master-slave, but I can not connect to the master service allocation in the slave containers such as ip: 10.254.31.52, contrary came in they could not connect to the master slave service assigned ip ask this. what causes the network can not communicate?
+Thank you!
+service ip
+slave container in ping master service ip:
+master container in ping slave service ip:
+new start service
+",AVAILABILITY
+304,304,{'login': 'rickragv'},,19640,2018-05-30T08:28:23Z,/tensorflow/tensorflow/issues/19640,tensorflow,OPEN,"Tensorflow Serving not using multi GPU/CUDA cores 
+I'm using an AWS g3.8xlarge instance which has 2 GPUs.
+TF serving is able to detect both GPUs and initialise them but while running the model it only uses 1 GPU to the maximum.
+We are on version 1.7, even though the client sends upto 32 requests in parallel, the model server only uses the first GPU
+06_09_21",PERFORMANCE
+305,305,{'login': 'mrbrantofgithub'},2017-12-20T01:41:25Z,14761,2017-11-21T14:41:33Z,/tensorflow/tensorflow/issues/14761,tensorflow,CLOSED,"tensorflow lite: error when convert frozen model to lite format
+I tried to convert squeezenet frozen model to lite format with the following command:
+""bazel run --config=opt tensorflow/contrib/lite/toco:toco -- --input_file=/home/xxx/caffe-tensorflow/npy2ckpt/squeezenet/frozen_model.pb --input_format=TENSORFLOW_GRAPHDEF --output_format=TFLITE --output_file=/home/xxx/caffe-tensorflow/npy2ckpt/squeezenet/squeezenet.lite --inference_type=FLOAT --input_type=FLOAT --input_arrays=input --output_arrays=prob --input_shapes=1,227,227,3""
+the output is shown below:
+2017-11-21 18:35:29.977505: I tensorflow/contrib/lite/toco/graph_transformations/graph_transformations.cc:39] Before general graph transformations: 170 operators, 231 arrays (0 quantized)
+2017-11-21 18:35:29.981856: I tensorflow/contrib/lite/toco/graph_transformations/graph_transformations.cc:39] After general graph transformations pass 1: 40 operators, 93 arrays (0 quantized)
+2017-11-21 18:35:29.982061: I tensorflow/contrib/lite/toco/graph_transformations/graph_transformations.cc:39] Before dequantization graph transformations: 40 operators, 93 arrays (0 quantized)
+2017-11-21 18:35:29.982201: I tensorflow/contrib/lite/toco/allocate_transient_arrays.cc:312] Total transient array allocated size: 4071680 bytes, theoretical optimal value: 4071680 bytes.
+2017-11-21 18:35:29.982317: I tensorflow/contrib/lite/toco/toco_tooling.cc:255] Estimated count of arithmetic ops: 0.781679 billion (note that a multiply-add is counted as 2 ops).
+2017-11-21 18:35:29.982482: F tensorflow/contrib/lite/toco/tflite/export.cc:192] Unsupported operator: Squeeze
+Then I tried to convert mobilenet_v1_1.0_224.pb to lite format, the same error as above.
+""bazel run --config=opt tensorflow/contrib/lite/toco:toco -- --input_file=/home/xxx/Downloads/freeze_mobilenet/MobileNet/img224/mobilenet_v1_1.0_224.pb --input_format=TENSORFLOW_GRAPHDEF --output_format=TFLITE --output_file=/home/xxx/Downloads/freeze_mobilenet/MobileNet/img224/mobilenet.lite --inference_type=FLOAT --input_type=FLOAT --input_arrays=input --output_arrays=output --input_shapes=1,224,224,3""
+output:
+2017-11-21 22:07:39.747095: I tensorflow/contrib/lite/toco/graph_transformations/graph_transformations.cc:39] Before general graph transformations: 418 operators, 584 arrays (0 quantized)
+2017-11-21 22:07:39.766175: I tensorflow/contrib/lite/toco/graph_transformations/graph_transformations.cc:39] After general graph transformations pass 1: 31 operators, 88 arrays (0 quantized)
+2017-11-21 22:07:39.766390: I tensorflow/contrib/lite/toco/graph_transformations/graph_transformations.cc:39] Before dequantization graph transformations: 31 operators, 88 arrays (0 quantized)
+2017-11-21 22:07:39.766592: I tensorflow/contrib/lite/toco/allocate_transient_arrays.cc:312] Total transient array allocated size: 6422528 bytes, theoretical optimal value: 4816896 bytes.
+2017-11-21 22:07:39.766751: I tensorflow/contrib/lite/toco/toco_tooling.cc:255] Estimated count of arithmetic ops: 1.14264 billion (note that a multiply-add is counted as 2 ops).
+2017-11-21 22:07:39.766952: F tensorflow/contrib/lite/toco/tflite/export.cc:192] Unsupported operator: Squeeze
+Although I installed tensorflow with ""pip install tensorflow-gpu"", in order to convert model to lite format, I git clone the tensorflow files and configure, bazel to compile the files. I don't know whether this affect the converting of models, but the error is really strange!",PERFORMANCE
+307,307,{'login': 'insectatorious'},2017-06-16T22:00:52Z,8199,2017-03-08T14:55:38Z,/tensorflow/tensorflow/issues/8199,tensorflow,CLOSED,"Tensorboard scalar summary graph distorts after resizing and toggling log scale on y-axis 
+What related GitHub issues or StackOverflow threads have you found by searching the web for your problem?
+None although a search for distorted image tensorboard doesn't help much...
+Environment info
+Operating System: 16.04 LTS
+Firefox: 51.0.1 (64-bit)
+TF: 1.0 (installed via pip)
+Installed version of CUDA and cuDNN:
+(please attach the output of ls -l /path/to/cuda/lib/libcud*):
+If installed from binary pip package, provide:
+A link to the pip package you installed:
+Standard TF pip url.
+The output from python -c ""import tensorflow; print(tensorflow.__version__)"".
+Steps to reproduce (Firefox only)
+On the 'Scalars' tab for tensorboard, view the graph of a scalar summary (eg cost or accuracy) by expanding the tab. 
+Click on the expand icon 
+Enable log scale of y-axis 
+Disable log scale of y-axis (note the bug happens regardless of whether you do this) 
+Click on expand icon to shrink the graph.
+The graph is now overflowing: 
+What other attempted solutions have you tried?
+Tried to reproduce in Chromium 55.0.2883.87 but unable to.",FAULT TOLERANCE
+311,311,{'login': 'vladfi1'},2016-11-18T00:12:16Z,4431,2016-09-18T02:59:41Z,/tensorflow/tensorflow/issues/4431,tensorflow,CLOSED,"Forward mode ad, directional derivatives
+Say I have outputs = f(inputs) and g of the same shape as inputs. I'd like to compute the directional derivative of outputs with respect to inputs in the direction g - in other words, the derivative of f(inputs + alpha * g) with respect to alpha at the point alpha=0.
+This is a straightforward application of forward-mode automatic differentiation, which should be pretty easy to implement (much easier than the already-implemented reverse-mode ad). Are there any plans to add this feature?",PERFORMANCE
+312,312,{'login': 'tampler'},2018-08-22T19:49:42Z,11937,2017-08-01T09:39:58Z,/tensorflow/tensorflow/issues/11937,tensorflow,CLOSED,"TPU support
+I wanna add support for my Tensor Processing Unit chip in TensorFlow.
+My TPU is implemented as an accelerator for ARM v7 32bit processor and implements multiple arithmetic kernels, similar to GPU. It implements a simple memory mapped interface, SGDMA and vector instructions over tensors. I added vector extension to GCC 7.1.1 and can run bare metal C++ nets on embedded Ubuntu 16.04
+I also checked the TF port for Raspberry Pi 3, but it looks outdated and barely supported.
+I'm not currently aware about the scope of work, but believe that should not be that complex, given open examples from GPU vendors and already existing port for Google TPU
+Anyone interested in joining this project is highly welcome! Advise, links and code examples are much appreciated
+Thank you",PERFORMANCE
+327,327,{'login': 'dbakshee'},2018-01-24T20:22:44Z,11099,2017-06-28T04:26:13Z,/tensorflow/tensorflow/issues/11099,tensorflow,CLOSED,"Typo in illustrating figure for XLA/Concatenation operation
+Illustrating image for Concatenate
+suggests Concat({ 2x4, 2x8 }, dimension=0) is 2x12. Should be dimension=1, and same for the other examples.",FAULT TOLERANCE
+328,328,{'login': 'lijhong'},2017-09-02T19:31:07Z,12764,2017-09-02T12:12:36Z,/tensorflow/tensorflow/issues/12764,tensorflow,CLOSED,"the side &deep model is not good compare with deep model and wide model 
+these days ,I'm learning the wide & deep model ,and run the wide_n_deep_tutorial.py, so the anwser looks like this:
+XXT@apptruexxnet:~$ python wide_n_deep_tutorial.py --model_type=deep
+Training data is downloaded to /tmp/tmpFB4dsd
+Test data is downloaded to /tmp/tmpomj5Pi
+2017-09-02 20:03:15.713609: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on
+your machine and could speed up CPU computations.
+2017-09-02 20:03:15.713884: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on
+your machine and could speed up CPU computations.
+2017-09-02 20:03:15.714050: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on yo
+ur machine and could speed up CPU computations.
+WARNING:tensorflow:Casting <dtype: 'float32'> labels to bool.
+WARNING:tensorflow:Casting <dtype: 'float32'> labels to bool.
+model directory = /tmp/tmpWei9wK
+accuracy: 0.850071
+accuracy_baseline: 0.763774
+auc: 0.894038
+auc_precision_recall: 0.743199
+average_loss: 0.393638
+global_step: 2000
+label/mean: 0.236226
+loss: 39.3179
+prediction/mean: 0.242167
+XXT@apptruexxnet:~$ python wide_n_deep_tutorial.py --model_type=wide
+Training data is downloaded to /tmp/tmpFJdWft
+Test data is downloaded to /tmp/tmpjB5nm7
+2017-09-02 20:01:09.197612: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on
+your machine and could speed up CPU computations.
+2017-09-02 20:01:09.197906: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on
+your machine and could speed up CPU computations.
+2017-09-02 20:01:09.198072: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on yo
+ur machine and could speed up CPU computations.
+WARNING:tensorflow:Casting <dtype: 'float32'> labels to bool.
+WARNING:tensorflow:Casting <dtype: 'float32'> labels to bool.
+model directory = /tmp/tmpuPHsDx
+accuracy: 0.835391
+accuracy_baseline: 0.763774
+auc: 0.882763
+auc_precision_recall: 0.694257
+average_loss: 0.352975
+global_step: 2000
+label/mean: 0.236226
+loss: 35.2563
+prediction/mean: 0.240918
+XXT@apptruexxnet:~$ python wide_n_deep_tutorial.py
+Training data is downloaded to /tmp/tmpDdWc_T
+Test data is downloaded to /tmp/tmpFF0PZJ
+2017-09-02 20:00:08.334742: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on
+your machine and could speed up CPU computations.
+2017-09-02 20:00:08.335105: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on
+your machine and could speed up CPU computations.
+2017-09-02 20:00:08.335273: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on yo
+ur machine and could speed up CPU computations.
+WARNING:tensorflow:Casting <dtype: 'float32'> labels to bool.
+WARNING:tensorflow:Casting <dtype: 'float32'> labels to bool.
+model directory = /tmp/tmpq2M7SE
+accuracy: 0.820834
+accuracy_baseline: 0.763774
+auc: 0.850518
+auc_precision_recall: 0.676198
+average_loss: 0.424271
+global_step: 2000
+label/mean: 0.236226
+loss: 42.3776
+prediction/mean: 0.256489
+I don't know why looks likes this, so someone can help me? thank you.",PERFORMANCE
+332,332,{'login': 'bb4242'},2016-10-12T21:02:55Z,4917,2016-10-12T18:29:30Z,/tensorflow/tensorflow/issues/4917,tensorflow,CLOSED,"QueueRunner deadlock when using all CPUs
+I'm building an input pipeline following the guidelines here. The pipeline needs to queue up a bunch of input examples, process each example using a python function (inserted into the tensorflow computation graph using tf.py_func), and return the processed results to an output queue. I'd like to use QueueRunner's ability to process multiple examples in parallel by launching one processing thread per CPU core. Here's a simplified example of what I'm trying to do:
+The program above deadlocks waiting for sess.run to complete in python_op:
+This is running on an 8-core machine; you can see that 8 python_ops are currently running but are failing to finish. If, however, we don't use all CPUs (by changing (n_cpus) to (n_cpus-1) in the line that creates the tf.train.QueueRunner, then the program runs to completion:
+The program also completes successfully if we pass in fewer examples than CPUs in the input queue.
+I realize it's somewhat awkward for python_op to call back into the tensorflow session. However, the threading and queues section of the manual states:
+""The TensorFlow Session object is multithreaded, so multiple threads can easily use the same session and run ops in parallel.""
+So, I assumed that the use case I've outlined above should be supported, and it seems surprising that it works in some cases (fewer threads than CPUs) and doesn't in others (one thread per CPU). Is this a bug, or is there some reason I shouldn't expect it to work?
+As a side note, one option to work around my problems would be to break python_op into several smaller pieces and chain the intermediate results together in the tensorflow computation graph. However, in my real pipeline, this isn't straightforward to do, since python_op's real output depends on a number of intermediate, native python data structures that aren't easily converted into tensors that could be spliced into the tensorflow graph.
+OS: Linux
+Tensorflow versions: 0.10.0, 0.11.0-rc0 (CPU-only version)",PERFORMANCE
+336,336,{'login': 'shoyer'},2018-04-18T17:35:45Z,17877,2018-03-21T01:39:58Z,/tensorflow/tensorflow/issues/17877,tensorflow,CLOSED,"tf.manip.roll silently ignores negative axes
+Exact command to reproduce:
+Describe the problem
+axis=-1 and axis=0 should be equivalent, if tf.manip.roll() works like numpy.roll() and other TensorFlow/NumPy functions that accept negative axes. However, instead negative axes are silently ignored. At the very least, TensorFlow should have raised an informative error.",USABILITY
+339,339,{'login': 'ethereon'},2017-06-16T22:05:08Z,4419,2016-09-16T20:33:04Z,/tensorflow/tensorflow/issues/4419,tensorflow,CLOSED,"tf.get_variable without an explicit initializer fails for integer types
+The following fails (shape and name are arbitrary):
+Exception: TypeError: Expected int32, got -1.7320508075688772 of type 'float' instead.
+In contrast, using tf.float32 works just fine.
+The problem appears to be https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/ops/variable_scope.py#L658
+If an initializer is not provided (and a default one is not set), a uniform unit scaling init is used (notice that sqrt(3)==1.7320...), which of course conflicts with the requested integer type.
+While this can be mitigated by doing something like:
+it feels like a smarter default behavior based on the variable type is warranted (or at least a less cryptic error).
+Tested on the current master.",FAULT TOLERANCE
+341,341,{'login': 'kocabey'},2016-12-21T09:16:48Z,4021,2016-08-24T18:32:50Z,/tensorflow/tensorflow/issues/4021,tensorflow,CLOSED,"Improving Google Indexing for the Documentation
+Whenever I run a Google search on a TensorFlow functionality, say, tf.reshape, it gives me the entire documentation, not the specific documentation related to that functionality.
+Currently the way I use is to run a search with ctrl + f to find specific documentation related to what I search for.
+Numpy has that property, i.e. when you run a Google search on np.reshape, you get the specific page.
+It would be a nice improvement for the documentation if someone fixes the Google indexing for the documentation page, especially for the users who frequently use Google search for the documentation.",USABILITY
+349,349,{'login': 'githubgsq'},2018-07-28T00:48:36Z,19731,2018-06-04T03:11:59Z,/tensorflow/tensorflow/issues/19731,tensorflow,CLOSED,"How to release GPU memory after sess.close()?
+hi, all:
+I'm training models iteratively. After each model trained, I run sess.close() and recreate a new session to run a new training process. But it seems that the GPU memory was not relseased and it's increasing constantly.
+I tried tf.reset_default_graph() before run session also typed gc.collect() after sess.close(), but takes no effect.
+How could I release GPU memory timely to avoid OOM error please?
+Thanks!",PERFORMANCE
+350,350,{'login': 'xuancong84'},2017-06-16T23:41:48Z,6111,2016-12-06T03:56:26Z,/tensorflow/tensorflow/issues/6111,tensorflow,CLOSED,"Flawed memory management: allow_growth=True consumes more memory, causing out-of-memory
+To prevent tensorflow (TF) from allocating the totality of graphic memory, I always use the following options when creating sessions:
+However, doing so causes some experiments to run out of memory while not doing so will not cause memory overflow. For example, when running experiments involving RNN, such as translate.py or ptb_word_lm.py in the sample code, if I specify allow_growth=True, I always encounter the following:
+However, without specifying allow_growth=True, I can run it successfully. Moreover, the OOM occurs only after going through some epoches in the training data, not right from the beginning.
+In principle, for an ideal memory manager, whether OOM will occur should not depends on whether memory is pre-allocated in one go or allocated step-by-step dynamically. Thus, Tensorflow's low-level memory management code must be flawed in one way or another.
+Below are my system info:
+",PERFORMANCE
+358,358,{'login': 'tfboyd'},2019-05-11T02:25:21Z,22357,2018-09-18T20:51:54Z,/tensorflow/tensorflow/issues/22357,tensorflow,CLOSED,"Make NVIDIA library versions to TF Version matrix more visible.
+This request was a product of the TensorFlow Fall Symposium. Consider talking to the documentation team as well as maybe linking it to the top or near the top of all the release documents.",USABILITY
+360,360,{'login': 'Lldenaurois'},2017-02-13T17:44:20Z,6644,2017-01-04T21:21:42Z,/tensorflow/tensorflow/issues/6644,tensorflow,CLOSED,"Error: Data loss: file is too short to be an sstable
+Hi there,
+I'm training the Language Model code available here: https://github.com/rafaljozefowicz/lm
+I am getting a ""Data loss"" error, see below for a traceback call. I was able to find the file where the error is raised, but I am having some trouble understanding exactly what is going wrong. It seems like this is related to a checkpoint file need to populate tensorboard, however I would greatly appreciate it if someone could point me in the right direction, so I may resolve this issue.
+Currently, when I look at TensorBoard, I see a global_step of 0 for the entire training duration, and I'm worried that the model is not running. All of my GPUs are fully utilized, and I have no other issues.
+",PERFORMANCE
+361,361,{'login': 'ed-alertedh'},,12345,2017-08-17T02:33:49Z,/tensorflow/tensorflow/issues/12345,tensorflow,OPEN,"PEP 484 Type Annotations (feature request)
+N/A
+Describe the problem
+Background
+PEP 484 [1] added support for type hints in Python. These are purely annotations and are not enforced by the interpreter, however there are tools such as mypy [2] which can be run to check for consistency in the annotations. The typeshed initiative [3] has started to build external collections of type annotations for commonly used libraries.
+When adding type annotations to a codebase, it is best if you can achieve near 100% coverage, otherwise uncertainty propagates out from everywhere the ""untyped"" code is called. A codebase using TF would likely struggle to gain much benefit from type-checking in any of the core code built on top of TF.
+Benefits of Adding Type Annotations
+The expected inputs and outputs of functions become much clearer
+Code completion is able to provide more useful suggestions, boosting productivity by reducing amount of time spent referring to docs
+Static analysis can uncover latent bugs (case study here[5])
+Difficulties/Drawbacks
+People may be encouraged to overly constrain types, removing some of the flexibility of a dynamic language. But given that Google's Python style-guide discourages ""Power Features"" [4] I would argue that striving towards code that is explicit is a similar philosophy
+The protobuf compiler would need to be augmented to generate type annotations.
+The Tensorflow Python codebase is huge, so at this point adding the annotations would be a huge undertaking.
+Tensorflow still supports python 2.7, 3.3 and 3.4 which do not have the type annotation syntax. So if this were implemented it would probably have to be in external *.pyi files, which is harder to maintain compared to inline type annotations in the source code.
+Final thoughts
+I realise that this would be a major undertaking and wouldn't be likely to ship any time soon, but I'm curious to gauge Google's thoughts on this new feature in Python. I'm about to start building a new codebase from scratch and was keen to use it as a chance to try out type annotations. I probably still will give it a shot, but I suspect that unless most of the common data science libs out there adopt this standard then its usefulness will be quite limited.
+[1] https://www.python.org/dev/peps/pep-0484/
+[2] http://mypy-lang.org/
+[3] https://github.com/python/typeshed
+[4] https://google.github.io/styleguide/pyguide.html#Power_Features
+[5] http://blog.zulip.org/2016/10/13/static-types-in-python-oh-mypy/",MAINTAINABILITY
+366,366,{'login': 'eaplatanios'},2018-01-30T01:55:50Z,15323,2017-12-12T21:45:03Z,/tensorflow/tensorflow/issues/15323,tensorflow,CLOSED,"Beam Search Decoder API
+@ebrevdo Why is it that the user needs to call tile_batch explicitly for beam search decoders when using attention models? Couldn't the beam search decoder internally tile the provided initial_state in its constructor? It seems that this API is prone to wrong usage so I'm trying to understand why it's necessary.
+Thank you!",USABILITY
+376,376,{'login': 'Jinxit'},2016-05-13T21:03:25Z,1962,2016-04-15T08:11:37Z,/tensorflow/tensorflow/issues/1962,tensorflow,CLOSED,"Killed during checkpoint save (v0.8)
+Environment info
+Operating System: Ubuntu 15.10
+Installed version of CUDA and cuDNN:
+(please attach the output of ls -l /path/to/cuda/lib/libcud*):
+-rw-r--r-- 1 root root 322936 aug 15 2015 /usr/local/cuda/lib64/libcudadevrt.a lrwxrwxrwx 1 root root 16 aug 15 2015 /usr/local/cuda/lib64/libcudart.so -> libcudart.so.7.5 lrwxrwxrwx 1 root root 19 aug 15 2015 /usr/local/cuda/lib64/libcudart.so.7.5 -> libcudart.so.7.5.18 -rwxr-xr-x 1 root root 383336 aug 15 2015 /usr/local/cuda/lib64/libcudart.so.7.5.18 -rw-r--r-- 1 root root 720192 aug 15 2015 /usr/local/cuda/lib64/libcudart_static.a -rwxr-xr-x 1 root root 61453024 mar 6 15:08 /usr/local/cuda/lib64/libcudnn.so -rwxr-xr-x 1 root root 61453024 mar 6 15:08 /usr/local/cuda/lib64/libcudnn.so.4 -rwxr-xr-x 1 root root 61453024 mar 6 15:08 /usr/local/cuda/lib64/libcudnn.so.4.0.7 -rwxr-xr-x 1 root root 11172416 feb 29 22:12 /usr/local/cuda/lib64/libcudnn.so.6.5 -rwxr-xr-x 1 root root 11172416 feb 29 22:12 /usr/local/cuda/lib64/libcudnn.so.6.5.48 -rw-r--r-- 1 root root 62025862 mar 6 15:08 /usr/local/cuda/lib64/libcudnn_static.a
+If installed from binary pip package, provide:
+Which pip package you installed.
+The output from python -c ""import tensorflow; print(tensorflow.version)"".
+0.8.0rc0
+Relevant code:
+Unfortunately I can't upload everything, but the code is based on your CIFAR-10 example. Here is the structure of my network:
+http://pastebin.com/5QEJWqtm
+After running for some time, I save a checkpoint:
+saver.save(sess, checkpoint_path, global_step=step)
+Which sometimes allocates all memory on my system and gets killed. I have 8gb RAM and 8gb swap. For the first few checkpoints it seems fine, it allocates 2gb RAM (equal to checkpoint file size), but after some time it locks up my entire system and gets killed automatically.
+Didn't have any issues in 0.7.",PERFORMANCE
+378,378,{'login': 'jswelch'},,16226,2018-01-18T19:20:32Z,/tensorflow/tensorflow/issues/16226,tensorflow,OPEN,"Include netstat in the tensorflow docker container
+Describe the problem
+This is a feature request to add net-tools to the Tensorflow docker containers. Having netstat in the Tensorflow container will make it easier to find open ports in a multi-tenant environment when launching Tensorflow Distributed or Tensorboard.
+Note, I have found how to add netstat (see URL below), but would prefer not having to change or maintain a modified version of the Tensorflow container.
+https://stackoverflow.com/questions/41961217/installing-netstat-on-docker-linux-container
+Exact command to reproduce:netstat
+",MAINTAINABILITY
+379,379,{'login': 'Steve7878'},2017-04-28T21:40:22Z,8633,2017-03-22T22:05:53Z,/tensorflow/tensorflow/issues/8633,tensorflow,CLOSED,"Please provide an example how to use a model trained from scratch for image classification
+The following documentation of TensorFlow-Slim contains how to train a model from scratch, but it's not explained how to use the resulting checkpoint files for image classification.
+https://github.com/tensorflow/models/tree/master/slim#training-a-model-from-scratch
+Although it's possible to load the pre-trained models (https://github.com/tensorflow/models/tree/master/slim#pre-trained-models) and use it for image classification with the example given in https://github.com/tensorflow/models/blob/master/slim/slim_walkthrough.ipynb, it seems not possible to simply use the checkpoint files generated by ""training from scratch"" in the same way.
+Any example on how to use the newly generated checkpoints for image classification (for example with inception) would be appreciated.",USABILITY
+380,380,{'login': 'volvador'},2018-02-01T12:38:21Z,16584,2018-01-30T13:00:44Z,/tensorflow/tensorflow/issues/16584,tensorflow,CLOSED,"TensorFlow op to copy weights of Keras model
+I am doing a distributed calibration of an LSTM model (keras 2.0 + TensorFlow 1.0)
+after calibration, I want my chief worker to use the clone_model, copy the weights the calibration reached in model, and make predictions on some test set, but simply calling
+does not work.
+I understand I need to define this weight copy as an op and then call session(run) of that op
+Can you please help with a TensorFlow op copying weights of a keras model to another (identical architecture) Keras model?",SCALABILITY
+383,383,{'login': 'ZhuFengdaaa'},2016-04-26T14:58:49Z,2106,2016-04-26T07:22:53Z,/tensorflow/tensorflow/issues/2106,tensorflow,CLOSED,"[ distribution ] How to use multiple GPU on each replica ?
+The Code Here shows how to set each replica which has a single tower that uses one GPU. I'm wondering if there is a way changing this code a little bit to make use of multiple GPU on one machine like that example.
+The way I currently used for using all GPU on a worker machine is starting the number of workers that equal to the number of GPUs. then the workers can communicate to each other as if they are not on one machine. That is slower than if I can start a woker that control more than one GPU.",PERFORMANCE
+384,384,{'login': 'AndreasMadsen'},2016-10-23T19:07:22Z,5122,2016-10-21T20:48:58Z,/tensorflow/tensorflow/issues/5122,tensorflow,CLOSED,"custom CUDA op example returns random values
+What related GitHub issues or StackOverflow threads have you found by searching the web for your problem?
+Nothing
+Environment info
+Operating System:
+Installed version of CUDA and cuDNN: CUDA: 8, cuDNN 5.1
+(please attach the output of ls -l /path/to/cuda/lib/libcud*):
+If installed from source, provide
+The commit hash (git rev-parse HEAD) 5a5a25e
+The output of bazel version
+If possible, provide a minimal reproducible example (We usually don't have time to read hundreds of lines of your code)
+Using the CUDA example from: https://github.com/tensorflow/tensorflow/tree/r0.11/tensorflow/g3doc/how_tos/adding_an_op
+compile example
+edit tensorflow.g3doc.how_tos.adding_an_op import cuda_op to import cuda_op in cuda_op_test.py.
+What other attempted solutions have you tried?
+I tried a non CUDA example, worked fine.
+I tried a diffrent cuda kernel (square operator) also failed.
+I added printf to the kernel launcher and made sure it was executed.
+Logs or other output that would be helpful
+(If logs are large, please upload as attachment or provide link).
+It looks like the output just contains random memory. Perhaps the GPU memory isn't copied back to the host memory.",PERFORMANCE
+390,390,{'login': 'hemalshahX'},2016-11-11T17:45:36Z,5179,2016-10-25T00:25:45Z,/tensorflow/tensorflow/issues/5179,tensorflow,CLOSED,"Undefined reference to CheckOpMessageBuilder::NewString() when linking libtensorflow_cc.so
+I am trying to use the TensorFlow Session C++ API (Python-free) to load a pre-trained model for inference. For build-time considerations, I am trying to deploy TensorFlow as a ""system"" package by linking against libtensorflow_cc.so and including headers into my Bazel-based workspace which has its own copies of protobuf and Eigen. I am almost there except that I have run into linker errors for missing implementations of tensorflow::internal::CheckOpMessageBuilder::NewString(). The symbols appear to be exported by libtensorflow_cc.so and it does seem to all be linking correctly, just not this symbol.
+Any help fixing this issue or suggestions for a better way of doing this would be greatly appreciated.
+Thanks,
+Hemal
+My setup is the following:
+Docker image from ubuntu:16.04 using gcc5.
+Bazel 0.3.1 (needed to upgrade from 0.3.0 because of other Tensorflow build issues)
+I matched the Eigen version but the protobuf used to build the Tensorflow wheel below is installed via apt-get and there is another copy (3.0.0) within my workspace's third_party directory.
+The following is in my Dockerfile to build and ""deploy"" Tensorflow:
+RUN git clone https://github.com/tensorflow/tensorflow.git /tmp/tensorflow \
+&& cd /tmp/tensorflow && git checkout r0.11 \
+&& yes '' | ./configure \
+&& bazel build -c opt //tensorflow/tools/pip_package:build_pip_package \
+&& /tmp/tensorflow/bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg \
+&& pip2 install --quiet --upgrade /tmp/tensorflow_pkg/*.whl \
+&& bazel build -c opt //tensorflow:libtensorflow_cc.so \
+&& cp /tmp/tensorflow/bazel-bin/tensorflow/libtensorflow_cc.so /usr/lib/libtensorflow_cc.so \
+&& ln -sv /usr/local/lib/python2.7/dist-packages/tensorflow/include/tensorflow /usr/include/tensorflow \
+&& ln -sv /usr/local/lib/python2.7/dist-packages/tensorflow/include/third_party /usr/include/third_party
+164:1: Linking of rule '//estimation/detection:playback_ground_truth' failed: clang-3.6 failed: error executing command
+(cd /code/.cache/bazel/_bazel_hemalshah/6fa7a91faa1abdfbb41bc875fa66f0f6/execroot/robotics && 
+exec env - 
+/usr/bin/clang-3.6 -o bazel-out/local_linux-opt/bin/estimation/detection/playback_ground_truth -L/usr/lib/python2.7/config-x86_64-linux-gnu -L/usr/lib -Wl,-O1 -Wl,-Bsymbolic-functions -pthread -B/usr/bin/ -Wl,@bazel-out/local_linux-opt/bin/estimation/detection/playback_ground_truth-2.params): com.google.devtools.build.lib.shell.BadExitStatusException: Process exited with status 1.
+bazel-out/local_linux-opt/bin/estimation/detection/libtof_pose_estimator.lo(tof_pose_estimator.o): In function std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* tensorflow::internal::MakeCheckOpString<long long, long long>(long long const&, long long const&, char const*)': /usr/include/tensorflow/core/platform/default/logging.h:170: undefined reference totensorflow::internal::CheckOpMessageBuilder::NewString()'
+bazel-out/local_linux-opt/bin/estimation/detection/libtof_pose_estimator.lo(tof_pose_estimator.o): In function std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* tensorflow::internal::MakeCheckOpString<unsigned long, unsigned long>(unsigned long const&, unsigned long const&, char const*)': /usr/include/tensorflow/core/platform/default/logging.h:170: undefined reference totensorflow::internal::CheckOpMessageBuilder::NewString()'",FAULT TOLERANCE
+392,392,{'login': 'cgorman'},2017-06-16T19:38:15Z,2510,2016-05-26T00:38:21Z,/tensorflow/tensorflow/issues/2510,tensorflow,CLOSED,"Tensorboard feature request - Text summary
+Would it be reasonable to add a basic text summary feature to Tensorboard? Personally I've run my network a few dozen times with really minor changes between them for testing and it would be really useful if there was a field where I could put some arbitrary text where I just wrote the key differences in my runs.
+For example, on the Events page (or somewhere else) there would be a dropdown, similar to the summaries on the Events and Histograms page, with text I added (either hardcoded or as a script argument) that says what I did differently this run. Maybe I would print out the argument values for each run as well, that would be pretty useful, but basically something where I can say ""What did I do with this run again? Why was it different than the one before? Oh yeah I changed the batch size"" or ""Oh yeah I used my other dataset instead.""
+Obviously if it's arbitrary text you could maybe use it to write up a description of the network or whatever you want.",MAINTAINABILITY
+393,393,{'login': 'olesalscheider'},2018-03-03T18:23:13Z,16669,2018-02-01T17:53:48Z,/tensorflow/tensorflow/issues/16669,tensorflow,CLOSED,"grappler: memory optimizer fails with: No output shape in Conv2DBackpropInput op / Conv2DBackpropFilter op.
+Exact command to reproduce: -
+Describe the problem
+When I enable the memory optimizer in grappler, it fails with the following errors:
+My network is mostly a ResNet 34. I cannot share the complete code right now, but I can try to come up with a reduced example if it is necessary.
+Is this a limitation of the current memory optimizer or should the output shape always be known at this point in the code?",PERFORMANCE
+395,395,{'login': 'Azorlogh'},2016-12-14T18:05:05Z,6314,2016-12-14T15:05:31Z,/tensorflow/tensorflow/issues/6314,tensorflow,CLOSED,"Error 404 when downloading Tensorflow on Windows
+The links provided on the website to the .whl used to install Tensorflow on Windows seem to be broken : https://www.tensorflow.org/get_started/os_setup#pip_installation_on_windows
+I'm getting an HTTP Error 404.
+I found the CPU Build elsewhere but I can't find the GPU build which I would like tu use.",AVAILABILITY
+396,396,{'login': 'ShownX'},2017-04-07T20:47:38Z,4474,2016-09-19T21:01:47Z,/tensorflow/tensorflow/issues/4474,tensorflow,CLOSED,"Feature request: Patch extracting given location implementation needed.
+Hello there,
+Feature
+I consider a lot but finally decide put this request here.
+I know there are some matrix operation and image operations like image_patch_extract and image.extract_glimpse().
+But what I want is extract the patches given several locations.
+Input Tensor:
+Output Tensor:
+Reference:
+Georgis have done the similar thing and he made the a patch in v0.8.0 and only cpu supports.
+But when I use it in v0.10.0, it requires me to define a shape function.
+I really want to use it in the future, so I am glad it can be added as a new feature.
+Other solution I tried
+I have tried use extract_glimpse() instead.
+",MAINTAINABILITY
+397,397,{'login': 'benvand'},2017-06-16T23:35:01Z,4675,2016-09-30T09:51:54Z,/tensorflow/tensorflow/issues/4675,tensorflow,CLOSED,"LinearClassifier feature_columns overwritten in LinearClassifier.fit
+tensorflow.contrib.learn.python.learn.estimators.linear.LinearClassifier.fit
+effectively returns
+tensorflow.contrib.learn.python.learn.estimators.estimator.Estimator.fit
+Estimator.fit calls:
+tensorflow.contrib.learn.python.learn.estimators.estimator.Estimator._train_model
+which has these lines:
+tensorflow.contrib.learn.python.learn.estimators.estimator.Estimator._check_inputs
+So we get to a point where features, as derived from the input_fn, is treated as our feature columns set.
+In pseudo code:
+The issue is:
+Although this line appears to indicate that we will be making an estimation based on the feature columns supplied:
+lc=LinearClassifier(feature_columns=[foo]) # We pass in what we want our feature column to be
+What happens is that the passed in feature_columns is unused and instead the return from the input_function supplied to fit are used.
+Am I correct in thinking that if the feature_columns arg is supplied that only those columns should be used by the classifiers estimator?
+That when we instantiate the classifier we are setting the feature_columns we expect to be used?
+The work around for this is simply to only return the columns you need from your input function however I found this misleading.
+Point in the tutorial:
+Either the code or the tutorial need to be changed.
+https://www.tensorflow.org/versions/r0.10/tutorials/wide/index.html#defining-the-logistic-regression-model
+Error raised:
+WARNING:tensorflow:Setting feature info to
+as per tensorflow/contrib/learn/python/learn/estimators/estimator.py:613",USABILITY
+400,400,{'login': 'borgdylan'},2019-10-10T00:48:29Z,53812,2018-07-08T17:09:55Z,/microsoft/vscode/issues/53812,vscode,CLOSED,"Request: Left Close/Max/Min buttons variant for custom title bar
+I really like the new title bar style that can be activated by ""editor.titleBarStyle"": ""custom"". However, as a long time Ubuntu user I'm accustomed to my window close/max/min controls being on the left hand side of the title bar. Is is possbible to have another member in the titleBarStyle enum ""custom-left"" or something named similarly to have the controls render on the far left rather than the far right in the order close, minimize, maximize(restore)?
+Below, the native menu for VS Code (I do not mind the square buttons of the ciustom style as they fit well with the VS brand):
+",USABILITY
+404,404,{'login': 'wmeints'},2017-06-14T16:39:18Z,28693,2017-06-14T07:03:33Z,/microsoft/vscode/issues/28693,vscode,CLOSED,"Icons are fuzzy in the UI
+Since the update to 1.13 I am seeing fuzzy icons in the UI of VSCode. I am using the light theme. This is unrelated to the theme I select. Switching between light and dark themes doesn't fix the problem.
+Open VS Code
+Open a code file
+",SCALABILITY
+406,406,{'login': 'CleyFaye'},2020-02-12T06:27:11Z,90455,2020-02-11T15:05:12Z,/microsoft/vscode/issues/90455,vscode,CLOSED,"Inconsistency between unsaved file dialog and unsaved workspace dialog
+Issue Type: Bug
+When closing files with unsaved changes, a dialog open with the three possible actions: ""Don't save"", ""Cancel"", ""Save"" in that order.
+When closing an unsaved workspace, a similar dialog appear with actions ""Save"", ""Cancel"", ""Don't save"" in that order.
+That feel inconsistent and could cause confusion. The order should probably be the same in every dialog.
+VS Code version: Code 1.42.0 (ae08d54, 2020-02-06T10:51:23.649Z)
+OS version: Linux x64 5.0.0-38-generic
+",USABILITY
+408,408,{'login': 'warpdesign'},2017-06-15T16:11:44Z,28823,2017-06-15T16:09:18Z,/microsoft/vscode/issues/28823,vscode,CLOSED,"You can set themes that are disabled in extensions panel
+Themes appear in the extensions panel and can be disabled just like normal extensions.
+I think disabled themes shouldn't appear when running the preferences: Color Theme command. Right now you may set a theme that's disabled wihch is a bit weird.",USABILITY
+411,411,{'login': 'geuis'},2018-06-11T08:42:20Z,51539,2018-06-10T03:22:16Z,/microsoft/vscode/issues/51539,vscode,CLOSED,"Local editor settings not being overridden by ESLint settings
+ESLint Extension: 1.4.12
+The default behavior for VSCode is to add spaces to objects:
+I have a .eslintrc config setup with the rule ""object-curly-spacing"": [""error"", ""never""]. Linting occurs and reports the default spacing behavior as an error as expected.
+This behavior can be overridden in the VSCode settings via ""javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces"": false
+I was expecting that the default behavior of VSCode would be overridden by the ESLint rules when formatting code.
+Does this issue occur when all extensions are disabled?: No. The ESLint extension must be installed for VSCode to utilize the .eslintrc rules.
+This may be an issue correctable in the ESLint extension. If so I will move this issue to that project.",MAINTAINABILITY
+416,416,{'login': 'xiaogwu'},2017-07-21T08:40:50Z,31170,2017-07-21T00:42:35Z,/microsoft/vscode/issues/31170,vscode,CLOSED,"Show Preview of file while in Go to File... 
+Feature Request
+It would be awesome if when using Go to File... (Command-P) that a preview of the current highlighted file is show and as you up/down arrow key a different file, you see a preview of the current selected file.",USABILITY
+420,420,{'login': 'BenjaVR'},2017-11-10T17:16:45Z,38009,2017-11-10T01:15:17Z,/microsoft/vscode/issues/38009,vscode,CLOSED,"Terminal sidebar close button not visible
+Extensions:
+Extension
+Author (truncated)
+Version
+html-snippets
+abu
+0.1.0
+django-snippets
+bib
+1.1.0
+vscode-styled-jsx
+bla
+0.1.1
+npm-intellisense
+chr
+1.3.0
+path-intellisense
+chr
+1.4.2
+gitignore
+cod
+0.5.0
+vscode-eslint
+dba
+1.4.3
+gitlens
+eam
+6.0.0
+tslint
+eg2
+1.0.16
+vscode-npm-script
+eg2
+0.3.3
+vsc-material-theme
+Equ
+1.1.1
+prettier-vscode
+esb
+0.24.0
+php-debug
+fel
+1.11.1
+php-intellisense
+fel
+1.5.4
+beautify
+Hoo
+1.1.1
+intellij-idea-keybindings
+k--
+0.2.16
+vscode-github
+Kni
+0.23.0
+MagicPython
+mag
+1.0.12
+Kotlin
+mat
+1.3.0
+HTMLHint
+mka
+0.4.0
+vscode-apache
+mrm
+1.1.1
+vscode-attrs-sorter
+mrm
+2.1.0
+vscode-jade-snippets
+mrm
+1.0.1
+vscode-pugbeautify
+mrm
+1.0.2
+vscode-puglint
+mrm
+2.3.0
+vscode-scss
+mrm
+0.6.2
+vscode-stylefmt
+mrm
+2.5.0
+python
+ms-
+0.8.0
+cpptools
+ms-
+0.14.2
+csharp
+ms-
+1.13.0
+PowerShell
+ms-
+1.5.0
+typescript-javascript-grammar
+ms-
+0.0.24
+material-icon-theme
+PKi
+2.2.4
+vscode-template-literal-editor
+pli
+0.8.4
+java
+red
+0.14.0
+vscode-icons
+rob
+7.17.0
+prettier-eslint-vscode
+Rob
+0.7.1
+code-settings-sync
+Sha
+2.8.5
+shader
+sle
+1.1.2
+twig
+wha
+1.0.2
+jinja
+who
+0.0.8
+ReactSnippets
+xab
+1.4.0
+Put the terminal panel to the sidebar.
+Make that window smaller.
+Close button is not visible, and not reachable in any way.
+As you see here, the 'X' button should be in the upper right.
+Reproduces without extensions: Yes",USABILITY
+424,424,{'login': 'mhinton'},2019-10-14T15:11:57Z,81867,2019-10-02T20:35:35Z,/microsoft/vscode/issues/81867,vscode,CLOSED,"Horizontal split hides the line the cursor is on if it's below the midpoint of the view
+Issue Type: Bug
+Have the current line positioned below the middle of the viewport. Create a horizontal split. The line with the cursor is now hidden in both views. This is super annoying. The line with the cursor should be visible in both views.
+https://cl.ly/14374e89477a
+VS Code version: Code 1.38.1 (b37e54c, 2019-09-11T13:31:32.854Z)
+OS version: Darwin x64 18.7.0
+",USABILITY
+425,425,{'login': 'yufw'},2019-10-10T06:05:06Z,75202,2019-06-10T14:40:17Z,/microsoft/vscode/issues/75202,vscode,CLOSED,"Extra pixels under status bar
+There are some extra pixels under the status bar. Increase the font size to see it more clearly. Also, resizing the window vertically will change the width of the extra pixels.
+Launch VS Code
+Does this issue occur when all extensions are disabled?: Yes",USABILITY
+428,428,{'login': 'luabud'},2019-10-09T18:49:41Z,82123,2019-10-08T21:36:57Z,/microsoft/vscode/issues/82123,vscode,CLOSED,"Update test explorer beaker icon to match new UI 
+I believe right now this is the icon that is being used by VS Code: https://github.com/microsoft/vscode/blob/master/src/vs/workbench/api/browser/media/test.svg
+It'd be great if that could be updated to match the new UI.",USABILITY
+429,429,{'login': 'bschlenk'},2019-10-23T17:51:43Z,43294,2018-02-09T08:46:05Z,/microsoft/vscode/issues/43294,vscode,CLOSED,"Make ""editor.scrollBeyondLastLine"" configurable beyond true or false
+I'm the kind of person who always presses enter 5 times after running a shell command. I like having some space. But too much space leaves me feeling vulnerable, as if I was stranded in the middle of the ocean. This all or nothing approach with the ""editor.scrollBeyondLastLine"" option isn't working for me.
+Can this option be configurable by the line number? If I want to be able to scroll past the bottom by 5 lines, I should be able to set the value to 5. If I want to have the current behavior, I could set the value to true, or ""all"".",MAINTAINABILITY
+430,430,{'login': 'mherodev'},2017-08-31T02:34:14Z,33444,2017-08-29T19:01:30Z,/microsoft/vscode/issues/33444,vscode,CLOSED,"""Go to File..."" shows files in search.exclude
+""Go to File..."" is essentially a search operation and should be be managed by search.exclude, or optionally an additional config, e.g. goto.exclude. Typical use-case is having Explorer reflect true contents of project (e.g. not hiding generated files), while other operations are for navigating files one will edit.
+Include node_modules in search.exclude, but not in files.exclude in settings
+cmd + p
+See excluded files appearing in results
+",USABILITY
+438,438,{'login': 'Ben07'},2017-01-04T00:39:02Z,17849,2016-12-27T10:25:06Z,/microsoft/vscode/issues/17849,vscode,CLOSED,"[html] format not work correctly in html file when which has style property in tag
+In html file,when a tag has style property.It's will influence format
+for example
+when I press shift+alt+f to format code
+will become
+",USABILITY
+442,442,{'login': 'joaomoreno'},2017-04-12T07:47:32Z,16489,2016-12-05T09:31:02Z,/microsoft/vscode/issues/16489,vscode,CLOSED,"Empty line between settings sections
+We could remove that extra line between sections.",MAINTAINABILITY
+444,444,{'login': 'SuEric'},2017-03-28T20:40:34Z,23459,2017-03-28T16:00:21Z,/microsoft/vscode/issues/23459,vscode,CLOSED,"File Tree Automatically Focus when closing a file
+This is not a bug
+It is more an enhancement
+Thing is when I close a tab (file), file tree changes it focus automatically to the now active file; this is really annoying because many times I just open and close many files (as I'm sure other devs do) and I have to scroll all ways down/up again! Hope you improve this.
+Note: Sublime Text doesn't automatically focus the file tree after closing a file.",USABILITY
+446,446,{'login': 'dougmartin'},2017-04-07T23:51:30Z,24249,2017-04-07T17:42:52Z,/microsoft/vscode/issues/24249,vscode,CLOSED,"Feature request: Add context menu to branch name in lower left
+Version 1.11 changed the default action when you clicked on the branch name on the lower left from opening an input with git checkout already filled to an input for the git checkout command itself. The previous pre-filled input was nice in that you could replace ""checkout"" with ""branch"" and create a new branch.
+Instead of cluttering the new popup ui with a branch option you could add a context menu to the branch name in the lower left corner that would contain branch and optionally other common commands which you can access now in the ellipsis menu in the git pane (note: branch is not available right now in the git pane ellipsis menu).",MAINTAINABILITY
+450,450,{'login': 'rwmartinez'},2018-09-01T05:32:39Z,57704,2018-08-31T17:34:30Z,/microsoft/vscode/issues/57704,vscode,CLOSED,"Scrolling
+When scrolling through a file, the view is not fluid. It jumps, skips, pauses and is not a constant view as I move up or down the file.
+Version: July 2018 (version 1.26)",USABILITY
+451,451,{'login': 'ckehoe'},2016-07-03T05:44:34Z,8633,2016-07-01T16:54:39Z,/microsoft/vscode/issues/8633,vscode,CLOSED,"Mac OS - Highlighting text in the editor requires two clicks when the integrated terminal is open
+Open a file in the editor
+Open the integrated terminal
+Type some commands on the terminal
+Try to copy some text on the editor by highlighting and typing Mac + c
+You will have to click on the section twice before the text successfully copies
+",USABILITY
+452,452,{'login': 'antkn33'},2018-08-22T20:01:49Z,56153,2018-08-10T14:11:55Z,/microsoft/vscode/issues/56153,vscode,CLOSED,"open in broswer
+Please natively support opening a file in the browser. LIke a right click menu option. The extensions don't work well especially in chrome.
+thanks
+",MAINTAINABILITY
+453,453,{'login': 'fabiospampinato'},,56234,2018-08-12T23:34:14Z,/microsoft/vscode/issues/56234,vscode,OPEN,"TreeItem is too slow
+I've added the following view to Todo+:
+I've been benchmarking it against magento2, which contains about 30k files and 2M lines of code. If the user has ag installed in his system the process of finding those todos is quite fast, its takes about 4s to do that on my laptop.
+Quite surprisingly though the bulk of the time is spent on these lines, which are executed about 1k times, since the extension creates about 1k TreeItems under these circumstances:
+Adding the tooltips requires about 500 extra milliseconds, I would expect that number to be near 0ms, I see basically nothing going on here that can justify that number.
+Adding the commands requires about 4 extra seconds. 4 seconds for doing what? Creating those objects should be almost free, and until those TreeItems get clicked they don't even change anything as far as the user is concerned, I think.
+Adding the icons requires about 14 extra seconds. There are less than 10 different images loaded, but for some reason loading them a few hundred times is that slow.
+",PERFORMANCE
+456,456,{'login': 'vscodeerrors'},2016-02-05T11:27:41Z,2470,2016-01-27T20:55:58Z,/microsoft/vscode/issues/2470,vscode,CLOSED," Uncaught SyntaxError: Unexpected end of input
+Issue Id: 3c0f493a-37c5-196b-ce04-755343aba4dbVersions - 0.10.6-release- dfc08dcStack SyntaxError: Unexpected end of input at Object.parse (native)[/vs/workbench/parts/debug/node/v8Protocol.ts#L129:21 (V8Protocol.dispatch)](https://github.com/microsoft/vscode/blob/a80232bbcfe8a5cdad1ebc98638673d9dcb02458/src/vs/workbench/parts/debug/node/v8Protocol.ts#L129:21 %28V8Protocol.dispatch%29)[/vs/workbench/parts/debug/node/v8Protocol.ts#L108:11 (V8Protocol.handleData)](https://github.com/microsoft/vscode/blob/a80232bbcfe8a5cdad1ebc98638673d9dcb02458/src/vs/workbench/parts/debug/node/v8Protocol.ts#L108:11 %28V8Protocol.handleData%29)[/vs/workbench/parts/debug/node/v8Protocol.ts#L63:8 (V8Protocol.connect)](https://github.com/microsoft/vscode/blob/a80232bbcfe8a5cdad1ebc98638673d9dcb02458/src/vs/workbench/parts/debug/node/v8Protocol.ts#L63:8 %28V8Protocol.connect%29) at emitOne (events.js:77:13) at Socket.emit (events.js:169:7) at readableAddChunk (_stream_readable.js:146:16) at Socket.Readable.push (_stream_readable.js:110:10) at Pipe.onread (net.js:523:20)",FAULT TOLERANCE
+458,458,{'login': 'kabforks'},2018-08-15T16:36:19Z,56364,2018-08-14T13:56:50Z,/microsoft/vscode/issues/56364,vscode,CLOSED,"Unresponsive VSCode after upgrade to 1.26.
+Hello!
+After installing VSCode 1.26, the GUI is almost completely unresponsive when I open my project. After a few minutes, it can be used. However, the CPU usage will remain at 24% (i have 4 cores). Even after the project or folder is closed.
+If I open VSCode without a project or folder, it behaves.
+VSCode is responsive if launched with --disable-extensions.
+Could it be an extentions that misbehaves?
+Here is a --status dump:
+Version: Code 1.26.0 (4e93618, 2018-08-13T16:29:31.933Z)
+OS Version: Windows_NT x64 10.0.16299
+CPUs: Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz (8 x 2712)
+Memory (System): 15.85GB (3.24GB free)
+VM: 0%
+Screen Reader: no
+Process Argv: C:\Users\forsbdan\AppData\Local\Programs\Microsoft VS Code\Code.exe
+GPU Status: 2d_canvas: enabled
+checker_imaging: disabled_off
+flash_3d: enabled
+flash_stage3d: enabled
+flash_stage3d_baseline: enabled
+gpu_compositing: enabled
+multiple_raster_threads: enabled_on
+native_gpu_memory_buffers: disabled_software
+rasterization: enabled
+video_decode: enabled
+video_encode: enabled
+webgl: enabled
+webgl2: enabled
+CPU % Mem MB PID Process
+0 100 34680 code main
+0 84 22972 shared-process
+0 146 23460 gpu-process
+23 1271 28764 window (Program.cs - demo2 - Visual Studio Code)
+0 6 26188 winpty-process
+0 65 16204 C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+0 10 19472 console-window-host (Windows internal process)
+0 51 30296 searchService
+0 14 31020 electron-crash-reporter
+0 11 31384 watcherService
+0 10 21716 console-window-host (Windows internal process)
+0 191 33784 extensionHost
+0 38 22568 searchService
+0 3 37816 cmd /s /c ""C:\Users\forsbdan.vscode\extensions\ms-vscode.csharp-1.15.2.omnisharp\1.30.1\OmniSharp.exe -s c:\src\demo2\Fagkveld.sln --hostPID 33784 --stdio DotNet:enablePackageRestore=false --encoding utf-8 --loglevel information formattingOptions:useTabs=false formattingOptions:tabSize=4 formattingOptions:indentationSize=4""
+0 10 7140 console-window-host (Windows internal process)
+0 115 19888 C:\Users\forsbdan.vscode\extensions\ms-vscode.csharp-1.15.2.omnisharp\1.30.1\OmniSharp.exe -s c:\src\demo2\Fagkveld.sln --hostPID 33784 --stdio DotNet:enablePackageRestore=false --encoding utf-8 --loglevel information formattingOptions:useTabs=false formattingOptions:tabSize=4 formattingOptions:indentationSize=4
+Workspace Stats:
+| Window (Program.cs - demo2 - Visual Studio Code)
+| Folder (demo2): 83 files
+| File types: json(15) cshtml(12) cs(8) js(5) ts(5) scss(5) cache(5)
+| map(3) vue(3) txt(2)
+| Conf files: launch.json(2) tasks.json(2) sln(1) csproj(1)
+| package.json(1) tsconfig.json(1) webpack.config.js(1)
+| settings.json(1)
+| Launch Configs: coreclr(2)
+",PERFORMANCE
+459,459,{'login': 'GerbenJdeBoer'},2018-09-18T20:28:46Z,46332,2018-03-22T11:47:13Z,/microsoft/vscode/issues/46332,vscode,CLOSED,"ctrl+z/clrl+y after block mode edit does not follow the (multi-line) cursor to follow the undo/redo steps
+Issue Type: Bug
+create dummy text1
+do block mode edit inside text1
+create more dummy text, preferably so much you dont see text1 any more
+ctrl + z
+VS Code version: Code 1.21.1 (79b44aa, 2018-03-14T14:46:47.128Z)
+OS version: Windows_NT x64 10.0.15063
+Reproduces only with extensions
+",USABILITY
+461,461,{'login': 'roblourens'},2019-04-24T18:14:01Z,72813,2019-04-24T14:59:34Z,/microsoft/vscode/issues/72813,vscode,CLOSED,"Settings editor crashes when restoring
+Open settings editor
+Tab away
+Tab back to it
+",FAULT TOLERANCE
+462,462,{'login': 'TheJCAB'},2019-03-16T03:19:26Z,70591,2019-03-15T20:03:22Z,/microsoft/vscode/issues/70591,vscode,CLOSED,"VSCode should do like any decent editor, and provide a drop-down from all search text boxes
+Issue Type: Feature Request
+Decent editors provide a drop-down list of older search phrases in their search (and replace!) text entry UI elements.
+But VSCode doesn't seem to do this, for some reason.
+It's only polite to remember such things for the comfy user, you know :)
+VS Code version: Code 1.32.3 (a3db5be, 2019-03-14T23:43:35.476Z)
+OS version: Windows_NT x64 10.0.18348
+",USABILITY
+469,469,{'login': 'garfieldbanks'},2017-11-17T11:38:55Z,17371,2016-12-16T04:33:37Z,/microsoft/vscode/issues/17371,vscode,CLOSED,"Add option to view default settings in single plain text file
+Pretty self explanatory. I don't have anything against the new UI or anything but I don't like that I can no longer see the default settings in a single plain text file.",USABILITY
+470,470,{'login': 'aaronfranke'},,66308,2019-01-10T00:22:10Z,/microsoft/vscode/issues/66308,vscode,OPEN,"Allow extensions to contribute build task types
+Currently, when I press Ctrl+Shift+B and click ""Configure Build Task..."" then ""Create tasks.json from template"", the only options are MSBuild, maven, .NET Core, and Others.
+I would like to be able to easily create a build task template for my Mono projects. .NET Core does not have the full feature-set of Mono or .NET Framework yet, and even if it did, I still have existing projects using Mono that I'd like to edit with VS Code. Please add this feature!",MAINTAINABILITY
+472,472,{'login': 'quicksnap'},2017-11-17T11:38:27Z,35637,2017-10-05T19:08:36Z,/microsoft/vscode/issues/35637,vscode,CLOSED,"Preference to disable Recently Opened Files
+I personally have no need for recent files to be promoted to the top of the Goto File results:
+These results actually slow me down, since I a used to Sublime Text fuzzy match behavior. If the ""Recently Opened"" results were not there, I would be able to jump to files in a predictable way.
+Any preference option I'm missing?",USABILITY
+476,476,{'login': 'varadero'},2017-03-27T04:42:52Z,23062,2017-03-23T00:40:33Z,/microsoft/vscode/issues/23062,vscode,CLOSED,"Scrolling with touchpad behaves like pressing up and down arrow keys
+I have a laptop with touchpad and scrolling (by touching the touchpad with two fingers and sliding them vertically) file content, files list, terminal window or anything inside VSCode behaves like I am pressing an holding up/down arrow keys. This behavior is not only annoying but it doesn't allow me to scroll say terminal window, because scrolling simply shows the list of last run commands - the same as if you press up arrow key multiple times. Horizontal scrolling behaves as left/right arrow keys - instead of scrolling horizontally, I move the caret. I have a wireless Microsoft mouse and when I use it for scrolling, everything works a expected. When I use my touchpad to scroll in the same way any other application like Chrome, Notepad, whatever, it behaves normally (the caret stays on its location and only the view is scrolled - actually I can normally scroll this GitHub's text area I am writing the issue text in). Does anyone have such problem with VSCode ? Could it because of touchpad drivers (I think mine is ""ELAN Pointing Device"") ?
+List of extensions:
+1 Debugger for Chrome 2.7.0
+2. Git History (git log) 0.2.0
+3. TSLint 0.8.1
+4. vscode-icons 7.4.0
+I tried to disable all extensions and reload VSCode but nothing changed.
+The video below is made without using arrows keys - only scrolling functionality of my touchpad.
+",USABILITY
+479,479,{'login': 'szmcdull'},2019-01-22T17:45:01Z,66311,2019-01-10T03:54:17Z,/microsoft/vscode/issues/66311,vscode,CLOSED,"IDE slows to freeze as more and more output written to internal debug console
+Debug a GO program
+The program writes to the standard output
+IDE starts to slow down and finally freeze.
+",PERFORMANCE
+480,480,{'login': 'octref'},2016-11-15T23:56:12Z,15542,2016-11-15T22:52:28Z,/microsoft/vscode/issues/15542,vscode,CLOSED,"Markdown preview doesn't work correctly when zoomed in
+While smoke testing 1.7.2 eb1f17e
+",FAULT TOLERANCE
+481,481,{'login': 'javadbat'},2019-01-11T06:37:09Z,65163,2018-12-16T15:26:39Z,/microsoft/vscode/issues/65163,vscode,CLOSED,"nodejs debugger nodemon crush 
+i use nodemon in project and it work smooth and good but when i try to run exact gulp command 'gulp serve' in vs code debugger it cuase following error:
+'[nodemon] app crashed - waiting for file changes before starting...'
+it work really when i type gulp command but in debug mode i get error.
+the code is:
+",FAULT TOLERANCE
+483,483,{'login': 'weinand'},2017-12-05T13:04:11Z,39553,2017-12-04T14:33:44Z,/microsoft/vscode/issues/39553,vscode,CLOSED,"Test extension API for breakpoints 
+Test for #23188:
+Complexity: 4
+ Any OS - @jrieken
+The November milestone of VS Code proposes extension API for reading the breakpoints of a workspace and tracking added, removed, and changed breakpoints:
+https://github.com/Microsoft/vscode/blob/a42cd0efc5b4baa17075fcd8da1c5e2097419c6f/src/vs/vscode.proposed.d.ts#L251-L329
+Verify:
+API makes sense (especially the Breakpoint, SourceBreakpoint, FunctionBreakpoint hierarchy and its use of the type discriminator). Will this work if we extend the API to create those types?
+write a simple extension that accesses breakpoints and registers for BreakpointsChangeEvents. Please note that accessing breakpoints initially returns an empty array but triggers a subsequent event that has the full set of breakpoints in its added property.
+",MAINTAINABILITY
+486,486,{'login': 'alexdima'},2017-06-26T10:34:31Z,27537,2017-05-30T10:46:18Z,/microsoft/vscode/issues/27537,vscode,CLOSED,"Cannot run integration test while having the vim extension installed 
+Testing #27456
+I have the vim extension installed and disabled (always), but it looks like the integration test picks it up and enables it. This causes the integration test to fail in the Data Migration -> checks if the Untitled file is restored migrating from stable to latest test
+I will continue by uninstalling the vim extension.",FAULT TOLERANCE
+488,488,{'login': 'MashaMSFT'},2019-02-19T18:51:11Z,68659,2019-02-13T22:51:14Z,/microsoft/vscode/issues/68659,vscode,CLOSED,"CLI code snippets do not change font color
+When I use a code block for something like powershell or t-sql, the colors of the font change, making it easier to parse the text.
+For example
+Font color changes in accordance to powershell standards.
+However, when I do so for CLI, the color doesn't change, and it should be changing, right?
+No font color change in accordance to CLI standards.",USABILITY
+490,490,{'login': 'octref'},2017-11-01T15:10:37Z,37335,2017-10-31T19:04:26Z,/microsoft/vscode/issues/37335,vscode,CLOSED,"When launching attach config unsuccessfully, debug status bar item does not show
+While testing #35904
+I don't know if this is as-designed, but this seems to be one of the original motivation for #31745.
+When I'm pressing F5 while not focusing on debug viewlet, I got no visual feedback as to what's the debug target.
+Would it make sense to enable the status bar item on launching debug instead of on launching debug successfully?
+",USABILITY
+493,493,{'login': 'kishandonepudi'},2018-09-03T03:01:49Z,57059,2018-08-23T05:47:07Z,/microsoft/vscode/issues/57059,vscode,CLOSED,"Replace text
+Hi Team,
+I have replaced a word from multiple files through find tab and saved all.
+But again when i open the ts file to edit some other line , its is showing a working directory.
+It was fixing by VSC restart.
+Please fix this with an alternative",MAINTAINABILITY
+494,494,{'login': 'Eldaw'},2018-09-19T14:57:16Z,32853,2017-08-20T18:28:39Z,/microsoft/vscode/issues/32853,vscode,CLOSED,"Text gets selected, to the next line, when the menu bar auto hides
+Extensions:
+Extension
+Author (truncated)
+Version
+spellright
+ban
+1.1.16
+python
+don
+0.7.0
+cpptools
+ms-
+0.12.3
+csharp
+ms-
+1.12.1
+PowerShell
+ms-
+1.4.1
+blank-line-organizer
+rin
+0.1.2
+sort-lines
+Tyr
+1.3.0
+change-case
+wma
+1.0.0
+Set your menu bar to auto hide (i.e. set it to toggle).
+Press Alt to show the menu bar.
+Click somewhere near the beginning of a line of text in your currently visible text document.
+As the menu bar disappears, notice that the text gets selected, started from the position where you clicked and ending on the line below where you clicked.
+Expected:
+Nothing should get selected when the menu bar auto hides. The cursor should simply be wherever you clicked.
+Reproduces without extensions: Yes/No",USABILITY
+498,498,{'login': 'chrisdias'},2017-01-19T14:14:37Z,9638,2016-07-22T20:22:21Z,/microsoft/vscode/issues/9638,vscode,CLOSED,"close icon on terminal/console/etc. pane should be ""x""
+The terminal, debug output, console, etc. panes at the bottom have a small down arrow for the action to close or hide the pane. clicking on this makes the pane slide down and disappear.
+The down arrow to me suggests that the window will be collapsed down rather than closed. Whenever I click on this I expect there to be an action at the bottom of the editor to restore the pane. Instead I have to use the keyboard or menu to bring these back.
+As a result, a better icon for this pane would be the close ""x"".
+Alternatively, there should be a visualization at the bottom of the editor that there is a pane that can be restored.",USABILITY
